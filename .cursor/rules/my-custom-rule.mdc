@@ -1,0 +1,30 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Project AI Rules
+
+- All my inputs will be in Portuguese, but always translate and interpret them as if I had written them in English before processing. Use the intended meaning, not a literal translation.
+- Always respond in Portuguese.
+- This is a front-end project using Vue 3 + TypeScript + TailwindCSS + Vite.
+- Always use composition API (`<script setup>`) and modern Vue best practices.
+- Follow Tailwind utility-first approach and keep HTML structure clean.
+- Prioritize accessibility and responsiveness.
+- Use semantic HTML whenever possible.
+- Use PascalCase for component names and kebab-case for file names.
+- Code should be clean, reusable, and easy to maintain.
+- If a design decision is needed, assume it's part of a clean, minimalist UI with good UX.
+- Suggest improvements in code structure, naming or logic when appropriate.
+- Avoid inline styles and unnecessary complexity.
+- Testing (if included) should be done using Vitest and Vue Testing Library.
+- State management is done using Pinia.
+- Vue Router is configured and used for navigation.
+- API calls should use Axios.
+- Feel free to create, rename, move, or refactor files or folders when needed to improve code quality or structure.
+- You may suggest and implement architectural changes or reorganize logic when appropriate.
+
+
+Optional:
+- You can reference files using `@/` alias.
+- Use Markdown to format responses clearly if needed.
