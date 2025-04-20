@@ -7,12 +7,11 @@ interface ExtendedTopic extends Topic {
   subcategoryId: string;
 }
 
-interface Props {
+// Definição mais concisa das props
+defineProps<{
   previousTopic: ExtendedTopic | null;
   nextTopic: ExtendedTopic | null;
-}
-
-const props = defineProps<Props>();
+}>();
 </script>
 
 <template>

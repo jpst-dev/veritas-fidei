@@ -94,17 +94,10 @@ const popularCategories = computed(() => {
 const router = useRouter();
 
 const navigateToCategory = (categoryId: string, subcategoryId?: string) => {
-  if (subcategoryId) {
-    router.push({
-      name: "subcategory",
-      params: { categoryId, subcategoryId },
-    });
-  } else {
-    router.push({
-      name: "category",
-      params: { categoryId },
-    });
-  }
+  router.push({
+    name: subcategoryId ? "subcategory" : "category",
+    params: subcategoryId ? { categoryId, subcategoryId } : { categoryId },
+  });
 };
 
 // Tag search functionality

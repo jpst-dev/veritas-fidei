@@ -9,7 +9,6 @@ import TopicHeader from "@/components/topic/TopicHeader.vue";
 import TopicContent from "@/components/topic/TopicContent.vue";
 import TopicSidebar from "@/components/topic/TopicSidebar.vue";
 import TopicNavigation from "@/components/topic/TopicNavigation.vue";
-import { useTopics } from "@/composables/useTopics";
 
 interface ExtendedTopic extends Topic {
   categoryId: string;
@@ -22,7 +21,6 @@ const route = useRoute();
 const router = useRouter();
 const { bookmarks, toggleBookmark } = useBookmarks();
 const { readingProgress, updateProgress } = useReadingProgress();
-const { getTopicById } = useTopics();
 
 // UI State
 const fontSize = ref("base");

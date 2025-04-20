@@ -7,31 +7,27 @@ import { getIconComponent } from "@/utils/IconMapping";
 import {
   AcademicCapIcon,
   BookOpenIcon,
-  ClockIcon,
-  ScaleIcon,
-  GiftIcon,
   TagIcon,
   BookmarkIcon,
-  ArrowRightIcon,
   ChevronRightIcon,
   HomeIcon,
   ChevronLeftIcon,
   ChevronDoubleLeftIcon,
   ChevronDoubleRightIcon,
-  AdjustmentsHorizontalIcon,
   XMarkIcon,
   MagnifyingGlassIcon,
   FunnelIcon,
-  ArrowsUpDownIcon,
-  SparklesIcon,
 } from "@heroicons/vue/24/outline";
+import CategoryCard from "@/components/category/CategoryCard.vue";
+import FeaturedCategoryCard from "@/components/category/FeaturedCategoryCard.vue";
 
 const router = useRouter();
 const favoritesStore = useFavoritesStore();
 
 // Estado da paginação
 const currentPage = ref(1);
-const itemsPerPage = 6; // 2 colunas em telas médias, 3 em telas grandes
+const itemsPerPage = ref(6);
+const viewMode = ref<"grid" | "list">("grid");
 
 // Filtros e ordenação
 const searchQuery = ref("");
@@ -101,12 +97,12 @@ const totalStats = computed(() => {
 
 // Paginação
 const totalPages = computed(() => {
-  return Math.ceil(sortedCategories.value.length / itemsPerPage);
+  return Math.ceil(sortedCategories.value.length / itemsPerPage.value);
 });
 
 const paginatedCategories = computed(() => {
-  const start = (currentPage.value - 1) * itemsPerPage;
-  const end = start + itemsPerPage;
+  const start = (currentPage.value - 1) * itemsPerPage.value;
+  const end = start + itemsPerPage.value;
   return sortedCategories.value.slice(start, end);
 });
 
@@ -205,6 +201,27 @@ watch([searchQuery, selectedDifficulty, selectedTag, sortBy], () => {
 onMounted(() => {
   favoritesStore.loadFavorites();
 });
+
+// Adicionar estado de carregamento
+const isLoading = ref(false);
+
+// Adicionar tooltips
+const tooltips = {
+  bookmark: "Adicionar aos favoritos",
+  share: "Compartilhar categoria",
+  filter: "Filtrar categorias",
+  sort: "Ordenar categorias",
+};
+
+// Adicionar transições
+const transitionClasses = {
+  enter: "transition-all duration-300 ease-out",
+  enterFrom: "opacity-0 transform -translate-y-2",
+  enterTo: "opacity-100 transform translate-y-0",
+  leave: "transition-all duration-200 ease-in",
+  leaveFrom: "opacity-100 transform translate-y-0",
+  leaveTo: "opacity-0 transform -translate-y-2",
+};
 </script>
 
 <template>
@@ -212,6 +229,7 @@ onMounted(() => {
     <!-- Hero Header -->
     <header
       class="relative mb-10 bg-gradient-to-br from-primary-700 via-primary-600 to-primary-500"
+      role="banner"
     >
       <div class="absolute inset-0 bg-[url('/pattern.svg')] opacity-10"></div>
       <div class="container relative px-4 py-12 mx-auto">
@@ -335,82 +353,24 @@ onMounted(() => {
         <h2 class="mb-6 text-2xl font-bold text-gray-900 dark:text-white">
           Categorias em Destaque
         </h2>
-        <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
-          <div
-            v-for="category in featuredCategories"
+        <div class="grid gap-6 mb-12 md:grid-cols-2 lg:grid-cols-3">
+          <FeaturedCategoryCard
+            v-for="(category, index) in featuredCategories"
             :key="category.id"
-            @click="navigateToCategory(category.id)"
-            class="relative overflow-hidden transition-all duration-300 bg-white border border-gray-200 rounded-lg shadow-sm cursor-pointer dark:border-gray-700 dark:bg-gray-800 hover:shadow-lg group"
-          >
-            <!-- Top accent bar -->
-            <div
-              class="absolute top-0 left-0 right-0 h-1 transition-transform duration-300 origin-left transform scale-x-0 bg-primary-600 group-hover:scale-x-100"
-            ></div>
-
-            <div class="p-6">
-              <div class="flex items-center mb-4">
-                <div
-                  class="p-3 mr-3 rounded-lg bg-primary-50 dark:bg-primary-900/30"
-                >
-                  <component
-                    :is="getIconComponent(category.icon) || 'BookOpenIcon'"
-                    class="w-6 h-6 text-primary-600 dark:text-primary-400"
-                  />
-                </div>
-                <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
-                  {{ category.title }}
-                </h3>
-              </div>
-
-              <p class="mb-4 text-gray-600 dark:text-gray-300">
-                {{ category.description }}
-              </p>
-
-              <!-- Stats -->
-              <div class="flex flex-wrap gap-2 mb-4">
-                <span
-                  class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-primary-100 text-primary-800 dark:bg-primary-900 dark:text-primary-300"
-                >
-                  <BookOpenIcon class="w-3 h-3 mr-1" />
-                  {{ category.stats.totalTopics }} tópicos
-                </span>
-                <span
-                  class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300"
-                >
-                  <ClockIcon class="w-3 h-3 mr-1" />
-                  {{ category.stats.readingTime }}
-                </span>
-              </div>
-
-              <div
-                class="flex items-center mt-4 text-sm font-medium text-primary-600 dark:text-primary-400"
-              >
-                <span>Explorar categoria</span>
-                <ArrowRightIcon
-                  class="w-4 h-4 ml-1 transition-transform duration-300 group-hover:translate-x-1"
-                />
-              </div>
-            </div>
-          </div>
+            :category="category"
+            :index="index"
+          />
         </div>
       </section>
 
-      <!-- Search & Filter Section -->
-      <div class="mb-8">
+      <!-- Filters and View Controls -->
+      <div class="sticky top-0 z-10 py-4 mb-6 bg-gray-50 dark:bg-gray-900">
         <div
-          class="flex flex-col items-start justify-between mb-6 md:flex-row md:items-center"
+          class="flex flex-col gap-4 md:flex-row md:items-center md:justify-between"
         >
-          <h2
-            class="mb-4 text-2xl font-bold text-gray-900 dark:text-white md:mb-0"
-          >
-            {{
-              hasActiveFilters ? "Resultados da Busca" : "Todas as Categorias"
-            }}
-          </h2>
-
-          <div class="flex flex-wrap items-center w-full gap-3 md:w-auto">
-            <!-- Search Bar -->
-            <div class="relative flex-1 md:w-64 md:flex-none">
+          <!-- Search and View Mode -->
+          <div class="flex items-center gap-4">
+            <div class="relative flex-1 max-w-md">
               <MagnifyingGlassIcon
                 class="absolute w-5 h-5 text-gray-400 -translate-y-1/2 left-3 top-1/2"
               />
@@ -418,351 +378,369 @@ onMounted(() => {
                 v-model="searchQuery"
                 type="text"
                 placeholder="Buscar categorias..."
-                class="w-full px-4 py-2 pl-10 border border-gray-300 rounded-lg shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-800 dark:border-gray-700 dark:text-white"
+                class="w-full py-2 pl-10 pr-4 text-sm border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-200"
               />
+            </div>
+          </div>
+
+          <!-- Filter Controls -->
+          <div class="flex items-center gap-2">
+            <div class="flex items-center gap-2">
               <button
-                v-if="searchQuery"
-                @click="searchQuery = ''"
-                class="absolute text-gray-400 -translate-y-1/2 right-3 top-1/2 hover:text-gray-600 dark:hover:text-gray-300"
+                @click="viewMode = 'grid'"
+                class="p-2 transition-colors rounded-lg"
+                :class="
+                  viewMode === 'grid'
+                    ? 'bg-primary-100 text-primary-600 dark:bg-primary-900/50 dark:text-primary-400'
+                    : 'text-gray-500 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-800'
+                "
+                aria-label="Visualização em grade"
               >
-                <XMarkIcon class="w-5 h-5" />
+                <svg
+                  class="w-5 h-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"
+                  />
+                </svg>
+              </button>
+              <button
+                @click="viewMode = 'list'"
+                class="p-2 transition-colors rounded-lg"
+                :class="
+                  viewMode === 'list'
+                    ? 'bg-primary-100 text-primary-600 dark:bg-primary-900/50 dark:text-primary-400'
+                    : 'text-gray-500 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-800'
+                "
+                aria-label="Visualização em lista"
+              >
+                <svg
+                  class="w-5 h-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
+                </svg>
               </button>
             </div>
-
-            <!-- Filter Toggle Button -->
             <button
               @click="toggleFilters"
-              class="flex items-center px-4 py-2 text-sm font-medium transition-colors bg-white border border-gray-300 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 dark:text-white hover:bg-gray-50 dark:hover:bg-gray-700"
+              class="flex items-center gap-2 px-4 py-2 text-sm font-medium text-gray-700 transition-colors rounded-lg hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-800"
+              :aria-expanded="showFilters"
+              :aria-label="tooltips.filter"
             >
-              <FunnelIcon class="w-4 h-4 mr-2" />
-              Filtros
-              <span
-                v-if="hasActiveFilters"
-                class="flex items-center justify-center w-5 h-5 ml-2 text-xs font-bold text-white rounded-full bg-primary-600"
-              >
-                {{
-                  (searchQuery ? 1 : 0) +
-                  (selectedDifficulty !== "Todos" ? 1 : 0) +
-                  (selectedTag !== "Todos" ? 1 : 0)
-                }}
-              </span>
+              <FunnelIcon class="w-5 h-5" />
+              <span class="hidden md:inline">Filtros</span>
             </button>
 
-            <!-- Sort Dropdown -->
-            <div class="relative">
-              <div class="flex items-center">
-                <select
-                  v-model="sortBy"
-                  class="px-4 py-2 pr-8 text-sm bg-white border border-gray-300 rounded-lg appearance-none dark:bg-gray-800 dark:border-gray-700 dark:text-white focus:ring-primary-500 focus:border-primary-500"
-                >
-                  <option value="relevancia">Relevância</option>
-                  <option value="alfabetica">Ordem Alfabética</option>
-                  <option value="topics">Mais Tópicos</option>
-                </select>
-                <ArrowsUpDownIcon
-                  class="absolute w-4 h-4 text-gray-500 pointer-events-none right-3"
-                />
-              </div>
-            </div>
+            <button
+              @click="clearFilters"
+              v-if="hasActiveFilters"
+              class="flex items-center gap-2 px-4 py-2 text-sm font-medium text-gray-700 transition-colors rounded-lg hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-800"
+              aria-label="Limpar filtros"
+            >
+              <XMarkIcon class="w-5 h-5" />
+              <span class="hidden md:inline">Limpar</span>
+            </button>
           </div>
         </div>
 
-        <!-- Expanded Filter Section -->
-        <div
-          v-if="showFilters"
-          class="p-6 mb-6 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+        <!-- Filters Panel -->
+        <Transition
+          v-bind="transitionClasses"
+          @enter="showFilters = true"
+          @leave="showFilters = false"
         >
-          <div class="grid grid-cols-1 gap-6 lg:grid-cols-3">
-            <!-- Difficulty Filter -->
-            <div>
-              <h3
-                class="mb-3 text-sm font-medium text-gray-700 dark:text-gray-300"
-              >
-                Nível de Dificuldade
-              </h3>
-              <div class="flex flex-wrap gap-2">
-                <button
-                  v-for="difficulty in difficulties"
-                  :key="difficulty"
-                  @click="selectedDifficulty = difficulty"
-                  class="px-4 py-2 text-sm font-medium transition-colors rounded-lg"
-                  :class="
-                    selectedDifficulty === difficulty
-                      ? difficulty === 'Todos'
-                        ? 'bg-primary-100 text-primary-800 dark:bg-primary-900 dark:text-primary-300'
-                        : getDifficultyClass(difficulty)
-                      : 'bg-white text-gray-700 border border-gray-200 hover:bg-gray-50 dark:bg-gray-800 dark:text-gray-300 dark:border-gray-700 dark:hover:bg-gray-700'
-                  "
+          <div
+            v-if="showFilters"
+            class="p-4 mt-4 bg-white rounded-lg shadow-sm dark:bg-gray-800"
+            role="region"
+            aria-label="Painel de filtros"
+          >
+            <div class="grid grid-cols-1 gap-6 lg:grid-cols-3">
+              <!-- Difficulty Filter -->
+              <div>
+                <h3
+                  class="mb-3 text-sm font-medium text-gray-700 dark:text-gray-300"
                 >
-                  <span
-                    v-if="difficulty !== 'Todos'"
-                    class="inline-block w-2 h-2 mr-2 rounded-full"
-                    :class="{
-                      'bg-green-500 dark:bg-green-400':
-                        difficulty === 'Iniciante',
-                      'bg-yellow-500 dark:bg-yellow-400':
-                        difficulty === 'Intermediário',
-                      'bg-red-500 dark:bg-red-400': difficulty === 'Avançado',
-                    }"
-                  ></span>
-                  {{ difficulty }}
+                  Nível de Dificuldade
+                </h3>
+                <div class="flex flex-wrap gap-2">
+                  <button
+                    v-for="difficulty in difficulties"
+                    :key="difficulty"
+                    @click="selectedDifficulty = difficulty"
+                    class="px-4 py-2 text-sm font-medium transition-colors rounded-lg"
+                    :class="
+                      selectedDifficulty === difficulty
+                        ? difficulty === 'Todos'
+                          ? 'bg-primary-100 text-primary-800 dark:bg-primary-900 dark:text-primary-300'
+                          : getDifficultyClass(difficulty)
+                        : 'bg-white text-gray-700 border border-gray-200 hover:bg-gray-50 dark:bg-gray-800 dark:text-gray-300 dark:border-gray-700 dark:hover:bg-gray-700'
+                    "
+                  >
+                    <span
+                      v-if="difficulty !== 'Todos'"
+                      class="inline-block w-2 h-2 mr-2 rounded-full"
+                      :class="{
+                        'bg-green-500 dark:bg-green-400':
+                          difficulty === 'Iniciante',
+                        'bg-yellow-500 dark:bg-yellow-400':
+                          difficulty === 'Intermediário',
+                        'bg-red-500 dark:bg-red-400': difficulty === 'Avançado',
+                      }"
+                    ></span>
+                    {{ difficulty }}
+                  </button>
+                </div>
+              </div>
+
+              <!-- Tags Filter -->
+              <div>
+                <h3
+                  class="mb-3 text-sm font-medium text-gray-700 dark:text-gray-300"
+                >
+                  Tag
+                </h3>
+                <select
+                  v-model="selectedTag"
+                  class="w-full px-4 py-2 text-sm border border-gray-300 rounded-lg shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-800 dark:border-gray-700 dark:text-white"
+                >
+                  <option value="Todos">Todas as tags</option>
+                  <option
+                    v-for="tag in allTags.filter((t) => t !== 'Todos')"
+                    :key="tag"
+                    :value="tag"
+                  >
+                    {{ tag }}
+                  </option>
+                </select>
+              </div>
+
+              <!-- Filter Actions -->
+              <div class="flex items-end">
+                <button
+                  @click="clearFilters"
+                  class="w-full px-4 py-2 text-sm font-medium text-gray-600 bg-white border border-gray-300 rounded-lg shadow-sm hover:bg-gray-50 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-300 dark:hover:bg-gray-700"
+                >
+                  Limpar Filtros
                 </button>
               </div>
             </div>
-
-            <!-- Tags Filter -->
-            <div>
-              <h3
-                class="mb-3 text-sm font-medium text-gray-700 dark:text-gray-300"
-              >
-                Tag
-              </h3>
-              <select
-                v-model="selectedTag"
-                class="w-full px-4 py-2 text-sm border border-gray-300 rounded-lg shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-800 dark:border-gray-700 dark:text-white"
-              >
-                <option value="Todos">Todas as tags</option>
-                <option
-                  v-for="tag in allTags.filter((t) => t !== 'Todos')"
-                  :key="tag"
-                  :value="tag"
-                >
-                  {{ tag }}
-                </option>
-              </select>
-            </div>
-
-            <!-- Filter Actions -->
-            <div class="flex items-end">
-              <button
-                @click="clearFilters"
-                class="w-full px-4 py-2 text-sm font-medium text-gray-600 bg-white border border-gray-300 rounded-lg shadow-sm hover:bg-gray-50 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-300 dark:hover:bg-gray-700"
-              >
-                Limpar Filtros
-              </button>
-            </div>
           </div>
-        </div>
-
-        <!-- Results Count -->
-        <div
-          v-if="filteredCategories.length > 0"
-          class="mb-4 text-sm text-gray-700 dark:text-gray-400"
-        >
-          Mostrando
-          <span class="font-medium">{{ paginatedCategories.length }}</span> de
-          <span class="font-medium">{{ filteredCategories.length }}</span>
-          resultados
-        </div>
-
-        <!-- No Results -->
-        <div
-          v-if="filteredCategories.length === 0"
-          class="flex flex-col items-center justify-center p-8 mb-6 text-center bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
-        >
-          <MagnifyingGlassIcon class="w-12 h-12 mb-4 text-gray-400" />
-          <h3 class="mb-2 text-xl font-medium text-gray-900 dark:text-white">
-            Nenhuma categoria encontrada
-          </h3>
-          <p class="mb-6 text-gray-600 dark:text-gray-400">
-            Tente ajustar seus filtros ou termos de busca para encontrar o que
-            procura.
-          </p>
-          <button
-            @click="clearFilters"
-            class="inline-flex items-center px-4 py-2 text-sm font-medium text-white rounded-lg bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
-          >
-            <XMarkIcon class="w-4 h-4 mr-2" />
-            Limpar todos os filtros
-          </button>
-        </div>
+        </Transition>
       </div>
 
-      <!-- Categories Grid -->
-      <div v-if="paginatedCategories.length > 0" class="mb-10">
-        <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+      <!-- Categories Grid/List -->
+      <div
+        :class="{
+          'grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3':
+            viewMode === 'grid',
+          'space-y-4': viewMode === 'list',
+        }"
+      >
+        <template v-if="viewMode === 'grid'">
+          <CategoryCard
+            v-for="category in paginatedCategories"
+            :key="category.id"
+            :category="category"
+            :is-bookmarked="favoritesStore.isFavorite(category.id)"
+            show-bookmark
+            @click="navigateToCategory(category.id)"
+            @toggle-bookmark="toggleBookmark"
+          />
+        </template>
+        <template v-else>
           <div
             v-for="category in paginatedCategories"
             :key="category.id"
-            class="relative overflow-hidden transition-all duration-300 bg-white border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 dark:bg-gray-800 hover:shadow-lg group"
+            class="p-4 transition-all duration-200 bg-white border rounded-lg cursor-pointer dark:bg-gray-800 dark:border-gray-700 hover:shadow-md"
+            @click="navigateToCategory(category.id)"
           >
-            <!-- Bookmark Button -->
-            <button
-              @click.stop="toggleBookmark(category.id)"
-              class="absolute z-10 p-1.5 text-gray-400 bg-white rounded-full shadow-sm top-4 right-4 hover:text-yellow-500 dark:bg-gray-700 dark:hover:text-yellow-400"
-              :class="{
-                'text-yellow-500 dark:text-yellow-400':
-                  favoritesStore.isFavorite(category.id),
-              }"
-            >
-              <BookmarkIcon class="w-5 h-5" />
-            </button>
-
-            <!-- Card Body with Hover Animation -->
-            <div
-              @click="navigateToCategory(category.id)"
-              class="p-6 cursor-pointer"
-            >
-              <!-- Category Icon and Title -->
-              <div class="flex items-center mb-4">
-                <div
-                  class="flex items-center justify-center p-3 mr-4 rounded-lg bg-primary-50 dark:bg-primary-900/30"
-                >
-                  <component
-                    :is="getIconComponent(category.icon) || BookOpenIcon"
-                    class="w-6 h-6 text-primary-600 dark:text-primary-400"
-                  />
-                </div>
-                <h3
-                  class="text-xl font-semibold text-gray-900 truncate dark:text-white"
-                >
-                  {{ category.title }}
-                </h3>
+            <div class="flex items-start gap-4">
+              <div class="p-2 rounded-lg bg-primary-100 dark:bg-primary-900/50">
+                <component
+                  :is="getIconComponent(category.icon)"
+                  class="w-6 h-6 text-primary-600 dark:text-primary-400"
+                />
               </div>
-
-              <!-- Category Description -->
-              <p class="mb-4 text-gray-600 line-clamp-2 dark:text-gray-300">
-                {{ category.description }}
-              </p>
-
-              <!-- Stats & Tags -->
-              <div class="flex flex-wrap gap-2 mb-4">
-                <!-- Difficulty Badge -->
-                <span
-                  class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium"
-                  :class="getDifficultyClass(category.stats.difficulty)"
-                >
-                  <span
-                    class="inline-block w-2 h-2 mr-1.5 rounded-full"
-                    :class="{
-                      'bg-green-500 dark:bg-green-400':
-                        category.stats.difficulty === 'Iniciante',
-                      'bg-yellow-500 dark:bg-yellow-400':
-                        category.stats.difficulty === 'Intermediário',
-                      'bg-red-500 dark:bg-red-400':
-                        category.stats.difficulty === 'Avançado',
-                    }"
-                  ></span>
-                  {{ category.stats.difficulty }}
-                </span>
-
-                <!-- Topics Count -->
-                <span
-                  class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-primary-100 text-primary-800 dark:bg-primary-900 dark:text-primary-300"
-                >
-                  <BookOpenIcon class="w-3 h-3 mr-1" />
-                  {{ category.stats.totalTopics }} tópicos
-                </span>
-
-                <!-- Reading Time -->
-                <span
-                  class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300"
-                >
-                  <ClockIcon class="w-3 h-3 mr-1" />
-                  {{ category.stats.readingTime }}
-                </span>
-              </div>
-
-              <!-- Tags Row -->
-              <div
-                v-if="category.tags && category.tags.length > 0"
-                class="mb-4"
-              >
-                <div class="flex flex-wrap gap-1.5">
-                  <span
-                    v-for="tag in category.tags.slice(0, 3)"
-                    :key="tag"
-                    class="inline-flex items-center px-2 py-0.5 text-xs font-medium bg-gray-100 rounded text-gray-800 dark:bg-gray-700 dark:text-gray-300"
+              <div class="flex-1">
+                <div class="flex items-center justify-between">
+                  <h3
+                    class="text-lg font-semibold text-gray-900 dark:text-white"
                   >
-                    <TagIcon class="w-3 h-3 mr-1" />
+                    {{ category.title }}
+                  </h3>
+                  <button
+                    @click.stop="toggleBookmark(category.id)"
+                    class="p-1 text-gray-400 transition-colors hover:text-primary-600 dark:text-gray-500 dark:hover:text-primary-400"
+                  >
+                    <BookmarkIcon
+                      v-if="!favoritesStore.isFavorite(category.id)"
+                      class="w-5 h-5"
+                    />
+                    <BookmarkIcon
+                      v-else
+                      class="w-5 h-5 text-primary-600 dark:text-primary-400"
+                    />
+                  </button>
+                </div>
+                <p class="mt-1 text-gray-600 dark:text-gray-300">
+                  {{ category.description }}
+                </p>
+                <div class="flex flex-wrap gap-2 mt-3">
+                  <span
+                    class="inline-flex items-center px-2 py-0.5 text-xs font-medium rounded-full"
+                    :class="getDifficultyClass(category.stats.difficulty)"
+                  >
+                    {{ category.stats.difficulty }}
+                  </span>
+                  <span
+                    class="inline-flex items-center px-2 py-0.5 text-xs font-medium text-gray-800 bg-gray-100 rounded-full dark:bg-gray-700 dark:text-gray-300"
+                  >
+                    {{ category.stats.totalTopics }} tópicos
+                  </span>
+                  <span
+                    v-for="tag in category.tags.slice(0, 2)"
+                    :key="tag"
+                    class="inline-flex items-center px-2 py-0.5 text-xs font-medium text-gray-800 bg-gray-100 rounded-full dark:bg-gray-700 dark:text-gray-300"
+                  >
                     {{ tag }}
                   </span>
                   <span
-                    v-if="category.tags.length > 3"
-                    class="inline-flex items-center px-2 py-0.5 text-xs font-medium bg-gray-100 rounded text-gray-800 dark:bg-gray-700 dark:text-gray-300"
+                    v-if="category.tags.length > 2"
+                    class="inline-flex items-center px-2 py-0.5 text-xs font-medium text-gray-800 bg-gray-100 rounded-full dark:bg-gray-700 dark:text-gray-300"
                   >
-                    +{{ category.tags.length - 3 }}
+                    +{{ category.tags.length - 2 }}
                   </span>
                 </div>
               </div>
-
-              <!-- View Category Link -->
-              <div
-                class="flex items-center mt-4 text-sm font-medium text-primary-600 dark:text-primary-400"
-              >
-                <span>Explorar categoria</span>
-                <ArrowRightIcon
-                  class="w-4 h-4 ml-1 transition-transform duration-300 group-hover:translate-x-1"
-                />
-              </div>
             </div>
           </div>
-        </div>
+        </template>
       </div>
 
-      <!-- Pagination Controls -->
-      <div v-if="totalPages > 1" class="flex justify-center mt-8">
-        <nav
-          class="inline-flex items-center -space-x-px rounded-md shadow-sm"
-          aria-label="Pagination"
+      <!-- Pagination -->
+      <div
+        v-if="totalPages > 1"
+        class="flex items-center justify-center gap-2 mt-8 mb-8"
+      >
+        <button
+          @click="goToFirstPage"
+          :disabled="currentPage === 1"
+          class="p-2 text-gray-500 transition-colors rounded-lg hover:bg-gray-100 disabled:opacity-50 disabled:cursor-not-allowed dark:text-gray-400 dark:hover:bg-gray-800"
         >
-          <!-- First page -->
+          <ChevronDoubleLeftIcon class="w-5 h-5" />
+        </button>
+        <button
+          @click="goToPreviousPage"
+          :disabled="currentPage === 1"
+          class="p-2 text-gray-500 transition-colors rounded-lg hover:bg-gray-100 disabled:opacity-50 disabled:cursor-not-allowed dark:text-gray-400 dark:hover:bg-gray-800"
+        >
+          <ChevronLeftIcon class="w-5 h-5" />
+        </button>
+        <div class="flex items-center gap-2">
           <button
-            @click="goToFirstPage"
-            :disabled="currentPage === 1"
-            class="inline-flex items-center px-2 py-2 text-sm font-medium text-gray-500 bg-white border border-gray-300 rounded-l-md hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700"
+            v-for="page in totalPages"
+            :key="page"
+            @click="goToPage(page)"
+            class="w-8 h-8 text-sm font-medium transition-colors rounded-lg"
+            :class="[
+              currentPage === page
+                ? 'bg-primary-600 text-white'
+                : 'text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-800',
+            ]"
           >
-            <span class="sr-only">First page</span>
-            <ChevronDoubleLeftIcon class="w-5 h-5" />
+            {{ page }}
           </button>
-
-          <!-- Previous page -->
-          <button
-            @click="goToPreviousPage"
-            :disabled="currentPage === 1"
-            class="inline-flex items-center px-2 py-2 text-sm font-medium text-gray-500 bg-white border border-gray-300 hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700"
-          >
-            <span class="sr-only">Previous</span>
-            <ChevronLeftIcon class="w-5 h-5" />
-          </button>
-
-          <!-- Current Page Number -->
-          <span
-            class="inline-flex items-center px-4 py-2 text-sm font-medium border border-gray-300 text-primary-600 bg-primary-50 dark:bg-primary-900/30 dark:border-gray-700 dark:text-primary-400"
-          >
-            {{ currentPage }} de {{ totalPages }}
-          </span>
-
-          <!-- Next page -->
-          <button
-            @click="goToNextPage"
-            :disabled="currentPage === totalPages"
-            class="inline-flex items-center px-2 py-2 text-sm font-medium text-gray-500 bg-white border border-gray-300 hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700"
-          >
-            <span class="sr-only">Next</span>
-            <ChevronRightIcon class="w-5 h-5" />
-          </button>
-
-          <!-- Last page -->
-          <button
-            @click="goToLastPage"
-            :disabled="currentPage === totalPages"
-            class="inline-flex items-center px-2 py-2 text-sm font-medium text-gray-500 bg-white border border-gray-300 rounded-r-md hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700"
-          >
-            <span class="sr-only">Last page</span>
-            <ChevronDoubleRightIcon class="w-5 h-5" />
-          </button>
-        </nav>
+        </div>
+        <button
+          @click="goToNextPage"
+          :disabled="currentPage === totalPages"
+          class="p-2 text-gray-500 transition-colors rounded-lg hover:bg-gray-100 disabled:opacity-50 disabled:cursor-not-allowed dark:text-gray-400 dark:hover:bg-gray-800"
+        >
+          <ChevronRightIcon class="w-5 h-5" />
+        </button>
+        <button
+          @click="goToLastPage"
+          :disabled="currentPage === totalPages"
+          class="p-2 text-gray-500 transition-colors rounded-lg hover:bg-gray-100 disabled:opacity-50 disabled:cursor-not-allowed dark:text-gray-400 dark:hover:bg-gray-800"
+        >
+          <ChevronDoubleRightIcon class="w-5 h-5" />
+        </button>
       </div>
+
+      <!-- Loading State -->
+      <Transition
+        v-bind="transitionClasses"
+        @enter="isLoading = true"
+        @leave="isLoading = false"
+      >
+        <div
+          v-if="isLoading"
+          class="fixed inset-0 z-50 flex items-center justify-center bg-black/50"
+          role="status"
+          aria-label="Carregando"
+        >
+          <div class="p-4 bg-white rounded-lg dark:bg-gray-800">
+            <div
+              class="w-8 h-8 border-4 rounded-full border-primary-500 animate-spin border-t-transparent"
+            ></div>
+          </div>
+        </div>
+      </Transition>
     </div>
   </div>
 </template>
 
 <style scoped>
-.line-clamp-2 {
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+/* Adicionar animações suaves */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+/* Melhorar acessibilidade do foco */
+:focus-visible {
+  outline: 2px solid theme("colors.primary.500");
+  outline-offset: 2px;
+}
+
+/* Melhorar contraste no modo escuro */
+.dark .text-gray-600 {
+  color: theme("colors.gray.300");
+}
+
+/* Adicionar hover states mais suaves */
+.hover-lift {
+  transition: transform 0.2s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-2px);
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: inherit;
 }
 </style>

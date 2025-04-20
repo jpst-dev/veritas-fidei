@@ -2,34 +2,20 @@
 import { ref, computed, watch, onMounted } from "vue";
 import { useRouter } from "vue-router";
 import { categories } from "@/data/categories";
-import { tags } from "@/data/tags";
-import { getIconComponent } from "@/utils/IconMapping";
 import { useFavoritesStore } from "@/stores/favorites";
 import {
   AcademicCapIcon,
-  BuildingOfficeIcon,
-  GiftIcon,
   BookOpenIcon,
-  UserGroupIcon,
-  HeartIcon,
   ChevronRightIcon,
   TagIcon,
   ClockIcon,
-  ChartBarIcon,
   AdjustmentsHorizontalIcon,
   MagnifyingGlassIcon,
   XMarkIcon,
-  FunnelIcon,
-  ArrowPathIcon,
-  ArrowsUpDownIcon,
-  ArrowRightIcon,
-  DocumentTextIcon,
   HomeIcon,
   ArrowLeftIcon,
-  BookmarkIcon,
   ExclamationTriangleIcon,
 } from "@heroicons/vue/24/outline";
-import { BookmarkIcon as BookmarkSolidIcon } from "@heroicons/vue/24/solid";
 import TopicCard from "@/components/TopicCard.vue";
 
 const router = useRouter();

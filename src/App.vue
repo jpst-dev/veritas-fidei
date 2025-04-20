@@ -2,7 +2,6 @@
 import { RouterView, useRouter } from "vue-router";
 import Navbar from "./components/Navbar.vue";
 import Footer from "./components/Footer.vue";
-import Breadcrumbs from "./components/Breadcrumbs.vue";
 import { watch } from "vue";
 
 const router = useRouter();

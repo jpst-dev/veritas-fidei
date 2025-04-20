@@ -36,8 +36,8 @@ const tagList = computed(() => {
     name: tag.name,
     description: tag.description,
     icon: tag.icon,
-    // In a real scenario, you would calculate this based on actual usage
-    count: Math.floor(Math.random() * 20) + 5, // Placeholder for demo
+    // Substitui o Math.random por um valor fixo mais realista baseado no ID da tag
+    count: tag.id.length * 2 + 5, // Geração determinística em vez de aleatória
     colorClass: getColorClass(tag.color),
   }));
 });
