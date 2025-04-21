@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed, onMounted } from "vue";
+import { ref, computed, onMounted, watch } from "vue";
 import {
   ChevronRightIcon,
   BookOpenIcon,
@@ -24,6 +24,7 @@ interface Props {
   topic: ExtendedTopic;
   activeHeading: string;
   relatedTopics: ExtendedTopic[];
+  headings?: Array<{ id: string; text: string; level: number }>;
 }
 
 const props = defineProps<Props>();
@@ -31,7 +32,18 @@ const headingItems = ref<Array<{ id: string; text: string; level: number }>>(
   []
 );
 
-// Receber os headings do componente de conteúdo
+// Assistir às mudanças nos headings passados como prop
+watch(
+  () => props.headings,
+  (newHeadings) => {
+    if (newHeadings && newHeadings.length > 0) {
+      headingItems.value = newHeadings;
+    }
+  },
+  { immediate: true }
+);
+
+// Receber os headings do componente de conteúdo (para compatibilidade)
 const updateHeadings = (
   items: Array<{ id: string; text: string; level: number }>
 ) => {
@@ -64,7 +76,7 @@ defineExpose({
 </script>
 
 <template>
-  <aside class="sticky top-[88px] flex-shrink-0 hidden w-80 lg:block">
+  <aside class="sticky top-[88px] flex-shrink-0 w-80 lg:block">
     <div class="space-y-8">
       <!-- Índice de Conteúdo -->
       <div

@@ -2,7 +2,6 @@
 import { ref, computed, onMounted, onUnmounted, watch } from "vue";
 import { useRouter } from "vue-router";
 import {
-  ShareIcon,
   BookOpenIcon,
   UserIcon,
   LinkIcon,
@@ -46,17 +45,6 @@ const handleScroll = () => {
     }
   }
 };
-
-// Share function
-function shareTopic() {
-  if (navigator.share) {
-    navigator.share({
-      title: props.topic.title,
-      text: props.topic.description,
-      url: window.location.href,
-    });
-  }
-}
 
 /**
  * Carrega o conteúdo do tópico, seja do campo content ou do arquivo contentPath

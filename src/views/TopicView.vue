@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed, onMounted, onUnmounted } from "vue";
+import { ref, computed, onMounted, onUnmounted, watch, nextTick } from "vue";
 import { useRoute, useRouter } from "vue-router";
 import { useBookmarks } from "@/composables/useBookmarks";
 import { useReadingProgress } from "@/composables/useReadingProgress";
@@ -29,6 +29,7 @@ const activeHeading = ref("");
 const isFocusMode = ref(false);
 const contentLoaderRef = ref(null);
 const sidebarRef = ref<InstanceType<typeof TopicSidebar> | null>(null);
+const headings = ref<Array<{ id: string; text: string; level: number }>>([]);
 
 // Computed
 const currentTopic = computed<ExtendedTopic | null>(() => {
@@ -126,11 +127,25 @@ const handleActiveHeadingChange = (heading: string) => {
   activeHeading.value = heading;
 };
 
-const handleHeadingsExtracted = (headings: any[]) => {
+const handleHeadingsExtracted = (extractedHeadings: any[]) => {
+  // Armazena os headings no estado local
+  headings.value = extractedHeadings;
+
+  // Atualiza o sidebar se estiver disponível
   if (sidebarRef.value) {
-    sidebarRef.value.updateHeadings(headings);
+    sidebarRef.value.updateHeadings(extractedHeadings);
   }
 };
+
+// Adicionar um watcher para atualizar os headings no sidebar quando o modo foco for desativado
+watch(isFocusMode, (newValue) => {
+  if (!newValue && sidebarRef.value && headings.value.length > 0) {
+    // Quando sair do modo foco, garantir que os headings sejam atualizados no sidebar
+    nextTick(() => {
+      sidebarRef.value?.updateHeadings(headings.value);
+    });
+  }
+});
 
 // Lifecycle
 onMounted(() => {
@@ -189,13 +204,18 @@ onUnmounted(() => {
           </div>
         </div>
 
-        <!-- Sidebar -->
-        <div v-if="!isFocusMode" class="flex-shrink-0 lg:w-80">
+        <!-- Sidebar - usando v-show em vez de v-if para preservar o estado -->
+        <div
+          v-show="!isFocusMode"
+          class="flex-shrink-0 lg:w-80"
+          :class="{ hidden: isFocusMode }"
+        >
           <TopicSidebar
             ref="sidebarRef"
             :topic="currentTopic"
             :related-topics="relatedTopics"
             :active-heading="activeHeading"
+            :headings="headings"
           />
         </div>
       </div>

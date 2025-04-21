@@ -42,7 +42,7 @@ export const escrituraTradicao: Category = {
           title: "Sola Scriptura: Uma Análise Crítica",
           description:
             "Por que o princípio protestante da 'Somente a Escritura' é inconsistente com o próprio testemunho bíblico",
-          contentPath: "sola-scriptura-uma-analise-critica.md",
+          contentPath: "escritura-tradicao/sola-scriptura-uma-analise-critica.md",
           references: [
             {
               title: "Dei Verbum",
@@ -87,7 +87,7 @@ export const escrituraTradicao: Category = {
           title: "O Desenvolvimento da Doutrina",
           description:
             "Como a Igreja Católica entende o desenvolvimento doutrinal",
-          contentPath: "o-desenvolvimento-da-doutrina.md",
+          contentPath: "escritura-tradicao/o-desenvolvimento-da-doutrina.md",
           references: [
             {
               title: "Ensaio sobre o Desenvolvimento da Doutrina Cristã",
@@ -140,3 +140,4 @@ export const escrituraTradicao: Category = {
   },
   tags: ["Bíblia", "Tradição", "Magistério", "Doutrina"],
 };
+

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed, onMounted, watch, onUnmounted } from "vue";
+import { ref, onMounted, watch } from "vue";
 import type { Topic } from "@/data/categories/types";
 import MarkdownRenderer from "@/components/common/MarkdownRenderer.vue";
 import { importMarkdown, getMarkdownPath } from "@/utils/markdownUtils";

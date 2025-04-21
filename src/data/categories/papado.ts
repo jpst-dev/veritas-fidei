@@ -25,7 +25,7 @@ export const papado: Category = {
           title: "O Papado nas Escrituras",
           description:
             "Bases bíblicas do primado de Pedro e sua missão na Igreja",
-          contentPath: "o-papado-nas-escrituras.md",
+          contentPath: "papado/o-papado-nas-escrituras.md",
           references: [
             {
               title: "Catecismo da Igreja Católica §§ 880–882",
@@ -65,7 +65,7 @@ export const papado: Category = {
           id: 2,
           title: "Infalibilidade Papal",
           description: "O que a Igreja ensina sobre a infalibilidade do Papa",
-          contentPath: "infalibilidade-papal.md",
+          contentPath: "papado/infalibilidade-papal.md",
           references: [
             {
               title: "Catecismo da Igreja Católica §§ 891–892",
@@ -106,7 +106,7 @@ export const papado: Category = {
           title: "Definição e Limites da Infalibilidade Papal",
           description:
             "Uma análise aprofundada sobre as condições e limites precisos da infalibilidade papal",
-          contentPath: "infalibilidade-papa-definicao-limites.md",
+          contentPath: "papado/infalibilidade-papa-definicao-limites.md",
           references: [
             {
               title: "Catecismo da Igreja Católica §§ 888-892",
@@ -147,7 +147,7 @@ export const papado: Category = {
           title: "Sucessão Apostólica",
           description:
             "Como a autoridade apostólica continua na Igreja através dos bispos",
-          contentPath: "sucessao-apostolica.md",
+          contentPath: "papado/sucessao-apostolica.md",
           references: [
             {
               title: "Catecismo da Igreja Católica §§ 77–79; 861–862",
@@ -203,7 +203,7 @@ export const papado: Category = {
           title: "Magistério da Igreja",
           description:
             "O papel do Magistério como intérprete da Revelação divina",
-          contentPath: "magisterio-da-igreja.md",
+          contentPath: "papado/magisterio-da-igreja.md",
           references: [
             {
               title: "Catecismo da Igreja Católica §§ 85–95, 888–892",
@@ -249,3 +249,4 @@ export const papado: Category = {
     },
   ],
 };
+
