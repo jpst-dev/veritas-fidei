@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed, onMounted, onUnmounted } from "vue";
+import { ref, computed, onMounted, onUnmounted, watch } from "vue";
 import { useRouter } from "vue-router";
 import {
   ShareIcon,
@@ -27,22 +27,9 @@ const { readingProgress } = useReadingProgress();
 
 const contentRef = ref<HTMLElement | null>(null);
 const activeHeading = ref("");
-
-const content = computed(() => {
-  // Adiciona IDs aos headings para navegação
-  return props.topic.content.replace(
-    /<h([1-6])>(.*?)<\/h\1>/g,
-    (match, level, content) => {
-      const id = content
-        .toLowerCase()
-        .replace(/[^\w\s-]/g, "") // Remove caracteres especiais
-        .replace(/\s+/g, "-") // Substitui espaços por hífens
-        .replace(/-+/g, "-") // Remove hífens duplicados
-        .trim();
-      return `<h${level} id="${id}">${content}</h${level}>`;
-    }
-  );
-});
+const content = ref<string>("");
+const isLoading = ref<boolean>(true);
+const error = ref<string | null>(null);
 
 const handleScroll = () => {
   if (!contentRef.value) return;
@@ -71,13 +58,67 @@ function shareTopic() {
   }
 }
 
+/**
+ * Carrega o conteúdo do tópico, seja do campo content ou do arquivo contentPath
+ */
+async function loadContent() {
+  isLoading.value = true;
+  error.value = null;
+
+  try {
+    // Se existe conteúdo direto no campo content, usamos ele
+    if (props.topic.content) {
+      content.value = props.topic.content;
+      isLoading.value = false;
+      return;
+    }
+
+    // Se existe contentPath, carregamos do arquivo
+    if (props.topic.contentPath) {
+      const response = await fetch(
+        `/src/data/contents/${props.topic.contentPath}`
+      );
+
+      if (!response.ok) {
+        throw new Error(
+          `Erro ao carregar conteúdo: ${response.status} ${response.statusText}`
+        );
+      }
+
+      content.value = await response.text();
+      isLoading.value = false;
+      return;
+    }
+
+    // Se não tem nem content nem contentPath
+    throw new Error("Tópico não possui conteúdo ou caminho para conteúdo");
+  } catch (err) {
+    console.error("Erro ao carregar conteúdo:", err);
+    error.value =
+      err instanceof Error
+        ? err.message
+        : "Erro desconhecido ao carregar conteúdo";
+    isLoading.value = false;
+  }
+}
+
 onMounted(() => {
   window.addEventListener("scroll", handleScroll);
+  loadContent();
 });
 
 onUnmounted(() => {
   window.removeEventListener("scroll", handleScroll);
 });
+
+// Recarregar conteúdo quando o tópico mudar
+watch(
+  () => props.topic,
+  () => {
+    loadContent();
+  },
+  { deep: true }
+);
 </script>
 
 <template>
@@ -107,7 +148,46 @@ onUnmounted(() => {
         },
       ]"
     >
-      <div v-html="content" />
+      <!-- Estado de carregamento -->
+      <div v-if="isLoading" class="space-y-4 animate-pulse">
+        <div
+          class="h-4 bg-gray-200 rounded-md dark:bg-gray-700"
+          style="width: 40%"
+        ></div>
+        <div
+          class="h-4 bg-gray-200 rounded-md dark:bg-gray-700"
+          style="width: 100%"
+        ></div>
+        <div
+          class="h-4 bg-gray-200 rounded-md dark:bg-gray-700"
+          style="width: 95%"
+        ></div>
+        <div
+          class="h-4 bg-gray-200 rounded-md dark:bg-gray-700"
+          style="width: 80%"
+        ></div>
+        <div
+          class="h-4 bg-gray-200 rounded-md dark:bg-gray-700"
+          style="width: 60%"
+        ></div>
+      </div>
+
+      <!-- Mensagem de erro -->
+      <div
+        v-else-if="error"
+        class="p-4 text-red-700 bg-red-100 rounded-lg dark:bg-red-900/30 dark:text-red-400"
+      >
+        <p>{{ error }}</p>
+        <button
+          @click="loadContent"
+          class="px-4 py-2 mt-4 text-sm font-medium text-white rounded-lg bg-primary-600 hover:bg-primary-700 dark:bg-primary-700 dark:hover:bg-primary-600"
+        >
+          Tentar novamente
+        </button>
+      </div>
+
+      <!-- Conteúdo do tópico -->
+      <div v-else v-html="content" />
 
       <!-- Referências -->
       <section v-if="topic.references?.length" class="mt-16">

@@ -29,13 +29,11 @@ const props = defineProps<{
   isBookmarked: boolean;
   fontSize: string;
   isFocusMode: boolean;
-  isReadingMode: boolean;
 }>();
 
 const emit = defineEmits<{
   (e: "bookmark"): void;
   (e: "share"): void;
-  (e: "font-size-change", size: string): void;
   (e: "reading-mode-toggle"): void;
   (e: "focus-mode-toggle"): void;
 }>();
@@ -137,7 +135,7 @@ function goBack() {
       </div>
 
       <!-- Actions -->
-      <div class="flex items-center gap-4 mt-6 pb-2">
+      <div class="flex items-center gap-4 pb-2 mt-6">
         <!-- Bookmark -->
         <button
           @click="emit('bookmark')"
@@ -158,16 +156,6 @@ function goBack() {
           Compartilhar
         </button>
 
-        <!-- Reading Mode -->
-        <button
-          @click="emit('reading-mode-toggle')"
-          class="flex items-center gap-2 px-4 py-2 text-sm font-medium text-white transition-colors rounded-lg hover:bg-white/10"
-          :class="{ 'bg-white/20': isReadingMode }"
-        >
-          <BookOpenIcon class="w-5 h-5" />
-          {{ isReadingMode ? "Modo Normal" : "Modo Leitura" }}
-        </button>
-
         <!-- Focus Mode -->
         <button
           @click="emit('focus-mode-toggle')"
@@ -177,28 +165,6 @@ function goBack() {
           <EyeIcon class="w-5 h-5" />
           {{ isFocusMode ? "Modo Normal" : "Modo Foco" }}
         </button>
-
-        <!-- Font Size -->
-        <div class="flex items-center gap-2 ml-auto">
-          <button
-            @click="emit('font-size-change', 'sm')"
-            class="px-3 py-1.5 text-sm font-medium text-white transition-colors rounded-lg hover:bg-white/10"
-          >
-            A
-          </button>
-          <button
-            @click="emit('font-size-change', 'base')"
-            class="px-3 py-1.5 text-base font-medium text-white transition-colors rounded-lg hover:bg-white/10"
-          >
-            A
-          </button>
-          <button
-            @click="emit('font-size-change', 'lg')"
-            class="px-3 py-1.5 text-lg font-medium text-white transition-colors rounded-lg hover:bg-white/10"
-          >
-            A
-          </button>
-        </div>
       </div>
     </div>
   </header>

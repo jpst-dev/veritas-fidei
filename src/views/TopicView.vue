@@ -6,7 +6,7 @@ import { useReadingProgress } from "@/composables/useReadingProgress";
 import { categories } from "@/data/categories";
 import type { Topic } from "@/data/categories";
 import TopicHeader from "@/components/topic/TopicHeader.vue";
-import TopicContent from "@/components/topic/TopicContent.vue";
+import TopicContentLoader from "@/components/topic/TopicContentLoader.vue";
 import TopicSidebar from "@/components/topic/TopicSidebar.vue";
 import TopicNavigation from "@/components/topic/TopicNavigation.vue";
 
@@ -27,6 +27,8 @@ const fontSize = ref("base");
 const isReadingMode = ref(false);
 const activeHeading = ref("");
 const isFocusMode = ref(false);
+const contentLoaderRef = ref(null);
+const sidebarRef = ref<InstanceType<typeof TopicSidebar> | null>(null);
 
 // Computed
 const currentTopic = computed<ExtendedTopic | null>(() => {
@@ -116,20 +118,18 @@ const handleShare = () => {
   });
 };
 
-const handleFontSizeChange = (size: string) => {
-  fontSize.value = size;
-};
-
-const handleReadingModeToggle = () => {
-  isReadingMode.value = !isReadingMode.value;
-};
-
 const handleFocusModeToggle = () => {
   isFocusMode.value = !isFocusMode.value;
 };
 
 const handleActiveHeadingChange = (heading: string) => {
   activeHeading.value = heading;
+};
+
+const handleHeadingsExtracted = (headings: any[]) => {
+  if (sidebarRef.value) {
+    sidebarRef.value.updateHeadings(headings);
+  }
 };
 
 // Lifecycle
@@ -161,8 +161,6 @@ onUnmounted(() => {
           :is-reading-mode="isReadingMode"
           @bookmark="handleBookmark"
           @share="handleShare"
-          @font-size-change="handleFontSizeChange"
-          @reading-mode-toggle="handleReadingModeToggle"
           @focus-mode-toggle="handleFocusModeToggle"
         />
       </div>
@@ -175,12 +173,12 @@ onUnmounted(() => {
         <div class="flex-1" :class="{ 'lg:max-w-4xl lg:mx-auto': isFocusMode }">
           <!-- Content Section -->
           <div class="pt-8">
-            <TopicContent
+            <TopicContentLoader
+              ref="contentLoaderRef"
               :topic="currentTopic"
               :font-size="fontSize"
-              :is-reading-mode="isReadingMode"
-              v-model:active-heading="activeHeading"
               @active-heading-change="handleActiveHeadingChange"
+              @headings-extracted="handleHeadingsExtracted"
             />
 
             <TopicNavigation
@@ -194,6 +192,7 @@ onUnmounted(() => {
         <!-- Sidebar -->
         <div v-if="!isFocusMode" class="flex-shrink-0 lg:w-80">
           <TopicSidebar
+            ref="sidebarRef"
             :topic="currentTopic"
             :related-topics="relatedTopics"
             :active-heading="activeHeading"

@@ -49,7 +49,9 @@ const allTags = computed(() => {
 
 // Featured categories for the banner section
 const featuredCategories = computed(() => {
-  return categories.filter((cat) => cat.stats.totalTopics > 5).slice(0, 3);
+  return categories
+    .filter((cat) => (cat.stats?.totalTopics ?? 0) > 5)
+    .slice(0, 3);
 });
 
 // Filtragem e ordenação
@@ -79,7 +81,9 @@ const sortedCategories = computed(() => {
     case "alfabetica":
       return sorted.sort((a, b) => a.title.localeCompare(b.title));
     case "topics":
-      return sorted.sort((a, b) => b.stats.totalTopics - a.stats.totalTopics);
+      return sorted.sort(
+        (a, b) => (b.stats?.totalTopics ?? 0) - (a.stats?.totalTopics ?? 0)
+      );
     case "relevancia":
     default:
       return sorted;
@@ -90,7 +94,10 @@ const sortedCategories = computed(() => {
 const totalStats = computed(() => {
   return {
     categories: categories.length,
-    topics: categories.reduce((sum, cat) => sum + cat.stats.totalTopics, 0),
+    topics: categories.reduce(
+      (sum, cat) => sum + (cat.stats?.totalTopics ?? 0),
+      0
+    ),
     tags: [...new Set(categories.flatMap((cat) => cat.tags || []))].length,
   };
 });

@@ -129,7 +129,7 @@ const searchResults = computed(() => {
         if (
           topic.title.toLowerCase().includes(query) ||
           topic.description.toLowerCase().includes(query) ||
-          topic.content.toLowerCase().includes(query)
+          topic.content?.toLowerCase().includes(query)
         ) {
           results.push({
             id: topic.id.toString(),

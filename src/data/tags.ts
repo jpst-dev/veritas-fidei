@@ -69,6 +69,41 @@ export const tags: Tag[] = [
     icon: "GiftIcon",
     color: "cyan",
   },
+  {
+    id: "maria",
+    name: "Maria",
+    description: "Tópicos relacionados à Virgem Maria",
+    icon: "HeartIcon",
+    color: "pink",
+  },
+  {
+    id: "dogmas-marianos",
+    name: "Dogmas Marianos",
+    description: "Tópicos sobre os quatro dogmas marianos",
+    icon: "SparklesIcon",
+    color: "sky",
+  },
+  {
+    id: "eucaristia",
+    name: "Eucaristia",
+    description: "Tópicos relacionados ao sacramento da Eucaristia",
+    icon: "GiftIcon",
+    color: "yellow",
+  },
+  {
+    id: "presenca-real",
+    name: "Presença Real",
+    description: "Tópicos sobre a Presença Real de Cristo na Eucaristia",
+    icon: "FireIcon",
+    color: "orange",
+  },
+  {
+    id: "trindade",
+    name: "Trindade",
+    description: "Tópicos sobre o mistério da Santíssima Trindade",
+    icon: "SunIcon",
+    color: "violet",
+  },
 ];
 
 export const taggedItems: TaggedItem[] = [
@@ -154,5 +189,30 @@ export const taggedItems: TaggedItem[] = [
     categoryId: "eucaristia",
     subcategoryId: "sacrificio-missa",
     tags: ["sacramentos", "liturgia", "doutrina"],
+  },
+
+  // Mariologia
+  {
+    categoryId: "mariologia",
+    tags: ["maria", "doutrina", "tradicao"],
+  },
+  {
+    categoryId: "mariologia",
+    subcategoryId: "mariologia-1",
+    tags: ["maria", "dogmas-marianos", "doutrina"],
+  },
+
+  // Doutrina - Sacramentos
+  {
+    categoryId: "doutrina",
+    subcategoryId: "doutrina-2",
+    tags: ["sacramentos", "doutrina", "liturgia"],
+  },
+
+  // Doutrina - Credo
+  {
+    categoryId: "doutrina",
+    subcategoryId: "doutrina-1",
+    tags: ["doutrina", "trindade", "dogma"],
   },
 ];

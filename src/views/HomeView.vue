@@ -90,8 +90,8 @@ const { userScrolled } = useAnimation({
 // Featured Categories
 const featuredCategories = computed(() => {
   return categories
-    .filter((category) => category.stats.totalTopics > 0)
-    .sort((a, b) => b.stats.totalTopics - a.stats.totalTopics)
+    .filter((category) => (category.stats?.totalTopics ?? 0) > 0)
+    .sort((a, b) => (b.stats?.totalTopics ?? 0) - (a.stats?.totalTopics ?? 0))
     .slice(0, 3);
 });
 
@@ -143,7 +143,10 @@ const quickFacts = [
   },
   {
     title: "Tópicos",
-    value: categories.reduce((total, cat) => total + cat.stats.totalTopics, 0),
+    value: categories.reduce(
+      (total, cat) => total + (cat.stats?.totalTopics ?? 0),
+      0
+    ),
     icon: AcademicCapIcon,
     description: "Artigos e estudos disponíveis",
     color: "bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400",

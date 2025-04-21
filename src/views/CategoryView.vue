@@ -8,7 +8,6 @@ import { getDifficultyClass } from "@/utils/formatters";
 import TopicCard from "@/components/TopicCard.vue";
 import {
   ArrowRightIcon,
-  BookmarkIcon,
   ClockIcon,
   TagIcon,
   HomeIcon,
@@ -17,18 +16,11 @@ import {
   ChartBarIcon,
   BookOpenIcon,
   AcademicCapIcon,
-  SparklesIcon,
-  FireIcon,
-  UserGroupIcon,
   ExclamationTriangleIcon,
-  ChevronDoubleRightIcon,
   DocumentTextIcon,
   PencilIcon,
   LightBulbIcon,
-  ChevronUpIcon,
-  ChevronDownIcon,
 } from "@heroicons/vue/24/outline";
-import { BookmarkIcon as BookmarkSolidIcon } from "@heroicons/vue/24/solid";
 
 const route = useRoute();
 const router = useRouter();
@@ -344,6 +336,7 @@ const totalTopics = computed(() => topics.value.length);
               :key="topic.id"
               :topic="topic"
               :is-bookmarked="isFavorite(topic.id)"
+              show-category-path
               show-bookmark
               @click="handleTopicClick(topic)"
               @toggle-bookmark="toggleBookmark(topic.id)"

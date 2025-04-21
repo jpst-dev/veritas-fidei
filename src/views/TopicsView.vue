@@ -45,14 +45,15 @@ interface Topic {
   id: number;
   title: string;
   description: string;
-  content: string;
+  content?: string;
+  contentPath?: string;
   references: Reference[];
   tags: string[];
   stats: {
     readingTime: string;
     difficulty: "Iniciante" | "Intermediário" | "Avançado";
     lastUpdated: string;
-    progress: number;
+    progress?: number;
   };
   category: string;
   subcategory: string;

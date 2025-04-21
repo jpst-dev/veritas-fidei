@@ -128,6 +128,16 @@ const routes = [
     },
   },
   {
+    path: "/markdown-demo",
+    name: "markdown-demo",
+    component: () => import("@/components/demo/MarkdownExample.vue"),
+    meta: {
+      ...defaultMeta,
+      title: "Demonstração de Markdown - Apologética Católica",
+      description: "Exemplo de renderização de conteúdo Markdown",
+    },
+  },
+  {
     path: "/:pathMatch(.*)*",
     name: "not-found",
     component: NotFoundView,

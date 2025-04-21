@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed } from "vue";
+import { ref, computed, onMounted } from "vue";
 import {
   ChevronRightIcon,
   BookOpenIcon,
@@ -27,27 +27,16 @@ interface Props {
 }
 
 const props = defineProps<Props>();
+const headingItems = ref<Array<{ id: string; text: string; level: number }>>(
+  []
+);
 
-const generateId = (text: string) => {
-  return text
-    .toLowerCase()
-    .replace(/[^\w\s-]/g, "") // Remove caracteres especiais
-    .replace(/\s+/g, "-") // Substitui espaços por hífens
-    .replace(/-+/g, "-") // Remove hífens duplicados
-    .trim(); // Remove espaços no início e fim
+// Receber os headings do componente de conteúdo
+const updateHeadings = (
+  items: Array<{ id: string; text: string; level: number }>
+) => {
+  headingItems.value = items;
 };
-
-const headings = computed(() => {
-  const parser = new DOMParser();
-  const doc = parser.parseFromString(props.topic.content, "text/html");
-  const headings = doc.querySelectorAll("h1, h2, h3, h4, h5, h6");
-
-  return Array.from(headings).map((heading) => ({
-    id: generateId(heading.textContent || ""),
-    text: heading.textContent || "",
-    level: parseInt(heading.tagName[1]),
-  }));
-});
 
 const scrollToHeading = (id: string) => {
   const element = document.getElementById(id);
@@ -67,6 +56,11 @@ const scrollToHeading = (id: string) => {
     }, 500);
   }
 };
+
+// Expor método para o componente pai
+defineExpose({
+  updateHeadings,
+});
 </script>
 
 <template>
@@ -74,6 +68,7 @@ const scrollToHeading = (id: string) => {
     <div class="space-y-8">
       <!-- Índice de Conteúdo -->
       <div
+        v-if="headingItems.length > 0"
         class="relative overflow-hidden shadow-sm bg-gradient-to-br from-primary-50 to-primary-100 dark:from-primary-900/20 dark:to-primary-800/20 rounded-xl"
       >
         <div class="absolute inset-0 bg-[url('/pattern.svg')] opacity-10"></div>
@@ -92,7 +87,7 @@ const scrollToHeading = (id: string) => {
           </div>
           <nav class="space-y-2">
             <button
-              v-for="heading in headings"
+              v-for="heading in headingItems"
               :key="heading.id"
               @click="scrollToHeading(heading.id)"
               class="flex items-center w-full px-4 py-2 text-sm transition-all duration-200 rounded-lg"
