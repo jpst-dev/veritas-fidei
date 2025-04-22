@@ -43,4 +43,10 @@ export default defineConfig({
   },
   assetsInclude: ["**/*.md"],
   publicDir: "public",
+  server: {
+    fs: {
+      // Permitir servir arquivos .md do diretório src
+      allow: [".."],
+    },
+  },
 });
