@@ -61,7 +61,7 @@ export async function importMarkdown(path: string): Promise<string> {
   try {
     if (import.meta.env.PROD) {
       // Em produção, buscamos do diretório assets
-      const response = await fetch(`/assets/contents/${path}.md`);
+      const response = await fetch(`/assets/contents/${path}`);
       if (!response.ok) {
         throw new Error(
           `Erro ao carregar ${path}: ${response.status} ${response.statusText}`
@@ -70,7 +70,7 @@ export async function importMarkdown(path: string): Promise<string> {
       return await response.text();
     } else {
       // Em desenvolvimento, usamos import dinâmico
-      const content = await import(`../data/contents/${path}.md?raw`);
+      const content = await import(`../data/contents/${path}?raw`);
       return content.default;
     }
   } catch (error) {
@@ -90,7 +90,7 @@ export function getMarkdownPath(filename: string): string {
     filename = `${filename}.md`;
   }
 
-  return `/src/data/contents/${filename}`;
+  return filename;
 }
 
 /**
