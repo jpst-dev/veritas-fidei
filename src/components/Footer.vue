@@ -9,6 +9,7 @@ import {
   InformationCircleIcon,
   ArrowTopRightOnSquareIcon,
 } from "@heroicons/vue/24/outline";
+import cruz from "../../public/cruz.png";
 
 // Ícones de redes sociais
 import { UsersIcon, ChatBubbleLeftRightIcon } from "@heroicons/vue/24/outline";
@@ -351,14 +352,7 @@ const submitNewsletter = (e: Event) => {
             <div
               class="w-8 h-8 mr-3 overflow-hidden text-primary-600 dark:text-primary-400"
             >
-              <svg
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="1.5"
-              >
-                <path d="M12 2v7M12 9v13M8 9h8" />
-              </svg>
+              <img :src="cruz" alt="Cruz" />
             </div>
             <p class="text-sm text-gray-600 dark:text-gray-400">
               © {{ currentYear }}

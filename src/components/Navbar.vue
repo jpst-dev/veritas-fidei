@@ -17,6 +17,7 @@ import {
   AcademicCapIcon,
   ArrowRightIcon,
 } from "@heroicons/vue/24/outline";
+import cruz from "../../public/cruz.png";
 
 // Usar componente de busca melhorado, se disponível
 let EnhancedSearchBar: Component | null = null;
@@ -162,14 +163,7 @@ onMounted(() => {
                 class="flex items-center justify-center w-8 h-8 rounded-full bg-primary-50 dark:bg-primary-900/30"
               >
                 <div class="w-4 h-4 text-primary-600 dark:text-primary-400">
-                  <svg
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                  >
-                    <path d="M12 4v7M12 11v9M8 11h8" />
-                  </svg>
+                  <img :src="cruz" alt="Cruz" />
                 </div>
               </div>
               <span class="hidden sm:inline-block">Veritas Fidei</span>
