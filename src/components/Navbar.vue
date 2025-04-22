@@ -17,7 +17,7 @@ import {
   AcademicCapIcon,
   ArrowRightIcon,
 } from "@heroicons/vue/24/outline";
-import cruz from "../../public/cruz.png";
+import cruz from "/cruz.png";
 
 // Usar componente de busca melhorado, se disponível
 let EnhancedSearchBar: Component | null = null;

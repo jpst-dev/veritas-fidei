@@ -9,7 +9,7 @@ import {
   InformationCircleIcon,
   ArrowTopRightOnSquareIcon,
 } from "@heroicons/vue/24/outline";
-import cruz from "../../public/cruz.png";
+import cruz from "/cruz.png";
 
 // Ícones de redes sociais
 import { UsersIcon, ChatBubbleLeftRightIcon } from "@heroicons/vue/24/outline";

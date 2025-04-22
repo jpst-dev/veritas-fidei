@@ -3,7 +3,7 @@ import vue from "@vitejs/plugin-vue";
 import { fileURLToPath, URL } from "node:url";
 import { execSync } from "child_process";
 
-// https://vite.dev/config/
+// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
     vue(),
@@ -12,9 +12,9 @@ export default defineConfig({
       closeBundle() {
         try {
           execSync("node scripts/copy-markdown.js");
-          console.log("Arquivos Markdown copiados com sucesso!");
+          console.log("✅ Arquivos Markdown copiados com sucesso!");
         } catch (error) {
-          console.error("Erro ao copiar arquivos Markdown:", error);
+          console.error("❌ Erro ao copiar arquivos Markdown:", error);
         }
       },
     },
@@ -26,8 +26,7 @@ export default defineConfig({
   },
   build: {
     outDir: "dist",
-    assetsDir: "assets",
-    sourcemap: true,
+    emptyOutDir: true,
     chunkSizeWarningLimit: 1500,
     rollupOptions: {
       output: {
@@ -39,14 +38,13 @@ export default defineConfig({
         },
       },
     },
-    emptyOutDir: true,
   },
-  assetsInclude: ["**/*.md"],
-  publicDir: "public",
   server: {
+    // Configuração para servir arquivos Markdown em desenvolvimento
     fs: {
-      // Permitir servir arquivos .md do diretório src
       allow: [".."],
     },
   },
+  publicDir: "public",
+  assetsInclude: ["**/*.md"],
 });

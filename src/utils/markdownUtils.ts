@@ -37,8 +37,13 @@ export const useMarkdown = () => {
         const text = await response.text();
         markdownContent.value = md.render(text);
       } else {
-        const module = await import(`../data/contents/${filename}?raw`);
-        markdownContent.value = md.render(module.default);
+        // Em desenvolvimento, usamos fetch para evitar problemas com importação dinâmica
+        const response = await fetch(`/src/data/contents/${filename}`);
+        if (!response.ok) {
+          throw new Error(`Failed to fetch markdown: ${response.statusText}`);
+        }
+        const text = await response.text();
+        markdownContent.value = md.render(text);
       }
     } catch (error) {
       console.error("Error loading markdown:", error);
@@ -69,7 +74,7 @@ export async function importMarkdown(path: string): Promise<string> {
       }
       return await response.text();
     } else {
-      // Em desenvolvimento, usamos fetch para evitar problemas com MIME type
+      // Em desenvolvimento, usamos fetch para evitar problemas com importação dinâmica
       const response = await fetch(`/src/data/contents/${path}`);
       if (!response.ok) {
         throw new Error(
