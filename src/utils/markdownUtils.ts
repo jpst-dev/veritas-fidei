@@ -1,3 +1,57 @@
+import { ref } from "vue";
+import MarkdownIt from "markdown-it";
+import hljs from "highlight.js";
+import "highlight.js/styles/github-dark.css";
+
+const md = new MarkdownIt({
+  html: true,
+  linkify: true,
+  typographer: true,
+  highlight: function (str, lang) {
+    if (lang && hljs.getLanguage(lang)) {
+      try {
+        return hljs.highlight(str, { language: lang }).value;
+      } catch (__) {}
+    }
+    return "";
+  },
+});
+
+export const useMarkdown = () => {
+  const markdownContent = ref("");
+
+  const getMarkdownPath = (filename: string): string => {
+    if (import.meta.env.PROD) {
+      return `/assets/contents/${filename}`;
+    }
+    return `/src/data/contents/${filename}`;
+  };
+
+  const importMarkdown = async (filename: string) => {
+    try {
+      if (import.meta.env.PROD) {
+        const response = await fetch(getMarkdownPath(filename));
+        if (!response.ok) {
+          throw new Error(`Failed to fetch markdown: ${response.statusText}`);
+        }
+        const text = await response.text();
+        markdownContent.value = md.render(text);
+      } else {
+        const module = await import(`../data/contents/${filename}`);
+        markdownContent.value = md.render(module.default);
+      }
+    } catch (error) {
+      console.error("Error loading markdown:", error);
+      markdownContent.value = "Erro ao carregar o conteúdo.";
+    }
+  };
+
+  return {
+    markdownContent,
+    importMarkdown,
+  };
+};
+
 /**
  * Utilitário para importar um arquivo Markdown como string
  * @param path Caminho para o arquivo Markdown
@@ -7,7 +61,7 @@ export async function importMarkdown(path: string): Promise<string> {
   try {
     // Tenta importar primeiro como um módulo raw
     try {
-      const content = await import(`${path}?raw`);
+      const content = await import(`../data/contents/${path}.md?raw`);
       return content.default;
     } catch (e) {
       // Se falhar, tenta buscar com fetch
