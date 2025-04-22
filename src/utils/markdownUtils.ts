@@ -59,19 +59,19 @@ export const useMarkdown = () => {
  */
 export async function importMarkdown(path: string): Promise<string> {
   try {
-    // Tenta importar primeiro como um módulo raw
-    try {
-      const content = await import(`../data/contents/${path}.md?raw`);
-      return content.default;
-    } catch (e) {
-      // Se falhar, tenta buscar com fetch
-      const response = await fetch(path);
+    if (import.meta.env.PROD) {
+      // Em produção, buscamos do diretório assets
+      const response = await fetch(`/assets/contents/${path}.md`);
       if (!response.ok) {
         throw new Error(
           `Erro ao carregar ${path}: ${response.status} ${response.statusText}`
         );
       }
       return await response.text();
+    } else {
+      // Em desenvolvimento, usamos import dinâmico
+      const content = await import(`../data/contents/${path}.md?raw`);
+      return content.default;
     }
   } catch (error) {
     console.error(`Erro ao importar arquivo Markdown: ${path}`, error);

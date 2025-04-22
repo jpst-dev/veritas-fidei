@@ -42,4 +42,5 @@ export default defineConfig({
     emptyOutDir: true,
   },
   assetsInclude: ["**/*.md"],
+  publicDir: "public",
 });
