@@ -172,7 +172,7 @@ onMounted(() => {
                   </svg>
                 </div>
               </div>
-              <span class="hidden sm:inline-block">Apologética Católica</span>
+              <span class="hidden sm:inline-block">Veritas Fidei</span>
               <span class="sm:hidden">AP</span>
             </div>
           </router-link>

@@ -12,7 +12,7 @@ import NotFoundView from "../views/NotFoundView.vue";
 
 // Configuração de meta tags padrão
 const defaultMeta = {
-  title: "Apologética Católica",
+  title: "Veritas Fidei",
   description:
     "Respostas fundamentadas para as principais questões sobre a fé católica",
 };
@@ -36,7 +36,7 @@ const routes = [
     component: CategoriesView,
     meta: {
       ...defaultMeta,
-      title: "Explorar - Apologética Católica",
+      title: "Explorar - Veritas Fidei",
       description:
         "Navegue por nossas categorias e descubra conteúdo organizado por temas",
     },
@@ -48,7 +48,7 @@ const routes = [
     props: true,
     meta: {
       ...defaultMeta,
-      title: "Categoria - Apologética Católica",
+      title: "Categoria - Veritas Fidei",
       description: "Conteúdo específico da categoria selecionada",
     },
   },
@@ -59,7 +59,7 @@ const routes = [
     props: true,
     meta: {
       ...defaultMeta,
-      title: "Subcategoria - Apologética Católica",
+      title: "Subcategoria - Veritas Fidei",
       description: "Conteúdo específico da subcategoria selecionada",
     },
   },
@@ -81,7 +81,7 @@ const routes = [
     props: true,
     meta: {
       ...defaultMeta,
-      title: "Tópico - Apologética Católica",
+      title: "Tópico - Veritas Fidei",
       description: "Conteúdo detalhado do tópico selecionado",
     },
   },
@@ -91,7 +91,7 @@ const routes = [
     component: SearchView,
     meta: {
       ...defaultMeta,
-      title: "Buscar - Apologética Católica",
+      title: "Buscar - Veritas Fidei",
       description: "Encontre conteúdo específico através da busca",
     },
   },
@@ -101,7 +101,7 @@ const routes = [
     component: TagView,
     meta: {
       ...defaultMeta,
-      title: "Tags - Apologética Católica",
+      title: "Tags - Veritas Fidei",
       description: "Explore conteúdo através de tags",
     },
   },
@@ -112,7 +112,7 @@ const routes = [
     props: true,
     meta: {
       ...defaultMeta,
-      title: "Tag - Apologética Católica",
+      title: "Tag - Veritas Fidei",
       description: "Conteúdo relacionado à tag selecionada",
     },
   },
@@ -133,7 +133,7 @@ const routes = [
     component: NotFoundView,
     meta: {
       ...defaultMeta,
-      title: "Página não encontrada - Apologética Católica",
+      title: "Página não encontrada - Veritas Fidei",
       description: "A página que você está procurando não existe",
     },
   },
