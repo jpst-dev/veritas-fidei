@@ -52,6 +52,11 @@ const emit = defineEmits(["toggle-bookmark"]);
 const router = useRouter();
 const favoritesStore = useFavoritesStore();
 
+// Verificar se o tópico está nos favoritos
+const isBookmarked = computed(() => {
+  return favoritesStore.isFavorite(props.topic.id.toString());
+});
+
 // Normalize stats between different topic formats
 const topicStats = computed(() => {
   if (props.topic.stats) {
@@ -122,7 +127,19 @@ const navigateToTopic = () => {
 // Toggle bookmark on topic
 const toggleBookmark = (event: Event) => {
   event.stopPropagation();
+  event.preventDefault(); // Prevenir qualquer comportamento padrão
+
+  // Adicionar feedback visual temporário
+  const button = event.currentTarget as HTMLButtonElement;
+  button.classList.add("scale-125");
+  setTimeout(() => {
+    button.classList.remove("scale-125");
+  }, 200);
+
+  // Toggle no store
   favoritesStore.toggleFavorite(props.topic.id.toString());
+
+  // Emitir evento para componente pai
   emit("toggle-bookmark", props.topic.id);
 };
 
@@ -192,31 +209,24 @@ const articleId = computed(() => {
           {{ categoryPath }}
         </div>
 
+        <!-- Espaço vazio quando não há category path para manter o layout -->
+        <div v-else-if="showBookmark" class="flex-1"></div>
+
         <!-- Bookmark Button - Always visible but conditional display -->
         <button
           v-if="showBookmark"
           @click="toggleBookmark"
-          class="p-1.5 rounded-full bg-white dark:bg-gray-700 shadow-sm transition-all duration-200 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-primary-500 z-10"
+          class="p-1.5 rounded-full bg-white dark:bg-gray-700 shadow-sm transition-all duration-200 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-primary-500 z-10 ml-auto"
           :class="{
-            'text-primary-600 dark:text-primary-400': favoritesStore.isFavorite(
-              topic.id.toString()
-            ),
-            'text-gray-400 dark:text-gray-500': !favoritesStore.isFavorite(
-              topic.id.toString()
-            ),
+            'text-primary-600 dark:text-primary-400': isBookmarked,
+            'text-gray-400 dark:text-gray-500': !isBookmarked,
           }"
           :aria-label="
-            favoritesStore.isFavorite(topic.id.toString())
-              ? 'Remover dos favoritos'
-              : 'Adicionar aos favoritos'
+            isBookmarked ? 'Remover dos favoritos' : 'Adicionar aos favoritos'
           "
         >
           <component
-            :is="
-              favoritesStore.isFavorite(topic.id.toString())
-                ? BookmarkSolidIcon
-                : BookmarkIcon
-            "
+            :is="isBookmarked ? BookmarkSolidIcon : BookmarkIcon"
             class="w-4 h-4"
             aria-hidden="true"
           />

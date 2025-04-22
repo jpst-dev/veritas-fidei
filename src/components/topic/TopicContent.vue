@@ -180,9 +180,7 @@ watch(
       <!-- Referências -->
       <section v-if="topic.references?.length" class="mt-16">
         <div class="flex items-center gap-3 mb-8">
-          <div
-            class="p-2 rounded-lg bg-primary-50 dark:bg-primary-900/20 mt-[60px] mb-[24px]"
-          >
+          <div class="p-2 rounded-lg bg-primary-50 dark:bg-primary-900/20">
             <BookOpenIcon
               class="w-6 h-6 text-primary-600 dark:text-primary-400"
             />
