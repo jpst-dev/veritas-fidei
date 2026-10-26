@@ -1,77 +1,43 @@
-# Apologética Católica
+# Veritas Fidei
 
-Uma plataforma interativa e educativa para estudo e defesa da fé católica, desenvolvida com Vue 3, TypeScript, Vite e TailwindCSS.
+Formação e defesa da fé católica: artigos revisados e trilhas de estudo para
+conhecer, amar e saber dar razão da fé.
 
-## Características
+## Stack
 
-- Interface moderna e responsiva
-- Navegação intuitiva entre tópicos
-- Modo claro/escuro
-- Organização por categorias
-- Referências bibliográficas
-- Tópicos relacionados
+- [Nuxt 4](https://nuxt.com) com geração estática (`nuxt generate`) na Vercel
+- [Nuxt Content 3](https://content.nuxt.com): conteúdo em Markdown/YAML com schema validado
+- [Tailwind CSS 4](https://tailwindcss.com) com tokens em CSS (`app/assets/css/main.css`)
+- Vitest
 
-## Tecnologias Utilizadas
+## Desenvolvimento
 
-- Vue 3
-- TypeScript
-- Vite
-- TailwindCSS
-- Vue Router
-- Pinia
-- Heroicons
-- Headless UI
-
-## Requisitos
-
-- Node.js 16.x ou superior
-- npm 7.x ou superior
-
-## Instalação
-
-1. Clone o repositório:
-
-```bash
-git clone https://github.com/seu-usuario/apologetica-catolica.git
-cd apologetica-catolica
-```
-
-2. Instale as dependências:
+Requer Node 22.5+ (o Nuxt Content usa o `node:sqlite` nativo).
 
 ```bash
 npm install
+npm run dev        # rascunhos aparecem, com selo de status
+npm run generate   # build estático de produção (só artigos publicados)
+npm test
+npm run typecheck
 ```
 
-3. Inicie o servidor de desenvolvimento:
-
-```bash
-npm run dev
-```
-
-4. Para build de produção:
-
-```bash
-npm run build
-```
-
-## Estrutura do Projeto
+## Conteúdo
 
 ```
-src/
-├── assets/          # Arquivos estáticos
-├── components/      # Componentes Vue reutilizáveis
-├── router/          # Configuração do Vue Router
-├── stores/          # Stores Pinia
-├── views/           # Componentes de página
-├── App.vue          # Componente raiz
-├── main.ts          # Ponto de entrada
-└── style.css        # Estilos globais
+content/
+  artigos/<slug>.md   → /artigos/<slug>
+  temas/<slug>.yml    → /temas/<slug>
+  trilhas/<slug>.yml  → /trilhas/<slug>
 ```
 
-## Contribuição
+O schema de cada coleção está em `content.config.ts`. Um artigo só aparece no
+site com `status: publicado`; veja o [processo de revisão](docs/revisao.md).
 
-Contribuições são bem-vindas! Por favor, leia as diretrizes de contribuição antes de enviar um pull request.
+## Detalhes
 
-## Licença
-
-Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+- **Cor litúrgica**: a cor de destaque acompanha o tempo litúrgico (verde,
+  roxo, branco/dourado, vermelho), calculado em `app/utils/liturgia.ts`
+  segundo o calendário romano com as transferências usadas no Brasil.
+- **Tema**: escuro por padrão, com modo claro salvo no navegador.
+- **RSS**: `/rss.xml`, gerado no build.

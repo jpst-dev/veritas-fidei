@@ -1,0 +1,141 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+/*
+ * Paleta "Noite". O site nasce escuro; [data-theme='light'] troca os neutros.
+ * A cor de destaque segue o tempo litúrgico via [data-cor] no <html>
+ * (calculado em app/utils/liturgia.ts).
+ */
+:root {
+  --vf-bg: #0d1015;
+  --vf-surface: #141922;
+  --vf-line: #2a313c;
+  --vf-text: #ece6d8;
+  --vf-muted: #a49d8e;
+  --vf-on-accent: #0d0d0d;
+
+  --vf-verde: #6fbf8a;
+  --vf-roxo: #b39ded;
+  --vf-branco: #cdaa62; /* branco litúrgico, representado em dourado */
+  --vf-vermelho: #e2705f;
+
+  --vf-accent: var(--vf-verde);
+  color-scheme: dark;
+}
+
+:root[data-theme='light'] {
+  --vf-bg: #f6f2ea;
+  --vf-surface: #ece6da;
+  --vf-line: #d9cfbd;
+  --vf-text: #191c22;
+  --vf-muted: #5a5548;
+  --vf-on-accent: #ffffff;
+
+  --vf-verde: #2b7144;
+  --vf-roxo: #5e3e9c;
+  --vf-branco: #7a5c14;
+  --vf-vermelho: #9e2618;
+  color-scheme: light;
+}
+
+:root[data-cor='roxo'] { --vf-accent: var(--vf-roxo); }
+:root[data-cor='branco'] { --vf-accent: var(--vf-branco); }
+:root[data-cor='vermelho'] { --vf-accent: var(--vf-vermelho); }
+
+@theme inline {
+  --color-bg: var(--vf-bg);
+  --color-surface: var(--vf-surface);
+  --color-line: var(--vf-line);
+  --color-text: var(--vf-text);
+  --color-muted: var(--vf-muted);
+  --color-accent: var(--vf-accent);
+  --color-on-accent: var(--vf-on-accent);
+
+  --font-display: 'Cinzel', 'Times New Roman', serif;
+  --font-serif: 'EB Garamond', Georgia, serif;
+}
+
+@layer base {
+  html {
+    background: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-serif);
+    font-size: 19px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 3px;
+  }
+}
+
+@layer components {
+  /* Rótulo em versaletes romanas, usado em sobretítulos e rubricas */
+  .rubrica {
+    font-family: var(--font-display);
+    font-size: 0.74rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--color-accent);
+  }
+
+  .filete-duplo {
+    border-color: var(--color-line);
+    border-style: double;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    padding: 0 1.4rem;
+    font-family: var(--font-display);
+    font-size: 0.74rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    text-decoration: none !important;
+  }
+
+  .btn-primario {
+    background: var(--color-accent);
+    color: var(--color-on-accent);
+  }
+
+  .btn-secundario {
+    border: 1px solid var(--color-line);
+  }
+}
+
+/* Tipografia dos artigos */
+.prose-vf {
+  --tw-prose-body: var(--vf-text);
+  --tw-prose-headings: var(--vf-text);
+  --tw-prose-lead: var(--vf-muted);
+  --tw-prose-links: var(--vf-accent);
+  --tw-prose-bold: var(--vf-text);
+  --tw-prose-counters: var(--vf-accent);
+  --tw-prose-bullets: var(--vf-accent);
+  --tw-prose-hr: var(--vf-line);
+  --tw-prose-quotes: var(--vf-text);
+  --tw-prose-quote-borders: var(--vf-accent);
+  --tw-prose-captions: var(--vf-muted);
+  --tw-prose-th-borders: var(--vf-line);
+  --tw-prose-td-borders: var(--vf-line);
+  font-size: 1.05rem;
+}
+
+.prose-vf :where(h2, h3) {
+  font-weight: 500;
+}
+
+.prose-vf :where(blockquote) {
+  font-style: italic;
+  font-weight: 400;
+}
