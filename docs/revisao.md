@@ -11,7 +11,7 @@ Nenhum artigo vai ao ar sem passar por aqui. O objetivo é publicar pouco e bem:
 | `em-revisao` | não aparece        | aparece com selo        |
 | `publicado`  | aparece            | aparece                 |
 
-Os 73 textos do site antigo entraram como `rascunho`. A nota em `revisao.notas`
+Os artigos seguem o [padrão editorial](padrao-editorial.md). Os 73 textos do site antigo entraram como `rascunho`. A nota em `revisao.notas`
 indica possíveis duplicatas.
 
 ## Checklist antes de mudar para `publicado`
