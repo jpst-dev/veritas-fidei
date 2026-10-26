@@ -3,7 +3,8 @@ title: Por que confessar os pecados a um padre?
 description: Se só Deus perdoa pecados, por que contá-los a um homem? O que Jesus deu aos Apóstolos e como os primeiros cristãos viveram isso.
 tema: sacramentos
 secao: defesa-da-fe
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-26
 nivel: iniciante
 tags: [confissao, penitencia, sacramentos]
 quaestio:
@@ -33,12 +34,9 @@ referencias:
     url: https://www.newadvent.org/fathers/34061.htm
   - titulo: IV Concílio de Latrão (1215), cân. 21 (DH 812)
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
-  notas: >-
-    Reescrito no padrão editorial (out/2026). Catecismo conferido pelo npm run
-    verificar; Didaqué, Cipriano e Ambrósio conferidos no New Advent. Falta
-    conferir: Latrão IV, cân. 21 (DH 812).
+  citacoesConferidas: true
+  referenciasConferidas: true
+  notas: Conferido pelo autor em 26/10/2026.
 ---
 
 “Eu me confesso direto com Deus.” Muitos católicos já disseram ou ouviram essa frase, e muitos cristãos evangélicos a consideram simplesmente óbvia. Por que contar os próprios pecados a outro homem, também pecador, se Deus vê tudo e pode perdoar tudo?

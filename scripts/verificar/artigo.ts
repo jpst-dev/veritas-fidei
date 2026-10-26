@@ -53,7 +53,7 @@ const SEMPRE_MAIUSCULA = new Set([
   'Deus', 'Cristo', 'Jesus', 'Senhor', 'Espírito', 'Santo', 'Santa', 'Trindade', 'Pai', 'Filho', 'Maria',
   'Nossa', 'Senhora', 'Virgem', 'Igreja', 'Escritura', 'Escrituras', 'Sagrada', 'Bíblia', 'Evangelho',
   'Tradição', 'Magistério', 'Catecismo', 'Batismo', 'Confirmação', 'Crisma', 'Eucaristia', 'Penitência',
-  'Confissão', 'Unção', 'Enfermos', 'Ordem', 'Matrimônio', 'Missa', 'Papa', 'Concílio', 'Apóstolos',
+  'Confissão', 'Unção', 'Enfermos', 'Ordem', 'Matrimônio', 'Missa', 'Papa', 'Concílio', 'Apóstolos', 'Antigo', 'Novo', 'Testamento',
 ])
 
 function pareceTitleCase(titulo: string): boolean {

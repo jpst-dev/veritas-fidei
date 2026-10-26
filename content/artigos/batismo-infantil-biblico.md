@@ -3,7 +3,8 @@ title: O batismo de crianças é bíblico?
 description: Se o Batismo pede fé, por que batizar quem ainda não pode crer? O que a Escritura, os primeiros cristãos e a Igreja respondem.
 tema: sacramentos
 secao: defesa-da-fe
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-26
 nivel: intermediario
 tags: [batismo, sacramentos, criancas]
 quaestio:
@@ -36,13 +37,9 @@ referencias:
     url: https://www.newadvent.org/fathers/0321.htm
   - titulo: Concílio de Trento, sessão VII, cânones sobre o Batismo, cân. 13 (DH 1626)
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
-  notas: >-
-    Reescrito no padrão editorial (out/2026). Catecismo conferido pelo npm run
-    verificar; Justino, Irineu, Cipriano e Tertuliano conferidos no New Advent.
-    Falta conferir: Orígenes (Comentário à Carta aos Romanos, V,9), Tradição
-    Apostólica 21, Cartago 418 (DH 223) e Trento cân. 13 (DH 1626).
+  citacoesConferidas: true
+  referenciasConferidas: true
+  notas: Conferido pelo autor em 26/10/2026.
 ---
 
 Na fila do batismo de uma paróquia, quase todos estão no colo dos pais. Para muitos cristãos evangélicos, essa cena é um erro: o Batismo seria o testemunho público de quem já decidiu seguir a Cristo, e um bebê não decide nada. Por isso, nessas comunidades, quem foi batizado criança costuma ser batizado de novo depois de adulto.

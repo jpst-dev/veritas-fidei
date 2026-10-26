@@ -3,7 +3,8 @@ title: A presença real de Cristo na Eucaristia
 description: O que a Igreja quer dizer quando afirma que Jesus está verdadeiramente presente na Eucaristia, e por que crê nisso desde o início.
 tema: sacramentos
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-26
 nivel: intermediario
 tags: [eucaristia, presenca-real, transubstanciacao, sacramentos]
 referencias:
@@ -26,14 +27,9 @@ referencias:
     url: https://www.newadvent.org/fathers/310122.htm
   - titulo: Concílio de Trento, sessão XIII, Decreto sobre a Eucaristia (DH 1635-1661)
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
-  notas: >-
-    Reescrito no padrão editorial (out/2026). Corrigida a citação do CIC 1374
-    (o rascunho trazia "juntamente… o Cristo todo"; o texto oficial é
-    "conjuntamente… Cristo completo"). Catecismo conferido pelo npm run
-    verificar; Inácio, Justino e Cirilo conferidos no New Advent. Falta
-    conferir: a numeração DH do Decreto de Trento.
+  citacoesConferidas: true
+  referenciasConferidas: true
+  notas: Conferido pelo autor em 26/10/2026.
 ---
 
 Na Missa, depois das palavras da consagração, o padre eleva a hóstia e o povo se ajoelha. Para quem vê de fora, é um gesto estranho diante de um pedaço de pão. Para o católico, é o gesto mais natural do mundo: ali não há mais pão, mas o próprio Cristo.

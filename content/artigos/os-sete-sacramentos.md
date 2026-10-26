@@ -3,7 +3,8 @@ title: Os sete sacramentos
 description: O que são os sacramentos, por que são sete e como Cristo age por meio deles em cada etapa da vida cristã.
 tema: sacramentos
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-26
 nivel: iniciante
 tags: [sacramentos, graca]
 referencias:
@@ -18,12 +19,9 @@ referencias:
     autor: Santo Agostinho
     url: https://www.newadvent.org/fathers/1701080.htm
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
-  notas: >-
-    Reescrito no padrão editorial (out/2026). Citações do Catecismo conferidas
-    pelo npm run verificar. Falta conferir as referências bíblicas na Bíblia
-    da CNBB e as menções a Florença, Trento e Lyon no Denzinger.
+  citacoesConferidas: true
+  referenciasConferidas: true
+  notas: Conferido pelo autor em 26/10/2026.
 ---
 
 Um copo de água, um pouco de óleo, pão e vinho, as mãos de um bispo, o “sim” de dois noivos. Coisas simples, quase banais. E, no entanto, a Igreja ensina que, por meio delas, Deus age de verdade: perdoa, cura, alimenta e consagra. São os **sacramentos**, e é por eles que a vida de Cristo chega até nós, hoje.
