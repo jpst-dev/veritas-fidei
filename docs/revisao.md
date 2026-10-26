@@ -16,6 +16,12 @@ indica possíveis duplicatas.
 
 ## Checklist antes de mudar para `publicado`
 
+0. **Verificador**: `npm run verificar -- --links --ortografia content/artigos/<slug>.md`.
+   Ele confere estrutura, formato das citações, referências bíblicas, citações
+   literais do Catecismo contra o vatican.va, links e ortografia (LanguageTool).
+   Erros bloqueiam; avisos pedem um olhar. O que ele não confere (texto dos
+   versículos, Padres, documentos) segue nos itens abaixo.
+
 1. **Texto**: reler inteiro; reescrever o que for vago, genérico ou repetitivo.
    Na dúvida, menos é mais.
 2. **Escritura**: conferir cada citação bíblica (livro, capítulo, versículo e

@@ -20,6 +20,7 @@ npm run dev        # rascunhos aparecem, com selo de status
 npm run generate   # build estático de produção (só artigos publicados)
 npm test
 npm run typecheck
+npm run verificar  # confere artigos contra o padrão editorial (docs/padrao-editorial.md)
 ```
 
 ## Conteúdo

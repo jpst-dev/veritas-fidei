@@ -80,6 +80,8 @@ function textoParaRevisao(artigo: Artigo): string[] {
     .replace(/^#{1,6}\s+/gm, '')
     .replace(/^>\s?/gm, '')
     .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
+    // Itálico é latim ou título de obra: o corretor de português não deve opinar
+    .replace(/(?<![*\w])[*_]([^*_\n]+)[*_](?![*\w])/g, 'Obra')
     .replace(/[*_`]/g, '')
   const blocos: string[] = []
   let atual = ''
