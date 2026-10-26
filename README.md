@@ -12,7 +12,7 @@ conhecer, amar e saber dar razão da fé.
 
 ## Desenvolvimento
 
-Requer Node 22.5+ (o Nuxt Content usa o `node:sqlite` nativo).
+Requer Node 24 (o Nuxt Content usa o `node:sqlite` nativo; é a versão usada na Vercel).
 
 ```bash
 npm install
