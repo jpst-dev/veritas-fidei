@@ -7,6 +7,8 @@ const { data: trilhas } = await useAsyncData('trilhas', async () => {
 useSeoMeta({
   title: 'Trilhas de estudo',
   description: 'Sequências de artigos para ler em ordem, do fundamento ao aprofundamento.',
+  ogTitle: 'Trilhas de estudo · Veritas Fidei',
+  ogDescription: 'Sequências de artigos para ler em ordem, do fundamento ao aprofundamento.',
 })
 </script>
 

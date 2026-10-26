@@ -13,6 +13,8 @@ const { data: artigos } = await useAsyncData('defesa-da-fe', () =>
 useSeoMeta({
   title: 'Defesa da fé',
   description: 'As objeções mais comuns à fé católica, respondidas com a Escritura, os Padres da Igreja e o Catecismo.',
+  ogTitle: 'Defesa da fé · Veritas Fidei',
+  ogDescription: 'As objeções mais comuns à fé católica, respondidas com a Escritura, os Padres da Igreja e o Catecismo.',
 })
 </script>
 

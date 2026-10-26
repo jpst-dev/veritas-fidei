@@ -20,7 +20,12 @@ const { data: artigos } = await useAsyncData(`tema-${slug}`, () =>
 const aprender = computed(() => artigos.value?.filter((a) => a.secao === 'aprender') ?? [])
 const defesa = computed(() => artigos.value?.filter((a) => a.secao === 'defesa-da-fe') ?? [])
 
-useSeoMeta({ title: tema.value.nome, description: tema.value.descricao })
+useSeoMeta({
+  title: tema.value.nome,
+  description: tema.value.descricao,
+  ogTitle: `${tema.value.nome} · Veritas Fidei`,
+  ogDescription: tema.value.descricao,
+})
 </script>
 
 <template>

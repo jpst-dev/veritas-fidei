@@ -2,6 +2,8 @@
 useSeoMeta({
   title: 'Sobre',
   description: 'O que é o Veritas Fidei e como os artigos são escritos e revisados.',
+  ogTitle: 'Sobre · Veritas Fidei',
+  ogDescription: 'O que é o Veritas Fidei e como os artigos são escritos e revisados.',
 })
 </script>
 

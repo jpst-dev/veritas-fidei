@@ -70,6 +70,11 @@ useSeoMeta({
   ogTitle: artigo.value.title,
   ogDescription: artigo.value.description,
   ogType: 'article',
+  // Imagem com o título, gerada por scripts/og.ts para quem não é rascunho
+  ...(artigo.value.status !== 'rascunho' && {
+    ogImage: `${useRuntimeConfig().public.siteUrl}/og/artigos/${slug}.png`,
+    ogImageAlt: artigo.value.title,
+  }),
 })
 </script>
 

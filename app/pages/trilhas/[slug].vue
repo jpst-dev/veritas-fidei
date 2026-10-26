@@ -25,7 +25,12 @@ if (!trilha.value) {
 
 const minutos = computed(() => trilha.value?.passos.reduce((soma, p) => soma + (p.minutos ?? 0), 0) ?? 0)
 
-useSeoMeta({ title: trilha.value.title, description: trilha.value.description })
+useSeoMeta({
+  title: trilha.value.title,
+  description: trilha.value.description,
+  ogTitle: `${trilha.value.title} · Veritas Fidei`,
+  ogDescription: trilha.value.description,
+})
 </script>
 
 <template>

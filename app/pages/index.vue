@@ -49,6 +49,7 @@ useSeoMeta({
   title: null,
   ogTitle: 'Veritas Fidei — Formação católica',
   description: 'Artigos revisados e trilhas de estudo para conhecer, amar e saber dar razão da fé católica.',
+  ogDescription: 'Artigos revisados e trilhas de estudo para conhecer, amar e saber dar razão da fé católica.',
 })
 </script>
 

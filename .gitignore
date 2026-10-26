@@ -26,3 +26,6 @@ logs
 !.vscode/extensions.json
 .idea
 .DS_Store
+
+# Imagens de compartilhamento, geradas por scripts/og.ts
+public/og

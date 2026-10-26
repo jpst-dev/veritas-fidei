@@ -4,6 +4,8 @@ const { data: temas } = await useTemas()
 useSeoMeta({
   title: 'Aprender',
   description: 'Os temas da fé católica, organizados como os capítulos de um livro.',
+  ogTitle: 'Aprender · Veritas Fidei',
+  ogDescription: 'Os temas da fé católica, organizados como os capítulos de um livro.',
 })
 </script>
 
