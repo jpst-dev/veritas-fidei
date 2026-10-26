@@ -13,7 +13,7 @@ const { data: artigos } = await useAsyncData(`tema-${slug}`, () =>
     .where('tema', '=', slug)
     .where('status', 'IN', statusVisiveis())
     .order('title', 'ASC')
-    .select('path', 'title', 'description', 'tema', 'status', 'secao')
+    .select('path', 'title', 'description', 'tema', 'status', 'secao', 'minutos', 'nivel')
     .all(),
 )
 

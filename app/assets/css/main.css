@@ -52,7 +52,7 @@
   --color-on-accent: var(--vf-on-accent);
 
   --font-display: 'Cinzel', 'Times New Roman', serif;
-  --font-serif: 'EB Garamond', Georgia, serif;
+  --font-serif: 'Literata', Georgia, serif;
 }
 
 @layer base {
@@ -60,8 +60,8 @@
     background: var(--color-bg);
     color: var(--color-text);
     font-family: var(--font-serif);
-    font-size: 19px;
-    line-height: 1.6;
+    font-size: 17px;
+    line-height: 1.65;
     -webkit-font-smoothing: antialiased;
   }
 
@@ -112,9 +112,30 @@
   .btn-secundario {
     border: 1px solid var(--color-line);
   }
+
+  /* Card "Capítulos": fundo levemente destacado e barra na cor litúrgica */
+  .card-capitulo {
+    background: var(--color-surface);
+    text-decoration: none !important;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+  }
+
+  .card-capitulo:hover {
+    transform: translateY(-3px);
+    background: color-mix(in oklab, var(--color-surface), var(--color-accent) 6%);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .card-capitulo {
+      transition: none;
+    }
+    .card-capitulo:hover {
+      transform: none;
+    }
+  }
 }
 
-/* Tipografia dos artigos */
+/* Tipografia dos artigos: o centro do site, pensada para leitura longa */
 .prose-vf {
   --tw-prose-body: var(--vf-text);
   --tw-prose-headings: var(--vf-text);
@@ -129,12 +150,38 @@
   --tw-prose-captions: var(--vf-muted);
   --tw-prose-th-borders: var(--vf-line);
   --tw-prose-td-borders: var(--vf-line);
-  font-size: 1.05rem;
+  /* ~66 caracteres por linha */
+  max-width: 39rem;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  counter-reset: secao;
+}
+
+.prose-vf :where(p) {
+  margin-block: 0 1.15em;
 }
 
 .prose-vf :where(h2, h3) {
   font-weight: 500;
+  line-height: 1.25;
   scroll-margin-top: 2rem;
+  text-wrap: balance;
+}
+
+/* Seções numeradas em algarismos romanos, como no índice */
+.prose-vf :where(h2) {
+  counter-increment: secao;
+  font-size: 1.6em;
+  margin-top: 2.2em;
+}
+
+.prose-vf :where(h2)::before {
+  content: counter(secao, upper-roman);
+  margin-right: 0.6em;
+  font-family: var(--font-display);
+  font-size: 0.6em;
+  color: var(--color-accent);
+  vertical-align: 0.12em;
 }
 
 /* O Nuxt Content transforma os títulos em âncoras; eles não devem parecer links */
@@ -144,7 +191,41 @@
   font-weight: inherit;
 }
 
+/* Capitular no primeiro parágrafo */
+.prose-vf > p:first-of-type::first-letter {
+  float: left;
+  margin: 0.08em 0.12em 0 0;
+  font-family: var(--font-display);
+  font-size: 3.6em;
+  line-height: 0.82;
+  color: var(--color-accent);
+}
+
+/* Citações (Escritura, Catecismo, Padres) em bloco destacado */
 .prose-vf :where(blockquote) {
-  font-style: italic;
+  margin: 1.8em 0;
+  padding: 1.3em 1.5em;
+  border-left: 3px solid var(--color-accent);
+  background: var(--color-surface);
+  font-style: normal;
   font-weight: 400;
+  font-size: 0.97em;
+}
+
+.prose-vf :where(blockquote p) {
+  margin: 0;
+}
+
+/* Os textos já trazem as aspas; o plugin de tipografia não deve repeti-las */
+.prose-vf :where(blockquote p:first-of-type)::before,
+.prose-vf :where(blockquote p:last-of-type)::after {
+  content: none;
+}
+
+.prose-vf :where(strong) {
+  font-weight: 600;
+}
+
+.prose-vf > :first-child {
+  margin-top: 0;
 }

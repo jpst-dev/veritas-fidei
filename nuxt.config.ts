@@ -43,8 +43,19 @@ export default defineNuxtConfig({
   fonts: {
     families: [
       { name: 'Cinzel', provider: 'google', weights: [500, 600] },
-      { name: 'EB Garamond', provider: 'google', weights: [400, 500, 600], styles: ['normal', 'italic'] },
+      // Literata foi desenhada para leitura longa em tela
+      { name: 'Literata', provider: 'google', weights: [400, 500, 600], styles: ['normal', 'italic'] },
     ],
+  },
+
+  hooks: {
+    // Tempo de leitura calculado no build (≈200 palavras por minuto, sem o front matter)
+    'content:file:afterParse'({ file, content, collection }) {
+      if (collection.name !== 'artigos' || typeof file.body !== 'string') return
+      const texto = file.body.replace(/^---[\s\S]*?\n---/, '')
+      const palavras = texto.split(/\s+/).filter(Boolean).length
+      content.minutos = Math.max(1, Math.round(palavras / 200))
+    },
   },
 
   // Site 100% estático: tudo é pré-renderizado no build

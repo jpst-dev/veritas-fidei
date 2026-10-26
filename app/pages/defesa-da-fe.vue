@@ -6,7 +6,7 @@ const { data: artigos } = await useAsyncData('defesa-da-fe', () =>
     .where('secao', '=', 'defesa-da-fe')
     .where('status', 'IN', statusVisiveis())
     .order('title', 'ASC')
-    .select('path', 'title', 'description', 'tema', 'status')
+    .select('path', 'title', 'description', 'tema', 'status', 'minutos', 'nivel')
     .all(),
 )
 

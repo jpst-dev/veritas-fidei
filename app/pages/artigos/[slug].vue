@@ -1,6 +1,7 @@
 <script setup lang="ts">
 const route = useRoute()
 const { data: temas } = await useTemas()
+const { lidos, marcarLido } = useLidos()
 
 const { data: artigo } = await useAsyncData(`artigo-${route.path}`, () =>
   queryCollection('artigos').path(route.path).where('status', 'IN', statusVisiveis()).first(),
@@ -13,21 +14,55 @@ if (!artigo.value) {
 const slug = slugDe(route.path)
 const { data: trilhas } = await useAsyncData(`trilhas-de-${slug}`, async () => {
   const todas = await queryCollection('trilhas').where('status', 'IN', statusVisiveis()).all()
-  return todas.filter((t) => t.artigos.includes(slug)).map((t) => {
+  const minhas = todas.filter((t) => t.artigos.includes(slug))
+  const vizinhos = minhas.flatMap((t) => {
+    const i = t.artigos.indexOf(slug)
+    return [t.artigos[i - 1], t.artigos[i + 1]].filter((s) => s !== undefined)
+  })
+  const titulos = vizinhos.length
+    ? await queryCollection('artigos')
+        .where('path', 'IN', vizinhos.map((s) => `/artigos/${s}`))
+        .where('status', 'IN', statusVisiveis())
+        .select('path', 'title')
+        .all()
+    : []
+  const passo = (s?: string) => {
+    const a = s ? titulos.find((t) => t.path === `/artigos/${s}`) : undefined
+    return a ? { path: a.path, title: a.title } : null
+  }
+  return minhas.map((t) => {
     const i = t.artigos.indexOf(slug)
     return {
       slug: slugDe(t.stem),
       title: t.title,
+      artigos: t.artigos,
       posicao: i + 1,
       total: t.artigos.length,
-      anterior: t.artigos[i - 1],
-      proximo: t.artigos[i + 1],
+      anterior: passo(t.artigos[i - 1]),
+      proximo: passo(t.artigos[i + 1]),
     }
   })
 })
 
+const trilha = computed(() => trilhas.value?.[0])
 const nomeDoTema = computed(() => temas.value?.nomes[artigo.value!.tema] ?? artigo.value!.tema)
 const indice = computed(() => artigo.value?.body?.toc?.links ?? [])
+
+// O artigo conta como lido quando o leitor chega ao fim do texto
+const texto = ref<HTMLElement | null>(null)
+const fim = ref<HTMLElement | null>(null)
+let observador: IntersectionObserver | undefined
+onMounted(() => {
+  if (!fim.value) return
+  observador = new IntersectionObserver(([entrada]) => {
+    if (entrada?.isIntersecting) {
+      marcarLido(slug)
+      observador?.disconnect()
+    }
+  })
+  observador.observe(fim.value)
+})
+onBeforeUnmount(() => observador?.disconnect())
 
 useSeoMeta({
   title: artigo.value.title,
@@ -39,15 +74,23 @@ useSeoMeta({
 </script>
 
 <template>
-  <article v-if="artigo" class="mx-auto max-w-6xl px-6 pt-16">
-    <header class="mx-auto flex max-w-3xl flex-col gap-5 text-center">
-      <p class="flex flex-wrap items-center justify-center gap-3">
+  <article v-if="artigo" class="mx-auto max-w-6xl px-6 pt-14 sm:pt-20">
+    <BarraLeitura :alvo="texto" />
+
+    <header class="mx-auto flex max-w-3xl flex-col items-center gap-5 text-center">
+      <p class="flex flex-wrap items-center justify-center gap-x-3 gap-y-2">
         <NuxtLink :to="`/temas/${artigo.tema}`" class="rubrica">{{ nomeDoTema }}</NuxtLink>
         <span v-if="artigo.secao === 'defesa-da-fe'" class="rubrica">· Defesa da fé</span>
+        <span v-if="trilha" class="rubrica">· Trilha {{ romano(trilha.posicao) }} de {{ romano(trilha.total) }}</span>
         <StatusSelo :status="artigo.status" />
       </p>
-      <h1 class="text-[clamp(2.2rem,5vw,3.6rem)] leading-[1.06] font-medium text-balance">{{ artigo.title }}</h1>
-      <p class="text-[1.15rem] text-muted">{{ artigo.description }}</p>
+      <h1 class="text-[clamp(2.1rem,5.5vw,3.5rem)] leading-[1.1] font-medium text-balance">{{ artigo.title }}</h1>
+      <p class="max-w-2xl text-[1.2rem] leading-relaxed text-muted italic">{{ artigo.description }}</p>
+      <p class="mt-1 flex flex-wrap justify-center gap-x-5 gap-y-2 font-display text-[0.68rem] tracking-[0.14em] text-muted uppercase">
+        <span v-if="artigo.minutos">{{ artigo.minutos }} min de leitura</span>
+        <span v-if="artigo.nivel">Nível {{ NIVEIS[artigo.nivel] }}</span>
+        <span v-if="artigo.revisao.citacoesConferidas" class="text-accent">✓ Citações conferidas</span>
+      </p>
     </header>
 
     <section v-if="artigo.quaestio" class="filete-duplo mx-auto mt-14 max-w-5xl border-y-[3px] py-10" aria-label="Resumo da questão">
@@ -55,13 +98,50 @@ useSeoMeta({
     </section>
 
     <!-- No celular a trilha e o índice vêm antes do texto; no desktop, numa coluna lateral -->
-    <div class="mt-14 flex flex-col gap-10 lg:grid lg:grid-cols-[minmax(0,1fr)_15rem] lg:gap-16">
-      <div class="min-w-0">
-        <ContentRenderer :value="artigo" class="prose prose-vf max-w-none" />
+    <div class="mt-12 flex flex-col gap-8 sm:mt-16 lg:grid lg:grid-cols-[14rem_minmax(0,39rem)] lg:justify-center lg:gap-16">
+      <aside class="flex flex-col gap-8 text-[0.95rem] lg:sticky lg:top-10 lg:gap-10 lg:self-start">
+        <nav v-if="trilha" aria-label="Trilha de estudo" class="max-lg:border-l-[3px] max-lg:border-accent max-lg:bg-surface max-lg:p-5 lg:order-last lg:border-t lg:border-line lg:pt-8">
+          <p class="rubrica mb-2">Trilha</p>
+          <NuxtLink :to="`/trilhas/${trilha.slug}`" class="text-lg leading-snug">{{ trilha.title }}</NuxtLink>
+          <ol class="mt-3 flex gap-1.5" :aria-label="`Artigo ${trilha.posicao} de ${trilha.total}`">
+            <li
+              v-for="(s, i) in trilha.artigos"
+              :key="s"
+              class="h-[3px] flex-1"
+              :class="i < trilha.posicao || lidos.includes(s) ? 'bg-accent' : 'bg-line'"
+            />
+          </ol>
+        </nav>
+
+        <template v-if="indice.length">
+          <!-- Celular: recolhido, para não empurrar o texto para baixo -->
+          <details class="border-y border-line py-3 lg:hidden">
+            <summary class="rubrica cursor-pointer py-1">Neste artigo</summary>
+            <ol class="mt-3 flex flex-col gap-2.5 text-muted">
+              <li v-for="(item, i) in indice" :key="item.id" class="flex gap-3">
+                <span class="w-7 shrink-0 font-display text-xs leading-7 text-accent">{{ romano(i + 1) }}</span>
+                <a :href="`#${item.id}`">{{ item.text }}</a>
+              </li>
+            </ol>
+          </details>
+          <nav class="hidden lg:block" aria-labelledby="titulo-indice">
+            <p id="titulo-indice" class="rubrica mb-4">Neste artigo</p>
+            <ol class="flex flex-col gap-3 leading-snug text-muted">
+              <li v-for="(item, i) in indice" :key="item.id" class="flex gap-3">
+                <span class="w-7 shrink-0 font-display text-xs leading-6 text-accent">{{ romano(i + 1) }}</span>
+                <a :href="`#${item.id}`" class="hover:text-text">{{ item.text }}</a>
+              </li>
+            </ol>
+          </nav>
+        </template>
+      </aside>
+
+      <div ref="texto" class="min-w-0">
+        <ContentRenderer :value="artigo" class="prose prose-vf" />
 
         <section v-if="artigo.referencias.length" class="mt-16 border-t border-line pt-8" aria-labelledby="titulo-referencias">
           <h2 id="titulo-referencias" class="rubrica mb-5">Referências</h2>
-          <ol class="flex flex-col gap-3">
+          <ol class="flex list-decimal flex-col gap-3 pl-5 marker:font-display marker:text-sm marker:text-accent">
             <li v-for="ref in artigo.referencias" :key="ref.titulo">
               <a v-if="ref.url" :href="ref.url" rel="noopener" target="_blank">{{ ref.titulo }}</a>
               <span v-else>{{ ref.titulo }}</span>
@@ -69,39 +149,31 @@ useSeoMeta({
             </li>
           </ol>
         </section>
-      </div>
 
-      <aside class="order-first flex flex-col gap-10 text-base lg:self-start lg:sticky lg:top-8 lg:order-none">
-        <nav v-for="trilha in trilhas" :key="trilha.slug" aria-label="Trilha de estudo" class="border border-line p-5">
-          <p class="rubrica mb-1">Trilha · {{ trilha.posicao }} de {{ trilha.total }}</p>
-          <NuxtLink :to="`/trilhas/${trilha.slug}`" class="text-xl">{{ trilha.title }}</NuxtLink>
-          <p class="mt-3 flex justify-between gap-4 text-muted">
-            <NuxtLink v-if="trilha.anterior" :to="`/artigos/${trilha.anterior}`">← Anterior</NuxtLink>
-            <span v-else />
-            <NuxtLink v-if="trilha.proximo" :to="`/artigos/${trilha.proximo}`">Próximo →</NuxtLink>
-          </p>
+        <div ref="fim" aria-hidden="true" />
+
+        <!-- Fim do artigo: seguir na trilha -->
+        <nav v-if="trilha" aria-label="Continuar a trilha" class="mt-14 grid gap-4 sm:grid-cols-2">
+          <NuxtLink
+            v-if="trilha.anterior"
+            :to="trilha.anterior.path"
+            class="flex flex-col gap-1.5 border border-line p-5 hover:border-accent hover:no-underline"
+          >
+            <span class="font-display text-[0.68rem] tracking-[0.14em] text-muted uppercase">← Anterior · {{ romano(trilha.posicao - 1) }}</span>
+            <span class="text-lg leading-snug">{{ trilha.anterior.title }}</span>
+          </NuxtLink>
+          <span v-else class="max-sm:hidden" />
+          <NuxtLink
+            :to="trilha.proximo ? trilha.proximo.path : '/trilhas'"
+            class="flex flex-col gap-1.5 bg-accent p-5 text-on-accent hover:no-underline"
+          >
+            <span class="font-display text-[0.68rem] tracking-[0.14em] uppercase">
+              {{ trilha.proximo ? `Próximo · ${romano(trilha.posicao + 1)} →` : 'Trilha concluída ✓' }}
+            </span>
+            <span class="text-lg leading-snug">{{ trilha.proximo ? trilha.proximo.title : 'Ver outras trilhas →' }}</span>
+          </NuxtLink>
         </nav>
-
-        <template v-if="indice.length">
-          <!-- Celular: recolhido, para não empurrar o texto para baixo -->
-          <details class="border-y border-line py-3 lg:hidden">
-            <summary class="rubrica cursor-pointer py-1">Neste artigo</summary>
-            <ol class="mt-3 flex flex-col gap-2 text-muted">
-              <li v-for="item in indice" :key="item.id">
-                <a :href="`#${item.id}`">{{ item.text }}</a>
-              </li>
-            </ol>
-          </details>
-          <nav class="hidden lg:block" aria-labelledby="titulo-indice">
-            <p id="titulo-indice" class="rubrica mb-3">Neste artigo</p>
-            <ol class="flex flex-col gap-2 text-muted">
-              <li v-for="item in indice" :key="item.id">
-                <a :href="`#${item.id}`">{{ item.text }}</a>
-              </li>
-            </ol>
-          </nav>
-        </template>
-      </aside>
+      </div>
     </div>
   </article>
 </template>

@@ -41,6 +41,8 @@ export default defineContentConfig({
         secao: z.enum(SECOES).default('aprender'),
         status: z.enum(STATUS).default('rascunho'),
         nivel: z.enum(['iniciante', 'intermediario', 'avancado']).optional(),
+        /** Preenchido no build (hook em nuxt.config.ts). */
+        minutos: z.number().optional(),
         tags: z.array(z.string()).default([]),
         publicadoEm: z.iso.date().optional(),
         atualizadoEm: z.iso.date().optional(),

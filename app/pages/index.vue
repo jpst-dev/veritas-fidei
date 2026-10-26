@@ -20,7 +20,7 @@ const { data: home } = await useAsyncData('home', async () => {
     queryCollection('artigos')
       .where('status', 'IN', status)
       .order('publicadoEm', 'DESC')
-      .select('path', 'title', 'description', 'tema', 'status')
+      .select('path', 'title', 'description', 'tema', 'status', 'minutos', 'nivel')
       .limit(3)
       .all(),
   ])
@@ -28,7 +28,7 @@ const { data: home } = await useAsyncData('home', async () => {
   const passos = trilha
     ? await queryCollection('artigos')
         .where('path', 'IN', trilha.artigos.map((slug) => `/artigos/${slug}`))
-        .select('path', 'title')
+        .select('path', 'title', 'minutos')
         .all()
     : []
   const passosEmOrdem = trilha
@@ -123,12 +123,7 @@ useSeoMeta({
         </h2>
         <p class="text-muted">{{ home.trilha.description }}</p>
       </div>
-      <ol class="grid flex-[3_1_32rem] gap-5 sm:grid-cols-2">
-        <li v-for="(passo, i) in home.trilha.passos" :key="passo.path" class="flex flex-col gap-2 border border-line p-5">
-          <span class="font-display text-xl text-accent" aria-hidden="true">{{ romano(i + 1) }}</span>
-          <NuxtLink :to="passo.path" class="text-[1.15rem] leading-snug">{{ passo.title }}</NuxtLink>
-        </li>
-      </ol>
+      <TrilhaPassos :passos="home.trilha.passos" compacto class="flex-[3_1_32rem]" />
     </section>
 
     <!-- Recentes -->

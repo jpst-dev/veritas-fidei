@@ -27,3 +27,9 @@ export function romano(n: number): string {
   }
   return saida
 }
+
+export const NIVEIS: Record<string, string> = {
+  iniciante: 'Iniciante',
+  intermediario: 'Intermediário',
+  avancado: 'Avançado',
+}
