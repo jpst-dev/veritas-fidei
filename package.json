@@ -12,6 +12,9 @@
     "typecheck": "nuxt typecheck",
     "test": "vitest run"
   },
+  "engines": {
+    "node": ">=22.13"
+  },
   "dependencies": {
     "@nuxt/content": "^3.16.2",
     "@nuxt/fonts": "^1.2.0",
