@@ -138,16 +138,17 @@ Se passar de 2 linhas, use citação em bloco (`>`). A referência vai na últim
 linha, depois de um travessão:
 
 ```md
-> No santíssimo sacramento da Eucaristia estão contidos verdadeira, real e
-> substancialmente o Corpo e o Sangue juntamente com a alma e a divindade de
-> Nosso Senhor Jesus Cristo e, por conseguinte, o Cristo todo.
+> No santíssimo sacramento da Eucaristia estão “contidos, verdadeira, real e
+> substancialmente, o corpo e o sangue, conjuntamente com a alma e a divindade
+> de nosso Senhor Jesus Cristo e, por conseguinte, Cristo completo”.
 >
 > — CIC 1374
 ```
 
 No bloco, a citação vai sem aspas, porque o próprio bloco já indica que é
 citação. Use aspas curvas (“ ”) no texto corrido e aspas simples curvas
-(‘ ’) para uma citação dentro de outra.
+(‘ ’) para uma citação dentro de outra. Dentro do bloco, mantenha as aspas que
+o próprio texto citado traz (no exemplo, o Catecismo cita o Concílio de Trento).
 
 ## 5. Frontmatter obrigatório para publicar
 
