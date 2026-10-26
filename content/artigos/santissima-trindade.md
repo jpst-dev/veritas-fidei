@@ -3,7 +3,8 @@ title: A Santíssima Trindade
 description: Um só Deus em três Pessoas. O que a Igreja quer dizer com isso, onde a Bíblia revela a Trindade e como evitar os erros mais comuns.
 tema: deus-e-trindade
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-26
 nivel: intermediario
 tags: [trindade, deus, dogma]
 referencias:
@@ -21,11 +22,9 @@ referencias:
   - titulo: Suma Teológica, I, q. 27-43
     autor: São Tomás de Aquino
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
-  notas: >-
-    Reescrito no padrão editorial (out/2026). Catecismo conferido pelo npm run
-    verificar; Didaqué, Teófilo e Tertuliano conferidos no New Advent.
+  citacoesConferidas: true
+  referenciasConferidas: true
+  notas: Conferido pelo autor em 26/10/2026.
 ---
 
 Todo cristão começa e termina a oração do mesmo jeito: “Em nome do Pai, e do Filho, e do Espírito Santo”. Fazemos o sinal da cruz tantas vezes que quase não pensamos no que ele diz. Mas ele resume o mistério mais profundo da fé: Deus é um só, e é Pai, Filho e Espírito Santo.

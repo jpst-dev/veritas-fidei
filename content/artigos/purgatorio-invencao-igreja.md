@@ -3,7 +3,8 @@ title: O purgatório é uma invenção da Igreja?
 description: Se Cristo pagou tudo na cruz, por que falar de purificação depois da morte? O que a Igreja ensina, de onde isso vem e o que não é verdade.
 tema: novissimos
 secao: defesa-da-fe
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-26
 nivel: intermediario
 tags: [purgatorio, novissimos, oracao-pelos-mortos]
 quaestio:
@@ -36,11 +37,9 @@ referencias:
     url: https://www.newadvent.org/fathers/110109.htm
   - titulo: Concílio de Trento, sessão XXV, Decreto sobre o purgatório (DH 1820)
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
-  notas: >-
-    Reescrito no padrão editorial (out/2026). Catecismo conferido pelo npm run
-    verificar; Tertuliano, Cirilo e Agostinho conferidos no New Advent.
+  citacoesConferidas: true
+  referenciasConferidas: true
+  notas: Conferido pelo autor em 26/10/2026.
 ---
 
 Para muitos cristãos evangélicos, o purgatório é o exemplo perfeito de algo que a Igreja Católica acrescentou à Bíblia: uma doutrina medieval, que teria servido para vender indulgências e que, no fundo, duvida de que a cruz de Cristo basta. Até muitos católicos não sabem bem o que responder, e alguns imaginam o purgatório como um “inferno temporário”.
