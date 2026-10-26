@@ -48,8 +48,19 @@ const OBRIGATORIAS = {
 const LIMITES = { aprender: [1200, 2500], 'defesa-da-fe': [900, 1800] } as const
 
 /** Título em "Title Case": a maioria das palavras longas começa com maiúscula. */
+/** Nomes que levam maiúscula em qualquer posição (nomes divinos, a Igreja, livros, sacramentos). */
+const SEMPRE_MAIUSCULA = new Set([
+  'Deus', 'Cristo', 'Jesus', 'Senhor', 'Espírito', 'Santo', 'Santa', 'Trindade', 'Pai', 'Filho', 'Maria',
+  'Nossa', 'Senhora', 'Virgem', 'Igreja', 'Escritura', 'Escrituras', 'Sagrada', 'Bíblia', 'Evangelho',
+  'Tradição', 'Magistério', 'Catecismo', 'Batismo', 'Confirmação', 'Crisma', 'Eucaristia', 'Penitência',
+  'Confissão', 'Unção', 'Enfermos', 'Ordem', 'Matrimônio', 'Missa', 'Papa', 'Concílio', 'Apóstolos',
+])
+
 function pareceTitleCase(titulo: string): boolean {
-  const palavras = titulo.split(/\s+/).slice(1).filter((p) => p.length >= 4)
+  const palavras = titulo
+    .split(/\s+/)
+    .slice(1)
+    .filter((p) => p.length >= 4 && !SEMPRE_MAIUSCULA.has(p.replace(/[^\p{L}]/gu, '')))
   const maiusculas = palavras.filter((p) => /^\p{Lu}/u.test(p))
   return palavras.length >= 3 && maiusculas.length / palavras.length > 0.6
 }

@@ -20,6 +20,8 @@ Respostas curtas, glossário, vídeos e podcast virão depois, com padrão próp
    O primeiro parágrafo recebe a capitular, por isso nunca começa com título.
 2. `## O que a Igreja ensina`: a doutrina dita com precisão, ancorada no
    Catecismo.
+   *(Opcional)* Logo depois pode entrar **uma** seção própria do tema, quando
+   ele pede (ex.: "Os sete sacramentos e a vida cristã").
 3. `## Na Sagrada Escritura`: as passagens principais, lidas no contexto.
 4. `## Na Tradição`: Padres da Igreja, concílios e Doutores.
 5. `## Dúvidas comuns` *(opcional)*: 2 a 4 perguntas curtas, em `###`.
@@ -118,6 +120,11 @@ Respondo), que aparece no topo do artigo e na home.
 | Concílio sem nome curto | concílio, sessão, capítulo | (Concílio de Trento, sessão XIII, cap. 4) |
 | Denzinger | `DH` + número | (DH 1642) |
 | Código de Direito Canônico | `CDC, cân.` + número | (CDC, cân. 916) |
+
+O texto em português do vatican.va segue a ortografia de Portugal ("Baptismo",
+"acção", "Matrimónio"). Cite-o **adaptando só a grafia** ao Brasil ("Batismo",
+"ação", "Matrimônio"), sem trocar nenhuma palavra. O `npm run verificar`
+compara ignorando essas diferenças.
 
 ### 4.3 Padres da Igreja
 

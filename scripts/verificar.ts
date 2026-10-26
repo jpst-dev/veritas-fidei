@@ -79,6 +79,10 @@ function textoParaRevisao(artigo: Artigo): string[] {
     .join('\n')
     .replace(/^#{1,6}\s+/gm, '')
     .replace(/^>\s?/gm, '')
+    .replace(/^\s*(?:[-*+]|\d+\.)\s+/gm, '')
+    // Referências ("(Jo 6,55)", "(CIC 1131)", "— CIC 1131") já passam pelas outras checagens
+    .replace(/\s*\([^()]*\d[^()]*\)/g, '')
+    .replace(/^—.*$/gm, '')
     .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
     // Itálico é latim ou título de obra: o corretor de português não deve opinar
     .replace(/(?<![*\w])[*_]([^*_\n]+)[*_](?![*\w])/g, 'Obra')
@@ -99,7 +103,7 @@ function textoParaRevisao(artigo: Artigo): string[] {
 async function conferirOrtografia(artigo: Artigo): Promise<Achado[]> {
   const achados: Achado[] = []
   for (const bloco of textoParaRevisao(artigo)) {
-    const corpo = new URLSearchParams({ text: bloco, language: 'pt-BR', level: 'picky' })
+    const corpo = new URLSearchParams({ text: bloco, language: 'pt-BR' })
     const r = await fetch('https://api.languagetool.org/v2/check', { method: 'POST', body: corpo })
     if (!r.ok) {
       achados.push({ gravidade: 'aviso', mensagem: `LanguageTool respondeu ${r.status}` })

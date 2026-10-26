@@ -51,29 +51,38 @@ export function decodificarEntidades(html: string): string {
   return html
     .replace(/&([a-zA-Z])(acute|grave|circ|tilde|uml|cedil);/g, (_, letra, acento) => letra + ACENTOS[acento])
     .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
+    .replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)))
     .replace(/&([a-z]+);/g, (todo, nome) => ENTIDADES[nome] ?? todo)
     .normalize('NFC')
 }
 
 /** Texto de um parágrafo do Catecismo a partir do HTML da página oficial. */
 export function extrairParagrafo(html: string, n: number): string | undefined {
-  const inicio = html.search(new RegExp(`<b>\\s*${n}\\.\\s*</b>`))
+  // O número vem como "<b>1374.</b>" ou, em algumas páginas, "<b>1210</b>."
+  const inicio = html.search(new RegExp(`<b>\\s*${n}\\s*\\.?\\s*</b>`))
   if (inicio < 0) return undefined
   const resto = html.slice(inicio)
-  const proximo = resto.slice(1).search(/<b>\s*\d+\.\s*<\/b>/)
+  const proximo = resto.slice(1).search(/<b>\s*\d+\s*\.?\s*<\/b>/)
   const trecho = proximo < 0 ? resto : resto.slice(0, proximo + 1)
   return decodificarEntidades(trecho.replace(/<[^>]+>/g, ' '))
-    .replace(/^\s*\d+\.\s*/, '')
+    .replace(/^\s*\d+\s*\.\s*/, '')
     .replace(/\s+/g, ' ')
     .trim()
 }
 
-/** Normaliza para comparar citações: sem caixa, pontuação, aspas nem notas "(203)". */
+/**
+ * Normaliza para comparar citações: sem caixa, acentos, pontuação, aspas nem
+ * notas "(203)". O texto do vatican.va é de Portugal; as consoantes mudas
+ * (acção, baptismo, objecto) caem para comparar com a grafia brasileira.
+ */
 export function normalizar(texto: string): string {
   return texto
     .normalize('NFC')
     .toLowerCase()
     .replace(/\(\d+\)/g, ' ')
+    .replace(/[cp](?=[çt])/g, '')
+    .normalize('NFD')
+    .replace(/\p{M}/gu, '')
     .replace(/[^\p{L}\p{N}]+/gu, ' ')
     .trim()
 }

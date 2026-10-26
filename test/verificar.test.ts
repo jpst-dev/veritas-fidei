@@ -47,6 +47,17 @@ describe('Catecismo', () => {
     expect(trechosAusentes('O modo da presença é diferente', fonte)).toEqual(['O modo da presença é diferente'])
   })
 
+  it('aceita o número com o ponto fora do negrito', () => {
+    expect(extrairParagrafo('<p><b>1210</b>. Os sacramentos&#x2013;sete.</p><p><b>1211.</b> Outro.</p>', 1210)).toBe(
+      'Os sacramentos–sete.',
+    )
+  })
+
+  it('compara a grafia de Portugal com a do Brasil', () => {
+    const fonte = 'Há na Igreja sete sacramentos: Baptismo, Confirmação e Matrimónio, objecto da acção de Cristo.'
+    expect(trechosAusentes('sete sacramentos: Batismo, Confirmação e Matrimônio, objeto da ação de Cristo', fonte)).toEqual([])
+  })
+
   it('encontra a página oficial do parágrafo', () => {
     expect(urlDoParagrafo(1374)).toMatch(/p2s2cap1_1210-1419_po\.html$/)
     expect(urlDoParagrafo(3000)).toBeUndefined()

@@ -1,110 +1,129 @@
 ---
-title: "Os Sete Sacramentos"
-description: "Introdução geral aos sacramentos como sinais eficazes da graça"
+title: Os sete sacramentos
+description: O que são os sacramentos, por que são sete e como Cristo age por meio deles em cada etapa da vida cristã.
 tema: sacramentos
 secao: aprender
-status: rascunho
+status: em-revisao
 nivel: iniciante
-tags: ["Sacramentos", "Graça", "Igreja", "Doutrina"]
+tags: [sacramentos, graca]
 referencias:
-  - titulo: "Catecismo da Igreja Católica §§ 1113–1134"
-    autor: "Igreja Católica"
-    url: "https://www.vatican.va/archive/catechism_po/index_new/catechism/catechism-pt.html"
-  - titulo: "Sacramentum Caritatis"
-    autor: "Papa Bento XVI"
-    url: "https://www.vatican.va/content/benedict-xvi/pt/apost_exhortations/documents/hf_ben-xvi_exh_20070222_sacramentum-caritatis.html"
-  - titulo: "Manual de Teologia Sacramentária"
-    autor: "Dom Estêvão Bettencourt"
-    url: "https://cleofas.com.br/manual-de-teologia-sacramentaria/"
-  - titulo: "Suma Teológica (Parte III)"
-    autor: "Santo Tomás de Aquino"
-    url: "https://sumateologica.wordpress.com/parte-iii/"
-  - titulo: "Ecclesia de Eucharistia"
-    autor: "Papa João Paulo II"
-    url: "https://www.vatican.va/content/john-paul-ii/pt/apost_exhortations/documents/hf_jp-ii_exh_20030417_ecclesia-de-eucharistia.html"
+  - titulo: Catecismo da Igreja Católica, 1113-1134 (os sacramentos de Cristo e da Igreja)
+    url: https://www.vatican.va/archive/cathechism_po/index_new/p2s1cap1_1076-1134_po.html
+  - titulo: Catecismo da Igreja Católica, 1210-1212 (os sete sacramentos)
+    url: https://www.vatican.va/archive/cathechism_po/index_new/p2s2cap1_1210-1419_po.html
+  - titulo: Compêndio do Catecismo da Igreja Católica, 224-232
+    url: https://www.vatican.va/archive/compendium_ccc/documents/archive_2005_compendium-ccc_po.html
+  - titulo: Concílio de Trento, sessão VII, Decreto sobre os sacramentos (1547), cânones 1-13 (DH 1600-1613)
+  - titulo: Tratados sobre o Evangelho de João, 80,3
+    autor: Santo Agostinho
+    url: https://www.newadvent.org/fathers/1701080.htm
 revisao:
   citacoesConferidas: false
   referenciasConferidas: false
-  notas: "Migrado do site antigo (2025): revisar texto, citações e referências."
+  notas: >-
+    Reescrito no padrão editorial (out/2026). Citações do Catecismo conferidas
+    pelo npm run verificar. Falta conferir as referências bíblicas na Bíblia
+    da CNBB e as menções a Florença, Trento e Lyon no Denzinger.
 ---
 
-## Introdução
+Um copo de água, um pouco de óleo, pão e vinho, as mãos de um bispo, o “sim” de dois noivos. Coisas simples, quase banais. E, no entanto, a Igreja ensina que, por meio delas, Deus age de verdade: perdoa, cura, alimenta e consagra. São os **sacramentos**, e é por eles que a vida de Cristo chega até nós, hoje.
 
-Os **sete sacramentos** são sinais eficazes da graça instituídos por Cristo e confiados à Igreja, através dos quais recebemos a vida divina. Eles acompanham o cristão em todas as etapas da vida espiritual, desde o nascimento para a fé até o fortalecimento final antes da morte.
+Entender o que são os sacramentos não é um detalhe para especialistas. É entender como a fé católica funciona no dia a dia: um Deus que não fica distante, mas que escolheu se fazer próximo por meio de sinais que podemos ver, tocar e receber.
 
-## O que é um Sacramento?
+## O que a Igreja ensina
 
-- Um sacramento é um **sinal visível de uma realidade invisível**.
-- É eficaz porque realiza aquilo que simboliza.
-- Os sacramentos conferem a **graça santificante** quando recebidos com as disposições corretas.
+O Catecismo resume tudo numa frase:
 
-## Os Sete Sacramentos da Igreja
+> Os sacramentos são sinais eficazes da graça, instituídos por Cristo e confiados à Igreja, pelos quais nos é dispensada a vida divina.
+>
+> — CIC 1131
 
-### 1. **Batismo**
+Cada palavra dessa definição importa.
 
-- Porta de entrada da vida cristã
-- Apaga o pecado original, torna-nos filhos de Deus e membros da Igreja
+### Sinais
 
-### 2. **Confirmação (Crisma)**
+Um sacramento é um **sinal**: algo visível que aponta para uma realidade invisível. A água do Batismo lava; o pão alimenta; o óleo fortalece e cura. Deus não escolheu esses elementos por acaso: o sinal ajuda a entender o que acontece por dentro.
 
-- Aperfeiçoa a graça do Batismo
-- Concede o dom do Espírito Santo em plenitude
+### Eficazes
 
-### 3. **Eucaristia**
+Aqui está a grande diferença entre um sacramento e um símbolo comum. Uma bandeira lembra a pátria, mas não muda ninguém. Os sacramentos, ao contrário, **realizam aquilo que significam**: o Batismo não apenas lembra a purificação, ele purifica. Nas palavras do Catecismo, eles “conferem a graça que significam” (CIC 1127).
 
-- Fonte e ápice da vida cristã
-- Presença real de Cristo: Corpo, Sangue, Alma e Divindade
+Isso acontece porque, em cada sacramento, quem age é o próprio Cristo. É ele que batiza, é ele que perdoa, é ele que se dá na Eucaristia (CIC 1127). Por isso a Igreja diz que os sacramentos agem *ex opere operato*, “pelo próprio fato de a ação ser executada”: a graça não depende da santidade do padre que celebra, mas do poder de Deus (CIC 1128).
 
-### 4. **Penitência (Confissão)**
+### Da graça
 
-- Reconciliação com Deus e com a Igreja após o pecado
-- Requer arrependimento, confissão e propósito de emenda
+O que os sacramentos comunicam é a **graça**: a própria vida de Deus em nós. Não é um “prêmio” por bom comportamento, mas um dom que nos une a Cristo e nos transforma por dentro.
 
-### 5. **Unção dos Enfermos**
+### Instituídos por Cristo e confiados à Igreja
 
-- Fortalecimento na doença grave ou velhice
-- Perdoa pecados, dá paz e coragem espiritual
+Os sacramentos não são invenção da Igreja. A Igreja professa que “os sacramentos da nova Lei [...] foram todos instituídos por nosso Senhor Jesus Cristo” (CIC 1114). À Igreja cabe guardá-los, celebrá-los e transmiti-los fielmente.
 
-### 6. **Ordem**
+## Os sete sacramentos e a vida cristã
 
-- Sacramento do ministério apostólico (diácono, padre, bispo)
-- Concede a graça para agir in persona Christi
+A Igreja reconhece sete sacramentos, e o Catecismo mostra como eles acompanham toda a nossa vida:
 
-### 7. **Matrimônio**
+> Os sacramentos da nova Lei foram instituídos por Cristo e são em número de sete, a saber: o Batismo, a Confirmação, a Eucaristia, a Penitência, a Unção dos Enfermos, a Ordem e o Matrimônio. Os sete sacramentos tocam todas as etapas e momentos importantes da vida do cristão.
+>
+> — CIC 1210
 
-- União entre homem e mulher para o bem dos esposos e geração da vida
-- É sinal do amor entre Cristo e a Igreja
+Assim como a vida natural tem nascimento, crescimento, alimento, cura e missão, a vida espiritual também tem. Por isso o Catecismo os organiza em três grupos (CIC 1211).
 
-## Classificação dos Sacramentos
+### Sacramentos da iniciação cristã
 
-- **Iniciação Cristã**: Batismo, Confirmação, Eucaristia
-- **Cura**: Penitência, Unção dos Enfermos
-- **Serviço da Comunhão**: Ordem, Matrimônio
+- **Batismo**: o novo nascimento. Apaga o pecado original e todos os pecados, faz de nós filhos de Deus e membros da Igreja.
+- **Confirmação** (ou Crisma): fortalece o batizado com o dom do Espírito Santo, para viver e testemunhar a fé.
+- **Eucaristia**: o alimento. O próprio Cristo, realmente presente, que se dá a nós. O Catecismo a chama de “sacramento dos sacramentos”, porque todos os outros estão ordenados para ela (CIC 1211).
 
-## Objeções e Respostas
+### Sacramentos de cura
 
-### "A palavra 'sacramento' não aparece na Bíblia."
+- **Penitência** (ou Confissão): o perdão dos pecados cometidos depois do Batismo e a reconciliação com Deus e com a Igreja.
+- **Unção dos Enfermos**: a força de Cristo para quem enfrenta a doença grave ou a velhice.
 
-**Resposta:** O termo não é técnico, mas a realidade sacramental está presente nas Escrituras. Jesus batiza, perdoa pecados, institui a Eucaristia, unge doentes e chama ministros.
+### Sacramentos a serviço da comunhão
 
-### "Só dois sacramentos são válidos: Batismo e Ceia do Senhor."
+- **Ordem**: consagra diáconos, padres e bispos para servir o povo de Deus em nome de Cristo.
+- **Matrimônio**: une um homem e uma mulher numa aliança para toda a vida, sinal do amor de Cristo pela Igreja.
 
-**Resposta:** A Tradição apostólica e os primeiros cristãos já reconheciam a prática de todos os sete sacramentos em sua vida comunitária e litúrgica.
+## Na Sagrada Escritura
 
-## Aplicações Contemporâneas
+A palavra “sacramento” vem do latim *sacramentum*, com que os antigos tradutores latinos verteram o grego *mystérion*, “mistério”. Em Ef 5,32, por exemplo, São Paulo fala do “grande mistério” da união entre homem e mulher, que aponta para Cristo e a Igreja.
 
-- Redescobrir o valor dos sacramentos na vida cotidiana
-- Recebê-los com fé e preparação
-- Ajudar outros a compreender e amar a vida sacramental da Igreja
+Mais importante que a palavra, porém, é a realidade. Cada um dos sete sacramentos tem raiz nos gestos e nas palavras de Jesus e dos Apóstolos:
 
-## Conclusão
+- **Batismo**: Jesus envia os discípulos a batizar todas as nações em nome do Pai, do Filho e do Espírito Santo (Mt 28,19) e diz que é preciso nascer da água e do Espírito (Jo 3,5).
+- **Confirmação**: os Apóstolos impõem as mãos sobre os que já tinham sido batizados, e eles recebem o Espírito Santo (At 8,14-17; At 19,5-6).
+- **Eucaristia**: na Última Ceia, Jesus toma o pão e o vinho e diz “isto é o meu corpo” e “isto é o meu sangue”, e manda fazer o mesmo em sua memória (Lc 22,19-20; 1Cor 11,23-26).
+- **Penitência**: o Ressuscitado sopra sobre os Apóstolos e lhes dá o poder de perdoar e de reter os pecados (Jo 20,22-23).
+- **Unção dos Enfermos**: São Tiago orienta a chamar os presbíteros para orar sobre o doente e ungi-lo com óleo em nome do Senhor (Tg 5,14-15; ver também Mc 6,13).
+- **Ordem**: os Apóstolos impõem as mãos para confiar o ministério a outros (At 6,6; 2Tm 1,6).
+- **Matrimônio**: Jesus reafirma que o homem e a mulher se tornam uma só carne e que o homem não deve separar o que Deus uniu (Mt 19,4-6).
 
-Os sete sacramentos são um presente de Cristo à sua Igreja. Por meio deles, Deus age concretamente na história, santificando nossas vidas e nos preparando para a comunhão eterna com Ele.
+## Na Tradição
 
-## Leitura Recomendada
+Desde os primeiros séculos, os cristãos entenderam que nesses ritos era Deus quem agia. Santo Agostinho, no início do século V, explicava o Batismo com uma fórmula que ficou célebre: “Junta-se a palavra ao elemento, e faz-se o sacramento” (Santo Agostinho, *Tratados sobre o Evangelho de João*, 80,3). A água sozinha é só água; com a palavra de Cristo, torna-se sacramento.
 
-- Catecismo da Igreja Católica §§ 1113–1134
-- Papa Bento XVI, _Sacramentum Caritatis_
-- Dom Estêvão Bettencourt, _Manual de Teologia Sacramentária_
-- Santo Tomás de Aquino, _Suma Teológica_, III Parte
-- Papa João Paulo II, _Ecclesia de Eucharistia_
+Com o tempo, a Igreja foi explicitando o que sempre viveu. A lista dos sete sacramentos aparece de forma organizada no século XII e é afirmada pelo II Concílio de Lião (1274) e pelo Concílio de Florença (1439). Diante da Reforma Protestante, o Concílio de Trento (1547) ensinou solenemente que os sacramentos são sete, nem mais, nem menos, e que todos foram instituídos por Cristo (Concílio de Trento, sessão VII, cân. 1; DH 1601).
+
+Um dado chama a atenção: as Igrejas ortodoxas, separadas de Roma desde o século XI, também reconhecem sete sacramentos (que chamam de “mistérios”). Esse acordo entre o Oriente e o Ocidente, depois de séculos de separação, mostra que a fé nos sete sacramentos não é uma invenção tardia: ela vem da Igreja indivisa dos primeiros séculos.
+
+## Dúvidas comuns
+
+### Se Deus age no sacramento, a minha disposição não importa?
+
+Importa, e muito. O sacramento é sempre válido quando celebrado como a Igreja pede, mas os seus **frutos** dependem de como o recebemos (CIC 1128). Os sacramentos “dão fruto naqueles que os recebem com as disposições requeridas” (CIC 1131). Receber a Comunhão distraído ou sem arrependimento dos pecados graves não é o mesmo que recebê-la com fé e amor.
+
+### Deus só pode salvar por meio dos sacramentos?
+
+A Igreja ensina que, para quem conhece o Evangelho, os sacramentos são o caminho que o próprio Cristo deixou, e por isso são necessários para a salvação (CIC 1129). Mas ela também reconhece que Deus é maior que os meios que ele mesmo criou: “Deus ligou a salvação ao sacramento do Batismo; mas Ele próprio não está prisioneiro dos seus sacramentos” (CIC 1257).
+
+### Por que sete, e não só dois?
+
+Muitas comunidades protestantes reconhecem apenas o Batismo e a Ceia. Mas, como vimos, a Escritura mostra os Apóstolos ungindo doentes, perdoando pecados, impondo as mãos para comunicar o Espírito Santo e para consagrar ministros. A Igreja, desde os primeiros séculos e tanto no Oriente quanto no Ocidente, sempre viveu esses sete sinais como ações do próprio Cristo.
+
+## Em resumo
+
+- Os sacramentos são **sinais eficazes da graça**, instituídos por Cristo e confiados à Igreja (CIC 1131).
+- Eles **realizam o que significam**, porque em cada um deles quem age é o próprio Cristo.
+- São **sete**: Batismo, Confirmação, Eucaristia, Penitência, Unção dos Enfermos, Ordem e Matrimônio.
+- Acompanham toda a vida cristã: **iniciação**, **cura** e **serviço da comunhão**.
+- A graça é sempre oferecida, mas os **frutos** dependem da fé e da disposição de quem recebe.
