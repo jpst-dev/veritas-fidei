@@ -49,6 +49,14 @@ export default defineNuxtConfig({
   },
 
   hooks: {
+    // Referências não quebram linha entre a sigla e o número: "Mc 16,16", "1Cor 11,27", "CIC 1252".
+    // O Content roda os hooks numa worker: a função precisa ser autossuficiente (sem imports).
+    'content:file:beforeParse'({ file }) {
+      if (!file.id.endsWith('.md') || typeof file.body !== 'string') return
+      file.body = file.body
+        .replace(/(?<![\p{L}\d])([1-3]?\p{Lu}\p{Ll}{0,3}) (\d+,\d)/gu, '$1 $2')
+        .replace(/\b(CIC|DH|Compêndio) (\d)/gu, '$1 $2')
+    },
     // Tempo de leitura calculado no build (≈200 palavras por minuto, sem o front matter)
     'content:file:afterParse'({ file, content, collection }) {
       if (collection.name !== 'artigos' || typeof file.body !== 'string') return
