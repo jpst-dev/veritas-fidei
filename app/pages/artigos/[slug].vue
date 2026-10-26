@@ -54,8 +54,9 @@ useSeoMeta({
       <QuaestioBloco :quaestio="artigo.quaestio" />
     </section>
 
-    <div class="mt-14 flex flex-wrap-reverse gap-x-16 gap-y-10">
-      <div class="min-w-0 flex-[999_1_36rem]">
+    <!-- No celular a trilha e o índice vêm antes do texto; no desktop, numa coluna lateral -->
+    <div class="mt-14 flex flex-col gap-10 lg:grid lg:grid-cols-[minmax(0,1fr)_15rem] lg:gap-16">
+      <div class="min-w-0">
         <ContentRenderer :value="artigo" class="prose prose-vf max-w-none" />
 
         <section v-if="artigo.referencias.length" class="mt-16 border-t border-line pt-8" aria-labelledby="titulo-referencias">
@@ -70,7 +71,7 @@ useSeoMeta({
         </section>
       </div>
 
-      <aside class="flex flex-[1_1_14rem] flex-col gap-10 self-start text-base lg:sticky lg:top-8">
+      <aside class="order-first flex flex-col gap-10 text-base lg:self-start lg:sticky lg:top-8 lg:order-none">
         <nav v-for="trilha in trilhas" :key="trilha.slug" aria-label="Trilha de estudo" class="border border-line p-5">
           <p class="rubrica mb-1">Trilha · {{ trilha.posicao }} de {{ trilha.total }}</p>
           <NuxtLink :to="`/trilhas/${trilha.slug}`" class="text-xl">{{ trilha.title }}</NuxtLink>
@@ -81,14 +82,25 @@ useSeoMeta({
           </p>
         </nav>
 
-        <nav v-if="indice.length" aria-labelledby="titulo-indice">
-          <p id="titulo-indice" class="rubrica mb-3">Neste artigo</p>
-          <ol class="flex flex-col gap-2 text-muted">
-            <li v-for="item in indice" :key="item.id">
-              <a :href="`#${item.id}`">{{ item.text }}</a>
-            </li>
-          </ol>
-        </nav>
+        <template v-if="indice.length">
+          <!-- Celular: recolhido, para não empurrar o texto para baixo -->
+          <details class="border-y border-line py-3 lg:hidden">
+            <summary class="rubrica cursor-pointer py-1">Neste artigo</summary>
+            <ol class="mt-3 flex flex-col gap-2 text-muted">
+              <li v-for="item in indice" :key="item.id">
+                <a :href="`#${item.id}`">{{ item.text }}</a>
+              </li>
+            </ol>
+          </details>
+          <nav class="hidden lg:block" aria-labelledby="titulo-indice">
+            <p id="titulo-indice" class="rubrica mb-3">Neste artigo</p>
+            <ol class="flex flex-col gap-2 text-muted">
+              <li v-for="item in indice" :key="item.id">
+                <a :href="`#${item.id}`">{{ item.text }}</a>
+              </li>
+            </ol>
+          </nav>
+        </template>
       </aside>
     </div>
   </article>

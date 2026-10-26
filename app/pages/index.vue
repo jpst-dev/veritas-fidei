@@ -58,21 +58,21 @@ useSeoMeta({
     <section class="mx-auto flex max-w-6xl flex-col items-center gap-7 px-6 pt-28 pb-24 text-center">
       <p class="rubrica">Formação católica</p>
       <h1 class="max-w-4xl text-[clamp(2.6rem,6vw,4.4rem)] leading-[1.04] font-medium text-balance">
-        <span class="font-display text-[1.12em] text-accent">C</span>onhecer a fé para amá-la — e saber dar razão dela.
+        <span class="font-display text-[1.12em] text-accent">C</span>onhecer a fé para <span class="whitespace-nowrap">amá-la</span> — e saber dar razão dela.
       </h1>
       <p class="max-w-2xl text-[1.15rem] text-muted">
         Artigos revisados e trilhas de estudo para quem quer entender o que a Igreja ensina, por que ensina e onde isso
         está nas Escrituras e na Tradição.
       </p>
-      <div class="mt-2 flex flex-wrap justify-center gap-4">
-        <NuxtLink to="/trilhas" class="btn btn-primario">Começar pelos fundamentos</NuxtLink>
-        <NuxtLink to="/temas" class="btn btn-secundario">Explorar temas</NuxtLink>
+      <div class="mt-2 flex w-full flex-col gap-4 sm:w-auto sm:flex-row sm:justify-center">
+        <NuxtLink to="/trilhas" class="btn btn-primario justify-center">Começar pelos fundamentos</NuxtLink>
+        <NuxtLink to="/temas" class="btn btn-secundario justify-center">Explorar temas</NuxtLink>
       </div>
-      <figure class="mt-12 flex flex-wrap items-center justify-center gap-5 text-muted">
-        <span class="h-px w-16 bg-accent" aria-hidden="true" />
+      <figure class="mt-12 flex flex-col items-center gap-3 text-muted sm:flex-row sm:flex-wrap sm:justify-center sm:gap-5">
+        <span class="hidden h-px w-16 bg-accent lg:block" aria-hidden="true" />
         <blockquote class="text-[1.2rem] italic">“Estai sempre prontos a dar razão da vossa esperança.”</blockquote>
         <figcaption class="rubrica">1Pd 3,15</figcaption>
-        <span class="h-px w-16 bg-accent" aria-hidden="true" />
+        <span class="hidden h-px w-16 bg-accent lg:block" aria-hidden="true" />
       </figure>
     </section>
 
@@ -123,7 +123,7 @@ useSeoMeta({
         </h2>
         <p class="text-muted">{{ home.trilha.description }}</p>
       </div>
-      <ol class="grid flex-[3_1_32rem] gap-5 sm:grid-cols-2 lg:grid-cols-4">
+      <ol class="grid flex-[3_1_32rem] gap-5 sm:grid-cols-2">
         <li v-for="(passo, i) in home.trilha.passos" :key="passo.path" class="flex flex-col gap-2 border border-line p-5">
           <span class="font-display text-xl text-accent" aria-hidden="true">{{ romano(i + 1) }}</span>
           <NuxtLink :to="passo.path" class="text-[1.15rem] leading-snug">{{ passo.title }}</NuxtLink>
