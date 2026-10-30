@@ -13,7 +13,7 @@ const { data: artigos } = await useAsyncData(`tema-${slug}`, () =>
     .where('tema', '=', slug)
     .where('status', 'IN', statusVisiveis())
     .order('title', 'ASC')
-    .select('path', 'title', 'description', 'tema', 'status', 'secao', 'minutos', 'nivel')
+    .select('path', 'title', 'description', 'tema', 'status', 'secao', 'minutos', 'nivel', 'obra')
     .all(),
 )
 
@@ -42,7 +42,7 @@ useSeoMeta({
       <h2 id="titulo-defesa" class="filete-duplo mb-8 border-b-[3px] pb-4 font-display text-2xl font-semibold tracking-[0.08em]">
         Defesa da fé
       </h2>
-      <ArtigoLista :artigos="defesa" sem-tema />
+      <ArtigoLista :artigos="defesa" sem-tema sem-secao />
     </section>
 
     <p v-if="!artigos?.length" class="text-muted italic">Os artigos deste tema estão em revisão.</p>

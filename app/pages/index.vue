@@ -26,9 +26,7 @@ const escrita = computed(() => obras.value?.['sao-paulo'])
 const obraDoTema = (slug: string) => obras.value?.[temas.value?.lista.find((t) => t.slug === slug)?.obra ?? '']
 const obraDaTrilha = computed(() => (trilha.value ? obraDoTema(trilha.value.tema) : undefined))
 
-const recentes = computed(() =>
-  (artigos.value?.slice(0, 3) ?? []).map((a) => ({ ...a, imagem: obras.value?.[a.obra ?? ''] ?? obraDoTema(a.tema) })),
-)
+const recentes = computed(() => artigos.value?.slice(0, 3) ?? [])
 const questoes = computed(() => artigos.value?.filter((a) => a.secao === 'defesa-da-fe').slice(0, 4) ?? [])
 
 // Os temas com artigos vêm primeiro; os "em breve" completam a fileira de quatro
@@ -183,33 +181,7 @@ useHead({
           <h2 id="titulo-recentes" class="text-[clamp(1.9rem,4vw,2.5rem)] font-normal">Artigos recentes</h2>
           <NuxtLink to="/artigos" class="rubrica max-sm:hidden">Todos os artigos →</NuxtLink>
         </div>
-        <ul v-if="recentes.length" class="grid gap-10 sm:grid-cols-2 lg:grid-cols-3 lg:gap-7">
-          <li v-for="artigo in recentes" :key="artigo.path">
-            <NuxtLink :to="artigo.path" class="group flex h-full flex-col gap-3 hover:no-underline">
-              <span class="block aspect-[16/10] overflow-hidden bg-surface">
-                <ObraImagem
-                  v-if="artigo.imagem"
-                  :obra="artigo.imagem"
-                  decorativa
-                  sizes="(min-width: 1024px) 370px, (min-width: 640px) 50vw, 100vw"
-                  class="size-full transition-transform duration-700 group-hover:scale-[1.04] motion-reduce:transition-none"
-                />
-              </span>
-              <span class="mt-1 flex flex-wrap items-center gap-3">
-                <span class="rubrica">{{ artigo.secao === 'defesa-da-fe' ? 'Defesa da fé · ' : '' }}{{ temas?.nomes[artigo.tema] }}</span>
-                <StatusSelo :status="artigo.status" />
-              </span>
-              <span class="text-[1.45rem] leading-snug group-hover:text-accent">{{ artigo.title }}</span>
-              <span class="text-muted">{{ artigo.description }}</span>
-              <span
-                v-if="artigo.minutos || artigo.nivel"
-                class="mt-auto font-display text-[0.68rem] tracking-[0.14em] text-muted uppercase"
-              >
-                {{ [artigo.minutos ? `${artigo.minutos} min` : '', artigo.nivel ? NIVEIS[artigo.nivel] : ''].filter(Boolean).join(' · ') }}
-              </span>
-            </NuxtLink>
-          </li>
-        </ul>
+        <ArtigoLista v-if="recentes.length" :artigos="recentes" />
         <p v-else class="text-muted italic">Os primeiros artigos estão em revisão e serão publicados em breve.</p>
         <NuxtLink to="/artigos" class="btn btn-secundario mt-8 w-full justify-center sm:hidden">Todos os artigos →</NuxtLink>
       </section>

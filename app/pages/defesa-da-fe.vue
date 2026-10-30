@@ -1,12 +1,10 @@
 <script setup lang="ts">
-const { data: temas } = await useTemas()
-
 const { data: artigos } = await useAsyncData('defesa-da-fe', () =>
   queryCollection('artigos')
     .where('secao', '=', 'defesa-da-fe')
     .where('status', 'IN', statusVisiveis())
     .order('title', 'ASC')
-    .select('path', 'title', 'description', 'tema', 'status', 'minutos', 'nivel')
+    .select('path', 'title', 'description', 'tema', 'secao', 'status', 'minutos', 'nivel', 'obra')
     .all(),
 )
 
@@ -27,7 +25,7 @@ useSeoMeta({
         As objeções mais comuns à fé católica, respondidas com a Escritura, os Padres da Igreja e o Catecismo.
       </p>
     </header>
-    <ArtigoLista v-if="artigos?.length" :artigos="artigos" :nomes-dos-temas="temas?.nomes" />
+    <ArtigoLista v-if="artigos?.length" :artigos="artigos" sem-secao />
     <p v-else class="text-muted italic">As primeiras respostas estão em revisão.</p>
   </div>
 </template>
