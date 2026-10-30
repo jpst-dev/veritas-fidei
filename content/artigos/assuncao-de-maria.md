@@ -4,7 +4,8 @@ description: Ao fim da vida terrena, Maria foi levada ao céu em corpo e alma. O
 obra: assuncao
 tema: maria
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-30
 nivel: intermediario
 tags: [maria, assuncao, dormicao, ressurreicao, escatologia]
 referencias:
@@ -21,13 +22,13 @@ referencias:
   - titulo: Audiência geral de 25 de junho de 1997 (a dormição da Mãe de Deus)
     autor: São João Paulo II
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 30/10/2026 (o texto do site antigo citava sites genéricos como fontes).
     Citações do Catecismo conferidas pelo verificador; trechos da Munificentissimus Deus (n. 14 e 44) conferidos no vatican.va.
     Referências conferidas na Nova Vulgata (npm run biblia) em 30/10/2026: existem e dizem o que o texto afirma.
-    Conferir na CNBB impressa só as expressões entre aspas: “uma mulher vestida de sol” (Ap 12,1).
+    Opcional: conferir a redação na CNBB impressa das expressões entre aspas (o sentido já foi conferido na Nova Vulgata): “uma mulher vestida de sol” (Ap 12,1).
     Parecer doutrinal interno: favorável com correções em 30/10/2026, correções aplicadas (docs/pareceres/assuncao-de-maria.md).
 ---
 

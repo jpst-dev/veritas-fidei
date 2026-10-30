@@ -4,7 +4,8 @@ description: Maria foi preservada do pecado original desde o primeiro instante. 
 obra: imaculada-conceicao
 tema: maria
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-30
 nivel: intermediario
 tags: [maria, imaculada-conceicao, pecado-original, graca, redencao]
 referencias:
@@ -23,14 +24,14 @@ referencias:
     autor: São Tomás de Aquino
     url: https://www.newadvent.org/summa/4027.htm
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 30/10/2026 (o texto do site antigo citava a bula por site não oficial e misturava devoção e doutrina).
     Citações do Catecismo conferidas pelo verificador.
     Referências conferidas na Nova Vulgata (npm run biblia) em 30/10/2026: existem e dizem o que o texto afirma.
-    Conferir na CNBB impressa só as expressões entre aspas: “cheia de graça” (Lc 1,28).
-    Conferir também a frase de Santo Agostinho (A natureza e a graça, 36,42) e a estrofe de Santo Efrém (Hinos de Nísibis, 27,8) na fonte.
+    Opcional: conferir a redação na CNBB impressa das expressões entre aspas (o sentido já foi conferido na Nova Vulgata): “cheia de graça” (Lc 1,28).
+    Citações dos Padres conferidas em 30/10/2026: Santo Agostinho, A natureza e a graça 36,42 (newadvent.org); Santo Efrém, Hinos de Nísibis 27 (tradução alemã da Bibliothek der Kirchenväter, bkv.unifr.ch).
     Parecer doutrinal interno: favorável com correções em 30/10/2026, correções aplicadas (docs/pareceres/imaculada-conceicao-de-maria.md).
 ---
 

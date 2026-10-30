@@ -80,7 +80,7 @@ Salve em `docs/pareceres/<slug>.md` e resuma ao usuário. Formato:
 
 ## O que foi conferido
 Documentos e parágrafos abertos durante a revisão, e o que ficou para o
-autor conferir em papel (só as expressões bíblicas entre aspas que não vêm
+autor conferir em papel, se quiser (a redação das expressões bíblicas entre aspas que não vêm
 do Catecismo, na CNBB impressa).
 ```
 

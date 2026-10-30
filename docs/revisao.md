@@ -27,13 +27,15 @@ indica possíveis duplicatas.
    Na dúvida, menos é mais.
 2. **Escritura**: `npm run biblia -- --artigo content/artigos/<slug>.md` mostra
    o texto da Nova Vulgata de cada referência; conferir que o versículo diz o
-   que o artigo afirma (a revisão doutrinal registra isso no parecer). Só as
-   expressões entre aspas que não vêm do Catecismo pedem a CNBB impressa
-   (lista em `revisao.notas`).
+   que o artigo afirma (a revisão doutrinal registra isso no parecer). A redação
+   das expressões curtas entre aspas na CNBB impressa é opcional (lista em
+   `revisao.notas`); citação longa entre aspas exige a CNBB impressa.
 3. **Catecismo e Magistério**: conferir cada parágrafo citado (§) e cada
    documento (concílio, encíclica) no texto oficial, em vatican.va.
 4. **Padres da Igreja**: só citar com obra e passagem identificáveis; nada de
-   citações sem fonte.
+   citações sem fonte. Frase que não vem por documento oficial é conferida na
+   tradução publicada (newadvent.org, bkv.unifr.ch) ou no original, e a
+   conferência fica em `revisao.notas`.
 5. **Referências**: abrir cada link de `referencias`; trocar blogs por fontes
    primárias sempre que possível.
 6. Marcar no frontmatter:

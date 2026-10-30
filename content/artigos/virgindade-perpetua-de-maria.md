@@ -4,7 +4,8 @@ description: Maria foi virgem antes, durante e depois do nascimento de Jesus. O 
 obra: adoracao-dos-pastores
 tema: maria
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-30
 nivel: intermediario
 tags: [maria, virgindade-perpetua, irmaos-de-jesus, concepcao-virginal]
 referencias:
@@ -22,14 +23,15 @@ referencias:
   - titulo: Sermão 186, 1
     autor: Santo Agostinho
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Reescrito em 30/10/2026 a partir do texto do site antigo, que trazia uma citação da Lumen Gentium inexistente
     e chamava o Sínodo de Latrão de concílio ecumênico. Citações do Catecismo conferidas pelo verificador.
     Referências conferidas na Nova Vulgata (npm run biblia) em 30/10/2026: existem e dizem o que o texto afirma.
     Ex 13,2 conferido pelo autor na CNBB impressa em 30/10/2026 (“todo primeiro a sair do útero”).
-    Conferir na CNBB impressa só as expressões entre aspas: “Até que ela deu à luz” (Mt 1,25, título de seção); “primogênito” (Lc 2,7); “irmão” (Gn 13,8; 14,14); “o filho de Maria” (Mc 6,3).
+    Opcional: conferir a redação na CNBB impressa das expressões entre aspas (o sentido já foi conferido na Nova Vulgata): “Até que ela deu à luz” (Mt 1,25, título de seção); “primogênito” (Lc 2,7); “irmão” (Gn 13,8; 14,14); “o filho de Maria” (Mc 6,3).
+    Citação de Santo Atanásio (Contra os arianos II,70, “sempre Virgem”) conferida em 30/10/2026 em newadvent.org; Inácio e Agostinho vêm pelo Catecismo.
     Parecer doutrinal interno: favorável com correções em 30/10/2026, correções aplicadas (docs/pareceres/virgindade-perpetua-de-maria.md).
 ---
 

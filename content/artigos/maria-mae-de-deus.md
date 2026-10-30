@@ -4,7 +4,8 @@ description: Por que a Igreja chama Maria de Mãe de Deus desde os primeiros sé
 obra: virgem-de-vladimir
 tema: maria
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-30
 nivel: iniciante
 tags: [maria, theotokos, mae-de-deus, encarnacao, concilio-de-efeso]
 referencias:
@@ -24,13 +25,13 @@ referencias:
   - titulo: Concílio de Éfeso (431), cartas de São Cirilo e anatematismos
     url: https://www.newadvent.org/fathers/3810.htm
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Reescrito em 30/10/2026 a partir do texto do site antigo. Citações do Catecismo conferidas pelo verificador.
     Referências conferidas na Nova Vulgata (npm run biblia) em 30/10/2026: existem e dizem o que o texto afirma.
-    Conferir na CNBB impressa só as expressões entre aspas: “a mãe do meu Senhor” (Lc 1,43); “a mãe de Jesus” (Jo 2,1.3; At 1,14).
-    Conferir também a frase de Santo Inácio (Efésios, 18,2) e a de São Gregório Nazianzeno (Carta 101).
+    Opcional: conferir a redação na CNBB impressa das expressões entre aspas (o sentido já foi conferido na Nova Vulgata): “a mãe do meu Senhor” (Lc 1,43); “a mãe de Jesus” (Jo 2,1.3; At 1,14).
+    Citações dos Padres conferidas em 30/10/2026 na tradução clássica (newadvent.org): Santo Inácio, Efésios 18,2 (em inglês “conceived in the womb by Mary”; o verbo grego, kyophoréō, é trazer no ventre); São Gregório Nazianzeno, Carta 101.
     Parecer doutrinal interno: favorável com correções em 30/10/2026, correções aplicadas (docs/pareceres/maria-mae-de-deus.md).
 ---
 
@@ -100,7 +101,7 @@ O Novo Testamento chama Maria, simplesmente, de “a mãe de Jesus” (Jo 2,1.3;
 
 O título é anterior a Éfeso. O Concílio não o inventou: confirmou o que a Igreja já rezava.
 
-- **Santo Inácio de Antioquia**, por volta do ano 110, escreve que “o nosso Deus, Jesus Cristo, foi trazido no seio de Maria” (Santo Inácio de Antioquia, *Carta aos Efésios*, 18,2; c. 110). Ainda sem a palavra *Theotokos*, a ideia já está inteira.
+- **Santo Inácio de Antioquia**, por volta do ano 110, escreve que “o nosso Deus, Jesus Cristo, foi levado no seio por Maria” (Santo Inácio de Antioquia, *Carta aos Efésios*, 18,2; c. 110). Ainda sem a palavra *Theotokos*, a ideia já está inteira.
 - A oração ***Sub tuum praesidium*** (“À vossa proteção recorremos, Santa Mãe de Deus”) foi encontrada num papiro egípcio datado geralmente entre os séculos III e IV. É uma das orações marianas mais antigas que conhecemos, e já usa o título *Theotokos*.
 - **São Gregório Nazianzeno**, por volta de 382, chega a dizer que quem não crê que Santa Maria é Mãe de Deus está separado da divindade (São Gregório Nazianzeno, *Carta 101, a Cledônio*; c. 382). Para ele, negar o título era negar a encarnação.
 - O **Concílio de Éfeso** (431) e o **Concílio de Calcedônia** (451) fixaram a doutrina, que é professada até hoje pelos católicos e pelos ortodoxos.

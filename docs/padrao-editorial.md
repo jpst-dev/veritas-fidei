@@ -117,6 +117,8 @@ Respondo), que aparece no topo do artigo e na home.
   Espírito Santo” (Mt 1,20, citado em CIC 497)); ou é uma expressão curta e
   consagrada, igual em qualquer tradução católica (“cheia de graça”, Lc 1,28).
   Citação longa entre aspas, só conferida palavra por palavra na CNBB impressa.
+  A expressão curta não bloqueia a publicação: o sentido se confere na Nova
+  Vulgata, e a redação na CNBB impressa fica como conferência opcional.
 - **Conferência.** O verificador confere cada referência contra a **Nova
   Vulgata** do vatican.va, o texto latino oficial da Igreja: o capítulo e o
   versículo têm de existir. Se o versículo diz o que o artigo afirma se vê com

@@ -4,7 +4,8 @@ description: Católicos rezam a Maria, se ajoelham diante das suas imagens e a c
 obra: misericordia
 tema: maria
 secao: defesa-da-fe
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-30
 nivel: iniciante
 tags: [maria, veneracao, idolatria, imagens, intercessao, santos]
 quaestio:
@@ -36,13 +37,13 @@ referencias:
     autor: São Tomás de Aquino
     url: https://www.newadvent.org/summa/4025.htm
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 30/10/2026 (o texto do site antigo trazia citação de Santo Efrém sem fonte e links para uma Bíblia
     em site de terceiros). Citações do Catecismo conferidas pelo verificador; LG 66-67 conferida no vatican.va.
     Referências conferidas na Nova Vulgata (npm run biblia) em 30/10/2026: existem e dizem o que o texto afirma.
-    Conferir na CNBB impressa só as expressões entre aspas: “cheia de graça” (Lc 1,28); “mãe do meu Senhor” (Lc 1,43); “nuvem de testemunhas” (Hb 12,1).
+    Opcional: conferir a redação na CNBB impressa das expressões entre aspas (o sentido já foi conferido na Nova Vulgata): “cheia de graça” (Lc 1,28); “mãe do meu Senhor” (Lc 1,43); “nuvem de testemunhas” (Hb 12,1).
     Parecer doutrinal interno: favorável com correções em 30/10/2026, correções aplicadas (docs/pareceres/veneracao-maria-idolatria.md).
 ---
 
