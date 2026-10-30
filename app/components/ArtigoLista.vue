@@ -4,6 +4,8 @@ import type { ArtigosCollectionItem } from '@nuxt/content'
 defineProps<{
   artigos: Pick<ArtigosCollectionItem, 'path' | 'title' | 'description' | 'tema' | 'status' | 'minutos' | 'nivel'>[]
   nomesDosTemas?: Record<string, string>
+  /** Na página do próprio tema, o rótulo do tema só repetiria o título */
+  semTema?: boolean
 }>()
 </script>
 
@@ -15,7 +17,7 @@ defineProps<{
         class="card-capitulo flex h-full flex-col gap-3 border-t-[3px] border-accent p-6 sm:p-7"
       >
         <span class="flex flex-wrap items-center gap-3">
-          <span class="rubrica">{{ nomesDosTemas?.[artigo.tema] ?? artigo.tema }}</span>
+          <span v-if="!semTema" class="rubrica">{{ nomesDosTemas?.[artigo.tema] ?? artigo.tema }}</span>
           <StatusSelo :status="artigo.status" />
         </span>
         <span class="text-[1.45rem] leading-snug font-medium">{{ artigo.title }}</span>

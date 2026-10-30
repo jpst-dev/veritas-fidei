@@ -3,7 +3,7 @@ const liturgia = useLiturgia()
 const route = useRoute()
 
 const links = [
-  { to: '/temas', rotulo: 'Aprender', resumo: 'Os temas da fé, do Credo à moral' },
+  { to: '/temas', rotulo: 'Temas', resumo: 'Os temas da fé, do Credo à moral' },
   { to: '/trilhas', rotulo: 'Trilhas', resumo: 'Estudos em sequência, passo a passo' },
   { to: '/defesa-da-fe', rotulo: 'Defesa da fé', resumo: 'Objeções comuns e respostas' },
   { to: '/sobre', rotulo: 'Sobre', resumo: 'O projeto e como os textos são revisados' },

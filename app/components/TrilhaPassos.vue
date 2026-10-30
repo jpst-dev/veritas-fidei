@@ -9,7 +9,12 @@ const props = defineProps<{
 const { estadosDaTrilha } = useLidos()
 const estados = computed(() => estadosDaTrilha(props.passos.map((p) => slugDe(p.path))))
 
-const ROTULOS = { lido: 'Lido ✓', continuar: 'Continuar', 'a-seguir': 'A seguir' } as const
+// Quem ainda não leu nenhum passo começa a trilha; quem já leu algum continua
+const ROTULOS = computed(() => ({
+  lido: 'Lido ✓',
+  continuar: estados.value.includes('lido') ? 'Continuar' : 'Começar',
+  'a-seguir': 'A seguir',
+}))
 </script>
 
 <template>

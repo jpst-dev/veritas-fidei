@@ -80,7 +80,7 @@ useSeoMeta({
     <!-- Índice dos temas -->
     <section class="mx-auto flex max-w-6xl flex-wrap gap-16 px-6 pb-24" aria-labelledby="titulo-index">
       <div class="flex-[1_1_16rem]">
-        <h2 id="titulo-index" class="mb-3 font-display text-3xl font-semibold tracking-[0.08em]">Index</h2>
+        <h2 id="titulo-index" class="mb-3 font-display text-3xl font-semibold tracking-[0.08em]">Temas</h2>
         <p class="text-muted">Os temas da fé, organizados como um livro: comece por qualquer capítulo.</p>
       </div>
       <ol class="flex-[3_1_32rem]">
