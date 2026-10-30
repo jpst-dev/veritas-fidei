@@ -113,14 +113,15 @@ useSeoMeta({
 
     <!-- Abertura claro-escuro: a obra do artigo (ou do tema) em largura total, o título sobre o escurecimento -->
     <header class="escuro relative flex min-h-[30rem] flex-col justify-end overflow-hidden bg-bg sm:min-h-[36rem] lg:min-h-[39rem]">
-      <ObraImagem v-if="obra" :obra="obra" prioridade sizes="100vw" class="absolute inset-0 size-full brightness-[0.82]" />
+      <ObraImagem v-if="obra" :obra="obra" prioridade faixa sizes="100vw" class="absolute inset-0 size-full brightness-[0.82]" />
       <span class="absolute inset-0 bg-linear-to-b from-bg/15 via-bg/40 via-40% to-bg" aria-hidden="true" />
       <span class="absolute inset-x-0 bottom-0 h-2/3 bg-linear-to-b from-transparent to-bg/90" aria-hidden="true" />
       <div class="relative mx-auto flex w-full max-w-4xl flex-col items-center gap-5 px-6 pt-48 pb-10 text-center sm:pb-12">
-        <p class="flex flex-wrap items-center justify-center gap-x-3 gap-y-2">
+        <!-- Separados pelo espaço, como a linha de baixo: um "·" abriria a segunda linha quando quebra no celular -->
+        <p class="flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
           <NuxtLink :to="`/temas/${artigo.tema}`" class="rubrica">{{ nomeDoTema }}</NuxtLink>
-          <span v-if="artigo.secao === 'defesa-da-fe'" class="rubrica">· Defesa da fé</span>
-          <span v-if="trilha" class="rubrica">· Trilha {{ romano(trilha.posicao) }} de {{ romano(trilha.total) }}</span>
+          <span v-if="artigo.secao === 'defesa-da-fe'" class="rubrica">Defesa da fé</span>
+          <span v-if="trilha" class="rubrica">Trilha {{ romano(trilha.posicao) }} de {{ romano(trilha.total) }}</span>
           <StatusSelo :status="artigo.status" />
         </p>
         <h1 class="text-[clamp(2.1rem,5.5vw,3.6rem)] leading-[1.1] font-medium text-balance">{{ artigo.title }}</h1>

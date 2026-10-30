@@ -108,6 +108,8 @@ export default defineContentConfig({
         alt: z.string(),
         /** object-position do recorte (ex.: "center 40%"). */
         posicao: z.string().default('center'),
+        /** Recorte nas faixas em largura total (abertura de artigo, tema e trilha), quando difere do `posicao`. */
+        posicaoFaixa: z.string().optional(),
         licenca: z.string(),
         /** Obrigatório quando a licença é CC BY ou CC BY-SA. */
         credito: z.string().optional(),
