@@ -93,3 +93,9 @@ Nenhum.
 - Para o autor conferir em papel, na Bíblia da CNBB: Lc 1,26-38; Mt 1,18-25;
   2Sm 6,23; Lc 2,7; Ex 13,2; Mc 6,3; Mt 13,55; Mt 27,55-56; Mc 15,40; Mt 28,1;
   Jo 19,25-27; Gn 12,5; Gn 13,8; Gn 14,14.
+
+## Correções aplicadas (30/10/2026)
+
+Correções 1 a 4 e sugestões 5, 7 e 8 incorporadas. Sugestão 6 (fonte de
+Zwinglio): a frase ficou genérica (“os primeiros reformadores, como Lutero e
+Zwinglio”), sem citar obra cujo título não foi conferido.

@@ -27,7 +27,8 @@ revisao:
     Reescrito em 30/10/2026 a partir do texto do site antigo, que trazia uma citação da Lumen Gentium inexistente
     e chamava o Sínodo de Latrão de concílio ecumênico. Citações do Catecismo conferidas pelo verificador.
     Conferir pelo autor, na Bíblia da CNBB: Lc 1,26-38; Mt 1,18-25; 2Sm 6,23; Lc 2,7; Ex 13,2; Mc 6,3; Mt 13,55;
-    Mt 27,56; Mc 15,40; Jo 19,25-27; Gn 13,8; Gn 14,14; At 1,14.
+    Mt 27,55-56; Mc 15,40; Mt 28,1; Jo 19,25-27; Gn 12,5; Gn 13,8; Gn 14,14.
+    Parecer doutrinal interno: favorável com correções em 30/10/2026, correções aplicadas (docs/pareceres/virgindade-perpetua-de-maria.md).
 ---
 
 Na Ave-Maria e no Credo, a Igreja chama Maria de **Virgem**. Na liturgia, vai além: chama-a de “sempre Virgem”. Para muitos cristãos, sobretudo fora da Igreja Católica, essa é a doutrina mariana mais difícil de aceitar. Os Evangelhos não falam de “irmãos” de Jesus? Maria e José não eram casados?
@@ -45,7 +46,7 @@ A Igreja professa que Maria foi virgem **sempre**: ao conceber Jesus, ao dá-lo 
 São três afirmações, que a teologia costuma chamar pelos nomes latinos:
 
 1. **Antes do parto** (*ante partum*): Jesus foi concebido sem pai humano, “unicamente pelo poder do Espírito Santo no seio da Virgem Maria” (CIC 496). É a **concepção virginal**, que o Credo professa: “encarnou pelo Espírito Santo, no seio da Virgem Maria”.
-2. **No parto** (*in partu*): o nascimento de Cristo “não diminuiu, antes consagrou a integridade virginal” da sua Mãe (CIC 499). A Igreja afirma o fato, mas não define os detalhes físicos de como ele se deu, e o artigo também não vai especular sobre isso.
+2. **No parto** (*in partu*): o nascimento de Cristo “não diminuiu, antes consagrou a integridade virginal” da sua Mãe (CIC 499). O Catecismo fala de uma “virgindade real e perpétua” (CIC 499): não é só um símbolo. A Igreja afirma o fato, mas não define os detalhes físicos de como ele se deu, e o artigo também não vai especular sobre isso.
 3. **Depois do parto** (*post partum*): Maria não teve outros filhos. “Jesus é o filho único de Maria” (CIC 501).
 
 O título de Maria “sempre Virgem” (em grego, *Aeiparthenos*) aparece no Concílio de Constantinopla II, em 553, e o Sínodo de Latrão, em 649, afirmou as três dimensões (DH 503). A doutrina é professada por católicos e ortodoxos, e é tida como verdade de fé.
@@ -70,11 +71,11 @@ Lucas chama Jesus de filho “primogênito” de Maria (Lc 2,7). Na Lei de Mois�
 
 É a passagem mais citada. Em Nazaré, o povo pergunta se Jesus não é o filho de Maria, irmão de Tiago, José, Judas e Simão, e fala também das suas irmãs (Mc 6,3; Mt 13,55). Três observações ajudam a ler bem:
 
-- **Em hebraico e aramaico não havia palavra própria para “primo”.** “Irmão” servia para parentes próximos. Abraão chama Ló de irmão (Gn 13,8), e Ló era seu sobrinho (Gn 14,14). O Catecismo fala de “parentes próximos de Jesus, segundo uma expressão conhecida do Antigo Testamento” (CIC 500).
-- **Os mesmos nomes aparecem com outra mãe.** Tiago e José, chamados “irmãos de Jesus”, são filhos de outra Maria, que acompanhava Jesus e estava ao pé da cruz (Mt 27,56; Mc 15,40). Mateus a chama de “a outra Maria” (Mt 28,1; CIC 500).
-- **Na cruz, Jesus confia a mãe a João** (Jo 19,25-27). Se Maria tivesse outros filhos, seria estranho entregá-la a quem não era da família.
+- **Na Bíblia, “irmão” é usado correntemente para parentes próximos.** Abraão chama Ló de irmão (Gn 13,8; 14,14), e Ló era seu sobrinho (Gn 12,5). O Catecismo fala de “parentes próximos de Jesus, segundo uma expressão conhecida do Antigo Testamento” (CIC 500).
+- **Os mesmos nomes aparecem com outra mãe.** Tiago e José, chamados “irmãos de Jesus”, são filhos de outra Maria, discípula de Jesus, que estava entre as mulheres no Calvário (Mt 27,55-56; Mc 15,40). Mateus a chama de “a outra Maria” (Mt 28,1; CIC 500).
+- **Na cruz, Jesus confia a mãe ao discípulo amado**, que a Tradição identifica com João (Jo 19,25-27). Se Maria tivesse outros filhos, seria estranho entregá-la a quem não era da família.
 
-Os Evangelhos nunca chamam esses “irmãos” de filhos de Maria. E chamam Jesus de “o filho de Maria” (Mc 6,3), no singular.
+Os Evangelhos nunca chamam esses “irmãos” de filhos de Maria. E chamam Jesus de “o filho de Maria” (Mc 6,3), como quem fala do único.
 
 ## Na Tradição
 
@@ -94,11 +95,11 @@ Sim. O casamento de Maria e José foi verdadeiro: José é chamado de “esposo�
 
 ### Por que a Bíblia não diz isso com todas as letras?
 
-Porque os Evangelhos não foram escritos para responder a todas as perguntas que surgiriam depois. Eles mostram a concepção virginal com clareza e não dizem em lugar nenhum que Maria teve outros filhos. A Igreja lê a Escritura junto com a Tradição que a recebeu (CIC 80-82), e essa Tradição é constante desde os primeiros séculos. O silêncio de Marcos e das cartas de Paulo sobre a concepção virginal também não pesa contra ela: os textos tratam de outros assuntos (CIC 498).
+Porque os Evangelhos não foram escritos para responder a todas as perguntas que surgiriam depois. Eles mostram a concepção virginal com clareza e não dizem em lugar nenhum que Maria teve outros filhos. A Igreja lê a Escritura junto com a Tradição que a recebeu (CIC 80-82), e essa Tradição é constante desde os primeiros séculos. Marcos e as cartas de Paulo não falam da concepção virginal. O Catecismo reconhece esse silêncio e responde que essa fé não nasceu da mitologia pagã nem de adaptação às ideias do tempo: ao contrário, encontrou oposição e troça desde o início (CIC 498).
 
 ### Os protestantes negam essa doutrina?
 
-Hoje muitos dos nossos irmãos protestantes não a aceitam. Mas Lutero e Zwinglio a mantinham, e a negação só se tornou comum entre os protestantes séculos depois da Reforma. Os ortodoxos a professam como os católicos.
+Hoje muitos dos nossos irmãos protestantes não a aceitam. Mas os primeiros reformadores, como Lutero e Zwinglio, a mantinham, e a negação só se tornou comum entre os protestantes séculos depois da Reforma. Os ortodoxos a professam como os católicos.
 
 ### Que diferença isso faz para a minha fé?
 
