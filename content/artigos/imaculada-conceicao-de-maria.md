@@ -1,6 +1,7 @@
 ---
 title: A Imaculada Conceição
 description: Maria foi preservada do pecado original desde o primeiro instante. O que o dogma diz, o que não diz, e por que ela também precisou de Salvador.
+obra: imaculada-conceicao
 tema: maria
 secao: aprender
 status: em-revisao

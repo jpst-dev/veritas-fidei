@@ -1,6 +1,7 @@
 ---
 title: Venerar Maria é idolatria?
 description: Católicos rezam a Maria, se ajoelham diante das suas imagens e a chamam de Rainha. Isso é adorar uma criatura? A diferença entre adorar e venerar.
+obra: misericordia
 tema: maria
 secao: defesa-da-fe
 status: em-revisao

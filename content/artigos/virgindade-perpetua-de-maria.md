@@ -1,6 +1,7 @@
 ---
 title: A virgindade perpétua de Maria
 description: Maria foi virgem antes, durante e depois do nascimento de Jesus. O que a Igreja ensina, o que diz a Bíblia e quem eram os "irmãos" de Jesus.
+obra: adoracao-dos-pastores
 tema: maria
 secao: aprender
 status: em-revisao

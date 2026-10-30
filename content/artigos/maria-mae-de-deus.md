@@ -1,6 +1,7 @@
 ---
 title: Maria, Mãe de Deus
 description: Por que a Igreja chama Maria de Mãe de Deus desde os primeiros séculos, e por que esse título fala, antes de tudo, de quem é Jesus.
+obra: virgem-de-vladimir
 tema: maria
 secao: aprender
 status: em-revisao

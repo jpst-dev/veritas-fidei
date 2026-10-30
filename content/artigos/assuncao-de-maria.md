@@ -1,6 +1,7 @@
 ---
 title: A Assunção de Maria
 description: Ao fim da vida terrena, Maria foi levada ao céu em corpo e alma. O que Pio XII definiu em 1950, o que deixou em aberto e o que isso promete a nós.
+obra: assuncao
 tema: maria
 secao: aprender
 status: em-revisao
