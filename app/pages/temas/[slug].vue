@@ -17,8 +17,13 @@ const { data: artigos } = await useAsyncData(`tema-${slug}`, () =>
     .all(),
 )
 
-const aprender = computed(() => artigos.value?.filter((a) => a.secao === 'aprender') ?? [])
-const defesa = computed(() => artigos.value?.filter((a) => a.secao === 'defesa-da-fe') ?? [])
+// Em ordem de leitura: primeiro a sequência da trilha do tema, depois os demais por título
+const { data: trilhas } = await useAsyncData('trilhas-visiveis', () =>
+  queryCollection('trilhas').where('status', 'IN', statusVisiveis()).all(),
+)
+const emOrdem = computed(() => ordemDeLeitura(artigos.value ?? [], trilhas.value?.find((t) => t.tema === slug)))
+const aprender = computed(() => emOrdem.value.filter((a) => a.secao === 'aprender'))
+const defesa = computed(() => emOrdem.value.filter((a) => a.secao === 'defesa-da-fe'))
 
 useSeoMeta({
   title: tema.value.nome,
