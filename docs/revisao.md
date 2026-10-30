@@ -45,5 +45,12 @@ indica possíveis duplicatas.
 
 ## Revisão doutrinária
 
+Antes de publicar, cada artigo recebe um **parecer doutrinal interno**, no
+modelo do que um censor eclesiástico faz antes do *imprimatur*: o peso de cada
+afirmação, as fontes e as ambiguidades. O guia está em
+[revisao-doutrinal.md](revisao-doutrinal.md), a skill `revisao-doutrinal` o
+aplica e os pareceres ficam em `docs/pareceres/`.
+
 Quando o projeto ganhar relevância, a revisão por um padre ou teólogo entra
-como último passo, registrada em `revisao.revisorDoutrinal`.
+como último passo, registrada em `revisao.revisorDoutrinal`. Isso não é um
+*imprimatur*, e o site não deve dizer que é.
