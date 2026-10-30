@@ -196,8 +196,8 @@ useHead({
         <div class="flex flex-col gap-3">
           <h2 id="titulo-escrita" class="rubrica">Como escrevemos</h2>
           <p class="text-[clamp(1.2rem,2.4vw,1.5rem)] leading-snug">
-            Cada artigo é revisado antes de publicar, e cada citação é conferida na fonte: o Catecismo, a Escritura na
-            tradução da CNBB e os Padres da Igreja.
+            Cada artigo é revisado antes de publicar, e cada citação é conferida na fonte: o Catecismo, a Escritura no
+            texto latino oficial e os Padres da Igreja.
           </p>
         </div>
         <NuxtLink to="/sobre" class="rubrica whitespace-nowrap sm:col-start-2 lg:col-start-auto">Sobre o projeto →</NuxtLink>
