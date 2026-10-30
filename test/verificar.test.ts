@@ -47,6 +47,12 @@ describe('Catecismo', () => {
     expect(trechosAusentes('O modo da presença é diferente', fonte)).toEqual(['O modo da presença é diferente'])
   })
 
+  it('aceita o ponto em itálico dentro do negrito', () => {
+    expect(extrairParagrafo('<p><b>510<i>. </i></b><i>Maria permaneceu.</i></p><p><b>511<i>. </i></b>Outro.</p>', 510)).toBe(
+      'Maria permaneceu.',
+    )
+  })
+
   it('aceita o número com o ponto fora do negrito', () => {
     expect(extrairParagrafo('<p><b>1210</b>. Os sacramentos&#x2013;sete.</p><p><b>1211.</b> Outro.</p>', 1210)).toBe(
       'Os sacramentos–sete.',

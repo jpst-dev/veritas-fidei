@@ -1,128 +1,113 @@
 ---
-title: "A Virgindade Perpétua de Maria"
-description: "Explicação do dogma da virgindade perpétua de Maria: antes, durante e após o nascimento de Jesus"
+title: A virgindade perpétua de Maria
+description: Maria foi virgem antes, durante e depois do nascimento de Jesus. O que a Igreja ensina, o que diz a Bíblia e quem eram os "irmãos" de Jesus.
 tema: maria
 secao: aprender
-status: rascunho
+status: em-revisao
 nivel: intermediario
-tags: ["Maria", "Virgindade Perpétua", "Dogmas Marianos"]
+tags: [maria, virgindade-perpetua, irmaos-de-jesus, concepcao-virginal]
 referencias:
-  - titulo: "Catecismo da Igreja Católica §§ 496-507"
-    autor: "Igreja Católica"
-    url: "https://www.vatican.va/archive/cathechism_po/index_new/p1s2c2a3_484-511_po.html"
-  - titulo: "A Virgindade Perpétua de Maria"
-    autor: "São Jerônimo"
-    url: "https://www.newadvent.org/fathers/3007.htm"
-  - titulo: "Mystici Corporis Christi"
-    autor: "Papa Pio XII"
-    url: "https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_29061943_mystici-corporis-christi.html"
-  - titulo: "Os Irmãos de Jesus na Tradição Católica"
-    autor: "Scott Hahn"
-    url: "https://www.scotthahn.com/"
+  - titulo: Catecismo da Igreja Católica, 496-507 e 510 (a virgindade de Maria)
+    url: https://www.vatican.va/archive/cathechism_po/index_new/p1s2cap2_422-682_po.html
+  - titulo: Constituição dogmática Lumen Gentium, 52-59
+    autor: Concílio Vaticano II
+    url: https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19641121_lumen-gentium_po.html
+  - titulo: A virgindade perpétua de Maria, contra Helvídio
+    autor: São Jerônimo
+    url: https://www.newadvent.org/fathers/3007.htm
+  - titulo: Discursos contra os arianos, II,70
+    autor: Santo Atanásio
+    url: https://www.newadvent.org/fathers/28162.htm
+  - titulo: Sermão 186, 1
+    autor: Santo Agostinho
 revisao:
   citacoesConferidas: false
   referenciasConferidas: false
-  notas: "Migrado do site antigo (2025): revisar texto, citações e referências."
+  notas: >-
+    Reescrito em 30/10/2026 a partir do texto do site antigo, que trazia uma citação da Lumen Gentium inexistente
+    e chamava o Sínodo de Latrão de concílio ecumênico. Citações do Catecismo conferidas pelo verificador.
+    Conferir pelo autor, na Bíblia da CNBB: Lc 1,26-38; Mt 1,18-25; 2Sm 6,23; Lc 2,7; Ex 13,2; Mc 6,3; Mt 13,55;
+    Mt 27,56; Mc 15,40; Jo 19,25-27; Gn 13,8; Gn 14,14; At 1,14.
 ---
 
-## Introdução
+Na Ave-Maria e no Credo, a Igreja chama Maria de **Virgem**. Na liturgia, vai além: chama-a de “sempre Virgem”. Para muitos cristãos, sobretudo fora da Igreja Católica, essa é a doutrina mariana mais difícil de aceitar. Os Evangelhos não falam de “irmãos” de Jesus? Maria e José não eram casados?
 
-A doutrina da Virgindade Perpétua de Maria afirma que a Mãe de Jesus Cristo permaneceu virgem durante toda a sua vida: antes do parto (virgindade ante partum), durante o parto (virgindade in partu) e após o parto (virgindade post partum). Esta verdade de fé, professada desde os primórdios do cristianismo, declara que Maria concebeu Jesus por obra do Espírito Santo, sem intervenção masculina, deu à luz preservando sua integridade virginal e permaneceu virgem pelo resto de sua vida, não tendo outros filhos biológicos. Este dogma está intimamente ligado à compreensão cristã da encarnação e ao papel singular de Maria no plano divino de salvação.
+A pergunta é justa, e a resposta passa pela Bíblia lida com cuidado, pelo que os primeiros cristãos entenderam dela e pelo sentido que essa virgindade tem. Não se trata de um detalhe biográfico, mas de um sinal sobre quem é Jesus e sobre quem é Maria.
 
-## Contexto Histórico
+## O que a Igreja ensina
 
-A crença na virgindade perpétua de Maria é testemunhada desde os primeiros séculos do cristianismo. Os primeiros Padres da Igreja, como Santo Inácio de Antioquia (c. 107 d.C.) e São Justino Mártir (c. 150 d.C.), já faziam referência à concepção virginal de Jesus. Por volta do século IV, a doutrina da virgindade perpétua de Maria estava firmemente estabelecida no pensamento cristão, como evidenciado nos escritos de São Jerônimo, Santo Ambrósio e Santo Agostinho.
+A Igreja professa que Maria foi virgem **sempre**: ao conceber Jesus, ao dá-lo à luz e pelo resto da vida. Os Padres resumiam isso numa fórmula que o Catecismo recolhe, tirada de Santo Agostinho:
 
-A definição dogmática da virgindade perpétua aconteceu no Concílio de Latrão em 649, sob o Papa Martinho I, e foi reafirmada em diversos concílios posteriores. A formulação clássica da doutrina apresenta Maria como "sempre virgem" (semper virgo), enfatizando a permanência de sua condição virginal em todas as fases de sua vida.
+> Virgem ao conceber o seu Filho, Virgem ao dá-Lo à luz, Virgem grávida, Virgem fecunda, Virgem perpétua.
+>
+> — CIC 510
 
-Esta doutrina foi aceita universalmente pelos cristãos até o século XVI, quando alguns reformadores protestantes começaram a questioná-la, principalmente em sua dimensão pós-parto. No entanto, os principais reformadores, incluindo Lutero, Calvino e Zwinglio, mantiveram a crença na virgindade perpétua de Maria.
+São três afirmações, que a teologia costuma chamar pelos nomes latinos:
 
-## Fundamento Bíblico
+1. **Antes do parto** (*ante partum*): Jesus foi concebido sem pai humano, “unicamente pelo poder do Espírito Santo no seio da Virgem Maria” (CIC 496). É a **concepção virginal**, que o Credo professa: “encarnou pelo Espírito Santo, no seio da Virgem Maria”.
+2. **No parto** (*in partu*): o nascimento de Cristo “não diminuiu, antes consagrou a integridade virginal” da sua Mãe (CIC 499). A Igreja afirma o fato, mas não define os detalhes físicos de como ele se deu, e o artigo também não vai especular sobre isso.
+3. **Depois do parto** (*post partum*): Maria não teve outros filhos. “Jesus é o filho único de Maria” (CIC 501).
 
-Embora a Bíblia não afirme explicitamente a virgindade perpétua de Maria em todas as suas dimensões, vários textos fornecem base para esta doutrina:
+O título de Maria “sempre Virgem” (em grego, *Aeiparthenos*) aparece no Concílio de Constantinopla II, em 553, e o Sínodo de Latrão, em 649, afirmou as três dimensões (DH 503). A doutrina é professada por católicos e ortodoxos, e é tida como verdade de fé.
 
-1. **Virgindade antes do parto**:
+A virgindade de Maria não é desprezo pelo casamento nem pela sexualidade. É um sinal: mostra que a encarnação foi iniciativa de Deus, que Jesus “só tem Deus por Pai” (CIC 503), e que Maria se entregou inteira ao que Deus lhe pedia (CIC 506).
 
-   - Mateus 1,18-25: "Maria, sua mãe, estava desposada com José, mas, antes de coabitarem, achou-se grávida pelo Espírito Santo."
-   - Lucas 1,26-38: O anúncio do anjo a Maria e sua resposta: "Como se fará isso, pois não conheço homem?" A expressão "não conhecer homem" é um eufemismo bíblico para relações sexuais.
+## Na Sagrada Escritura
 
-2. **Indicações sobre a virgindade perpétua**:
+### A concepção virginal
 
-   - Mateus 1,25: Quando diz que José "não a conheceu até que ela deu à luz um filho", o texto não implica necessariamente relações conjugais posteriores. A expressão "até que" (em grego "heos hou") frequentemente na Bíblia não indica mudança após o evento mencionado.
-   - A designação de Jesus como "primogênito" (Lucas 2,7) era um termo legal para o primeiro filho a abrir o ventre materno, independentemente de haver filhos posteriores ou não.
-   - No momento da crucifixão, Jesus confia sua mãe a João (João 19,26-27), o que seria incomum se Maria tivesse outros filhos biológicos que pudessem cuidar dela.
+Os Evangelhos de Mateus e Lucas são claros sobre a concepção. Na anunciação, Maria pergunta ao anjo como será mãe, se não conhece homem, e ele responde que o Espírito Santo virá sobre ela (Lc 1,26-38). A José, o anjo diz: “O que foi gerado nela vem do Espírito Santo” (Mt 1,20, citado em CIC 497). Mateus vê nisso o cumprimento da profecia: “Eis que a virgem conceberá e dará à luz um filho” (Is 7,14, segundo Mt 1,23; CIC 497).
 
-3. **Sobre os "irmãos de Jesus"**:
-   - As referências aos "irmãos" e "irmãs" de Jesus (Marcos 6,3; Mateus 13,55-56) podem ser entendidas à luz do uso semítico do termo "irmão" (em aramaico "ah" ou em hebraico "ah"), que podia designar primos, parentes próximos ou membros do mesmo clã.
-   - Em Gálatas 1,19, Tiago é chamado de "irmão do Senhor", mas em outros lugares é identificado como filho de Alfeu, não de José e Maria.
+### “Até que ela deu à luz”
 
-## Fundamento Patrístico e Teológico
+Mateus diz que José não teve relações com Maria **até** ela dar à luz o filho (Mt 1,25). Muitos leem aí que, depois, tiveram. Mas a expressão bíblica “até que” afirma o que aconteceu antes, sem dizer nada sobre o depois. O Segundo Livro de Samuel diz que Micol não teve filhos até o dia da sua morte (2Sm 6,23): não quer dizer que os teve depois de morrer. O interesse de Mateus é mostrar que Jesus não foi gerado por José, não contar o que aconteceu no casamento mais tarde.
 
-A tradição patrística é unânime em defender a virgindade perpétua de Maria:
+### O “primogênito”
 
-1. **Padres Apostólicos e Apologistas**:
+Lucas chama Jesus de filho “primogênito” de Maria (Lc 2,7). Na Lei de Moisés, primogênito é o filho que “abre o ventre” da mãe, e ele era consagrado a Deus por isso (Ex 13,2), houvesse ou não outros filhos depois. O título indica direitos e consagração, não uma contagem de irmãos.
 
-   - O Protoevangelium de Tiago (c. 150 d.C.), embora seja um texto apócrifo, reflete a crença primitiva na virgindade perpétua de Maria.
-   - Santo Inácio de Antioquia afirma que o nascimento de Jesus de Maria permaneceu um mistério escondido do príncipe deste mundo.
+### Os “irmãos” de Jesus
 
-2. **Padres e Doutores da Igreja**:
+É a passagem mais citada. Em Nazaré, o povo pergunta se Jesus não é o filho de Maria, irmão de Tiago, José, Judas e Simão, e fala também das suas irmãs (Mc 6,3; Mt 13,55). Três observações ajudam a ler bem:
 
-   - São Jerônimo, em seu tratado "Contra Helvidium" (383 d.C.), defendeu vigorosamente a virgindade perpétua de Maria contra aqueles que sugeriam que ela teve outros filhos após Jesus.
-   - Santo Agostinho afirmou que Maria "permaneceu virgem ao conceber seu Filho, virgem ao dar à luz, virgem após o parto, sempre virgem."
-   - São Tomás de Aquino elaborou argumentos teológicos para a virgindade perpétua, relacionando-a à integridade da fé, à dignidade do Filho divino, à perfeição do Espírito Santo e à honra devida à Mãe de Deus.
+- **Em hebraico e aramaico não havia palavra própria para “primo”.** “Irmão” servia para parentes próximos. Abraão chama Ló de irmão (Gn 13,8), e Ló era seu sobrinho (Gn 14,14). O Catecismo fala de “parentes próximos de Jesus, segundo uma expressão conhecida do Antigo Testamento” (CIC 500).
+- **Os mesmos nomes aparecem com outra mãe.** Tiago e José, chamados “irmãos de Jesus”, são filhos de outra Maria, que acompanhava Jesus e estava ao pé da cruz (Mt 27,56; Mc 15,40). Mateus a chama de “a outra Maria” (Mt 28,1; CIC 500).
+- **Na cruz, Jesus confia a mãe a João** (Jo 19,25-27). Se Maria tivesse outros filhos, seria estranho entregá-la a quem não era da família.
 
-3. **Considerações Teológicas**:
-   - A virgindade perpétua de Maria é vista como um sinal da total consagração de sua pessoa a Deus e a seu plano de salvação.
-   - A virgindade in partu (durante o parto) é entendida como um nascimento milagroso que preservou a integridade física de Maria, simbolizando a nova criação inaugurada em Cristo.
-   - A virgindade ante partum e post partum (antes e depois do parto) manifesta a dedicação exclusiva de Maria a seu Filho divino e à sua missão.
+Os Evangelhos nunca chamam esses “irmãos” de filhos de Maria. E chamam Jesus de “o filho de Maria” (Mc 6,3), no singular.
 
-## Magistério da Igreja
+## Na Tradição
 
-A Igreja Católica definiu a virgindade perpétua de Maria como dogma de fé:
+- **Santo Inácio de Antioquia**, no início do século II, já conta a virgindade de Maria entre os “três mistérios extraordinários” que se realizaram no silêncio de Deus, junto com o parto e a morte do Senhor (CIC 498, citando a *Carta aos Efésios*, 19).
+- **Santo Atanásio**, no século IV, chama Maria de “sempre Virgem” ao falar da encarnação (Santo Atanásio, *Discursos contra os arianos*, II,70; c. 358).
+- **São Jerônimo**, por volta de 383, escreveu um tratado inteiro contra Helvídio, que dizia que Maria tivera outros filhos. Ele examina uma a uma as passagens dos “irmãos” e do “até que” (São Jerônimo, *A virgindade perpétua de Maria, contra Helvídio*; c. 383).
+- **Santo Agostinho** resumiu a fé da Igreja na fórmula citada acima (Santo Agostinho, *Sermão* 186,1; CIC 510).
+- O **Concílio de Constantinopla II** (553) chama Maria de “sempre Virgem”, e a liturgia do Oriente e do Ocidente a celebra com esse título até hoje (CIC 499).
 
-1. **Concílio de Latrão (649)**: Declarou que Maria "concebeu sem semente, por obra do Espírito Santo, e deu à luz sem corrupção, permanecendo sua virgindade inviolável mesmo depois do parto."
+Quem eram, então, os “irmãos”? A Tradição deu duas respostas, e a Igreja não escolheu entre elas. No Ocidente, desde São Jerônimo, prevaleceu que eram **primos** de Jesus. No Oriente, muitos Padres pensaram que eram **filhos de um casamento anterior de José**. As duas preservam o essencial: não eram filhos de Maria.
 
-2. **Segundo Concílio de Constantinopla (553)** e **Terceiro Concílio de Constantinopla (680-681)**: Referem-se a Maria como "sempre virgem".
+## Dúvidas comuns
 
-3. **Concílio Vaticano II**: A constituição dogmática "Lumen Gentium" reafirma que Maria "permaneceu virgem ao conceber seu Filho, virgem ao dá-lo à luz, virgem ao carregá-lo, virgem ao alimentá-lo de seu seio, sempre virgem" (LG, 57).
+### Um casamento sem relações é um casamento de verdade?
 
-4. **Catecismo da Igreja Católica**: "A aprofundação de sua fé na maternidade virginal levou a Igreja a confessar a virgindade real e perpétua de Maria, mesmo no parto do Filho de Deus feito homem" (CIC, 499).
+Sim. O casamento de Maria e José foi verdadeiro: José é chamado de “esposo” de Maria (Mt 1,19) e foi o pai legal de Jesus, que lhe deu o nome e a descendência de Davi. O que a Tradição entende é que os dois viveram esse casamento inteiramente a serviço do Filho que Deus lhes confiou. Que José também tenha permanecido virgem é uma opinião piedosa antiga, defendida por São Jerônimo, mas a Igreja não a definiu.
 
-## Objeções Comuns e Respostas
+### Por que a Bíblia não diz isso com todas as letras?
 
-### "Mateus 1,25 diz que José não conheceu Maria 'até' que ela deu à luz, sugerindo relações conjugais posteriores."
+Porque os Evangelhos não foram escritos para responder a todas as perguntas que surgiriam depois. Eles mostram a concepção virginal com clareza e não dizem em lugar nenhum que Maria teve outros filhos. A Igreja lê a Escritura junto com a Tradição que a recebeu (CIC 80-82), e essa Tradição é constante desde os primeiros séculos. O silêncio de Marcos e das cartas de Paulo sobre a concepção virginal também não pesa contra ela: os textos tratam de outros assuntos (CIC 498).
 
-**Resposta**: Na linguagem bíblica, a palavra "até" (heos) nem sempre implica mudança após o período mencionado. Por exemplo, em 2 Samuel 6,23, diz-se que "Mical não teve filhos até o dia de sua morte" – obviamente não significa que teve depois. O texto de Mateus enfatiza a concepção virginal, não comenta sobre a vida conjugal posterior.
+### Os protestantes negam essa doutrina?
 
-### "Os Evangelhos mencionam os 'irmãos' e 'irmãs' de Jesus, o que sugere que Maria teve outros filhos."
+Hoje muitos dos nossos irmãos protestantes não a aceitam. Mas Lutero e Zwinglio a mantinham, e a negação só se tornou comum entre os protestantes séculos depois da Reforma. Os ortodoxos a professam como os católicos.
 
-**Resposta**: O termo "irmão" (adelphos) no mundo semítico tinha um sentido mais amplo que nosso uso moderno, referindo-se também a primos, sobrinhos e outros parentes próximos. Em Marcos 6,3, os "irmãos" mencionados são Tiago, José, Judas e Simão, mas em outros lugares Tiago e José são identificados como filhos de "outra Maria" (Mateus 27,56).
+### Que diferença isso faz para a minha fé?
 
-### "Lucas 2,7 chama Jesus de 'primogênito', sugerindo que Maria teve outros filhos depois."
+A virgindade de Maria aponta para Cristo: ele vem de Deus, não de um projeto humano. E aponta para a vida cristã: Maria é “virgem e mãe” como figura da Igreja, que guarda fidelidade inteira a Cristo e gera filhos para Deus pelo Batismo (CIC 507). A consagração de quem deixa tudo para servir a Deus tem nela o seu modelo.
 
-**Resposta**: "Primogênito" era um termo legal judaico que designava o primeiro filho a abrir o ventre materno, independentemente de haver filhos posteriores. Este status era importante para os ritos de purificação e apresentação no templo.
+## Em resumo
 
-### "É antinatural que José e Maria, sendo casados, não tenham tido relações conjugais."
-
-**Resposta**: A tradição cristã entende que José e Maria abraçaram voluntariamente o celibato por razões espirituais, reconhecendo o caráter único de sua vocação no plano divino. Existem exemplos históricos de casais que, por diferentes razões, viveram em castidade conjugal.
-
-## Aplicações Contemporâneas
-
-1. **Valor do Celibato e da Virgindade Consagrada**: A virgindade perpétua de Maria fundamenta teologicamente a prática do celibato consagrado e a virgindade por motivos religiosos, mostrando que há valor em uma vida dedicada inteiramente a Deus.
-
-2. **Dimensão Ecumênica**: Embora a virgindade perpétua seja questionada por alguns cristãos protestantes modernos, ela continua sendo aceita pelas Igrejas Ortodoxa e Católica, e foi afirmada pelos principais reformadores, oferecendo uma base para o diálogo ecumênico.
-
-3. **Sinal Escatológico**: A virgindade de Maria aponta para a realidade escatológica onde "nem se casarão nem se darão em casamento" (Mateus 22,30), sendo um sinal da vida futura no Reino de Deus.
-
-4. **Modelo de Consagração Total**: Para os cristãos contemporâneos, a virgindade perpétua de Maria oferece um modelo de dedicação completa à vontade de Deus, inspirando uma vida de fidelidade e pureza em todos os estados de vida.
-
-## Conclusão
-
-A virgindade perpétua de Maria não é uma mera curiosidade histórica ou um detalhe biográfico, mas uma verdade de fé com profundas implicações teológicas. Ela testemunha a singularidade da encarnação do Verbo, a consagração total de Maria ao plano divino e a nova criação inaugurada em Cristo. Embora desafiada por algumas interpretações modernas das Escrituras, esta doutrina está firmemente enraizada na tradição apostólica, no consenso dos Padres da Igreja e no magistério contínuo. Compreendê-la adequadamente nos ajuda a apreciar mais plenamente o mistério de Cristo e o papel único de Maria na economia da salvação.
-
-## Leitura Adicional
-
-- Catecismo da Igreja Católica, §§ 496-507
-- "Maria: Sempre Virgem" - Scott Hahn
-- "A Virgindade Perpétua de Maria" - São Jerônimo (tratado "Contra Helvidium")
-- "A Virgem Maria na Fé Católica" - Jean Galot
+- Maria foi **virgem antes, durante e depois** do nascimento de Jesus (CIC 499; 510).
+- A **concepção virginal** está clara em Mateus e Lucas (Mt 1,20; Lc 1,26-38).
+- “**Até que**” e “**primogênito**” não indicam outros filhos (2Sm 6,23; Ex 13,2).
+- Os “**irmãos**” de Jesus eram parentes próximos, não filhos de Maria (CIC 500).
+- A virgindade de Maria é **sinal**: Jesus só tem Deus por Pai, e Maria se entregou inteira a ele (CIC 503; 506).

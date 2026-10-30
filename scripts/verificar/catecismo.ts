@@ -58,11 +58,11 @@ export function decodificarEntidades(html: string): string {
 
 /** Texto de um parágrafo do Catecismo a partir do HTML da página oficial. */
 export function extrairParagrafo(html: string, n: number): string | undefined {
-  // O número vem como "<b>1374.</b>" ou, em algumas páginas, "<b>1210</b>."
-  const inicio = html.search(new RegExp(`<b>\\s*${n}\\s*\\.?\\s*</b>`))
+  // O número vem como "<b>1374.</b>", "<b>1210</b>." ou, em algumas páginas, "<b>510<i>. </i></b>"
+  const inicio = html.search(new RegExp(`<b>\\s*${n}(?:\\s|</?i>)*\\.?(?:\\s|</?i>)*</b>`))
   if (inicio < 0) return undefined
   const resto = html.slice(inicio)
-  const proximo = resto.slice(1).search(/<b>\s*\d+\s*\.?\s*<\/b>/)
+  const proximo = resto.slice(1).search(/<b>\s*\d+(?:\s|<\/?i>)*\.?(?:\s|<\/?i>)*<\/b>/)
   const trecho = proximo < 0 ? resto : resto.slice(0, proximo + 1)
   return decodificarEntidades(trecho.replace(/<[^>]+>/g, ' '))
     .replace(/^\s*\d+\s*\.\s*/, '')
