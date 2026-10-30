@@ -74,3 +74,7 @@ Nenhum.
   sugestão de estilo).
 - Para o autor conferir em papel, na Bíblia da CNBB: Lc 1,31-35.43; Gl 4,4;
   Jo 1,1.14; Jo 2,1; Jo 19,25.
+
+## Correções aplicadas (30/10/2026)
+
+Todas as correções e sugestões (1 a 5) foram incorporadas ao artigo.

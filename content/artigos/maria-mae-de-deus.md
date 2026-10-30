@@ -29,6 +29,7 @@ revisao:
     Reescrito em 30/10/2026 a partir do texto do site antigo. Citações do Catecismo conferidas pelo verificador.
     Conferir pelo autor: as passagens bíblicas na Bíblia da CNBB (Lc 1,31-35.43; Gl 4,4; Jo 1,1.14; Jo 2,1; Jo 19,25-27),
     a frase de Santo Inácio (Efésios, 18,2) e a de São Gregório Nazianzeno (Carta 101).
+    Parecer doutrinal interno: favorável com correções em 30/10/2026, correções aplicadas (docs/pareceres/maria-mae-de-deus.md).
 ---
 
 Desde muito cedo, os cristãos rezam a Maria chamando-a de **Mãe de Deus**. A Ave-Maria termina assim: “Santa Maria, Mãe de Deus, rogai por nós”. Para quem ouve pela primeira vez, o título pode soar estranho ou até exagerado. Como uma mulher de Nazaré pode ser mãe de Deus, que é eterno?
@@ -59,7 +60,7 @@ O título já era usado pelos fiéis havia muito tempo quando, no século V, se 
 
 ### O que Nestório propunha
 
-Nestório, patriarca de Constantinopla a partir de 428, achava que chamar Maria de *Theotokos* (em grego, “aquela que gerou Deus”) confundia as coisas. Preferia *Christotokos*, “mãe de Cristo”. Por trás da mudança de palavra havia uma ideia sobre Jesus: em Cristo haveria como que duas pessoas unidas, o homem nascido de Maria e o Verbo de Deus que habitava nele. Maria seria mãe só do homem.
+Nestório, patriarca de Constantinopla a partir de 428, achava que chamar Maria de *Theotokos* (em grego, “aquela que gerou Deus”) confundia as coisas. Preferia *Christotokos*, “mãe de Cristo”. Por trás da mudança de palavra havia uma ideia sobre Jesus: em Cristo haveria como que duas pessoas unidas, o homem nascido de Maria e o Verbo de Deus que habitava nele. Os historiadores discutem se Nestório afirmava isso com todas as letras ou se era a consequência do que dizia; foi assim que o Concílio entendeu a sua posição. Maria seria mãe só do homem.
 
 O Catecismo descreve assim esse erro: “A heresia nestoriana via em Cristo uma pessoa humana unida à pessoa divina do Filho de Deus” (CIC 466). Se fosse assim, Deus não teria nascido, nem sofrido, nem morrido por nós. Teria apenas morado num homem que fez tudo isso.
 
@@ -71,7 +72,7 @@ São Cirilo de Alexandria respondeu que, em Jesus, há uma só pessoa, a do Verb
 >
 > — CIC 466
 
-Vinte anos depois, o Concílio de Calcedônia (451) completou a doutrina: Cristo é uma só pessoa em duas naturezas, a divina e a humana, “sem confusão” e “sem separação”. E repetiu que ele nasceu, segundo a humanidade, da Virgem Maria, Mãe de Deus.
+Vinte anos depois, o Concílio de Calcedônia (451) completou a doutrina: Cristo é uma só pessoa em duas naturezas, a divina e a humana, “sem confusão” e “sem separação”. E repetiu que ele nasceu, segundo a humanidade, da Virgem Maria, Mãe de Deus (DH 301).
 
 A disputa sobre o título de Maria era, na verdade, uma disputa sobre Jesus. Defender a palavra *Theotokos* era defender que Deus realmente se fez homem.
 
@@ -97,7 +98,7 @@ Os Evangelhos chamam Maria, simplesmente, de “a mãe de Jesus” (Jo 2,1; 19,2
 
 O título é anterior a Éfeso. O Concílio não o inventou: confirmou o que a Igreja já rezava.
 
-- **Santo Inácio de Antioquia**, por volta do ano 110, escreve que “o nosso Deus, Jesus Cristo, foi concebido por Maria” (Santo Inácio de Antioquia, *Carta aos Efésios*, 18,2; c. 110). Ainda sem a palavra *Theotokos*, a ideia já está inteira.
+- **Santo Inácio de Antioquia**, por volta do ano 110, escreve que “o nosso Deus, Jesus Cristo, foi trazido no seio de Maria” (Santo Inácio de Antioquia, *Carta aos Efésios*, 18,2; c. 110). Ainda sem a palavra *Theotokos*, a ideia já está inteira.
 - A oração ***Sub tuum praesidium*** (“À vossa proteção recorremos, Santa Mãe de Deus”) foi encontrada num papiro egípcio datado geralmente entre os séculos III e IV. É uma das orações marianas mais antigas que conhecemos, e já usa o título *Theotokos*.
 - **São Gregório Nazianzeno**, por volta de 382, chega a dizer que quem não crê que Santa Maria é Mãe de Deus está separado da divindade (São Gregório Nazianzeno, *Carta 101, a Cledônio*; c. 382). Para ele, negar o título era negar a encarnação.
 - O **Concílio de Éfeso** (431) e o **Concílio de Calcedônia** (451) fixaram a doutrina, que é professada até hoje pelos católicos e pelos ortodoxos.
@@ -113,7 +114,7 @@ Maria não é mãe da divindade, que não tem começo. É mãe do Filho de Deus 
 
 ### Esse título não transforma Maria numa deusa?
 
-Não. Maria é uma criatura, salva por Deus como todos nós, e a Igreja nunca lhe prestou o culto devido só a Deus. O Catecismo distingue com clareza: a veneração a Maria “difere essencialmente do culto de adoração que se presta por igual ao Verbo Encarnado, ao Pai e ao Espírito Santo” (CIC 971). O título é a maior honra que uma criatura recebeu, mas continua sendo de uma criatura.
+Não. Maria é uma criatura, redimida por Cristo como todos nós, embora de um modo único: foi “remida dum modo mais sublime, em atenção aos méritos de seu Filho” (CIC 492), como se verá na Imaculada Conceição. E a Igreja nunca lhe prestou o culto devido só a Deus. O Catecismo distingue com clareza: a veneração a Maria “difere essencialmente do culto de adoração que se presta por igual ao Verbo Encarnado, ao Pai e ao Espírito Santo” (CIC 971). O título é a maior honra que uma criatura recebeu, mas continua sendo de uma criatura.
 
 ### Não bastaria chamar Maria de “mãe de Jesus”?
 
@@ -121,7 +122,7 @@ O título “mãe de Jesus” é verdadeiro e bíblico. O problema surge quando 
 
 ### Os protestantes aceitam esse título?
 
-Os grandes reformadores, como Lutero e Calvino, aceitavam os concílios de Éfeso e Calcedônia, e Lutero usava o título “Mãe de Deus” com naturalidade. Muitos dos nossos irmãos protestantes hoje evitam a expressão por receio de exagero na devoção mariana. Mas o conteúdo dela, que Jesus é Deus desde a concepção, é patrimônio comum de todos os cristãos.
+Os grandes reformadores aceitavam os concílios de Éfeso e Calcedônia (Calvino, *Institutas*, IV,9,8), e Lutero usava o título “Mãe de Deus” com naturalidade, por exemplo no seu *Comentário ao Magnificat* (1521). Muitos dos nossos irmãos protestantes hoje evitam a expressão por receio de exagero na devoção mariana. Mas o conteúdo dela, que Jesus é Deus desde a concepção, é patrimônio comum de todos os cristãos.
 
 ## Em resumo
 
