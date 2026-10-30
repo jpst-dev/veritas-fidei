@@ -1,6 +1,6 @@
 ---
 title: A Imaculada Conceição
-description: Maria foi preservada do pecado original desde o primeiro instante da sua existência. O que o dogma diz, o que não diz, e por que ela também precisou de Salvador.
+description: Maria foi preservada do pecado original desde o primeiro instante. O que o dogma diz, o que não diz, e por que ela também precisou de Salvador.
 tema: maria
 secao: aprender
 status: em-revisao
@@ -28,7 +28,8 @@ revisao:
     Escrito do zero em 30/10/2026 (o texto do site antigo citava a bula por site não oficial e misturava devoção e doutrina).
     Citações do Catecismo conferidas pelo verificador.
     Conferir pelo autor, na Bíblia da CNBB: Lc 1,28.47; Gn 3,15; Ef 1,3-4; Rm 3,23; Rm 5,12.
-    Conferir também a frase de Santo Agostinho (A natureza e a graça, 36,42) na fonte.
+    Conferir também a frase de Santo Agostinho (A natureza e a graça, 36,42) e a estrofe de Santo Efrém (Hinos de Nísibis, 27,8) na fonte.
+    Parecer doutrinal interno: favorável com correções em 30/10/2026, correções aplicadas (docs/pareceres/imaculada-conceicao-de-maria.md).
 ---
 
 Muita gente pensa que a **Imaculada Conceição** é o fato de Jesus ter sido concebido sem pai humano. Não é. Essa é a concepção virginal, de que trata o artigo anterior desta trilha. A Imaculada Conceição fala da concepção da própria Maria, no seio da sua mãe: desde o primeiro instante, ela foi preservada do pecado original.
@@ -50,7 +51,7 @@ Cada expressão da definição tem um peso:
 3. **“Por uma graça e favor singular de Deus”**: não foi mérito de Maria nem dos seus pais. Foi dom gratuito, como toda graça.
 4. **“Em previsão dos méritos de Jesus Cristo, Salvador do gênero humano”**: Maria foi salva por Cristo, como todos nós. A diferença está no modo.
 
-O Catecismo resume esse modo numa frase: ela foi “remida dum modo mais sublime, em atenção aos méritos de seu Filho” (CIC 492). Nós somos curados do pecado depois de contraí-lo; Maria foi preservada antes de contraí-lo. Os dois são redenção, e as duas vêm da cruz.
+O Catecismo resume esse modo numa frase: ela foi “remida dum modo mais sublime, em atenção aos méritos de seu Filho” (CIC 492). Nós somos curados do pecado depois de contraí-lo; Maria foi preservada antes de contraí-lo. Os dois modos são redenção, e ambos vêm da cruz.
 
 A Igreja ensina também que Maria, pela graça de Deus, **não cometeu pecado pessoal** em toda a vida (CIC 493; 411). O Concílio de Trento já o dizia, ao ensinar que ninguém pode evitar todos os pecados veniais na vida inteira “sem um privilégio especial de Deus, como a Igreja o sustenta da bem-aventurada Virgem” (DH 1573).
 
@@ -60,7 +61,7 @@ A Imaculada Conceição é um bom exemplo de como a Igreja aprofunda, ao longo d
 
 A santidade de Maria era confessada desde cedo. Mas, na Idade Média, grandes teólogos hesitaram em afirmar que ela fora concebida sem pecado. São Bernardo e São Tomás de Aquino tinham uma razão séria: se Maria não tivesse contraído o pecado original, parecia que ela não precisaria de Cristo, e a fé ensina que Cristo é o Salvador de **todos**. São Tomás preferiu dizer que ela foi santificada no seio materno, logo depois de concebida (*Suma Teológica*, III, q. 27, a. 2).
 
-A saída veio do franciscano **João Duns Escoto**, no fim do século XIII: Cristo, o Redentor perfeito, podia salvar alguém do modo mais perfeito, que é **preservar** do pecado em vez de curar dele. Assim Maria é salva por Cristo, e de um modo ainda mais completo. É exatamente a fórmula que Pio IX usou: “em previsão dos méritos de Jesus Cristo”.
+A saída veio do franciscano **João Duns Escoto**, por volta de 1300: Cristo, o Redentor perfeito, podia salvar alguém do modo mais perfeito, que é **preservar** do pecado em vez de curar dele. Assim Maria é salva por Cristo, e de um modo ainda mais completo. É exatamente a fórmula que Pio IX usou: “em previsão dos méritos de Jesus Cristo”.
 
 Entre um momento e outro, a festa da Conceição de Maria se espalhou pela Igreja, e o Concílio de Trento, ao ensinar sobre o pecado original, declarou que não era sua intenção incluir no decreto “a bem-aventurada e imaculada Virgem Maria” (DH 1516). Quando Pio IX definiu o dogma, consultou antes os bispos do mundo inteiro, e a resposta foi quase unânime.
 
@@ -70,7 +71,7 @@ A Bíblia não descreve a concepção de Maria. O dogma não se apoia num versí
 
 ### “Cheia de graça”
 
-O anjo saúda Maria com uma palavra que não é usada para mais ninguém na Bíblia: *kecharitōménē*, traduzida por “cheia de graça” (Lc 1,28). Em grego, é um particípio que indica uma ação já completa, cujo efeito permanece: alguém que **foi** cumulado de graça e continua assim. O anjo a chama por esse nome, como se fosse o seu nome próprio. O Catecismo liga essa saudação ao dogma: para dar o seu “sim” com toda a liberdade, “era necessário que Ela fosse totalmente movida pela graça de Deus” (CIC 490).
+O anjo saúda Maria com uma forma verbal que a Bíblia não usa para mais ninguém: *kecharitōménē*, traduzida por “cheia de graça” (Lc 1,28). Em grego, é um particípio que indica uma ação já completa, cujo efeito permanece: alguém que **foi** cumulado de graça e continua assim. O anjo a chama por esse nome, como se fosse o seu nome próprio. O Catecismo liga essa saudação ao dogma: para dar o seu “sim” com toda a liberdade, “era necessário que Ela fosse totalmente movida pela graça de Deus” (CIC 490).
 
 ### A inimizade com a serpente
 
@@ -82,13 +83,13 @@ São Paulo diz que Deus nos escolheu em Cristo antes da criação do mundo, para
 
 ## Na Tradição
 
-- **Santo Ireneu**, por volta de 180, desenvolve o paralelo entre Eva e Maria: “o nó da desobediência de Eva foi desatado pela obediência de Maria” (CIC 494, citando *Contra as heresias*, III,22,4). Maria é a “nova Eva”, e a primeira Eva foi criada sem pecado.
-- **Santo Efrém**, no século IV, canta a Cristo e a sua Mãe como os únicos inteiramente belos, sem mancha alguma (Santo Efrém, *Hinos de Nísibis*, 27).
+- **Santo Ireneu**, por volta de 180, desenvolve o paralelo entre Eva e Maria: “o nó da desobediência de Eva foi desatado pela obediência de Maria” (CIC 494, citando *Contra as heresias*, III,22,4). Maria é a “nova Eva”. A teologia posterior tirou daí um argumento: a primeira Eva foi criada sem pecado, e a nova Eva não poderia começar abaixo dela.
+- **Santo Efrém**, no século IV, canta a Cristo e a sua Mãe como os únicos inteiramente belos, sem mancha alguma (Santo Efrém, *Hinos de Nísibis*, 27,8).
 - **Santo Agostinho**, ao discutir com Pelágio sobre o pecado, abre uma exceção: quando se fala de pecados, não quer que se trate da santa Virgem Maria, “por honra do Senhor” (Santo Agostinho, *A natureza e a graça*, 36,42; c. 415).
 - Os **Padres orientais** chamam Maria de *Panaghia*, “a toda santa”, e a celebram como “imune de toda a mancha de pecado, visto que o próprio Espírito Santo a modelou e dela fez uma nova criatura” (CIC 493).
 - O **Concílio de Trento** (1546) a excetua do decreto sobre o pecado original (DH 1516), e **Pio IX** (1854) define o dogma.
 
-Quatro anos depois da definição, em Lourdes, Santa Bernadete contou que a Senhora que lhe aparecia se apresentou dizendo: “Eu sou a Imaculada Conceição”. A Igreja reconheceu essas aparições, mas o dogma não depende delas: foi definido antes e se apoia na Escritura e na Tradição. As aparições, mesmo reconhecidas, não obrigam a fé dos católicos.
+Quatro anos depois da definição, em Lourdes, Santa Bernadete contou que a Senhora que lhe aparecia se apresentou dizendo: “Eu sou a Imaculada Conceição”. A Igreja reconheceu essas aparições, mas o dogma não depende delas: foi definido antes e se apoia na Escritura e na Tradição. As revelações privadas, mesmo reconhecidas, não pertencem ao depósito da fé e não obrigam a fé dos católicos (CIC 67).
 
 ## Dúvidas comuns
 
@@ -98,11 +99,11 @@ Porque ele é o seu Salvador. No Magnificat, Maria diz que o seu espírito se al
 
 ### São Paulo não diz que todos pecaram?
 
-Diz (Rm 3,23; 5,12), e fala da condição de toda a humanidade depois de Adão. Mas o próprio Jesus é homem e não teve pecado, e as crianças pequenas não cometeram pecados pessoais. A afirmação geral admite exceções que Deus mesmo quis. A Imaculada Conceição é uma delas, feita pela graça de Cristo, não contra ela.
+Diz (Rm 3,23; 5,12), e fala da condição de toda a humanidade depois de Adão. Mas o próprio Jesus é homem e não teve pecado: a afirmação geral admite a exceção que Deus mesmo quis. (As crianças pequenas mostram algo parecido quanto aos pecados pessoais: ainda não os cometeram.) A Imaculada Conceição é uma delas, feita pela graça de Cristo, não contra ela.
 
 ### Maria então não podia pecar?
 
-Podia, no sentido de que era livre como Eva antes da queda. Mas a graça que a preservou do pecado original a sustentou durante toda a vida, e ela correspondeu a essa graça com fidelidade inteira. Por isso a Igreja ensina que ela não cometeu nenhum pecado pessoal (CIC 493).
+A Igreja não definiu essa questão. Maria era livre, e a graça não suprimiu a sua liberdade. Muitos teólogos, desde São Tomás, ensinam que a graça a confirmou de tal modo no bem que, de fato, ela nunca pecaria. O que é de fé é o resultado: ela não cometeu nenhum pecado pessoal (CIC 493), e correspondeu à graça com fidelidade inteira.
 
 ### Isso não afasta Maria de nós?
 

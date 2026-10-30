@@ -83,3 +83,8 @@ Nenhum.
 - Para o autor conferir em papel, na Bíblia da CNBB: Lc 1,28.47; Gn 3,15;
   Ef 1,3-4.6; Rm 3,23; Rm 5,12. E a frase de Santo Agostinho (*A natureza e a
   graça*, 36,42) e a estrofe de Santo Efrém na fonte.
+
+## Correções aplicadas (30/10/2026)
+
+Correções 1 a 3 e sugestões 5 a 8 incorporadas; a sugestão 4 (conferir a
+estrofe de Santo Efrém) ficou nas notas do artigo para o autor.
