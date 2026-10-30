@@ -31,18 +31,19 @@ referencias:
   - titulo: II Concílio de Niceia (787), definição sobre as imagens (DH 600-601)
   - titulo: Martírio de São Policarpo, 17,3
     url: https://www.newadvent.org/fathers/0102.htm
-  - titulo: Suma Teológica, II-II, q. 103, a. 3-4
+  - titulo: Suma Teológica, III, q. 25, a. 5
     autor: São Tomás de Aquino
-    url: https://www.newadvent.org/summa/3103.htm
+    url: https://www.newadvent.org/summa/4025.htm
 revisao:
   citacoesConferidas: false
   referenciasConferidas: false
   notas: >-
     Escrito do zero em 30/10/2026 (o texto do site antigo trazia citação de Santo Efrém sem fonte e links para uma Bíblia
     em site de terceiros). Citações do Catecismo conferidas pelo verificador; LG 66-67 conferida no vatican.va.
-    Passagens bíblicas referidas sem citação literal, exceto “a mãe do meu Senhor” (Lc 1,43).
+    Passagens bíblicas referidas sem citação literal, exceto “cheia de graça” (Lc 1,28), “a mãe do meu Senhor” (Lc 1,43) e “nuvem de testemunhas” (Hb 12,1).
     Conferir pelo autor, na Bíblia da CNBB: Mt 4,10; Ex 20,3-5; Lc 1,28.42-43.48; Jo 19,26-27; 1Tm 2,1-5; Tg 5,16;
-    Ap 5,8; Mc 12,26-27; Hb 12,1; Ex 25,18-20; Nm 21,8-9; 2Rs 18,4; Dt 18,10-11; 1Sm 28,7-19.
+    Ap 5,8; Mc 12,26-27; 1Pd 2,17; Hb 12,1; Ex 25,18-20; Nm 21,8-9; 2Rs 18,4; Dt 18,10-11; 1Sm 28,7-19.
+    Parecer doutrinal interno: favorável com correções em 30/10/2026, correções aplicadas (docs/pareceres/veneracao-maria-idolatria.md).
 ---
 
 Para muitos evangélicos, basta entrar numa procissão de Nossa Senhora para ter a prova: gente ajoelhada diante de uma imagem, velas acesas, flores, orações dirigidas a Maria. Se isso não é idolatria, o que seria? E não são só os de fora que perguntam: muitos católicos não saberiam explicar a diferença entre o que fazem diante de Maria e o que fazem diante de Deus.
@@ -55,7 +56,7 @@ Quem levanta a objeção não está, em geral, de má vontade. Ele se apoia em t
 
 1. **Só Deus recebe culto.** Jesus responde ao tentador que se deve adorar só a Deus e só a ele servir (Mt 4,10). Ajoelhar-se, rezar, cantar, fazer promessas são atos de culto, e os católicos os fazem diante de Maria.
 2. **Há um só mediador.** São Paulo diz que há um só Deus e um só mediador entre Deus e os homens, Cristo Jesus (1Tm 2,5). Rezar a Maria seria pôr alguém entre nós e Cristo.
-3. **Os mortos não devem ser invocados.** A Lei proíbe consultar os mortos (Dt 18,10-11). Maria morreu; falar com ela seria fazer o que a Bíblia condena e o espiritismo pratica.
+3. **Os mortos não devem ser invocados.** A Lei proíbe consultar os mortos (Dt 18,10-11). Maria já não está nesta vida; falar com ela seria fazer o que a Bíblia condena e o espiritismo pratica.
 4. **As imagens são proibidas.** O mandamento proíbe fazer imagens e se prostrar diante delas (Ex 20,4-5). As imagens de Maria nas igrejas seriam exatamente isso.
 5. **A prática desmente a teoria.** Mesmo que a doutrina distinga as coisas, muitos fiéis, na prática, tratam Maria como uma deusa: pedem a ela o que só Deus dá e parecem confiar mais nela do que em Cristo.
 
@@ -64,7 +65,7 @@ Quem levanta a objeção não está, em geral, de má vontade. Ele se apoia em t
 A Igreja distingue dois tipos de culto, com nomes que vêm do grego:
 
 - **Adoração** (*latria*): reconhecer alguém como Deus, Criador e Senhor de tudo, com “submissão absoluta” (CIC 2097). Só se deve a Deus: ao Pai, ao Filho e ao Espírito Santo.
-- **Veneração** (*dulia*): honrar uma criatura pela santidade que Deus pôs nela. É o que se presta aos santos. A Maria, pela sua dignidade única de Mãe de Deus, a teologia chama esse culto de *hiperdulia*: a mais alta veneração, mas ainda veneração (São Tomás de Aquino, *Suma Teológica*, II-II, q. 103, a. 4).
+- **Veneração** (*dulia*): honrar uma criatura pela santidade que Deus pôs nela. É o que se presta aos santos. A Maria, pela sua dignidade única de Mãe de Deus, a teologia chama esse culto de *hiperdulia*: a mais alta veneração, mas ainda veneração (São Tomás de Aquino, *Suma Teológica*, III, q. 25, a. 5).
 
 O Concílio Vaticano II diz isso com todas as letras, e o Catecismo o retoma:
 
@@ -82,17 +83,17 @@ O anjo a saúda como “cheia de graça” (Lc 1,28). Isabel, cheia do Espírito
 
 ### Honrar alguém não é adorá-lo
 
-A própria Lei de Deus manda honrar pai e mãe (Ex 20,12). Honra-se o rei, o ancião, o profeta. Ninguém pensa que isso seja idolatria, porque honrar uma pessoa pelo que ela é diante de Deus não é tratá-la como Deus. O critério não é o gesto (um ajoelhar-se, uma vela, uma flor), mas o que se reconhece na pessoa. Os católicos reconhecem em Maria uma criatura cheia de graça, não uma divindade.
+A própria Lei de Deus manda honrar pai e mãe (Ex 20,12). Honra-se o rei (1Pd 2,17), o ancião, o profeta. Ninguém pensa que isso seja idolatria, porque honrar uma pessoa pelo que ela é diante de Deus não é tratá-la como Deus. O critério não é o gesto (um ajoelhar-se, uma vela, uma flor), mas o que se reconhece na pessoa. Os católicos reconhecem em Maria uma criatura cheia de graça, não uma divindade.
 
 ### Os santos estão vivos e intercedem
 
-Deus é Deus dos vivos, não dos mortos, diz Jesus (Mc 12,26-27). Os que morreram em Cristo estão com ele, e a Carta aos Hebreus os chama de uma “nuvem de testemunhas” ao nosso redor (Hb 12,1). No Apocalipse, os anciãos no céu apresentam a Deus as orações dos santos (Ap 5,8). Se pedimos que irmãos na terra rezem por nós, e a oração do justo tem muito poder (Tg 5,16), não há razão para não pedir o mesmo a quem já está junto de Deus. Pedir a intercessão de Maria é isso: pedir que ela reze conosco e por nós.
+Deus é Deus dos vivos, não dos mortos, diz Jesus (Mc 12,26-27). Os que morreram em Cristo estão com ele, e a Carta aos Hebreus os chama de uma “nuvem de testemunhas” ao nosso redor (Hb 12,1). No Apocalipse, os anciãos no céu apresentam a Deus as orações dos santos (Ap 5,8). Se pedimos que irmãos na terra rezem por nós, e a oração do justo tem muito poder (Tg 5,16), não há razão para não pedir o mesmo a quem já está junto de Deus. Pedir a intercessão de Maria é isso: pedir que ela reze conosco e por nós. Por isso a Igreja a invoca como “advogada, auxiliadora, socorro” (CIC 969): “podemos orar com Ela e orar-Lhe a Ela” (CIC 2679), sempre como a quem leva a Cristo.
 
 ### Os primeiros cristãos já faziam a distinção
 
-No relato do martírio de São Policarpo, por volta do ano 156, a comunidade de Esmirna responde a quem os acusava de querer adorar o mártir: “A Cristo, nós O adoramos, porque Ele é o Filho de Deus; quanto aos mártires, nós os amamos como a discípulos e imitadores do Senhor” (*Martírio de São Policarpo*, 17,3; CIC 957). É a mesma distinção entre adorar e venerar, dezoito séculos antes das nossas discussões.
+No relato do martírio de São Policarpo, por volta do ano 156, a comunidade de Esmirna responde a quem temia que eles deixassem Cristo para adorar o mártir: “A Cristo, nós O adoramos, porque Ele é o Filho de Deus; quanto aos mártires, nós os amamos como a discípulos e imitadores do Senhor” (*Martírio de São Policarpo*, 17,3; CIC 957). É a mesma distinção entre adorar e venerar, dezoito séculos antes das nossas discussões.
 
-E quando o imperador bizantino proibiu as imagens, o **II Concílio de Niceia** (787) respondeu que a honra prestada a uma imagem “remonta ao modelo original” e que a honra às santas imagens é uma “veneração respeitosa”, e não uma adoração, “que só a Deus se deve” (CIC 2132).
+E depois de décadas em que imperadores bizantinos proibiram as imagens, o **II Concílio de Niceia** (787), retomando São Basílio, ensinou que a honra prestada a uma imagem “remonta ao modelo original”. Como resume o Catecismo, essa honra é uma “veneração respeitosa”, e não a adoração “que só a Deus se deve” (CIC 2132).
 
 ## Respondendo às objeções
 

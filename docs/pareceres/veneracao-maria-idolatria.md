@@ -79,4 +79,8 @@ Nenhum.
 - `npm run verificar -- --links --ortografia`: 0 erros; avisos falsos
   (Endor, “pratica”, concordância).
 - Para o autor conferir na Bíblia: as passagens listadas em `revisao.notas`;
-  só uma é citada literalmente (“a mãe do meu Senhor”, Lc 1,43).
+  três expressões são citadas literalmente (Lc 1,28; Lc 1,43; Hb 12,1).
+
+## Correções aplicadas (30/10/2026)
+
+Correções 1 a 3 e sugestões 4 a 7 incorporadas.
