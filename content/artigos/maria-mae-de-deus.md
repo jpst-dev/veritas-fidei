@@ -27,8 +27,9 @@ revisao:
   referenciasConferidas: false
   notas: >-
     Reescrito em 30/10/2026 a partir do texto do site antigo. Citações do Catecismo conferidas pelo verificador.
-    Conferir pelo autor: as passagens bíblicas na Bíblia da CNBB (Lc 1,31-35.43; Gl 4,4; Jo 1,1.14; Jo 2,1; Jo 19,25-27),
-    a frase de Santo Inácio (Efésios, 18,2) e a de São Gregório Nazianzeno (Carta 101).
+    Referências conferidas na Nova Vulgata (npm run biblia) em 30/10/2026: existem e dizem o que o texto afirma.
+    Conferir na CNBB impressa só as expressões entre aspas: “a mãe do meu Senhor” (Lc 1,43); “a mãe de Jesus” (Jo 2,1.3; At 1,14).
+    Conferir também a frase de Santo Inácio (Efésios, 18,2) e a de São Gregório Nazianzeno (Carta 101).
     Parecer doutrinal interno: favorável com correções em 30/10/2026, correções aplicadas (docs/pareceres/maria-mae-de-deus.md).
 ---
 
@@ -92,7 +93,7 @@ Quando Maria visita Isabel, esta, cheia do Espírito Santo, a saúda como “a m
 
 São João abre o seu Evangelho dizendo que o Verbo estava junto de Deus e era Deus, e que esse Verbo se fez carne e habitou entre nós (Jo 1,1.14). E São Paulo resume a encarnação dizendo que, na plenitude dos tempos, Deus enviou o seu Filho, nascido de mulher (Gl 4,4). O Filho que Deus envia é o mesmo que nasce de uma mulher. Essa mulher é Maria.
 
-Os Evangelhos chamam Maria, simplesmente, de “a mãe de Jesus” (Jo 2,1; 19,25). Juntando essas passagens à fé na divindade de Jesus, o título Mãe de Deus é só a conclusão.
+O Novo Testamento chama Maria, simplesmente, de “a mãe de Jesus” (Jo 2,1.3; At 1,14). Juntando essas passagens à fé na divindade de Jesus, o título Mãe de Deus é só a conclusão.
 
 ## Na Tradição
 

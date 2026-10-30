@@ -27,7 +27,8 @@ revisao:
   notas: >-
     Escrito do zero em 30/10/2026 (o texto do site antigo citava a bula por site não oficial e misturava devoção e doutrina).
     Citações do Catecismo conferidas pelo verificador.
-    Conferir pelo autor, na Bíblia da CNBB: Lc 1,28.47; Gn 3,15; Ef 1,3-4; Rm 3,23; Rm 5,12.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 30/10/2026: existem e dizem o que o texto afirma.
+    Conferir na CNBB impressa só as expressões entre aspas: “cheia de graça” (Lc 1,28).
     Conferir também a frase de Santo Agostinho (A natureza e a graça, 36,42) e a estrofe de Santo Efrém (Hinos de Nísibis, 27,8) na fonte.
     Parecer doutrinal interno: favorável com correções em 30/10/2026, correções aplicadas (docs/pareceres/imaculada-conceicao-de-maria.md).
 ---
@@ -107,7 +108,7 @@ A Igreja não definiu essa questão. Maria era livre, e a graça não suprimiu a
 
 ### Isso não afasta Maria de nós?
 
-Ao contrário: mostra até onde a graça de Deus pode chegar numa criatura humana. Maria não é uma deusa; é uma de nós, totalmente salva. Nela vemos realizado, desde o início, o que Deus quer fazer em cada batizado: torná-lo “santo e irrepreensível” diante dele (Ef 1,4).
+Ao contrário: mostra até onde a graça de Deus pode chegar numa criatura humana. Maria não é uma deusa; é uma de nós, totalmente salva. Nela vemos realizado, desde o início, o que Deus quer fazer em cada batizado: torná-lo santo e irrepreensível diante dele (Ef 1,4).
 
 ## Em resumo
 

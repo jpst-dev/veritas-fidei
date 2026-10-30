@@ -25,7 +25,8 @@ revisao:
   notas: >-
     Escrito do zero em 30/10/2026 (o texto do site antigo citava sites genéricos como fontes).
     Citações do Catecismo conferidas pelo verificador; trechos da Munificentissimus Deus (n. 14 e 44) conferidos no vatican.va.
-    Conferir pelo autor, na Bíblia da CNBB: 1Cor 15,20-23; Ap 11,19-12,1; Sl 132,8; Gn 3,15.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 30/10/2026: existem e dizem o que o texto afirma.
+    Conferir na CNBB impressa só as expressões entre aspas: “uma mulher vestida de sol” (Ap 12,1).
     Parecer doutrinal interno: favorável com correções em 30/10/2026, correções aplicadas (docs/pareceres/assuncao-de-maria.md).
 ---
 

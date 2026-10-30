@@ -26,8 +26,8 @@ revisao:
   notas: >-
     Reescrito em 30/10/2026 a partir do texto do site antigo, que trazia uma citação da Lumen Gentium inexistente
     e chamava o Sínodo de Latrão de concílio ecumênico. Citações do Catecismo conferidas pelo verificador.
-    Conferir pelo autor, na Bíblia da CNBB: Lc 1,26-38; Mt 1,18-25; 2Sm 6,23; Lc 2,7; Ex 13,2; Mc 6,3; Mt 13,55;
-    Mt 27,55-56; Mc 15,40; Mt 28,1; Jo 19,25-27; Gn 12,5; Gn 13,8; Gn 14,14.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 30/10/2026: existem e dizem o que o texto afirma.
+    Conferir na CNBB impressa só as expressões entre aspas: “Até que ela deu à luz” (Mt 1,25, título de seção); “primogênito” (Lc 2,7); “abre o ventre” (Ex 13,2); “irmão” (Gn 13,8; 14,14); “o filho de Maria” (Mc 6,3).
     Parecer doutrinal interno: favorável com correções em 30/10/2026, correções aplicadas (docs/pareceres/virgindade-perpetua-de-maria.md).
 ---
 
@@ -91,7 +91,7 @@ Quem eram, então, os “irmãos”? A Tradição deu duas respostas, e a Igreja
 
 ### Um casamento sem relações é um casamento de verdade?
 
-Sim. O casamento de Maria e José foi verdadeiro: José é chamado de “esposo” de Maria (Mt 1,19) e foi o pai legal de Jesus, que lhe deu o nome e a descendência de Davi. O que a Tradição entende é que os dois viveram esse casamento inteiramente a serviço do Filho que Deus lhes confiou. Que José também tenha permanecido virgem é uma opinião piedosa antiga, defendida por São Jerônimo, mas a Igreja não a definiu.
+Sim. O casamento de Maria e José foi verdadeiro: José é o esposo de Maria (Mt 1,19) e foi o pai legal de Jesus, que lhe deu o nome e a descendência de Davi. O que a Tradição entende é que os dois viveram esse casamento inteiramente a serviço do Filho que Deus lhes confiou. Que José também tenha permanecido virgem é uma opinião piedosa antiga, defendida por São Jerônimo, mas a Igreja não a definiu.
 
 ### Por que a Bíblia não diz isso com todas as letras?
 

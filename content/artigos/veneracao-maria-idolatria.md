@@ -40,9 +40,8 @@ revisao:
   notas: >-
     Escrito do zero em 30/10/2026 (o texto do site antigo trazia citação de Santo Efrém sem fonte e links para uma Bíblia
     em site de terceiros). Citações do Catecismo conferidas pelo verificador; LG 66-67 conferida no vatican.va.
-    Passagens bíblicas referidas sem citação literal, exceto “cheia de graça” (Lc 1,28), “a mãe do meu Senhor” (Lc 1,43) e “nuvem de testemunhas” (Hb 12,1).
-    Conferir pelo autor, na Bíblia da CNBB: Mt 4,10; Ex 20,3-5; Lc 1,28.42-43.48; Jo 19,26-27; 1Tm 2,1-5; Tg 5,16;
-    Ap 5,8; Mc 12,26-27; 1Pd 2,17; Hb 12,1; Ex 25,18-20; Nm 21,8-9; 2Rs 18,4; Dt 18,10-11; 1Sm 28,7-19.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 30/10/2026: existem e dizem o que o texto afirma.
+    Conferir na CNBB impressa só as expressões entre aspas: “cheia de graça” (Lc 1,28); “mãe do meu Senhor” (Lc 1,43); “nuvem de testemunhas” (Hb 12,1).
     Parecer doutrinal interno: favorável com correções em 30/10/2026, correções aplicadas (docs/pareceres/veneracao-maria-idolatria.md).
 ---
 
