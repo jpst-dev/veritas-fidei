@@ -1,6 +1,7 @@
 ---
 title: O batismo de crianças é bíblico?
 description: Se o Batismo pede fé, por que batizar quem ainda não pode crer? O que a Escritura, os primeiros cristãos e a Igreja respondem.
+obra: batismo-de-cristo
 tema: sacramentos
 secao: defesa-da-fe
 status: publicado

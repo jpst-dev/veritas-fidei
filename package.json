@@ -12,7 +12,8 @@
     "postinstall": "nuxt prepare",
     "typecheck": "nuxt typecheck",
     "test": "vitest run",
-    "verificar": "node scripts/verificar.ts"
+    "verificar": "node scripts/verificar.ts",
+    "obra": "node scripts/obra.ts"
   },
   "engines": {
     "node": "24.x"
@@ -31,6 +32,7 @@
     "@resvg/resvg-js": "^2.6.2",
     "@types/node": "^24.19.2",
     "satori": "^0.63.2",
+    "sharp": "^0.34.5",
     "typescript": "~6.0.3",
     "vitest": "^5.0.5",
     "vue-tsc": "^3.3.13",

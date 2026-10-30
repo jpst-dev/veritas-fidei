@@ -1,6 +1,7 @@
 ---
 title: A presença real de Cristo na Eucaristia
 description: O que a Igreja quer dizer quando afirma que Jesus está verdadeiramente presente na Eucaristia, e por que crê nisso desde o início.
+obra: ultima-ceia
 tema: sacramentos
 secao: aprender
 status: publicado

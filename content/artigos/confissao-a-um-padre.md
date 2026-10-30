@@ -1,6 +1,7 @@
 ---
 title: Por que confessar os pecados a um padre?
 description: Se só Deus perdoa pecados, por que contá-los a um homem? O que Jesus deu aos Apóstolos e como os primeiros cristãos viveram isso.
+obra: filho-prodigo
 tema: sacramentos
 secao: defesa-da-fe
 status: publicado

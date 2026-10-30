@@ -4,7 +4,7 @@ export function useArtigos() {
     queryCollection('artigos')
       .where('status', 'IN', statusVisiveis())
       .order('publicadoEm', 'DESC')
-      .select('path', 'title', 'description', 'tema', 'secao', 'status', 'minutos', 'nivel', 'publicadoEm')
+      .select('path', 'title', 'description', 'tema', 'secao', 'status', 'minutos', 'nivel', 'publicadoEm', 'obra')
       .all(),
   )
 }

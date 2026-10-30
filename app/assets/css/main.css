@@ -38,9 +38,40 @@
   color-scheme: light;
 }
 
+/*
+ * Faixas sobre pinturas escuras (home) ficam escuras nos dois temas: os
+ * neutros e os destaques voltam aos valores da paleta Noite.
+ */
+.escuro {
+  --vf-bg: #0d1015;
+  --vf-surface: #141922;
+  --vf-line: #2a313c;
+  --vf-text: #ece6d8;
+  --vf-muted: #a49d8e;
+  --vf-on-accent: #0d0d0d;
+  --vf-verde: #6fbf8a;
+  --vf-roxo: #b39ded;
+  --vf-branco: #cdaa62;
+  --vf-vermelho: #e2705f;
+  --vf-accent: var(--vf-verde);
+  /* as classes de componente (.rubrica, .btn) leem os tokens --color-*, que o :root já resolveu */
+  --color-bg: var(--vf-bg);
+  --color-surface: var(--vf-surface);
+  --color-line: var(--vf-line);
+  --color-text: var(--vf-text);
+  --color-muted: var(--vf-muted);
+  --color-accent: var(--vf-accent);
+  --color-on-accent: var(--vf-on-accent);
+  color: var(--vf-text);
+  color-scheme: dark;
+}
+
 :root[data-cor='roxo'] { --vf-accent: var(--vf-roxo); }
 :root[data-cor='branco'] { --vf-accent: var(--vf-branco); }
 :root[data-cor='vermelho'] { --vf-accent: var(--vf-vermelho); }
+:root[data-cor='roxo'] .escuro { --vf-accent: var(--vf-roxo); }
+:root[data-cor='branco'] .escuro { --vf-accent: var(--vf-branco); }
+:root[data-cor='vermelho'] .escuro { --vf-accent: var(--vf-vermelho); }
 
 @theme inline {
   --color-bg: var(--vf-bg);

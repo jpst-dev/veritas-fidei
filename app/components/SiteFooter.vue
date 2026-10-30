@@ -6,6 +6,7 @@
         <ul class="flex gap-6">
           <li><NuxtLink to="/sobre">Sobre</NuxtLink></li>
           <li><a href="/rss.xml">RSS</a></li>
+          <li><NuxtLink to="/creditos">Créditos das imagens</NuxtLink></li>
           <li><a href="https://jteixeira.dev" rel="author">jteixeira.dev</a></li>
         </ul>
       </nav>

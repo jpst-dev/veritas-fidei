@@ -1,6 +1,7 @@
 ---
 title: Os sete sacramentos
 description: O que são os sacramentos, por que são sete e como Cristo age por meio deles em cada etapa da vida cristã.
+obra: sete-sacramentos
 tema: sacramentos
 secao: aprender
 status: publicado

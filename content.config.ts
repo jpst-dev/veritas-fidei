@@ -47,6 +47,8 @@ export default defineContentConfig({
         publicadoEm: z.iso.date().optional(),
         atualizadoEm: z.iso.date().optional(),
         referencias: z.array(referencia).default([]),
+        /** Slug de uma obra em content/obras; sem ela, o artigo usa a obra do tema. */
+        obra: z.string().optional(),
         /** Resumo no formato das quaestiones de S. Tomás, usado nos destaques da Defesa da fé. */
         quaestio: z
           .object({
@@ -88,6 +90,28 @@ export default defineContentConfig({
         resumo: z.string(),
         descricao: z.string(),
         ordem: z.number().int(),
+        /** Slug da obra que representa o tema (content/obras/<slug>.yml). */
+        obra: z.string(),
+      }),
+    }),
+
+    /** Obras de arte usadas no site, com a procedência conferida (docs/imagens.md). */
+    obras: defineCollection({
+      type: 'data',
+      source: 'obras/*.yml',
+      schema: z.object({
+        titulo: z.string(),
+        autor: z.string(),
+        data: z.string(),
+        acervo: z.string(),
+        /** Descrição da cena, para leitores de tela. */
+        alt: z.string(),
+        /** object-position do recorte (ex.: "center 40%"). */
+        posicao: z.string().default('center'),
+        licenca: z.string(),
+        /** Obrigatório quando a licença é CC BY ou CC BY-SA. */
+        credito: z.string().optional(),
+        fonte: z.url(),
       }),
     }),
   },
