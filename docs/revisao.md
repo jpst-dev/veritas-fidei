@@ -14,6 +14,15 @@ Nenhum artigo vai ao ar sem passar por aqui. O objetivo é publicar pouco e bem:
 Os artigos seguem o [padrão editorial](padrao-editorial.md). Os 73 textos do site antigo entraram como `rascunho`. A nota em `revisao.notas`
 indica possíveis duplicatas.
 
+## Antes de escrever
+
+Os rascunhos do site antigo não são base: muitos repetem o mesmo assunto com
+títulos diferentes. Todo artigo é escrito do zero no padrão editorial. Antes,
+procure no acervo (rascunhos e publicados) os textos sobre o mesmo assunto,
+para não duplicar e para saber o que o novo substitui. O rascunho substituído
+é apagado no mesmo commit (fica no histórico do git), e o artigo novo diz em
+`revisao.notas` quais textos substituiu.
+
 ## Checklist antes de mudar para `publicado`
 
 0. **Verificador**: `npm run verificar -- --links --ortografia content/artigos/<slug>.md`.

@@ -75,6 +75,16 @@ export function verificarEstrutura({ dados, linhas }: Artigo): Achado[] {
   if (typeof dados.title === 'string' && pareceTitleCase(dados.title)) {
     achados.push({ gravidade: gravePublicado, mensagem: `título em "Title Case"; use frase: "${dados.title}"` })
   }
+  // Pergunta no título é a marca da Defesa da fé; em Aprender o título afirma
+  if (typeof dados.title === 'string') {
+    const pergunta = dados.title.trim().endsWith('?')
+    if (secao === 'aprender' && pergunta) {
+      achados.push({ gravidade: gravePublicado, mensagem: 'título em pergunta fora da Defesa da fé; em Aprender o título afirma' })
+    }
+    if (secao === 'defesa-da-fe' && !pergunta) {
+      achados.push({ gravidade: 'aviso', mensagem: 'artigo da Defesa da fé com título que não é pergunta' })
+    }
+  }
   if (typeof dados.description === 'string' && dados.description.length > 160) {
     achados.push({ gravidade: gravePublicado, mensagem: `description com ${dados.description.length} caracteres (máximo 160)` })
   }

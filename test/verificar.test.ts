@@ -95,6 +95,29 @@ Texto com "aspas retas" (CIC § 1374).
     expect(estrutura.some((m) => m.startsWith('título em "Title Case"'))).toBe(true)
   })
 
+  it('reserva o título em pergunta para a Defesa da fé', () => {
+    const aprender = lerArtigo(`---
+title: Quem é Deus?
+secao: aprender
+status: publicado
+---
+
+Texto.
+`)
+    const defesa = lerArtigo(`---
+title: A Trindade foi inventada
+secao: defesa-da-fe
+---
+
+Texto.
+`)
+    expect(verificarEstrutura(aprender)).toContainEqual({
+      gravidade: 'erro',
+      mensagem: 'título em pergunta fora da Defesa da fé; em Aprender o título afirma',
+    })
+    expect(verificarEstrutura(defesa).map((a) => a.mensagem)).toContain('artigo da Defesa da fé com título que não é pergunta')
+  })
+
   it('aponta formato de citação e aspas retas', () => {
     const formato = verificarFormato(artigo).map((a) => a.mensagem)
     expect(formato).toContain('"CIC § 1374": use "CIC 1374"')

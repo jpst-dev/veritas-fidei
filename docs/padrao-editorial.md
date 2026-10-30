@@ -63,6 +63,10 @@ Respondo), que aparece no topo do artigo e na home.
 - **Títulos em frase**, só com a primeira letra e os nomes próprios em
   maiúscula: "A Eucaristia é apenas um símbolo?", não "A Eucaristia é Apenas
   um Símbolo?".
+- **Pergunta no título só na Defesa da fé**, que responde a uma objeção
+  ("Venerar Maria é idolatria?"). Em Aprender o título afirma o assunto ("A
+  Santíssima Trindade", "Conhecer a Deus pela razão e pela fé"). O verificador
+  confere.
 - Maiúsculas reverenciais nos nomes divinos e títulos marianos: Deus, Cristo,
   Espírito Santo, Nossa Senhora, a Igreja (instituição). Os pronomes ficam em
   minúscula: "ele", "seu".
