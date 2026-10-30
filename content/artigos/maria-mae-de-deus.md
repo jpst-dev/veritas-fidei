@@ -1,107 +1,132 @@
 ---
-title: "Maria, Mãe de Deus (Theotokos)"
-description: "O dogma da Maternidade Divina de Maria definido no Concílio de Éfeso (431)"
+title: Maria, Mãe de Deus
+description: Por que a Igreja chama Maria de Mãe de Deus desde os primeiros séculos, e por que esse título fala, antes de tudo, de quem é Jesus.
 tema: maria
 secao: aprender
-status: rascunho
-nivel: intermediario
-tags: ["Maria", "Theotokos", "Mãe de Deus", "Cristologia", "Concílio de Éfeso"]
+status: em-revisao
+nivel: iniciante
+tags: [maria, theotokos, mae-de-deus, encarnacao, concilio-de-efeso]
 referencias:
-  - titulo: "Catecismo da Igreja Católica §§ 495-501"
-    autor: "Igreja Católica"
-    url: "https://www.vatican.va/archive/cathechism_po/index_new/p1s2c2a3_484-511_po.html"
-  - titulo: "Concílio de Éfeso (431)"
-    autor: "Igreja Católica"
-    url: "https://www.newadvent.org/fathers/3810.htm"
-  - titulo: "Lumen Gentium §§ 52-54"
-    autor: "Concílio Vaticano II"
-    url: "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19641121_lumen-gentium_po.html"
-  - titulo: "A Maternidade Divina de Maria"
-    autor: "São Cirilo de Alexandria"
-    url: "https://www.ecclesia.com.br/biblioteca/pais_da_igreja/igreja_antiga_cirilo_alexandria.html"
+  - titulo: Catecismo da Igreja Católica, 466 e 495 (Maria, Mãe de Deus)
+    url: https://www.vatican.va/archive/cathechism_po/index_new/p1s2cap2_422-682_po.html
+  - titulo: Catecismo da Igreja Católica, 963-971 (Maria, Mãe da Igreja)
+    url: https://www.vatican.va/archive/cathechism_po/index_new/p1s2cap3_683-1065_po.html
+  - titulo: Constituição dogmática Lumen Gentium, 52-69
+    autor: Concílio Vaticano II
+    url: https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19641121_lumen-gentium_po.html
+  - titulo: Carta aos Efésios, 18-19
+    autor: Santo Inácio de Antioquia
+    url: https://www.newadvent.org/fathers/0104.htm
+  - titulo: Carta 101, a Cledônio
+    autor: São Gregório Nazianzeno
+    url: https://www.newadvent.org/fathers/3103a.htm
+  - titulo: Concílio de Éfeso (431), cartas de São Cirilo e anatematismos
+    url: https://www.newadvent.org/fathers/3810.htm
 revisao:
   citacoesConferidas: false
   referenciasConferidas: false
-  notas: "Migrado do site antigo (2025): revisar texto, citações e referências."
+  notas: >-
+    Reescrito em 30/10/2026 a partir do texto do site antigo. Citações do Catecismo conferidas pelo verificador.
+    Conferir pelo autor: as passagens bíblicas na Bíblia da CNBB (Lc 1,31-35.43; Gl 4,4; Jo 1,1.14; Jo 2,1; Jo 19,25-27),
+    a frase de Santo Inácio (Efésios, 18,2) e a de São Gregório Nazianzeno (Carta 101).
 ---
 
-## Introdução
+Desde muito cedo, os cristãos rezam a Maria chamando-a de **Mãe de Deus**. A Ave-Maria termina assim: “Santa Maria, Mãe de Deus, rogai por nós”. Para quem ouve pela primeira vez, o título pode soar estranho ou até exagerado. Como uma mulher de Nazaré pode ser mãe de Deus, que é eterno?
 
-O título de "Mãe de Deus" (em grego, "Theotokos") é um dos mais antigos e importantes títulos atribuídos a Maria na tradição cristã. Este dogma proclama que Maria é verdadeiramente a Mãe de Deus, não no sentido de que ela seja anterior a Deus ou a origem da divindade, mas porque ela é a mãe de Jesus Cristo, que é verdadeiramente Deus e verdadeiramente homem. Este título tem profundas implicações teológicas, cristológicas e mariológicas, e sua compreensão adequada é essencial para uma visão correta tanto da pessoa de Cristo quanto do papel de Maria na economia da salvação.
+A resposta diz mais sobre Jesus do que sobre Maria. Chamar Maria de Mãe de Deus é a forma mais curta de dizer quem é o filho que ela trouxe no ventre. Por isso esse é o primeiro dos dogmas marianos, e o ponto de partida para entender todos os outros.
 
-## Contexto Histórico
+## O que a Igreja ensina
 
-O título "Theotokos" tem origens antigas na devoção cristã, sendo amplamente utilizado pelos fiéis pelo menos desde o século III. No entanto, foi no século V que este título ganhou grande importância doutrinal, quando surgiu a controvérsia nestoriana. Nestório, Patriarca de Constantinopla, propunha chamar Maria de "Christotokos" (Mãe de Cristo) em vez de "Theotokos" (Mãe de Deus), sugerindo uma separação entre a natureza humana e divina de Jesus.
+O Catecismo resume a doutrina numa frase:
 
-Em resposta a esta controvérsia, o Concílio de Éfeso (431 d.C.), sob a liderança de São Cirilo de Alexandria, definiu solenemente Maria como "Theotokos", afirmando assim a unidade da pessoa de Cristo nas suas duas naturezas. Esta definição não era primariamente sobre Maria, mas sobre Cristo - afirmando que Aquele que nasceu de Maria não era simplesmente um homem em quem o Verbo habitava, mas o próprio Verbo de Deus encarnado.
+> Maria é verdadeiramente “Mãe de Deus”, pois é a Mãe do Filho eterno de Deus feito homem que, Ele próprio, é Deus.
+>
+> — CIC 509
 
-## Fundamento Bíblico
+O raciocínio tem três passos simples:
 
-O título de Mãe de Deus encontra respaldo em vários textos bíblicos:
+1. **Jesus é uma só pessoa**, e essa pessoa é o Filho eterno de Deus, a segunda Pessoa da Santíssima Trindade.
+2. **Maria é verdadeiramente mãe de Jesus.** Ela o concebeu, o gerou e o deu à luz como qualquer mãe gera o seu filho.
+3. **Logo, Maria é mãe de quem é Deus.** Uma mãe não é mãe de uma “natureza”, mas de alguém. E o alguém que nasceu dela é Deus.
 
-1. **Lucas 1,43**: Quando Isabel saúda Maria, diz: "Donde me é concedida esta graça, de vir a mim a mãe do meu Senhor?" O termo "Senhor" (Kyrios) era usado pelos cristãos primitivos e na Septuaginta para referir-se a Deus.
+O título não quer dizer que Maria seja anterior a Deus, nem que tenha dado origem à divindade. O Filho existe desde sempre junto do Pai. Maria lhe deu a natureza humana: o corpo, o sangue, a vida no seu seio. É nessa natureza que o Filho eterno nasceu como homem. Com as palavras do Catecismo, Aquele que ela concebeu “não é outro senão o Filho eterno do Pai, a segunda pessoa da Santíssima Trindade” (CIC 495).
 
-2. **Lucas 1,35**: O anjo anuncia a Maria: "O Espírito Santo descerá sobre ti, e a força do Altíssimo te cobrirá com a sua sombra. Por isso, o Santo que vai nascer será chamado Filho de Deus."
+A Igreja também diz o caminho inverso: “O que a fé católica crê, a respeito de Maria, funda-se no que crê a respeito de Cristo” (CIC 487). Quem entende bem o título Mãe de Deus entende bem a encarnação.
 
-3. **Gálatas 4,4**: São Paulo escreve: "Quando chegou a plenitude do tempo, Deus enviou seu Filho, nascido de uma mulher, nascido sob a Lei."
+## A controvérsia de Éfeso
 
-4. **João 1,14**: "E o Verbo se fez carne e habitou entre nós." Se o Verbo, que é Deus (João 1,1), se fez carne no ventre de Maria, então ela é verdadeiramente a Mãe de Deus encarnado.
+O título já era usado pelos fiéis havia muito tempo quando, no século V, se tornou o centro de uma grande controvérsia. Ela ajuda a ver o que estava em jogo.
 
-## Fundamento Patrístico e Teológico
+### O que Nestório propunha
 
-Os Padres da Igreja, tanto do Oriente quanto do Ocidente, defenderam e desenvolveram a doutrina da maternidade divina de Maria:
+Nestório, patriarca de Constantinopla a partir de 428, achava que chamar Maria de *Theotokos* (em grego, “aquela que gerou Deus”) confundia as coisas. Preferia *Christotokos*, “mãe de Cristo”. Por trás da mudança de palavra havia uma ideia sobre Jesus: em Cristo haveria como que duas pessoas unidas, o homem nascido de Maria e o Verbo de Deus que habitava nele. Maria seria mãe só do homem.
 
-1. **São Cirilo de Alexandria**, o grande defensor do título "Theotokos", ensinou que negar este título seria negar a encarnação: se Maria não é Mãe de Deus, então quem nasceu dela não é Deus.
+O Catecismo descreve assim esse erro: “A heresia nestoriana via em Cristo uma pessoa humana unida à pessoa divina do Filho de Deus” (CIC 466). Se fosse assim, Deus não teria nascido, nem sofrido, nem morrido por nós. Teria apenas morado num homem que fez tudo isso.
 
-2. **São Gregório Nazianzeno** afirmou: "Se alguém não reconhece Maria como Mãe de Deus (Theotokos), está apartado de Deus."
+### A resposta do Concílio
 
-3. **Santo Agostinho** ensinou que o Verbo eterno, ao assumir a natureza humana no ventre de Maria, não mudou sua natureza divina, mas uniu-a à natureza humana numa única pessoa.
+São Cirilo de Alexandria respondeu que, em Jesus, há uma só pessoa, a do Verbo, que assumiu a natureza humana desde o primeiro instante. O Concílio de Éfeso, em 431, deu razão a Cirilo e confirmou o título. O Catecismo cita o próprio texto de Éfeso, que explica o sentido exato da palavra:
 
-4. **São João Damasceno** desenvolveu profundamente a teologia da maternidade divina, afirmando que Maria deu à luz a pessoa de Cristo, que é uma pessoa divina com duas naturezas.
+> Mãe de Deus, não porque o Verbo de Deus dela tenha recebido a natureza divina, mas porque dela recebeu o corpo sagrado, dotado duma alma racional, unido ao qual, na sua pessoa, se diz que o Verbo nasceu segundo a carne.
+>
+> — CIC 466
 
-## Magistério da Igreja
+Vinte anos depois, o Concílio de Calcedônia (451) completou a doutrina: Cristo é uma só pessoa em duas naturezas, a divina e a humana, “sem confusão” e “sem separação”. E repetiu que ele nasceu, segundo a humanidade, da Virgem Maria, Mãe de Deus.
 
-O ensinamento sobre Maria como Mãe de Deus foi definido dogmaticamente no Concílio de Éfeso (431 d.C.) e reafirmado em concílios posteriores:
+A disputa sobre o título de Maria era, na verdade, uma disputa sobre Jesus. Defender a palavra *Theotokos* era defender que Deus realmente se fez homem.
 
-1. **Concílio de Éfeso (431)**: Definiu solenemente que Maria é verdadeiramente "Theotokos", a Mãe de Deus.
+## Na Sagrada Escritura
 
-2. **Concílio de Calcedônia (451)**: Reafirmou esta definição ao proclamar que Cristo é "consubstancial ao Pai segundo a divindade e consubstancial a nós segundo a humanidade".
+A expressão “Mãe de Deus” não aparece com essas palavras na Bíblia, mas o seu conteúdo está lá.
 
-3. **Concílio Vaticano II**: Na constituição dogmática "Lumen Gentium", reafirma: "A Virgem Maria, que na anunciação angélica recebeu o Verbo de Deus no coração e no corpo e deu a Vida ao mundo, é reconhecida e honrada como verdadeira Mãe de Deus e do Redentor" (LG, 53).
+### O anúncio do anjo
 
-4. **Catecismo da Igreja Católica**: "Maria é verdadeiramente 'Mãe de Deus', porque é a mãe do Filho eterno de Deus feito homem, que é Ele próprio Deus" (CIC, 509).
+Na anunciação, o anjo Gabriel diz a Maria que ela vai conceber e dar à luz um filho, que será chamado Filho do Altíssimo, e que o Santo que vai nascer será chamado Filho de Deus (Lc 1,31-35). O filho que ela concebe é o mesmo que é Filho de Deus. Não são dois.
 
-## Objeções Comuns e Respostas
+### “A mãe do meu Senhor”
 
-### "Maria não pode ser Mãe de Deus porque Deus é eterno e não tem início."
+Quando Maria visita Isabel, esta, cheia do Espírito Santo, a saúda como “a mãe do meu Senhor” (Lc 1,43). Na Bíblia grega usada pelos primeiros cristãos, “Senhor” (*Kyrios*) é o nome com que se traduz o nome de Deus. O Catecismo lê o versículo assim: Maria é aclamada, “sob o impulso do Espírito Santo e desde antes do nascimento do seu Filho, como ‘a Mãe do meu Senhor’” (CIC 495).
 
-**Resposta**: Maria é Mãe de Deus encarnado, do Verbo que se fez carne. Ela não deu origem à divindade de Cristo, mas à sua humanidade. Porém, como Cristo é uma única pessoa divina com duas naturezas, Maria é verdadeiramente Mãe de Deus.
+### O Verbo se fez carne
 
-### "O título 'Mãe de Deus' eleva Maria a um status divino."
+São João abre o seu Evangelho dizendo que o Verbo estava junto de Deus e era Deus, e que esse Verbo se fez carne e habitou entre nós (Jo 1,1.14). E São Paulo resume a encarnação dizendo que, na plenitude dos tempos, Deus enviou o seu Filho, nascido de mulher (Gl 4,4). O Filho que Deus envia é o mesmo que nasce de uma mulher. Essa mulher é Maria.
 
-**Resposta**: Este título não diviniza Maria, mas afirma a divindade de Cristo. Maria permanece uma criatura, embora singular em sua vocação. A maternidade divina é um privilégio concedido por Deus, não um atributo que a torna divina.
+Os Evangelhos chamam Maria, simplesmente, de “a mãe de Jesus” (Jo 2,1; 19,25). Juntando essas passagens à fé na divindade de Jesus, o título Mãe de Deus é só a conclusão.
 
-### "Este título não aparece explicitamente na Bíblia."
+## Na Tradição
 
-**Resposta**: Embora o termo exato "Theotokos" não apareça na Bíblia, o conceito está claramente presente, como visto na saudação de Isabel a Maria como "mãe do meu Senhor" (Lucas 1,43) e nas passagens que afirmam a divindade de Jesus.
+O título é anterior a Éfeso. O Concílio não o inventou: confirmou o que a Igreja já rezava.
 
-## Aplicações Contemporâneas
+- **Santo Inácio de Antioquia**, por volta do ano 110, escreve que “o nosso Deus, Jesus Cristo, foi concebido por Maria” (Santo Inácio de Antioquia, *Carta aos Efésios*, 18,2; c. 110). Ainda sem a palavra *Theotokos*, a ideia já está inteira.
+- A oração ***Sub tuum praesidium*** (“À vossa proteção recorremos, Santa Mãe de Deus”) foi encontrada num papiro egípcio datado geralmente entre os séculos III e IV. É uma das orações marianas mais antigas que conhecemos, e já usa o título *Theotokos*.
+- **São Gregório Nazianzeno**, por volta de 382, chega a dizer que quem não crê que Santa Maria é Mãe de Deus está separado da divindade (São Gregório Nazianzeno, *Carta 101, a Cledônio*; c. 382). Para ele, negar o título era negar a encarnação.
+- O **Concílio de Éfeso** (431) e o **Concílio de Calcedônia** (451) fixaram a doutrina, que é professada até hoje pelos católicos e pelos ortodoxos.
+- O **Concílio Vaticano II** a retomou: Maria “é reconhecida e honrada como verdadeira Mãe de Deus e do Redentor” (CIC 963, citando *Lumen Gentium*, 53).
 
-1. **Dimensão Ecumênica**: O título "Mãe de Deus" é aceito não apenas pelos católicos, mas também pelas igrejas ortodoxas e por muitos anglicanos e luteranos, oferecendo um ponto de unidade no diálogo ecumênico.
+A Igreja celebra essa verdade na liturgia: o dia 1º de janeiro, oitava do Natal, é a solenidade de Santa Maria, Mãe de Deus.
 
-2. **Cristologia Correta**: Compreender Maria como Mãe de Deus nos protege contra heresias cristológicas antigas e modernas que tendem a separar as naturezas de Cristo ou a negar sua divindade.
+## Dúvidas comuns
 
-3. **Dignidade da Pessoa Humana**: A encarnação do Verbo no ventre de Maria dignifica toda a humanidade e especialmente a maternidade, mostrando como Deus valoriza e santifica a condição humana.
+### Deus é eterno. Como pode ter uma mãe?
 
-4. **Devoção Mariana Fundamentada**: Uma compreensão adequada do título "Theotokos" fundamenta teologicamente a devoção a Maria, evitando exageros e minimizações de seu papel no plano de salvação.
+Maria não é mãe da divindade, que não tem começo. É mãe do Filho de Deus segundo a carne: dela ele recebeu a natureza humana. Como em Jesus há uma só pessoa, e essa pessoa é divina, quem nasceu de Maria é Deus. É o que o Concílio de Éfeso quis dizer: o Verbo “nasceu segundo a carne” (CIC 466).
 
-## Conclusão
+### Esse título não transforma Maria numa deusa?
 
-O título "Mãe de Deus" (Theotokos) não é apenas uma expressão devocional, mas uma afirmação cristológica fundamental que protege a verdade sobre quem é Jesus Cristo. Ao proclamar Maria como Mãe de Deus, a Igreja afirma simultaneamente a divindade de Cristo, a unidade de sua pessoa e a realidade da encarnação. Este dogma, um dos mais antigos da fé cristã, continua a iluminar nossa compreensão do mistério de Cristo e do papel único de Maria na história da salvação.
+Não. Maria é uma criatura, salva por Deus como todos nós, e a Igreja nunca lhe prestou o culto devido só a Deus. O Catecismo distingue com clareza: a veneração a Maria “difere essencialmente do culto de adoração que se presta por igual ao Verbo Encarnado, ao Pai e ao Espírito Santo” (CIC 971). O título é a maior honra que uma criatura recebeu, mas continua sendo de uma criatura.
 
-## Leitura Adicional
+### Não bastaria chamar Maria de “mãe de Jesus”?
 
-- Catecismo da Igreja Católica, §§ 495-507
-- "Maria: A Maior de Todas as Mães" - Scott Hahn
-- "A Mãe do Salvador" - Reginald Garrigou-Lagrange
-- "A Santíssima Virgem" - São Luís Maria Grignion de Montfort
+O título “mãe de Jesus” é verdadeiro e bíblico. O problema surge quando ele é usado para *negar* que Jesus seja Deus desde o seio de Maria, como fazia Nestório. A Igreja guarda o título Mãe de Deus porque ele protege a fé na encarnação: quem nasceu em Belém não foi um homem que depois se uniu a Deus, mas o próprio Filho de Deus feito homem.
+
+### Os protestantes aceitam esse título?
+
+Os grandes reformadores, como Lutero e Calvino, aceitavam os concílios de Éfeso e Calcedônia, e Lutero usava o título “Mãe de Deus” com naturalidade. Muitos dos nossos irmãos protestantes hoje evitam a expressão por receio de exagero na devoção mariana. Mas o conteúdo dela, que Jesus é Deus desde a concepção, é patrimônio comum de todos os cristãos.
+
+## Em resumo
+
+- Maria é **verdadeiramente Mãe de Deus**, porque é mãe de Jesus, e Jesus é o Filho eterno de Deus feito homem (CIC 509).
+- O título **fala primeiro de Cristo**: em Jesus há uma só pessoa, divina, com duas naturezas (CIC 466).
+- Maria **não é mãe da divindade**, mas da natureza humana que o Filho assumiu dela.
+- O **Concílio de Éfeso** (431) confirmou o título contra Nestório, mas ele já era rezado antes, como mostra a oração *Sub tuum praesidium*.
+- A honra dada a Maria **não é adoração**: só Deus é adorado (CIC 971).
