@@ -42,8 +42,11 @@ escreva no site nem no frontmatter que o artigo foi “aprovado pela Igreja”.
 4. **Censuras.** Procure, nesta ordem: heresia ou erro; temeridade;
    **ambiguidade** (a mais comum em textos de divulgação); ofensa aos ouvidos
    piedosos; perigo para os costumes.
-5. **Fontes.** Escritura lida no contexto (sem versículo solto como prova),
-   tradução da CNBB indicada; Padres com obra e passagem; nenhuma citação
+5. **Fontes.** Escritura lida no contexto (sem versículo solto como prova):
+   rode `npm run biblia -- --artigo content/artigos/<slug>.md` e confira, no
+   texto da Nova Vulgata, que cada versículo diz o que o artigo afirma (não
+   decida de memória); citação literal só pelo Catecismo ou em expressão curta
+   consagrada (docs/padrao-editorial.md, 4.1); Padres com obra e passagem; nenhuma citação
    “atribuída” sem fonte; Magistério citado pelo texto oficial; Catecismo
    coerente com o que o artigo diz.
 6. **Prudência pastoral.** Caridade com não católicos (“nossos irmãos
@@ -77,7 +80,8 @@ Salve em `docs/pareceres/<slug>.md` e resuma ao usuário. Formato:
 
 ## O que foi conferido
 Documentos e parágrafos abertos durante a revisão, e o que ficou para o
-autor conferir em papel (texto bíblico da CNBB).
+autor conferir em papel (só as expressões bíblicas entre aspas que não vêm
+do Catecismo, na CNBB impressa).
 ```
 
 ## Depois do parecer

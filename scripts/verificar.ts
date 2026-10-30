@@ -8,6 +8,10 @@
  * --links       testa cada URL de "referencias"
  * --ortografia  envia o texto ao LanguageTool (api.languagetool.org, pt-BR)
  *
+ * Toda referência bíblica com versículo é conferida contra a Nova Vulgata do
+ * vatican.va (o capítulo e o versículo existem?). O texto de cada uma:
+ * npm run biblia -- --artigo content/artigos/x.md
+ *
  * Sai com código 1 se houver erros.
  */
 import { readdir, readFile } from 'node:fs/promises'
@@ -17,10 +21,12 @@ import {
   type Artigo,
   citacoesDoCatecismo,
   lerArtigo,
+  textosComReferencias,
   verificarEstrutura,
   verificarFormato,
 } from './verificar/artigo.ts'
 import { textoDoCatecismo, trechosAusentes, urlDoParagrafo } from './verificar/catecismo.ts'
+import { NUMERACAO_INCERTA, OMITIDO, referenciasBiblicas, textoDaReferencia, urlDoLivro } from './verificar/vulgata.ts'
 
 const args = process.argv.slice(2)
 const comLinks = args.includes('--links')
@@ -53,6 +59,39 @@ async function conferirCatecismo(artigo: Artigo): Promise<Achado[]> {
       }
     } catch (e) {
       achados.push({ gravidade: 'aviso', linha: c.linha, mensagem: `${ref}: não consegui baixar o texto oficial (${(e as Error).message})` })
+    }
+  }
+  return achados
+}
+
+async function conferirBiblia(artigo: Artigo): Promise<Achado[]> {
+  const achados: Achado[] = []
+  for (const { n, texto } of textosComReferencias(artigo)) {
+    for (const ref of referenciasBiblicas(texto)) {
+      if (!urlDoLivro(ref.sigla)) continue
+      try {
+        const versos = await textoDaReferencia(ref)
+        const ausentes = versos.filter((v) => !v.texto).map((v) => `${v.capitulo},${v.versiculo}`)
+        const omitidos = versos.filter((v) => v.texto === OMITIDO).map((v) => `${v.capitulo},${v.versiculo}`)
+        if (ausentes.length) {
+          const incerta = NUMERACAO_INCERTA.has(ref.sigla)
+          achados.push({
+            gravidade: incerta ? 'aviso' : 'erro',
+            linha: n,
+            mensagem: `${ref.texto}: não existe na Nova Vulgata (${ausentes.join('; ')})${incerta ? '; a numeração deste livro diverge entre edições, confira na CNBB' : ''}`,
+          })
+        }
+        if (omitidos.length) {
+          achados.push({
+            gravidade: 'aviso',
+            linha: n,
+            mensagem: `${ref.texto}: a Nova Vulgata omite ${omitidos.join('; ')} (falta nos manuscritos mais antigos)`,
+          })
+        }
+      } catch (e) {
+        achados.push({ gravidade: 'aviso', linha: n, mensagem: `${ref.texto}: não consegui baixar a Nova Vulgata (${(e as Error).message})` })
+        return achados
+      }
     }
   }
   return achados
@@ -139,6 +178,7 @@ for (const arquivo of arquivos) {
     ...verificarEstrutura(artigo),
     ...verificarFormato(artigo),
     ...(await conferirCatecismo(artigo)),
+    ...(await conferirBiblia(artigo)),
     ...(comLinks ? await conferirLinks(artigo) : []),
     ...(comOrtografia ? await conferirOrtografia(artigo) : []),
   ].sort((a, b) => (a.linha ?? 0) - (b.linha ?? 0))

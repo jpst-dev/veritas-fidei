@@ -13,6 +13,7 @@
     "typecheck": "nuxt typecheck",
     "test": "vitest run",
     "verificar": "node scripts/verificar.ts",
+    "biblia": "node scripts/biblia.ts",
     "obra": "node scripts/obra.ts"
   },
   "engines": {

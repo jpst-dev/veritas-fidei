@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest'
 import { citacoesDoCatecismo, lerArtigo, verificarEstrutura, verificarFormato } from '../scripts/verificar/artigo.ts'
 import { verificarReferencias } from '../scripts/verificar/biblia.ts'
 import { extrairParagrafo, trechosAusentes, urlDoParagrafo } from '../scripts/verificar/catecismo.ts'
+import { extrairLivro, OMITIDO, referenciasBiblicas } from '../scripts/verificar/vulgata.ts'
 
 const mensagens = (texto: string) => verificarReferencias(texto).map((p) => p.mensagem)
 
@@ -103,6 +104,37 @@ Texto com "aspas retas" (CIC § 1374).
   it('encontra a citação em bloco com a atribuição no fim', () => {
     expect(citacoesDoCatecismo(artigo)).toEqual([
       { linha: 11, texto: 'No santíssimo sacramento da Eucaristia estão contidos…', inicio: 1374, fim: 1374 },
+    ])
+  })
+})
+
+describe('Nova Vulgata', () => {
+  const html =
+    '<!--INIZIO TESTO--><p><a name="1"> 1</a>&nbsp;<br />&nbsp;Locutusque est Dominus <br />2 Tolle summam.<br />' +
+    '(3) 4 Et ait: 5&#x201c; Ave &#x201d;. 6 benedixit ei</p><p><a name="2"> 2</a><br />1 Factum est.</p>'
+
+  it('lê versículos sem número, no meio da linha, colados à aspa e omitidos', () => {
+    const livro = extrairLivro(html)
+    expect([...livro.get(1)!.keys()]).toEqual([1, 2, 3, 4, 5, 6])
+    expect(livro.get(1)!.get(1)).toBe('Locutusque est Dominus')
+    expect(livro.get(1)!.get(3)).toBe(OMITIDO)
+    expect(livro.get(1)!.get(5)).toBe('“ Ave ”.')
+    expect(livro.get(2)!.get(1)).toBe('Factum est.')
+  })
+
+  it('lê os Salmos pela numeração hebraica, sem confundir a da Vulgata', () => {
+    const livro = extrairLivro('<a name="PSALMUS 105"> PSALMUS 105</a> (104)<br /> 1 <i>ALLELUIA</i>.<br /> Confitemini<br /> 2 Cantate')
+    expect([...livro.keys()]).toEqual([105])
+    expect(livro.get(105)!.get(1)).toBe('ALLELUIA . Confitemini')
+  })
+
+  it('expande as referências do texto', () => {
+    const refs = referenciasBiblicas('(Gn 13,8; 14,14) e (Lc 1,42-43.48) e (Ap 11,19-12,1); Os 12 apóstolos')
+    expect(refs.map((r) => r.texto)).toEqual(['Gn 13,8', 'Gn 14,14', 'Lc 1,42-43.48', 'Ap 11,19-12,1'])
+    expect(refs[2]!.versiculos.map((v) => v.versiculo)).toEqual([42, 43, 48])
+    expect(refs[3]!.versiculos).toEqual([
+      { capitulo: 11, versiculo: 19 },
+      { capitulo: 12, versiculo: 1 },
     ])
   })
 })

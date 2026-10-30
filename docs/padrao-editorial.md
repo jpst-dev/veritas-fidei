@@ -109,6 +109,22 @@ Respondo), que aparece no topo do artigo e na home.
   - capítulos inteiros: `Jo 6`
 - No texto corrido, a referência vai entre parênteses, depois da citação:
   “A minha carne é verdadeiramente comida” (Jo 6,55).
+- **Paráfrase com referência é a regra.** Conte o que o texto diz e dê a
+  referência: Maria profetiza que todas as gerações a chamarão bem-aventurada
+  (Lc 1,48). O leitor abre a própria Bíblia.
+- **Aspas só em dois casos**: a citação vem pelo Catecismo ou por outro
+  documento oficial, e então se indica a fonte (“O que foi gerado nela vem do
+  Espírito Santo” (Mt 1,20, citado em CIC 497)); ou é uma expressão curta e
+  consagrada, igual em qualquer tradução católica (“cheia de graça”, Lc 1,28).
+  Citação longa entre aspas, só conferida palavra por palavra na CNBB impressa.
+- **Conferência.** O verificador confere cada referência contra a **Nova
+  Vulgata** do vatican.va, o texto latino oficial da Igreja: o capítulo e o
+  versículo têm de existir. Se o versículo diz o que o artigo afirma se vê com
+  `npm run biblia -- --artigo content/artigos/<slug>.md`, que mostra o texto
+  latino de cada referência; a revisão doutrinal faz essa leitura. A Nova
+  Vulgata numera os Salmos pela numeração hebraica, como a CNBB; Ester,
+  Daniel, Joel, Malaquias e Eclesiástico podem divergir, e ali o verificador só
+  avisa.
 
 ### 4.2 Catecismo e Magistério
 

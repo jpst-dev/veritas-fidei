@@ -185,3 +185,9 @@ export function citacoesDoCatecismo({ linhas }: Artigo): CitacaoCIC[] {
 
   return citacoes
 }
+
+/** Linhas com referências bíblicas: o corpo e a quaestio do frontmatter. */
+export function textosComReferencias({ dados, linhas }: Artigo): { n?: number; texto: string }[] {
+  const quaestio = dados.quaestio ? Object.values(dados.quaestio as Record<string, string>) : []
+  return [...quaestio.map((texto) => ({ texto })), ...linhas]
+}

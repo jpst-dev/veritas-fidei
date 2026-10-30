@@ -17,15 +17,19 @@ indica possíveis duplicatas.
 ## Checklist antes de mudar para `publicado`
 
 0. **Verificador**: `npm run verificar -- --links --ortografia content/artigos/<slug>.md`.
-   Ele confere estrutura, formato das citações, referências bíblicas, citações
-   literais do Catecismo contra o vatican.va, links e ortografia (LanguageTool).
-   Erros bloqueiam; avisos pedem um olhar. O que ele não confere (texto dos
-   versículos, Padres, documentos) segue nos itens abaixo.
+   Ele confere estrutura, formato das citações, referências bíblicas (formato e
+   existência na Nova Vulgata do vatican.va), citações literais do Catecismo
+   contra o vatican.va, links e ortografia (LanguageTool). Erros bloqueiam;
+   avisos pedem um olhar. O que ele não confere (sentido dos versículos,
+   Padres, documentos) segue nos itens abaixo.
 
 1. **Texto**: reler inteiro; reescrever o que for vago, genérico ou repetitivo.
    Na dúvida, menos é mais.
-2. **Escritura**: conferir cada citação bíblica (livro, capítulo, versículo e
-   tradução) numa Bíblia católica.
+2. **Escritura**: `npm run biblia -- --artigo content/artigos/<slug>.md` mostra
+   o texto da Nova Vulgata de cada referência; conferir que o versículo diz o
+   que o artigo afirma (a revisão doutrinal registra isso no parecer). Só as
+   expressões entre aspas que não vêm do Catecismo pedem a CNBB impressa
+   (lista em `revisao.notas`).
 3. **Catecismo e Magistério**: conferir cada parágrafo citado (§) e cada
    documento (concílio, encíclica) no texto oficial, em vatican.va.
 4. **Padres da Igreja**: só citar com obra e passagem identificáveis; nada de
