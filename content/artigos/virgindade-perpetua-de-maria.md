@@ -27,7 +27,8 @@ revisao:
     Reescrito em 30/10/2026 a partir do texto do site antigo, que trazia uma citação da Lumen Gentium inexistente
     e chamava o Sínodo de Latrão de concílio ecumênico. Citações do Catecismo conferidas pelo verificador.
     Referências conferidas na Nova Vulgata (npm run biblia) em 30/10/2026: existem e dizem o que o texto afirma.
-    Conferir na CNBB impressa só as expressões entre aspas: “Até que ela deu à luz” (Mt 1,25, título de seção); “primogênito” (Lc 2,7); “abre o ventre” (Ex 13,2); “irmão” (Gn 13,8; 14,14); “o filho de Maria” (Mc 6,3).
+    Ex 13,2 conferido pelo autor na CNBB impressa em 30/10/2026 (“todo primeiro a sair do útero”).
+    Conferir na CNBB impressa só as expressões entre aspas: “Até que ela deu à luz” (Mt 1,25, título de seção); “primogênito” (Lc 2,7); “irmão” (Gn 13,8; 14,14); “o filho de Maria” (Mc 6,3).
     Parecer doutrinal interno: favorável com correções em 30/10/2026, correções aplicadas (docs/pareceres/virgindade-perpetua-de-maria.md).
 ---
 
@@ -65,7 +66,7 @@ Mateus diz que José não teve relações com Maria **até** ela dar à luz o fi
 
 ### O “primogênito”
 
-Lucas chama Jesus de filho “primogênito” de Maria (Lc 2,7). Na Lei de Moisés, primogênito é o filho que “abre o ventre” da mãe, e ele era consagrado a Deus por isso (Ex 13,2), houvesse ou não outros filhos depois. O título indica direitos e consagração, não uma contagem de irmãos.
+Lucas chama Jesus de filho “primogênito” de Maria (Lc 2,7). Na Lei de Moisés, primogênito é “todo primeiro a sair do útero”, e ele era consagrado a Deus por isso (Ex 13,2), houvesse ou não outros filhos depois. O título indica direitos e consagração, não uma contagem de irmãos.
 
 ### Os “irmãos” de Jesus
 
