@@ -1,0 +1,348 @@
+{
+  "artigos": {
+    "/explorar/doutrina/doutrina-1/1": {
+      "slug": "santissima-trindade",
+      "tema": "deus-e-trindade"
+    },
+    "/explorar/doutrina/doutrina-2/1": {
+      "slug": "os-sete-sacramentos",
+      "tema": "sacramentos"
+    },
+    "/explorar/doutrina/doutrina-2/2": {
+      "slug": "a-presenca-real-na-eucaristia",
+      "tema": "sacramentos"
+    },
+    "/explorar/doutrina/doutrina-3/1": {
+      "slug": "virtudes-cardeais-teologais",
+      "tema": "moral"
+    },
+    "/explorar/doutrina/doutrina-3/2": {
+      "slug": "doutrina-social-igreja",
+      "tema": "moral"
+    },
+    "/explorar/doutrina/doutrina-3/3": {
+      "slug": "formacao-consciencia-moral",
+      "tema": "moral"
+    },
+    "/explorar/doutrina/doutrina-3/4": {
+      "slug": "moral-sexual-catolica",
+      "tema": "moral"
+    },
+    "/explorar/doutrina/doutrina-4/1": {
+      "slug": "vida-eterna-ceu-inferno-purgatorio",
+      "tema": "novissimos"
+    },
+    "/explorar/doutrina/doutrina-4/2": {
+      "slug": "segunda-vinda-cristo-fim-tempos",
+      "tema": "novissimos"
+    },
+    "/explorar/escritura-tradicao/sola-scriptura/1": {
+      "slug": "sola-scriptura",
+      "tema": "escritura-e-tradicao"
+    },
+    "/explorar/escritura-tradicao/sola-scriptura/2": {
+      "slug": "sola-scriptura-uma-analise-critica",
+      "tema": "escritura-e-tradicao"
+    },
+    "/explorar/escritura-tradicao/desenvolvimento-doutrinal/7": {
+      "slug": "o-desenvolvimento-da-doutrina",
+      "tema": "escritura-e-tradicao"
+    },
+    "/explorar/filosofia-teologia/filosofia-teologia-1/1": {
+      "slug": "teologia-natural-existencia-deus",
+      "tema": "filosofia"
+    },
+    "/explorar/filosofia-teologia/filosofia-teologia-1/2": {
+      "slug": "argumento-ontologico",
+      "tema": "filosofia"
+    },
+    "/explorar/filosofia-teologia/filosofia-teologia-1/3": {
+      "slug": "argumento-cosmologico-kalam",
+      "tema": "filosofia"
+    },
+    "/explorar/filosofia-teologia/filosofia-teologia-1/4": {
+      "slug": "cinco-vias-tomas-aquino",
+      "tema": "filosofia"
+    },
+    "/explorar/filosofia-teologia/filosofia-teologia-1/5": {
+      "slug": "atributos-divinos",
+      "tema": "deus-e-trindade"
+    },
+    "/explorar/filosofia-teologia/filosofia-teologia-2/1": {
+      "slug": "lei-natural",
+      "tema": "moral"
+    },
+    "/explorar/filosofia-teologia/filosofia-teologia-2/2": {
+      "slug": "problema-mal",
+      "tema": "filosofia"
+    },
+    "/explorar/filosofia-teologia/filosofia-teologia-2/3": {
+      "slug": "argumento-moral",
+      "tema": "filosofia"
+    },
+    "/explorar/filosofia-teologia/filosofia-teologia-3/1": {
+      "slug": "hilemorfismo-corpo-alma",
+      "tema": "filosofia"
+    },
+    "/explorar/filosofia-teologia/filosofia-teologia-3/3": {
+      "slug": "universais-realismo-moderado",
+      "tema": "filosofia"
+    },
+    "/explorar/filosofia-teologia/filosofia-teologia-4/2": {
+      "slug": "big-bang-cosmologia-catolica",
+      "tema": "filosofia"
+    },
+    "/explorar/filosofia-teologia/filosofia-teologia-5/1": {
+      "slug": "virtudes-cardeais-teologais",
+      "tema": "moral"
+    },
+    "/explorar/filosofia-teologia/filosofia-teologia-5/2": {
+      "slug": "formacao-consciencia-moral",
+      "tema": "moral"
+    },
+    "/explorar/filosofia-teologia/filosofia-teologia-5/3": {
+      "slug": "moral-sexual-catolica",
+      "tema": "moral"
+    },
+    "/explorar/historia-igreja/historia-igreja-1/1": {
+      "slug": "igreja-apostolica",
+      "tema": "historia-da-igreja"
+    },
+    "/explorar/historia-igreja/historia-igreja-1/2": {
+      "slug": "perseguicoes-martires",
+      "tema": "historia-da-igreja"
+    },
+    "/explorar/historia-igreja/historia-igreja-1/3": {
+      "slug": "cristaos-tres-primeiros-seculos",
+      "tema": "historia-da-igreja"
+    },
+    "/explorar/historia-igreja/historia-igreja-2/1": {
+      "slug": "constantino-edito-milao",
+      "tema": "historia-da-igreja"
+    },
+    "/explorar/historia-igreja/historia-igreja-2/2": {
+      "slug": "concilio-niceia",
+      "tema": "historia-da-igreja"
+    },
+    "/explorar/historia-igreja/historia-igreja-2/3": {
+      "slug": "concilio-efeso",
+      "tema": "historia-da-igreja"
+    },
+    "/explorar/historia-igreja/historia-igreja-2/4": {
+      "slug": "grandes-padres-igreja",
+      "tema": "historia-da-igreja"
+    },
+    "/explorar/historia-igreja/historia-igreja-3/1": {
+      "slug": "igreja-idade-media",
+      "tema": "historia-da-igreja"
+    },
+    "/explorar/historia-igreja/historia-igreja-3/2": {
+      "slug": "cisma-oriente",
+      "tema": "historia-da-igreja"
+    },
+    "/explorar/historia-igreja/historia-igreja-3/3": {
+      "slug": "concilios-ecumenicos",
+      "tema": "historia-da-igreja"
+    },
+    "/explorar/historia-igreja/historia-igreja-4/1": {
+      "slug": "reforma-protestante-catolica",
+      "tema": "historia-da-igreja"
+    },
+    "/explorar/historia-igreja/historia-igreja-4/2": {
+      "slug": "concilio-vaticano-ii",
+      "tema": "historia-da-igreja"
+    },
+    "/explorar/historia-igreja/historia-igreja-4/3": {
+      "slug": "papas-seculos-xx-xxi",
+      "tema": "historia-da-igreja"
+    },
+    "/explorar/mariologia/mariologia-1/1": {
+      "slug": "imaculada-conceicao-de-maria",
+      "tema": "maria"
+    },
+    "/explorar/mariologia/mariologia-1/2": {
+      "slug": "maria-mae-de-deus",
+      "tema": "maria"
+    },
+    "/explorar/mariologia/mariologia-1/3": {
+      "slug": "virgindade-perpetua-de-maria",
+      "tema": "maria"
+    },
+    "/explorar/mariologia/mariologia-1/4": {
+      "slug": "assuncao-de-maria",
+      "tema": "maria"
+    },
+    "/explorar/mariologia/mariologia-2/1": {
+      "slug": "maria-nova-eva",
+      "tema": "maria"
+    },
+    "/explorar/mariologia/mariologia-2/2": {
+      "slug": "maria-rainha-ceu",
+      "tema": "maria"
+    },
+    "/explorar/mariologia/mariologia-2/3": {
+      "slug": "maria-medianeira-gracas",
+      "tema": "maria"
+    },
+    "/explorar/mariologia/mariologia-3/1": {
+      "slug": "santo-rosario",
+      "tema": "maria"
+    },
+    "/explorar/mariologia/mariologia-3/2": {
+      "slug": "aparicoes-marianas",
+      "tema": "maria"
+    },
+    "/explorar/objeccoes-comuns/objeccoes-biblia/1": {
+      "slug": "sola-scriptura",
+      "tema": "escritura-e-tradicao"
+    },
+    "/explorar/objeccoes-comuns/objeccoes-biblia/2": {
+      "slug": "interpretacao-privada",
+      "tema": "escritura-e-tradicao"
+    },
+    "/explorar/objeccoes-comuns/objeccoes-maria/3": {
+      "slug": "intercessao-dos-santos",
+      "tema": "igreja"
+    },
+    "/explorar/objeccoes-comuns/objeccoes-maria/4": {
+      "slug": "intercessao-dos-santos-uma-defesa-aprofundada",
+      "tema": "igreja"
+    },
+    "/explorar/objeccoes-comuns/objeccoes-maria/5": {
+      "slug": "veneracao-maria-idolatria",
+      "tema": "maria"
+    },
+    "/explorar/objeccoes-comuns/objeccoes-historicas/5": {
+      "slug": "igreja-inventou-biblia-para-controlar",
+      "tema": "escritura-e-tradicao"
+    },
+    "/explorar/objeccoes-comuns/objeccoes-historicas/2": {
+      "slug": "igreja-e-inquisicao",
+      "tema": "historia-da-igreja"
+    },
+    "/explorar/objeccoes-comuns/objeccoes-sacramentos/1": {
+      "slug": "eucaristia-apenas-simbolo",
+      "tema": "sacramentos"
+    },
+    "/explorar/objeccoes-comuns/objeccoes-sacramentos/2": {
+      "slug": "confissao-a-um-padre",
+      "tema": "sacramentos"
+    },
+    "/explorar/objeccoes-comuns/objeccoes-sacramentos/3": {
+      "slug": "batismo-infantil-biblico",
+      "tema": "sacramentos"
+    },
+    "/explorar/objeccoes-comuns/objeccoes-magisterio/1": {
+      "slug": "infalibilidade-papal-biblica",
+      "tema": "igreja"
+    },
+    "/explorar/objeccoes-comuns/objeccoes-magisterio/2": {
+      "slug": "igreja-mulheres-sacerdotes",
+      "tema": "igreja"
+    },
+    "/explorar/objeccoes-comuns/objeccoes-contemporaneas/1": {
+      "slug": "igreja-e-pessoas-lgbt",
+      "tema": "moral"
+    },
+    "/explorar/objeccoes-comuns/objeccoes-contemporaneas/2": {
+      "slug": "anticoncepcionais-artificiais",
+      "tema": "moral"
+    },
+    "/explorar/objeccoes-comuns/objeccoes-doutrinarias/1": {
+      "slug": "purgatorio-invencao-igreja",
+      "tema": "novissimos"
+    },
+    "/explorar/objeccoes-comuns/objeccoes-doutrinarias/2": {
+      "slug": "igreja-doutrinas-nao-biblicas",
+      "tema": "escritura-e-tradicao"
+    },
+    "/explorar/objeccoes-comuns/objeccoes-doutrinarias/3": {
+      "slug": "tradicao-invalida-biblia",
+      "tema": "escritura-e-tradicao"
+    },
+    "/explorar/objeccoes-comuns/objeccoes-culturais/1": {
+      "slug": "catolicismo-paganismo-disfarcado",
+      "tema": "historia-da-igreja"
+    },
+    "/explorar/objeccoes-comuns/objeccoes-culturais/2": {
+      "slug": "culto-santos-politeismo",
+      "tema": "igreja"
+    },
+    "/explorar/objeccoes-comuns/objeccoes-culturais/3": {
+      "slug": "igreja-rica-explorando-pobres",
+      "tema": "historia-da-igreja"
+    },
+    "/explorar/objeccoes-comuns/objeccoes-praticas/1": {
+      "slug": "padres-deveriam-casar",
+      "tema": "igreja"
+    },
+    "/explorar/objeccoes-comuns/objeccoes-praticas/2": {
+      "slug": "missa-ritual-repetitivo",
+      "tema": "sacramentos"
+    },
+    "/explorar/objeccoes-comuns/objeccoes-praticas/3": {
+      "slug": "igreja-mudou-muito",
+      "tema": "igreja"
+    },
+    "/explorar/papado/primado-de-pedro/1": {
+      "slug": "o-papado-nas-escrituras",
+      "tema": "igreja"
+    },
+    "/explorar/papado/primado-de-pedro/2": {
+      "slug": "infalibilidade-papal",
+      "tema": "igreja"
+    },
+    "/explorar/papado/primado-de-pedro/4": {
+      "slug": "infalibilidade-papa-definicao-limites",
+      "tema": "igreja"
+    },
+    "/explorar/papado/primado-de-pedro/3": {
+      "slug": "sucessao-apostolica",
+      "tema": "igreja"
+    },
+    "/explorar/papado/magisterio-da-igreja/1": {
+      "slug": "magisterio-da-igreja",
+      "tema": "igreja"
+    }
+  },
+  "secoes": {
+    "/explorar/doutrina/doutrina-1": "deus-e-trindade",
+    "/explorar/doutrina/doutrina-2": "sacramentos",
+    "/explorar/doutrina/doutrina-3": "moral",
+    "/explorar/doutrina/doutrina-4": "novissimos",
+    "/explorar/escritura-tradicao/sola-scriptura": "escritura-e-tradicao",
+    "/explorar/escritura-tradicao/desenvolvimento-doutrinal": "escritura-e-tradicao",
+    "/explorar/filosofia-teologia/filosofia-teologia-1": "filosofia",
+    "/explorar/filosofia-teologia/filosofia-teologia-2": "filosofia",
+    "/explorar/filosofia-teologia/filosofia-teologia-3": "filosofia",
+    "/explorar/filosofia-teologia/filosofia-teologia-4": "filosofia",
+    "/explorar/filosofia-teologia/filosofia-teologia-5": "moral",
+    "/explorar/historia-igreja/historia-igreja-1": "historia-da-igreja",
+    "/explorar/historia-igreja/historia-igreja-2": "historia-da-igreja",
+    "/explorar/historia-igreja/historia-igreja-3": "historia-da-igreja",
+    "/explorar/historia-igreja/historia-igreja-4": "historia-da-igreja",
+    "/explorar/mariologia/mariologia-1": "maria",
+    "/explorar/mariologia/mariologia-2": "maria",
+    "/explorar/mariologia/mariologia-3": "maria",
+    "/explorar/objeccoes-comuns/objeccoes-biblia": "defesa-da-fe",
+    "/explorar/objeccoes-comuns/objeccoes-maria": "defesa-da-fe",
+    "/explorar/objeccoes-comuns/objeccoes-historicas": "defesa-da-fe",
+    "/explorar/objeccoes-comuns/objeccoes-sacramentos": "defesa-da-fe",
+    "/explorar/objeccoes-comuns/objeccoes-magisterio": "defesa-da-fe",
+    "/explorar/objeccoes-comuns/objeccoes-contemporaneas": "defesa-da-fe",
+    "/explorar/objeccoes-comuns/objeccoes-doutrinarias": "defesa-da-fe",
+    "/explorar/objeccoes-comuns/objeccoes-culturais": "defesa-da-fe",
+    "/explorar/objeccoes-comuns/objeccoes-praticas": "defesa-da-fe",
+    "/explorar/papado/primado-de-pedro": "igreja",
+    "/explorar/papado/magisterio-da-igreja": "igreja"
+  },
+  "categorias": {
+    "/explorar/doutrina": null,
+    "/explorar/escritura-tradicao": "escritura-e-tradicao",
+    "/explorar/filosofia-teologia": "filosofia",
+    "/explorar/historia-igreja": "historia-da-igreja",
+    "/explorar/mariologia": "maria",
+    "/explorar/objeccoes-comuns": "defesa-da-fe",
+    "/explorar/papado": "igreja"
+  }
+}

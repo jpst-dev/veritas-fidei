@@ -1,4 +1,5 @@
 import tailwindcss from '@tailwindcss/vite'
+import { redirecionamentos } from './config/redirecionamentos'
 
 export default defineNuxtConfig({
   compatibilityDate: '2026-10-01',
@@ -65,6 +66,9 @@ export default defineNuxtConfig({
       content.minutos = Math.max(1, Math.round(palavras / 200))
     },
   },
+
+  // URLs do site antigo apontam para o lugar novo (config/redirecionamentos.ts)
+  routeRules: redirecionamentos(),
 
   // Site 100% estático: tudo é pré-renderizado no build
   nitro: {
