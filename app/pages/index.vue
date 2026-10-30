@@ -29,16 +29,20 @@ const obraDaTrilha = computed(() => (trilha.value ? obraDoTema(trilha.value.tema
 const recentes = computed(() => artigos.value?.slice(0, 3) ?? [])
 const questoes = computed(() => artigos.value?.filter((a) => a.secao === 'defesa-da-fe').slice(0, 4) ?? [])
 
-// Os temas com artigos vêm primeiro; os "em breve" completam a fileira de quatro
+// Uma fileira de quatro: os temas com publicação mais recente primeiro, os "em breve" completam;
+// o restante fica em /temas
 const temasDaHome = computed(() => {
-  const lista = (temas.value?.lista ?? []).map((tema) => ({
-    ...tema,
-    qtd: artigos.value?.filter((a) => a.tema === tema.slug).length ?? 0,
-    imagem: obras.value?.[tema.obra],
-  }))
-  const comArtigos = lista.filter((t) => t.qtd)
-  const total = Math.max(4, Math.ceil(comArtigos.length / 4) * 4)
-  return [...comArtigos, ...lista.filter((t) => !t.qtd)].slice(0, total)
+  const lista = (temas.value?.lista ?? []).map((tema) => {
+    const doTema = artigos.value?.filter((a) => a.tema === tema.slug) ?? []
+    return {
+      ...tema,
+      qtd: doTema.length,
+      recente: doTema.reduce((max, a) => (a.publicadoEm && a.publicadoEm > max ? a.publicadoEm : max), ''),
+      imagem: obras.value?.[tema.obra],
+    }
+  })
+  const comArtigos = lista.filter((t) => t.qtd).sort((a, b) => b.recente.localeCompare(a.recente) || b.qtd - a.qtd)
+  return [...comArtigos, ...lista.filter((t) => !t.qtd)].slice(0, 4)
 })
 
 useSeoMeta({
