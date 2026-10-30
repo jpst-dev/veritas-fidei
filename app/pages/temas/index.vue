@@ -18,6 +18,8 @@ const lista = computed(() =>
   }),
 )
 const { data: obras } = await useObras()
+// O cartão mostra só o começo da lista; o resto fica na página do tema
+const MAX_LINKS = 3
 const comArtigos = computed(() => lista.value.filter((t) => t.artigos.length))
 const emPreparacao = computed(() => lista.value.filter((t) => !t.artigos.length))
 
@@ -58,13 +60,20 @@ useSeoMeta({
           </div>
         </NuxtLink>
         <div class="flex flex-col gap-3 px-5 pt-4 pb-5 sm:px-6">
-          <p class="font-display text-[0.68rem] tracking-[0.16em] text-muted uppercase">{{ qtdArtigos(tema.artigos.length) }}</p>
-          <ul class="flex flex-col gap-2 leading-snug">
-            <li v-for="a in tema.artigos" :key="a.path">
-              <NuxtLink :to="a.path" class="hover:text-accent">{{ a.title }}</NuxtLink>
+          <p class="font-display text-[0.68rem] tracking-[0.16em] text-muted uppercase">Neste tema · {{ qtdArtigos(tema.artigos.length) }}</p>
+          <!-- Sumário de links, não descrição: cada linha com seta e sublinhado leva ao artigo -->
+          <ul class="flex flex-col divide-y divide-line border-y border-line leading-snug">
+            <li v-for="a in tema.artigos.slice(0, MAX_LINKS)" :key="a.path">
+              <NuxtLink :to="a.path" class="group/link flex items-baseline gap-3 py-2.5 hover:no-underline">
+                <span class="text-accent transition-transform group-hover/link:translate-x-0.5" aria-hidden="true">→</span>
+                <span class="underline decoration-line underline-offset-4 group-hover/link:text-accent group-hover/link:decoration-accent">{{ a.title }}</span>
+              </NuxtLink>
+            </li>
+            <li v-if="tema.artigos.length > MAX_LINKS" class="py-2.5 text-[0.95rem] text-muted italic">
+              e mais {{ qtdArtigos(tema.artigos.length - MAX_LINKS) }} no tema
             </li>
           </ul>
-          <p class="mt-2 border-t border-line pt-3 font-display text-[0.68rem] tracking-[0.14em] uppercase">
+          <p class="mt-1 font-display text-[0.68rem] tracking-[0.14em] uppercase">
             <NuxtLink v-if="tema.trilha" :to="`/trilhas/${tema.trilha.slug}`" class="text-accent">Trilha: {{ tema.trilha.title }} →</NuxtLink>
             <NuxtLink v-else :to="`/temas/${tema.slug}`" class="text-accent">Ver o tema →</NuxtLink>
           </p>

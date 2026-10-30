@@ -8,6 +8,8 @@ const { data: artigos } = await useAsyncData('defesa-da-fe', () =>
     .all(),
 )
 
+const { data: obras } = await useObras()
+
 useSeoMeta({
   title: 'Defesa da fé',
   description: 'As objeções mais comuns à fé católica, respondidas com a Escritura, os Padres da Igreja e o Catecismo.',
@@ -17,15 +19,19 @@ useSeoMeta({
 </script>
 
 <template>
-  <div class="mx-auto max-w-6xl px-6 pt-20">
-    <header class="mb-14 flex flex-col gap-4">
-      <p class="rubrica">Defesa da fé · Quæstiones</p>
-      <h1 class="text-[clamp(2.4rem,5vw,3.6rem)] leading-tight font-medium">Perguntas difíceis, respostas fundamentadas.</h1>
-      <p class="max-w-2xl text-[1.15rem] text-muted">
-        As objeções mais comuns à fé católica, respondidas com a Escritura, os Padres da Igreja e o Catecismo.
-      </p>
-    </header>
-    <ArtigoLista v-if="artigos?.length" :artigos="artigos" sem-secao />
-    <p v-else class="text-muted italic">As primeiras respostas estão em revisão.</p>
+  <div>
+    <AberturaObra :obra="obras?.tome">
+      <div class="flex max-w-2xl flex-col gap-4">
+        <p class="rubrica">Defesa da fé · Quæstiones</p>
+        <h1 class="text-[clamp(2.4rem,5.5vw,3.75rem)] leading-[1.05] font-medium">Perguntas difíceis, respostas fundamentadas.</h1>
+        <p class="text-[1.15rem] text-text/85">
+          As objeções mais comuns à fé católica, respondidas com a Escritura, os Padres da Igreja e o Catecismo.
+        </p>
+      </div>
+    </AberturaObra>
+    <div class="mx-auto max-w-6xl px-6 pt-12">
+      <ArtigoLista v-if="artigos?.length" :artigos="artigos" sem-secao />
+      <p v-else class="text-muted italic">As primeiras respostas estão em revisão.</p>
+    </div>
   </div>
 </template>
