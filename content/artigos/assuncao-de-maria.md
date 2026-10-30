@@ -1,130 +1,105 @@
 ---
-title: "A Assunção de Maria"
-description: "O dogma da Assunção de Maria ao Céu em corpo e alma, definido por Pio XII em 1950"
+title: A Assunção de Maria
+description: Ao fim da vida terrena, Maria foi levada ao céu em corpo e alma. O que Pio XII definiu em 1950, o que deixou em aberto e o que isso promete a nós.
 tema: maria
 secao: aprender
-status: rascunho
+status: em-revisao
 nivel: intermediario
-tags: ["Maria", "Assunção", "Dogmas Marianos", "Escatologia"]
+tags: [maria, assuncao, dormicao, ressurreicao, escatologia]
 referencias:
-  - titulo: "Catecismo da Igreja Católica §§ 966-975"
-    autor: "Igreja Católica"
-    url: "https://www.vatican.va/archive/cathechism_po/index_new/p123a9p6_963-975_po.html"
-  - titulo: "Munificentissimus Deus"
-    autor: "Papa Pio XII"
-    url: "https://www.vatican.va/content/pius-xii/pt/apost_constitutions/documents/hf_p-xii_apc_19501101_munificentissimus-deus.html"
-  - titulo: "Dormição da Virgem Maria"
-    autor: "Tradição Ortodoxa"
-    url: "https://www.orthodoxpath.org/"
-  - titulo: "A Assunção de Maria na Teologia Contemporânea"
-    autor: "Karl Rahner"
-    url: "https://www.ignatiusinsight.com/"
+  - titulo: Catecismo da Igreja Católica, 966 e 972-975 (Maria, ícone escatológico da Igreja)
+    url: https://www.vatican.va/archive/cathechism_po/index_new/p1s2cap3_683-1065_po.html
+  - titulo: Constituição apostólica Munificentissimus Deus (1º de novembro de 1950)
+    autor: Pio XII
+    url: https://www.vatican.va/content/pius-xii/pt/apost_constitutions/documents/hf_p-xii_apc_19501101_munificentissimus-deus.html
+  - titulo: Constituição dogmática Lumen Gentium, 59 e 68
+    autor: Concílio Vaticano II
+    url: https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19641121_lumen-gentium_po.html
+  - titulo: Homilias sobre a Dormição
+    autor: São João Damasceno
+  - titulo: Audiência geral de 25 de junho de 1997 (a dormição da Mãe de Deus)
+    autor: São João Paulo II
 revisao:
   citacoesConferidas: false
   referenciasConferidas: false
-  notas: "Migrado do site antigo (2025): revisar texto, citações e referências."
+  notas: >-
+    Escrito do zero em 30/10/2026 (o texto do site antigo citava sites genéricos como fontes).
+    Citações do Catecismo conferidas pelo verificador; trechos da Munificentissimus Deus (n. 14 e 44) conferidos no vatican.va.
+    Conferir pelo autor, na Bíblia da CNBB: 1Cor 15,20-23; Ap 11,19-12,1; Sl 132,8; Gn 3,15.
 ---
 
-## Introdução
+Todo ano, no dia 15 de agosto, a Igreja celebra a **Assunção de Nossa Senhora**. No Brasil, a festa é transferida para o domingo seguinte, e muitos católicos a conhecem bem. Mas o que exatamente ela celebra? Que Maria foi para o céu, como esperamos que todos os santos vão? Ou algo mais?
 
-A Assunção de Maria é um dogma da Igreja Católica que proclama que a Santíssima Virgem Maria, ao completar o curso de sua vida terrena, foi elevada em corpo e alma à glória celestial. Esta verdade de fé afirma que, diferentemente dos outros seres humanos que aguardam a ressurreição final de seus corpos, Maria já participa plenamente da ressurreição de seu Filho Jesus Cristo. A Assunção representa o coroamento dos privilégios marianos e manifesta a esperança escatológica da Igreja, antecipando o destino final de todos os fiéis. Este dogma revela não apenas a singular dignidade da Mãe de Deus, mas também ilumina o significado do corpo humano e da pessoa integral no plano divino de salvação.
+Algo mais. A Igreja ensina que Maria está no céu **em corpo e alma**, e não só com a alma, como os outros santos, que esperam a ressurreição no fim dos tempos. Ela já vive, na sua pessoa inteira, o que Deus prometeu a todos os que são de Cristo. Por isso a Assunção é o dogma mariano que mais fala de nós.
 
-## Contexto Histórico
+## O que a Igreja ensina
 
-A crença na Assunção de Maria tem raízes profundas na tradição cristã, embora tenha sido definida dogmaticamente apenas em tempos relativamente recentes:
+O dogma foi definido pelo Papa Pio XII em 1º de novembro de 1950, na constituição apostólica *Munificentissimus Deus*. A definição declara que a Imaculada Mãe de Deus, sempre Virgem Maria, “terminado o curso da vida terrestre, foi assunta em corpo e alma à glória celestial” (*Munificentissimus Deus*, 44). O Concílio Vaticano II retomou a doutrina, e o Catecismo a cita:
 
-1. **Origens e primeiros testemunhos**: Desde o século V, a Igreja do Oriente já celebrava a "Dormição" (Koimesis) da Mãe de Deus, comemoração que gradualmente se estendeu à Igreja do Ocidente. Embora inicialmente focada na morte de Maria, esta festa incorporou progressivamente a convicção de que seu corpo não havia sofrido corrupção e fora assumido ao céu.
+> Finalmente, a Virgem Imaculada, preservada imune de toda a mancha da culpa original, terminado o curso da vida terrena, foi elevada ao céu em corpo e alma e exaltada pelo Senhor como rainha, para assim se conformar mais plenamente com o seu Filho, Senhor dos senhores e vencedor do pecado e da morte.
+>
+> — CIC 966
 
-2. **Desenvolvimento medieval**: Durante a Idade Média, a crença na Assunção corporal de Maria tornou-se generalizada no Ocidente. Teólogos como São João Damasceno (séc. VIII) e São Tomás de Aquino (séc. XIII) defenderam esta doutrina como apropriada à dignidade da Mãe de Deus. A festa da Assunção foi oficialmente estabelecida no calendário litúrgico romano.
+O dogma afirma três coisas:
 
-3. **Caminho para a definição dogmática**: No século XX, houve um crescente movimento dentro da Igreja para a definição dogmática da Assunção. Este movimento foi impulsionado tanto pelo sensus fidelium (o sentir comum dos fiéis) quanto pelo testemunho consistente da Tradição. Em resposta, o Papa Pio XII consultou o episcopado mundial sobre a matéria em 1946.
+1. **Em corpo e alma.** Maria não espera a ressurreição: o seu corpo já participa da glória.
+2. **Ao terminar a vida terrena.** A definição não diz como essa vida terminou (veja abaixo).
+3. **Por obra de Deus.** Maria “foi assunta”, isto é, foi levada. É diferente da Ascensão de Jesus, que subiu ao céu pelo seu próprio poder.
 
-4. **Definição dogmática**: Em 1º de novembro de 1950, o Papa Pio XII, através da Constituição Apostólica "Munificentissimus Deus", definiu solenemente o dogma da Assunção de Maria, afirmando que esta verdade estava implicitamente contida no depósito da fé desde os tempos apostólicos, embora tenha se desenvolvido explicitamente ao longo dos séculos.
+O Catecismo explica o sentido: a Assunção é “uma singular participação na ressurreição do seu Filho e uma antecipação da ressurreição dos outros cristãos” (CIC 966).
 
-## Fundamento Bíblico
+### Maria morreu?
 
-Embora a Assunção de Maria não seja narrada explicitamente nas Escrituras, vários textos bíblicos oferecem fundamentos para esta doutrina:
+A definição não decide. Pio XII escolheu de propósito a expressão “terminado o curso da vida terrestre”, que vale nos dois casos. Na própria bula, ele lembra que os fiéis sempre admitiram que Maria morreu, à semelhança do seu Filho (*Munificentissimus Deus*, 14), mas não incluiu isso na definição.
 
-1. **Prefigurações e tipos**: O Antigo Testamento menciona figuras que foram elevadas ao céu, como Enoque (Gênesis 5,24) e Elias (2 Reis 2,11), sugerindo a possibilidade da Assunção corporal.
+A Tradição, sobretudo no Oriente, fala da **Dormição** de Maria, o seu “adormecer” na morte, seguido da Assunção. São João Paulo II, numa catequese de 1997, considerou essa a posição mais conforme à Tradição: Maria, como o Filho, passou pela morte, e foi logo glorificada. Mas a questão continua livre entre os católicos.
 
-2. **Arca da Aliança**: Maria é vista tipologicamente como a verdadeira Arca da Aliança. Assim como a arca original continha a Palavra de Deus escrita (as tábuas da Lei), Maria carregou a Palavra Encarnada. O Salmo 132,8 declara: "Levanta-te, Senhor, vem para o teu lugar de repouso, tu e a arca do teu poder", o que pode ser interpretado como referência à Assunção.
+## Na Sagrada Escritura
 
-3. **Apocalipse 12**: A visão da "mulher vestida de sol, com a lua debaixo dos pés e uma coroa de doze estrelas na cabeça" (Apocalipse 12,1) é tradicionalmente interpretada como representando Maria glorificada no céu, o que pressupõe sua Assunção.
+A Bíblia não narra a Assunção. Pio XII não a apresentou como um fato descrito pela Escritura, mas como uma verdade revelada que a Igreja reconheceu ao ler a Escritura na Tradição. Os textos que sustentam o dogma mostram por que ele combina com o que a Bíblia diz sobre Maria e sobre a ressurreição.
 
-4. **Graça plena**: A saudação do anjo a Maria como "cheia de graça" (Lucas 1,28) sugere uma perfeição espiritual incompatível com a corrupção corporal que é consequência do pecado.
+### Cristo, as primícias
 
-5. **Vitória sobre a morte**: Como Cristo venceu a morte (1 Coríntios 15,54-57) e Maria está singularmente unida a Ele, é teologicamente coerente que ela participe antecipadamente da vitória completa sobre a morte, incluindo a glorificação corporal.
+São Paulo ensina que Cristo ressuscitou como primícias dos que morreram, e que depois, na sua vinda, ressuscitarão os que são de Cristo (1Cor 15,20-23). A Assunção não cria uma exceção a essa ordem. Antecipa nela, a primeira e mais unida ao Filho, o que acontecerá com todos.
 
-## Fundamento Patrístico e Teológico
+### A arca e a mulher vestida de sol
 
-A tradição patrística e a reflexão teológica desenvolveram diversos argumentos a favor da Assunção:
+O Salmo pede que o Senhor se levante para o seu repouso, ele e a arca da sua força (Sl 132,8). Os Padres viram em Maria a nova arca da aliança, que trouxe em si o próprio Deus. No Apocalipse, logo depois de aparecer a arca da aliança no templo do céu, surge “uma mulher vestida de sol” (Ap 11,19-12,1). O texto fala, antes de tudo, do povo de Deus; a liturgia da Assunção o lê também como imagem de Maria glorificada.
 
-1. **Padres da Igreja**: Embora os primeiros Padres não abordem explicitamente a Assunção, eles afirmam a singular dignidade de Maria como Mãe de Deus e sua união especial com Cristo, estabelecendo bases conceituais para a doutrina.
+### A vitória sobre a serpente
 
-2. **Narrativas da Dormição**: A partir do século V, desenvolveram-se narrativas sobre a Dormição de Maria (como o "Transitus Mariae"), que, embora não tenham valor histórico direto, testemunham a crença na preservação do corpo de Maria da corrupção.
+Desde o primeiro pecado, Deus anuncia uma inimizade entre a mulher e a serpente (Gn 3,15). Para Pio XII, a vitória de Cristo sobre o pecado e a morte, da qual a sua Mãe participa de modo íntimo, se completa nela: preservada do pecado pela Imaculada Conceição, ela também não ficou sob o domínio da corrupção da morte.
 
-3. **Argumentos teológicos convenientes**:
+## Na Tradição
 
-   - **Argumento da maternidade divina**: Como Mãe do Verbo Encarnado, Maria possuía uma união única com Cristo que tornava apropriada sua participação antecipada na ressurreição corporal.
-   - **Argumento da cooperação na Redenção**: Tendo cooperado intimamente na obra redentora de Cristo, Maria mereceu participar mais plenamente dos frutos da Redenção.
-   - **Argumento da Imaculada Conceição**: Preservada do pecado original, Maria foi também preservada de suas consequências, incluindo a corrupção do corpo após a morte.
+- A **festa** da Dormição ou Assunção já era celebrada em Jerusalém e no Oriente por volta do século VI, e em Roma no século VII. A liturgia é testemunha antiga da fé da Igreja (*Munificentissimus Deus*, 17-19).
+- Circularam, a partir do século V, narrativas apócrifas do “trânsito” de Maria. Elas não são fonte do dogma, e a Igreja nunca lhes deu esse valor; mostram, porém, que a fé na glorificação de Maria era difundida.
+- **São Germano de Constantinopla** e **São João Damasceno**, no século VIII, pregaram homilias sobre a Dormição: o corpo que trouxe o Autor da vida não podia conhecer a corrupção (São João Damasceno, *Homilias sobre a Dormição*; c. 740). Pio XII os cita longamente (*Munificentissimus Deus*, 21-22).
+- A liturgia bizantina, que o Catecismo recolhe, canta que na sua dormição Maria não abandonou o mundo: “alcançaste a fonte da vida” (CIC 966).
+- Em 1946, antes da definição, Pio XII perguntou aos bispos do mundo inteiro se o dogma podia e devia ser definido, e a resposta foi quase unânime (*Munificentissimus Deus*, 11-12).
 
-4. **Desenvolvimentos escolásticos**: Os teólogos medievais, particularmente São Bernardo, São Alberto Magno e São Tomás de Aquino, forneceram argumentos teológicos sistemáticos a favor da Assunção, baseados na singular relação de Maria com a Santíssima Trindade.
+## Dúvidas comuns
 
-5. **Mariologia moderna**: Teólogos contemporâneos como Karl Rahner e Hans Urs von Balthasar situaram a Assunção no contexto mais amplo da escatologia cristã, entendendo-a como sinal do destino final da Igreja e da humanidade redimida.
+### Se não está na Bíblia, como pode ser dogma?
 
-## Magistério da Igreja
+A Igreja não crê só no que a Bíblia narra com todas as letras. Ela recebe a Revelação pela Escritura e pela Tradição, que formam um só depósito da fé (CIC 80-82). A Assunção não contradiz nenhum texto bíblico, harmoniza-se com muitos, e foi crida e celebrada pela Igreja durante séculos antes da definição. Pio XII não criou a doutrina: declarou que ela pertence ao que Deus revelou.
 
-O ensinamento oficial da Igreja sobre a Assunção é expresso principalmente na definição dogmática e em documentos subsequentes:
+### Qual a diferença entre Assunção e Ascensão?
 
-1. **Definição dogmática (1950)**: Na Constituição Apostólica "Munificentissimus Deus", o Papa Pio XII declarou: "Pronunciamos, declaramos e definimos ser dogma divinamente revelado que a Imaculada Mãe de Deus, a sempre Virgem Maria, terminado o curso da vida terrestre, foi assunta em corpo e alma à glória celestial."
+Jesus **subiu** ao céu pelo seu próprio poder, porque é Deus (Ascensão). Maria **foi levada** ao céu pelo poder de Deus, porque é criatura (Assunção). As palavras marcam a diferença entre o Filho e a Mãe.
 
-2. **Segundo Concílio Vaticano (1962-1965)**: A Constituição Dogmática "Lumen Gentium" reafirma o dogma, declarando que "a Imaculada Virgem, preservada imune de toda mancha da culpa original, terminado o curso da vida terrestre, foi elevada ao Céu em corpo e alma e exaltada pelo Senhor como Rainha do universo, para assim se conformar mais plenamente ao seu Filho" (LG 59).
+### Por que a Igreja esperou até 1950?
 
-3. **Catecismo da Igreja Católica**: O Catecismo ensina que "a Assunção da Santíssima Virgem é uma participação singular na ressurreição de seu Filho e uma antecipação da ressurreição dos outros cristãos" (CIC 966).
+Porque um dogma não é criado quando é definido: é reconhecido. A fé na Assunção é muito anterior, mas só no século XIX e no começo do XX os pedidos de definição cresceram, depois da definição da Imaculada Conceição (1854), à qual a Assunção está ligada. Pio XII consultou o episcopado antes de agir, e definiu com a autoridade infalível que o Concílio Vaticano I havia descrito em 1870.
 
-4. **Marialis Cultus (1974)**: O Papa Paulo VI observou que a solenidade da Assunção "celebra a glorificação de Maria em corpo e alma, e é como que a 'páscoa' de Maria no verão" (MC 11).
+### O que isso muda para mim?
 
-## Objeções Comuns e Respostas
+Muita coisa. A Assunção mostra que Deus salva a pessoa inteira, não só a alma: o corpo também é destinado à glória. E mostra o caminho: “glorificada já em corpo e alma”, Maria brilha “como sinal de esperança segura e de consolação, para o povo de Deus ainda peregrino” (CIC 972). Onde ela está, a Igreja espera estar.
 
-### "Não há menção explícita da Assunção nas Escrituras."
+## Em resumo
 
-**Resposta**: Nem todas as verdades de fé estão explicitamente declaradas nas Escrituras. A Igreja reconhece tanto a Escritura quanto a Tradição como fontes da Revelação divina. A doutrina da Assunção está implicitamente contida na Escritura e explicitamente desenvolvida na Tradição viva da Igreja, sob a guia do Espírito Santo.
-
-### "A definição dogmática da Assunção é um desenvolvimento relativamente recente e, portanto, uma inovação doutrinal."
-
-**Resposta**: A definição dogmática não cria uma nova doutrina, mas articula formalmente uma verdade já presente na fé da Igreja desde tempos antigos. O desenvolvimento doutrinal é um processo legítimo pelo qual a compreensão da verdade revelada se aprofunda e clarifica ao longo do tempo, sem contradizer os fundamentos da fé.
-
-### "A Assunção parece colocar Maria em um nível quase divino, diminuindo a singularidade de Cristo."
-
-**Resposta**: A Assunção de Maria não a diviniza, mas destaca sua participação única na obra salvífica de Cristo. Tudo o que a Igreja afirma sobre Maria deriva de sua relação com Cristo e destina-se a glorificar a Deus, que realizou grandes coisas nela. A dignidade de Maria sempre aponta para a maior dignidade de seu Filho.
-
-### "Como pode a Igreja definir dogmaticamente algo que não pode ser historicamente verificado?"
-
-**Resposta**: A definição dogmática não se baseia em evidências históricas diretas, mas na convergência de argumentos teológicos, no testemunho consistente da Tradição e no sensus fidelium guiado pelo Espírito Santo. Certas verdades de fé transcendem a verificação histórica empírica, pertencendo ao âmbito da revelação divina interpretada autenticamente pelo Magistério da Igreja.
-
-## Aplicações Contemporâneas
-
-1. **Dignidade do corpo humano**: Em uma cultura frequentemente marcada pelo dualismo e pela desvalorização do corpo, a Assunção afirma a bondade e a dignidade do corpo humano, destinado à glorificação. Ela nos recorda que a salvação abrange a pessoa integral, não apenas a alma.
-
-2. **Esperança escatológica**: A Assunção de Maria oferece uma imagem concreta do destino final para o qual toda a Igreja caminha. Em tempos de incerteza e medo da morte, ela fortalece a esperança na ressurreição e na vida eterna.
-
-3. **Ecologia integral**: A glorificação do corpo de Maria pode inspirar uma visão cristã da criação material como destinada à transfiguração, não à destruição. Isso fundamenta o compromisso católico com o cuidado da criação, conforme destacado na encíclica "Laudato Si'" do Papa Francisco.
-
-4. **Dignidade da mulher**: A Assunção celebra a elevação de uma mulher à glória celestial em sua integralidade pessoal, oferecendo um contraponto teológico a visões redutoras da feminilidade e inspirando o reconhecimento da dignidade e dos direitos de todas as mulheres.
-
-5. **Dimensão comunitária da salvação**: A Assunção de Maria, como membro eminente da Igreja, lembra que a salvação tem uma dimensão eclesial e comunitária, contrastando com o individualismo espiritual que às vezes caracteriza a religiosidade contemporânea.
-
-## Conclusão
-
-O dogma da Assunção de Maria coroa a mariologia católica, proclamando que Aquela que deu carne humana ao Filho de Deus participa agora, em corpo e alma, da plenitude da vida ressuscitada. Longe de ser uma crença isolada ou periférica, a Assunção está organicamente conectada com outras verdades centrais da fé cristã: a Encarnação, a Redenção, a ressurreição de Cristo e a esperança escatológica da Igreja. Ela ilustra o princípio de que o que foi realizado plenamente em Maria será realizado, no tempo de Deus, em todos os que pertencem a Cristo.
-
-A Assunção também possui uma dimensão existencial profunda, convidando os fiéis a contemplar sua própria vocação à glória celestial e a viver de acordo com esta sublime esperança. Em Maria assunta, contemplamos não apenas o privilégio de uma pessoa singular, mas o destino final da Igreja e da humanidade redimida: a comunhão perfeita com Deus, na integridade de nossa humanidade transfigurada pela graça.
-
-## Leitura Adicional
-
-- Constituição Apostólica "Munificentissimus Deus" - Papa Pio XII (1950)
-- "A Assunção de Maria: Fundamentos Teológicos" - Franz König
-- "Maria na Fé Católica" - Jean Galot
-- "Maria: Ícone da Igreja" - Henri Nouwen
-- Catecismo da Igreja Católica, §§ 966-975
+- Maria foi **levada ao céu em corpo e alma**, ao terminar a vida terrena (CIC 966; *Munificentissimus Deus*, 44).
+- O dogma foi **definido por Pio XII em 1950**, depois de consultar os bispos do mundo inteiro.
+- A definição **não decide se Maria morreu**; a Tradição da Dormição sustenta que sim, e a questão é livre.
+- A Assunção é **participação na ressurreição de Cristo** e **antecipação** da nossa (CIC 966; 974).
+- Ela é **sinal de esperança** para a Igreja ainda a caminho (CIC 972).
