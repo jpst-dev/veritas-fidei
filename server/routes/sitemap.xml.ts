@@ -1,6 +1,6 @@
 import { queryCollection } from '@nuxt/content/server'
 
-const PAGINAS = ['/', '/temas', '/trilhas', '/defesa-da-fe', '/sobre']
+const PAGINAS = ['/', '/temas', '/trilhas', '/defesa-da-fe', '/artigos', '/sobre']
 
 /** Sitemap com as páginas fixas, os temas e o que está publicado. Gerado como arquivo estático no build. */
 export default defineEventHandler(async (event) => {

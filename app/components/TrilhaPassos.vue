@@ -2,7 +2,7 @@
 /** Passos de uma trilha no estilo "Capítulos", com o progresso de leitura do navegador. */
 const props = defineProps<{
   passos: { path: string; title: string; description?: string; minutos?: number; status?: string }[]
-  /** Versão compacta, sem resumo (home) */
+  /** Versão compacta, sem resumo e em 4 colunas no desktop (home) */
   compacto?: boolean
 }>()
 
@@ -18,12 +18,12 @@ const ROTULOS = computed(() => ({
 </script>
 
 <template>
-  <ol class="grid gap-4 sm:grid-cols-2 sm:gap-5">
+  <ol class="grid gap-4 sm:grid-cols-2 sm:gap-5" :class="{ 'lg:grid-cols-4': compacto }">
     <li v-for="(passo, i) in passos" :key="passo.path">
       <NuxtLink
         :to="passo.path"
         class="card-capitulo flex h-full gap-4 border-l-[3px] p-5 sm:gap-5 sm:p-7"
-        :class="estados[i] === 'a-seguir' ? 'border-line' : 'border-accent'"
+        :class="[estados[i] === 'a-seguir' ? 'border-line' : 'border-accent', { 'lg:flex-col lg:gap-3': compacto }]"
       >
         <span
           class="min-w-[0.9em] shrink-0 font-display leading-[0.9]"

@@ -6,6 +6,7 @@ const links = [
   { to: '/temas', rotulo: 'Temas', resumo: 'Os temas da fé, do Credo à moral' },
   { to: '/trilhas', rotulo: 'Trilhas', resumo: 'Estudos em sequência, passo a passo' },
   { to: '/defesa-da-fe', rotulo: 'Defesa da fé', resumo: 'Objeções comuns e respostas' },
+  { to: '/artigos', rotulo: 'Artigos', resumo: 'Todos os artigos, como o índice de um livro' },
   { to: '/sobre', rotulo: 'Sobre', resumo: 'O projeto e como os textos são revisados' },
 ]
 

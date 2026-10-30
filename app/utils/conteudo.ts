@@ -33,3 +33,22 @@ export const NIVEIS: Record<string, string> = {
   intermediario: 'Intermediário',
   avancado: 'Avançado',
 }
+
+/** "1 artigo", "4 artigos". */
+export function qtdArtigos(n: number): string {
+  return `${n} ${n === 1 ? 'artigo' : 'artigos'}`
+}
+
+/** Texto sem acentos e em minúsculas, para buscas ("eucaristia" acha "Eucaristia"). */
+export function semAcentos(texto: string): string {
+  return texto.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase()
+}
+
+/** Ordem de leitura dentro de um tema: a da trilha, quando houver; o resto em ordem alfabética. */
+export function ordemDeLeitura<T extends { path: string; title: string }>(artigos: T[], trilha?: { artigos: string[] }): T[] {
+  const posicao = (a: T) => {
+    const i = trilha?.artigos.indexOf(slugDe(a.path)) ?? -1
+    return i === -1 ? Infinity : i
+  }
+  return [...artigos].sort((a, b) => posicao(a) - posicao(b) || a.title.localeCompare(b.title, 'pt-BR'))
+}

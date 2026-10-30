@@ -45,6 +45,29 @@ const { data: trilhas } = await useAsyncData(`trilhas-de-${slug}`, async () => {
 })
 
 const trilha = computed(() => trilhas.value?.[0])
+
+// Fim do artigo: até 3 leituras, primeiro do mesmo tema, sem repetir o que a trilha já oferece
+const { data: todos } = await useArtigos()
+const { data: trilhasVisiveis } = await useAsyncData('trilhas-visiveis', () =>
+  queryCollection('trilhas').where('status', 'IN', statusVisiveis()).all(),
+)
+const continueLendo = computed(() => {
+  const jaOferecidos = [route.path, trilha.value?.anterior?.path, trilha.value?.proximo?.path]
+  const candidatos = (todos.value ?? []).filter((a) => !jaOferecidos.includes(a.path))
+  return [
+    ...candidatos.filter((a) => a.tema === artigo.value!.tema),
+    ...candidatos.filter((a) => a.tema !== artigo.value!.tema),
+  ].slice(0, 3)
+})
+// Quem chegou fora de uma trilha recebe o convite para ler em ordem, de preferência no mesmo tema
+const trilhaSugerida = computed(() => {
+  if (trilha.value) return null
+  const lista = trilhasVisiveis.value ?? []
+  const t = lista.find((t) => t.tema === artigo.value!.tema) ?? lista[0]
+  if (!t) return null
+  const minutos = t.artigos.reduce((soma, s) => soma + (todos.value?.find((a) => a.path === `/artigos/${s}`)?.minutos ?? 0), 0)
+  return { slug: slugDe(t.stem), title: t.title, total: t.artigos.length, minutos }
+})
 const nomeDoTema = computed(() => temas.value?.nomes[artigo.value!.tema] ?? artigo.value!.tema)
 const indice = computed(() => artigo.value?.body?.toc?.links ?? [])
 
@@ -178,6 +201,45 @@ useSeoMeta({
             <span class="text-lg leading-snug">{{ trilha.proximo ? trilha.proximo.title : 'Ver outras trilhas →' }}</span>
           </NuxtLink>
         </nav>
+
+        <!-- Fim do artigo: o que ler depois -->
+        <section v-if="continueLendo.length || trilhaSugerida" class="mt-18" aria-labelledby="titulo-continue">
+          <h2 id="titulo-continue" class="rubrica mb-2">Continue lendo</h2>
+          <ol v-if="continueLendo.length" class="filete-duplo border-t-[3px]">
+            <li v-for="a in continueLendo" :key="a.path" class="border-b border-line">
+              <NuxtLink :to="a.path" class="group grid grid-cols-[minmax(0,1fr)_auto] gap-x-6 gap-y-1.5 py-5 hover:no-underline">
+                <span class="font-display text-[0.68rem] tracking-[0.16em] text-muted uppercase">
+                  {{ a.secao === 'defesa-da-fe' ? 'Defesa da fé · ' : '' }}{{ temas?.nomes[a.tema] ?? a.tema }}
+                </span>
+                <span v-if="a.minutos" class="row-span-2 self-center font-display text-[0.68rem] tracking-[0.14em] text-muted uppercase">
+                  {{ a.minutos }} min
+                </span>
+                <span class="text-[1.3rem] leading-snug group-hover:text-accent">{{ a.title }}</span>
+              </NuxtLink>
+            </li>
+          </ol>
+
+          <NuxtLink
+            v-if="trilhaSugerida"
+            :to="`/trilhas/${trilhaSugerida.slug}`"
+            class="mt-8 flex flex-wrap items-center justify-between gap-x-6 gap-y-3 border border-accent px-6 py-5 hover:no-underline"
+          >
+            <span class="flex flex-col gap-1.5">
+              <span class="rubrica text-[0.68rem]">Quer ler em ordem? · Trilha</span>
+              <span class="text-[1.3rem]">
+                {{ trilhaSugerida.title }}
+                <span class="text-base text-muted">
+                  · {{ qtdArtigos(trilhaSugerida.total) }}<template v-if="trilhaSugerida.minutos"> · {{ trilhaSugerida.minutos }} min</template>
+                </span>
+              </span>
+            </span>
+            <span class="rubrica">Começar →</span>
+          </NuxtLink>
+
+          <p class="mt-6">
+            <NuxtLink to="/artigos" class="rubrica text-muted">Ver todos os artigos →</NuxtLink>
+          </p>
+        </section>
       </div>
     </div>
   </article>
