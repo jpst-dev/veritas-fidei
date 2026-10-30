@@ -81,3 +81,8 @@ foi reformulado antes do commit 952fa13 e passa sem erro.)
 - `npm run verificar -- --links --ortografia`: 0 erros; avisos só de estilo.
 - Para o autor conferir em papel, na Bíblia da CNBB: 1Cor 15,20-23;
   Ap 11,19-12,1; Sl 132,8; Gn 3,15.
+
+## Correções aplicadas (30/10/2026)
+
+Correções 1 a 3 e sugestões 4 e 5 incorporadas (a LG 59 passou a ser indicada
+no texto). A sugestão 6 não pedia mudança.

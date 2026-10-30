@@ -15,7 +15,7 @@ referencias:
   - titulo: Constituição dogmática Lumen Gentium, 59 e 68
     autor: Concílio Vaticano II
     url: https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19641121_lumen-gentium_po.html
-  - titulo: Homilias sobre a Dormição
+  - titulo: Homilia II sobre a Dormição, 14 (citada em Munificentissimus Deus, 21)
     autor: São João Damasceno
   - titulo: Audiência geral de 25 de junho de 1997 (a dormição da Mãe de Deus)
     autor: São João Paulo II
@@ -26,15 +26,16 @@ revisao:
     Escrito do zero em 30/10/2026 (o texto do site antigo citava sites genéricos como fontes).
     Citações do Catecismo conferidas pelo verificador; trechos da Munificentissimus Deus (n. 14 e 44) conferidos no vatican.va.
     Conferir pelo autor, na Bíblia da CNBB: 1Cor 15,20-23; Ap 11,19-12,1; Sl 132,8; Gn 3,15.
+    Parecer doutrinal interno: favorável com correções em 30/10/2026, correções aplicadas (docs/pareceres/assuncao-de-maria.md).
 ---
 
-Todo ano, no dia 15 de agosto, a Igreja celebra a **Assunção de Nossa Senhora**. No Brasil, a festa é transferida para o domingo seguinte, e muitos católicos a conhecem bem. Mas o que exatamente ela celebra? Que Maria foi para o céu, como esperamos que todos os santos vão? Ou algo mais?
+Todo ano, no dia 15 de agosto, a Igreja celebra a **Assunção de Nossa Senhora**. No Brasil, quando o dia 15 não cai num domingo, a festa é transferida para o domingo seguinte, e muitos católicos a conhecem bem. Mas o que exatamente ela celebra? Que Maria foi para o céu, como esperamos que todos os santos vão? Ou algo mais?
 
 Algo mais. A Igreja ensina que Maria está no céu **em corpo e alma**, e não só com a alma, como os outros santos, que esperam a ressurreição no fim dos tempos. Ela já vive, na sua pessoa inteira, o que Deus prometeu a todos os que são de Cristo. Por isso a Assunção é o dogma mariano que mais fala de nós.
 
 ## O que a Igreja ensina
 
-O dogma foi definido pelo Papa Pio XII em 1º de novembro de 1950, na constituição apostólica *Munificentissimus Deus*. A definição declara que a Imaculada Mãe de Deus, sempre Virgem Maria, “terminado o curso da vida terrestre, foi assunta em corpo e alma à glória celestial” (*Munificentissimus Deus*, 44). O Concílio Vaticano II retomou a doutrina, e o Catecismo a cita:
+O dogma foi definido pelo Papa Pio XII em 1º de novembro de 1950, na constituição apostólica *Munificentissimus Deus*. A definição declara que a Imaculada Mãe de Deus, sempre Virgem Maria, “terminado o curso da vida terrestre, foi assunta em corpo e alma à glória celestial” (*Munificentissimus Deus*, 44). O Concílio Vaticano II retomou a doutrina (LG 59), e o Catecismo a cita:
 
 > Finalmente, a Virgem Imaculada, preservada imune de toda a mancha da culpa original, terminado o curso da vida terrena, foi elevada ao céu em corpo e alma e exaltada pelo Senhor como rainha, para assim se conformar mais plenamente com o seu Filho, Senhor dos senhores e vencedor do pecado e da morte.
 >
@@ -50,7 +51,7 @@ O Catecismo explica o sentido: a Assunção é “uma singular participação na
 
 ### Maria morreu?
 
-A definição não decide. Pio XII escolheu de propósito a expressão “terminado o curso da vida terrestre”, que vale nos dois casos. Na própria bula, ele lembra que os fiéis sempre admitiram que Maria morreu, à semelhança do seu Filho (*Munificentissimus Deus*, 14), mas não incluiu isso na definição.
+A definição não decide. Pio XII escolheu de propósito a expressão “terminado o curso da vida terrestre”, que vale nos dois casos. Na própria bula, ele lembra que os fiéis não tiveram dificuldade em admitir que Maria morreu, à semelhança do seu Filho (*Munificentissimus Deus*, 14), mas não incluiu isso na definição.
 
 A Tradição, sobretudo no Oriente, fala da **Dormição** de Maria, o seu “adormecer” na morte, seguido da Assunção. São João Paulo II, numa catequese de 1997, considerou essa a posição mais conforme à Tradição: Maria, como o Filho, passou pela morte, e foi logo glorificada. Mas a questão continua livre entre os católicos.
 
@@ -72,9 +73,9 @@ Desde o primeiro pecado, Deus anuncia uma inimizade entre a mulher e a serpente 
 
 ## Na Tradição
 
-- A **festa** da Dormição ou Assunção já era celebrada em Jerusalém e no Oriente por volta do século VI, e em Roma no século VII. A liturgia é testemunha antiga da fé da Igreja (*Munificentissimus Deus*, 17-19).
+- A **festa** de Maria em 15 de agosto já era celebrada em Jerusalém no século V; como Dormição, foi estendida a todo o Oriente por volta do ano 600, e Roma a celebrava no século VII. A liturgia é testemunha antiga da fé da Igreja (*Munificentissimus Deus*, 17-19).
 - Circularam, a partir do século V, narrativas apócrifas do “trânsito” de Maria. Elas não são fonte do dogma, e a Igreja nunca lhes deu esse valor; mostram, porém, que a fé na glorificação de Maria era difundida.
-- **São Germano de Constantinopla** e **São João Damasceno**, no século VIII, pregaram homilias sobre a Dormição: o corpo que trouxe o Autor da vida não podia conhecer a corrupção (São João Damasceno, *Homilias sobre a Dormição*; c. 740). Pio XII os cita longamente (*Munificentissimus Deus*, 21-22).
+- **São Germano de Constantinopla** e **São João Damasceno**, no século VIII, pregaram homilias sobre a Dormição. Pio XII os cita longamente (*Munificentissimus Deus*, 21-22). Damasceno escreve: “Convinha que aquela que no parto manteve ilibada virgindade conservasse o corpo incorrupto mesmo depois da morte” (São João Damasceno, *Homilia II sobre a Dormição*, 14; c. 740).
 - A liturgia bizantina, que o Catecismo recolhe, canta que na sua dormição Maria não abandonou o mundo: “alcançaste a fonte da vida” (CIC 966).
 - Em 1946, antes da definição, Pio XII perguntou aos bispos do mundo inteiro se o dogma podia e devia ser definido, e a resposta foi quase unânime (*Munificentissimus Deus*, 11-12).
 
