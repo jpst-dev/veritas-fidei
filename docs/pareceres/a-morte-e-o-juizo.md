@@ -63,3 +63,7 @@ Nenhuma.
 ## Correções aplicadas (31/10/2026)
 
 Correções 1 a 3 incorporadas.
+
+Acréscimo posterior (31/10/2026): para alcançar a extensão mínima do padrão
+editorial (1138 palavras), acrescentada a dúvida “É errado ter medo da
+morte?”, com Mc 14,33-36 e 1Ts 4,13, já conferidos.

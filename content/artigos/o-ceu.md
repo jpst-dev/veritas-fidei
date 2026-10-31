@@ -20,6 +20,10 @@ revisao:
   notas: >-
     Escrito do zero em 31/10/2026; não substitui rascunho.
     Agostinho, A Cidade de Deus XXII, 30, conferido em newadvent.org em 31/10/2026.
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 31/10/2026: existem e dizem o que o texto afirma.
+    Nenhuma expressão bíblica entre aspas a conferir na CNBB.
+    Parecer doutrinal interno: favorável com correções em 31/10/2026, correções aplicadas (docs/pareceres/o-ceu.md).
 ---
 
 Quando se pensa no céu, as imagens que vêm à cabeça raramente ajudam: anjinhos sobre nuvens, harpas, uma eternidade parada. Muita gente, sinceramente, não tem vontade de ir para um lugar assim. E alguns cristãos acabam desejando o céu só como o contrário do inferno, sem saber bem o que ele é.
@@ -46,13 +50,19 @@ Ninguém pode ver Deus pelas próprias forças: ele está infinitamente acima de
 
 ### A vida do homem
 
-Ver a Deus não é um espetáculo que se assiste de fora. É entrar na vida da Trindade, conhecê-lo e amá-lo como ele nos conhece e nos ama. Santo Irineu, no século II, dizia que a glória de Deus é o homem vivo, e a vida do homem é a visão de Deus (CIC 294). O céu não diminui o ser humano: é onde ele se torna plenamente o que é. Lá cada um encontra a sua verdadeira identidade, o seu nome próprio (Ap 2,17; CIC 1025).
+Ver a Deus não é um espetáculo que se assiste de fora. É entrar na vida da Trindade, conhecê-lo e amá-lo como ele nos conhece e nos ama. Santo Irineu, no século II, dizia que a glória de Deus é o homem vivo, e a vida do homem é a visão de Deus (Santo Irineu, *Contra as heresias*, IV, 20, 7; CIC 294). O céu não diminui o ser humano: é onde ele se torna plenamente o que é. Lá cada um encontra a sua verdadeira identidade, o seu nome próprio (Ap 2,17; CIC 1025).
 
 ## Estar com Cristo
 
-O céu não é uma ideia abstrata: é estar com Cristo. Jesus disse aos discípulos que ia preparar-lhes um lugar na casa do Pai, para que, onde ele estivesse, estivessem também eles (Jo 14,2-3). Foi ele quem, pela sua morte e ressurreição, nos abriu o céu (CIC 1026). Por isso o Catecismo resume, citando Santo Ambrósio: onde está Cristo, aí está a vida, aí está o Reino (CIC 1025).
+O céu não é uma ideia abstrata: é estar com Cristo. Jesus disse aos discípulos que ia preparar-lhes um lugar na casa do Pai, para que, onde ele estivesse, estivessem também eles (Jo 14,2-3). Foi ele quem, pela sua morte e ressurreição, nos abriu o céu (CIC 1026). Por isso o Catecismo resume: onde está Cristo, aí está a vida, aí está o Reino (CIC 1025).
 
 E não se está lá sozinho. O céu é a comunidade de todos os que estão unidos a Cristo: Maria, os anjos, os santos, e todos os que amamos e morreram na amizade de Deus (CIC 1024, 1026). É uma comunhão perfeita, sem inveja, sem mal-entendidos, sem despedidas.
+
+### O caminho para o céu
+
+Ninguém conquista o céu pelas próprias forças. Ele é dom da graça de Cristo, que recebemos no Batismo: quem não nascer da água e do Espírito não pode entrar no Reino de Deus (Jo 3,5). Essa graça cresce na fé, nos sacramentos e na caridade, e precisa ser guardada até o fim. A Carta aos Hebreus diz que, sem a santificação, ninguém verá o Senhor (Hb 12,14), e Jesus promete a visão de Deus aos puros de coração (Mt 5,8).
+
+A virtude que nos orienta para o céu é a **esperança**: desejar a vida eterna como a nossa felicidade, confiando nas promessas de Cristo e apoiando-nos não nas nossas forças, mas na graça do Espírito Santo (CIC 1817). Não é a certeza de quem acha que já chegou, nem o desespero de quem acha que nunca vai chegar: é a confiança de um filho no Pai.
 
 ## Como imaginar o céu
 
@@ -74,7 +84,7 @@ A fé não descreve os detalhes, mas o essencial está claro: no céu cada um co
 
 ### Como alguém pode ser feliz no céu sabendo que alguém está no inferno?
 
-É uma pergunta difícil, e a Igreja não tem uma resposta detalhada. O que sabemos é que no céu veremos tudo como Deus vê, com a sua justiça e a sua misericórdia, e que a felicidade dos santos vem de Deus, não da ignorância. Enquanto estamos na terra, a pergunta tem uma resposta prática: rezar e trabalhar para que todos se salvem, porque Deus quer que todos se salvem (1Tm 2,4).
+É uma pergunta difícil, e a Igreja não tem uma resposta detalhada. O que sabemos é que no céu veremos tudo como Deus vê, com a sua justiça e a sua misericórdia, e que a felicidade dos santos vem de Deus, não da ignorância. Enquanto estamos na terra, a pergunta tem uma resposta prática: rezar e trabalhar para que todos se salvem, porque Deus quer que todos se salvem (1Tm 2,4). A própria Igreja reza para que ninguém se perca (CIC 1058).
 
 ## Em resumo
 

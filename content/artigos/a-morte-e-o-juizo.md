@@ -84,6 +84,10 @@ Não. A Igreja ensina que a alma, depois da morte, está consciente: recebe imed
 
 Todos serão julgados por Cristo, mas cada um segundo a luz que recebeu. Quem, sem culpa, não conheceu o Evangelho, mas procurou Deus com sinceridade e seguiu a consciência, pode alcançar a salvação pela graça de Cristo (CIC 847). Deus não pede a ninguém o que não lhe deu: a quem muito foi dado, muito será pedido (Lc 12,48).
 
+### É errado ter medo da morte?
+
+Não. O medo da morte é humano, e o próprio Jesus o sentiu no Getsêmani (Mc 14,33-36). A fé não pede que finjamos não temer: pede que confiemos. O cristão pode olhar a morte com serenidade não porque ela deixou de ser dura, mas porque sabe quem o espera do outro lado. São Paulo escreve aos que estão de luto que não se entristeçam como os que não têm esperança (1Ts 4,13). A tristeza permanece, mas não tem a última palavra.
+
 ### Como se preparar para a morte?
 
 A Igreja sempre pediu que se reze por uma boa morte. Na Ave-Maria, pedimos a Nossa Senhora que rogue por nós “agora e na hora da nossa morte”, e a tradição confia os moribundos a São José (CIC 1014). Para quem está gravemente doente, a Igreja oferece a confissão, a Unção dos Enfermos e a Eucaristia como Viático, alimento para a viagem (CIC 1020). Mas a melhor preparação é viver cada dia na graça de Deus: se hoje não estás preparado, como estarás amanhã? (CIC 1014).
