@@ -18,8 +18,13 @@ revisao:
   citacoesConferidas: false
   referenciasConferidas: false
   notas: >-
-    Escrito do zero em 31/10/2026.
+    Escrito do zero em 31/10/2026. Substitui os rascunhos concilios-ecumenicos, concilio-niceia e concilio-efeso, apagados.
     Lumen gentium 22 conferido no texto oficial do vatican.va em 31/10/2026.
+    Teodoreto, História eclesiástica I,7, conferido em newadvent.org em 31/10/2026.
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 31/10/2026: existem e dizem o que o texto afirma.
+    Nenhuma expressão bíblica entre aspas a conferir na CNBB.
+    Parecer doutrinal interno: favorável com correções em 31/10/2026, correções aplicadas (docs/pareceres/os-concilios-ecumenicos.md).
 ---
 
 Toda vez que um católico reza o Credo na Missa de domingo, repete palavras escritas por bispos reunidos há mais de dezesseis séculos. “Deus de Deus, luz da luz, Deus verdadeiro de Deus verdadeiro, gerado, não criado, consubstancial ao Pai”: cada uma dessas expressões foi pesada, discutida e defendida em concílios.
@@ -52,7 +57,7 @@ Os primeiros concílios ecumênicos se reuniram para responder a heresias sobre 
 
 No início do século IV, um padre de Alexandria, **Ário**, ensinava que o Filho de Deus era a primeira e mais perfeita das criaturas, mas não Deus como o Pai. Dizia que o Filho tinha saído do nada e era de uma substância diferente da do Pai. A doutrina se espalhou depressa e dividiu as Igrejas.
 
-Em 325, o imperador Constantino convocou os bispos para Niceia, na atual Turquia. Cerca de trezentos compareceram, muitos com as marcas das perseguições no corpo. O concílio confessou que o Filho é “gerado, não criado, consubstancial (*homoúsios*) ao Pai”, e condenou Ário (CIC 465). A palavra grega *homoúsios*, “consubstancial”, da mesma substância, não está na Bíblia, mas exprime com exatidão o que a Bíblia diz: no princípio era o Verbo, e o Verbo era Deus (Jo 1,1).
+Em 325, o imperador Constantino convocou os bispos para Niceia, na atual Turquia. Cerca de trezentos compareceram, muitos com as marcas das perseguições no corpo: o historiador Teodoreto conta que havia bispos de mãos queimadas e olhos arrancados, e que o concílio parecia um exército de mártires (Teodoreto, *História eclesiástica*, I, 7). O concílio confessou que o Filho é “gerado, não criado, consubstancial (*homoúsios*) ao Pai”, e condenou Ário (CIC 465). A palavra grega *homoúsios*, “consubstancial”, da mesma substância, não está na Bíblia, mas exprime com exatidão o que a Bíblia diz: no princípio era o Verbo, e o Verbo era Deus (Jo 1,1).
 
 ### Constantinopla, 381: o Credo completo
 
@@ -76,9 +81,9 @@ Uma só pessoa em duas naturezas, sem confusão nem separação. O Verbo se fez 
 
 ## Vinte e um concílios
 
-Desde Niceia, a Igreja Católica reconhece **21 concílios ecumênicos**. Depois dos quatro grandes, outros três se reuniram no Oriente: Constantinopla II (553), Constantinopla III (680-681), que afirmou as duas vontades de Cristo, e **Niceia II** (787), que defendeu, contra os iconoclastas, a veneração das imagens de Cristo, de Maria e dos santos (CIC 2131). Esses sete primeiros são reconhecidos também pelas Igrejas ortodoxas.
+Desde Niceia, a Igreja Católica reconhece **21 concílios ecumênicos**. Depois dos quatro grandes, outros três se reuniram no Oriente: Constantinopla II (553), Constantinopla III (680-681), que afirmou as duas vontades de Cristo, e **Niceia II** (787), que defendeu, contra os iconoclastas, a veneração das imagens de Cristo, de Maria e dos santos (CIC 2131). Esses sete primeiros são reconhecidos também pelas Igrejas ortodoxas. O oitavo, **Constantinopla IV** (869-870), ainda no Oriente, já não é aceito por elas.
 
-Na Idade Média, os concílios se reuniram no Ocidente: quatro no Latrão, em Roma, dois em Lyon, um em Vienne, um em Constança, que pôs fim ao Grande Cisma do Ocidente, e um em Florença, que buscou a reunião com os gregos. Na era moderna vieram **Trento** (1545-1563), resposta à Reforma protestante, o **Vaticano I** (1869-1870), que definiu a infalibilidade papal, e o **Vaticano II** (1962-1965).
+Depois, os concílios se reuniram no Ocidente: cinco no Latrão, em Roma, o último já no século XVI, dois em Lyon, um em Vienne, um em Constança, que pôs fim ao Grande Cisma do Ocidente, e um em Florença, que buscou a reunião com os gregos. Na era moderna vieram **Trento** (1545-1563), resposta à Reforma protestante, o **Vaticano I** (1869-1870), que definiu a infalibilidade papal, e o **Vaticano II** (1962-1965).
 
 Cada concílio respondeu a uma crise do seu tempo. Nenhum inventou uma fé nova: todos procuraram dizer, com palavras mais precisas, a fé recebida dos Apóstolos.
 
@@ -94,7 +99,7 @@ Os imperadores convocaram os primeiros concílios e às vezes os pressionaram, m
 
 ### Um concílio pode errar?
 
-Nas definições de fé e de moral, propostas a toda a Igreja como verdade a crer, não (CIC 891). Mas nem tudo o que um concílio diz é definição dogmática: há decisões disciplinares e pastorais, ligadas ao seu tempo, que podem mudar. Saber distinguir uma coisa da outra é parte da boa leitura dos concílios.
+Nas definições de fé e de moral, propostas a toda a Igreja como verdade a crer, não (CIC 891). Mas nem tudo o que um concílio diz é definição dogmática. Há ensinamentos que não são definidos de modo infalível, e a eles os fiéis devem também acolhida sincera, o “religioso obséquio” da inteligência e da vontade (CIC 892). E há decisões disciplinares e pastorais, ligadas ao seu tempo, como regras de jejum ou de liturgia, que a Igreja pode mudar. Saber distinguir uma coisa da outra é parte da boa leitura dos concílios.
 
 ## Em resumo
 

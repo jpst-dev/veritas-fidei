@@ -44,7 +44,7 @@ revisao:
   referenciasConferidas: true
   notas: >-
     Escrito do zero em 30/10/2026; não substitui rascunho (o acervo não tinha texto sobre a divindade de Cristo; o rascunho
-    concilio-niceia trata da história do concílio e fica para a seção de História).
+    concilio-niceia, sobre a história do concílio, foi substituído em 31/10/2026 por os-concilios-ecumenicos, da trilha História).
     Fontes antigas conferidas em 30/10/2026: Inácio, Ef 18,2 (“o nosso Deus, Jesus Cristo”) em newadvent.org; Plínio,
     Cartas X,96,7 (“carmenque Christo quasi deo dicere”) em thelatinlibrary.com.
     Citações do Catecismo conferidas pelo verificador.
