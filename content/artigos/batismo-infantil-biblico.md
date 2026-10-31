@@ -6,6 +6,7 @@ tema: sacramentos
 secao: defesa-da-fe
 status: publicado
 publicadoEm: 2026-10-26
+atualizadoEm: 2026-10-31
 nivel: intermediario
 tags: [batismo, sacramentos, criancas]
 quaestio:
@@ -40,7 +41,13 @@ referencias:
 revisao:
   citacoesConferidas: true
   referenciasConferidas: true
-  notas: Conferido pelo autor em 26/10/2026.
+  notas: >-
+    Conferido pelo autor em 26/10/2026.
+    Justino, I Apologia 15, Irineu, Contra as heresias II, 22, 4, Cipriano, Carta 64, e Tertuliano, Sobre o Batismo 18, conferidos em newadvent.org em 31/10/2026; Tradição Apostólica 21 e Orígenes, Comentário aos Romanos V, 9, ficam para conferir em edição impressa.
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 31/10/2026: existem e dizem o que o texto afirma.
+    CNBB impressa, opcional: Mc 16,16; At 16,15; At 16,33; Cl 2,11; Mc 10,14, entre aspas no artigo.
+    Parecer doutrinal interno: favorável com correções em 31/10/2026, correções aplicadas (docs/pareceres/batismo-infantil-biblico.md).
 ---
 
 Na fila do batismo de uma paróquia, quase todos estão no colo dos pais. Para muitos cristãos evangélicos, essa cena é um erro: o Batismo seria o testemunho público de quem já decidiu seguir a Cristo, e um bebê não decide nada. Por isso, nessas comunidades, quem foi batizado criança costuma ser batizado de novo depois de adulto.
@@ -92,9 +99,9 @@ Se a Antiga Aliança acolhia as crianças, seria estranho que a Nova, mais ampla
 
 Os escritos cristãos mais antigos confirmam essa prática:
 
-- **São Justino**, por volta de 155, fala de homens e mulheres de sessenta e setenta anos que eram discípulos de Cristo desde a infância (São Justino, *I Apologia*, 15). Feitas as contas, foram batizados ainda crianças, no fim do século I, quando alguns Apóstolos ainda viviam.
+- **São Justino**, por volta de 155, fala de homens e mulheres de sessenta e setenta anos que eram discípulos de Cristo desde a infância (São Justino, *I Apologia*, 15). O texto não diz quando foram batizados, mas sugere fortemente que o foram ainda crianças, no fim do século I, quando alguns Apóstolos ainda viviam.
 - **Santo Irineu**, por volta de 180, ensina que Cristo veio salvar todos os que por ele renascem para Deus, e cita expressamente “infantes e crianças” (Santo Irineu, *Contra as heresias*, II,22,4). Na linguagem dos Padres, “renascer para Deus” é o Batismo.
-- **A *Tradição Apostólica***, do início do século III, manda batizar primeiro as crianças e diz que, se não puderem responder por si, os pais ou alguém da família respondam por elas (*Tradição Apostólica*, 21).
+- **A *Tradição Apostólica***, tradicionalmente atribuída a Santo Hipólito e de data discutida (provavelmente século III), manda batizar primeiro as crianças e diz que, se não puderem responder por si, os pais ou alguém da família respondam por elas (*Tradição Apostólica*, 21).
 - **Orígenes**, na mesma época, afirma que a Igreja recebeu dos Apóstolos a tradição de batizar também as crianças (Orígenes, *Comentário à Carta aos Romanos*, V,9).
 - **São Cipriano**, por volta de 253, responde ao bispo Fido, que achava que se devia esperar o oitavo dia, como na circuncisão. Um concílio de bispos africanos foi unânime em responder que não se deve negar a graça de Deus a nenhum recém-nascido (São Cipriano, *Carta 64*).
 
@@ -108,7 +115,9 @@ Os escritos cristãos mais antigos confirmam essa prática:
 
 **4. “Tertuliano pedia para adiar.”** É verdade, e o testemunho dele prova o contrário do que a objeção quer: só faz sentido aconselhar o adiamento de algo que já se praticava. Tertuliano também aconselhava adiar o Batismo dos solteiros e dos viúvos, por medo de que pecassem depois (Tertuliano, *Sobre o Batismo*, 18), um conselho que a Igreja não seguiu. Poucas décadas depois, os bispos africanos reunidos com São Cipriano decidiram justamente o oposto.
 
-**5. “A fé deve ser uma decisão pessoal.”** E é. O batizado quando criança precisará, ao crescer, assumir a fé como sua: é para isso que existem a catequese, a Confirmação e toda a vida cristã. Mas a decisão pessoal não cria a graça; ela acolhe uma graça já recebida. Os pais cristãos decidem pelos filhos em tantas coisas boas, como o alimento, a saúde e a educação. A Igreja os convida a não os privar da maior de todas (CIC 1250).
+**5. “E se uma criança morrer sem ser batizada?”** Não é propriamente uma objeção, mas é a pergunta que mais aflige os pais. A Igreja não pode dizer mais do que Deus revelou: ela confia essas crianças à misericórdia de Deus, que quer que todos se salvem, e à ternura de Jesus, que disse “deixai vir a mim as criancinhas” (Mc 10,14; CIC 1261). Essa esperança não dispensa o Batismo; ao contrário, é mais um motivo para não o adiar sem razão.
+
+**6. “A fé deve ser uma decisão pessoal.”** E é. O batizado quando criança precisará, ao crescer, assumir a fé como sua: é para isso que existem a catequese, a Confirmação e toda a vida cristã. Mas a decisão pessoal não cria a graça; ela acolhe uma graça já recebida. Os pais cristãos decidem pelos filhos em tantas coisas boas, como o alimento, a saúde e a educação. A Igreja os convida a não os privar da maior de todas (CIC 1250).
 
 ## Em resumo
 
