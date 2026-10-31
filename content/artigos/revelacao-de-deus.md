@@ -12,6 +12,9 @@ referencias:
   - titulo: Constituição dogmática Dei Verbum, 1-6
     autor: Concílio Vaticano II
     url: https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_po.html
+  - titulo: Exortação apostólica Verbum Domini, 14
+    autor: Bento XVI
+    url: https://www.vatican.va/content/benedict-xvi/pt/apost_exhortations/documents/hf_ben-xvi_exh_20100930_verbum-domini.html
   - titulo: Contra as heresias, III,20,2
     autor: Santo Irineu de Lião
     url: https://www.newadvent.org/fathers/0103320.htm
@@ -23,7 +26,11 @@ revisao:
   notas: >-
     Escrito do zero em 30/10/2026; não substitui rascunho (o acervo não tinha texto sobre a Revelação em si).
     Irineu, Contra as heresias III,20,2 (o Verbo habitou no homem para acostumar o homem a receber Deus) conferido em
-    newadvent.org em 30/10/2026. São João da Cruz citado pelo CIC 65.
+    newadvent.org em 30/10/2026. São João da Cruz citado pelo CIC 65. Verbum Domini 14 e Sacrosanctum Concilium 7 conferidos no vatican.va.
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 30/10/2026: existem e dizem o que o texto afirma.
+    Opcional: conferir a redação na CNBB impressa das expressões entre aspas (o sentido já foi conferido na Nova Vulgata): “habita numa luz inacessível” (1Tm 6,16).
+    Parecer doutrinal interno: favorável com correções em 30/10/2026, correções aplicadas (docs/pareceres/revelacao-de-deus.md).
 ---
 
 O primeiro artigo da trilha sobre Deus mostrou que a razão consegue chegar a Deus pelas coisas criadas, mas só até certo ponto. Ela descobre que Deus existe; não descobre quem ele é por dentro, nem o que ele quer de nós. Para isso, seria preciso que o próprio Deus falasse.
@@ -78,7 +85,7 @@ São João da Cruz, místico espanhol do século XVI, tira daí uma consequênci
 
 Daí vêm duas consequências práticas.
 
-**A Revelação pública está completa.** Não haverá outra até a volta gloriosa de Cristo (CIC 66). O que Deus quis revelar para a salvação de todos já foi revelado em Jesus e confiado aos Apóstolos. Mas isso não quer dizer que a Igreja já entendeu tudo: o Catecismo diz que a Revelação já está completa, “ainda não está plenamente explicitada” (CIC 66). Ao longo dos séculos, a fé vai compreendendo melhor o que recebeu, como Jesus prometeu que o Espírito guiaria os discípulos à verdade plena (Jo 16,13).
+**A Revelação pública está completa.** Não haverá outra até a volta gloriosa de Cristo (CIC 66). O que Deus quis revelar para a salvação de todos já foi revelado em Jesus e confiado aos Apóstolos. Mas isso não quer dizer que a Igreja já entendeu tudo. O Catecismo diz que, apesar de a Revelação já estar completa, ela “ainda não está plenamente explicitada” (CIC 66). Ao longo dos séculos, a fé vai compreendendo melhor o que recebeu, como Jesus prometeu que o Espírito guiaria os discípulos à verdade plena (Jo 16,13).
 
 **As revelações privadas não acrescentam nada à fé.** Ao longo da história houve aparições e mensagens, algumas reconhecidas pela Igreja. Elas “não pertencem ao depósito da fé” (CIC 67): não completam a Revelação de Cristo, apenas ajudam a vivê-la melhor numa época. E a fé cristã não pode aceitar supostas revelações que pretendam corrigir ou ultrapassar Cristo (CIC 67).
 
@@ -86,11 +93,11 @@ Daí vêm duas consequências práticas.
 
 ### Deus ainda fala hoje?
 
-Sim, mas não com uma nova Revelação. Deus continua falando por meio do que já revelou: na Escritura lida na Igreja, na liturgia, na oração, nos acontecimentos da vida. Quando a Igreja proclama o Evangelho na Missa, é Cristo quem fala. O que não existe mais é uma revelação pública nova, com coisas que Cristo não tenha dito.
+Sim, mas não com uma nova Revelação. Deus continua falando por meio do que já revelou: na Escritura lida na Igreja, na liturgia, na oração, nos acontecimentos da vida. Quando a Escritura é lida na Igreja, é o próprio Cristo quem fala (Vaticano II, *Sacrosanctum Concilium*, 7). O que não existe mais é uma revelação pública nova, com coisas que Cristo não tenha dito.
 
 ### Sou obrigado a crer em Fátima ou em Lourdes?
 
-Não. Quando a Igreja reconhece uma aparição, declara que não há nela nada contra a fé e que é digna de crédito, e por isso pode ser acolhida e levar à oração. Mas ela não entra no depósito da fé (CIC 67). Um católico pode não ter devoção a uma aparição aprovada sem deixar de ser católico. O que não pode é desprezar o juízo da Igreja, nem colocar uma mensagem particular acima do Evangelho.
+Não. Quando a Igreja aprova uma revelação privada, declara essencialmente que a mensagem não contém nada contrário à fé e aos bons costumes, que é lícito torná-la pública e que os fiéis podem acolhê-la com uma adesão prudente (Bento XVI, *Verbum Domini*, 14). Mas ela não entra no depósito da fé (CIC 67). Um católico pode não ter devoção a uma aparição aprovada sem deixar de ser católico. O que não pode é desprezar o juízo da Igreja, nem colocar uma mensagem particular acima do Evangelho.
 
 ### Se a Revelação acabou, por que a Igreja ainda define dogmas?
 
