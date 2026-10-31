@@ -20,6 +20,10 @@ revisao:
   notas: >-
     Escrito do zero em 31/10/2026. Substitui o rascunho vida-eterna-ceu-inferno-purgatorio, apagado.
     Benedictus Deus conferida em papalencyclicals.net em 31/10/2026.
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 31/10/2026: existem e dizem o que o texto afirma.
+    Nenhuma expressão bíblica entre aspas a conferir na CNBB.
+    Parecer doutrinal interno: favorável com correções em 31/10/2026, correções aplicadas (docs/pareceres/a-morte-e-o-juizo.md).
 ---
 
 A morte é a única certeza que todos temos, e talvez a coisa sobre a qual menos gostamos de pensar. A cultura de hoje oscila entre escondê-la e banalizá-la. E, quando se pergunta o que vem depois, as respostas vão do “nada” à reencarnação, passando por um vago “ele está num lugar melhor”.
@@ -48,7 +52,7 @@ Num certo sentido, a morte é natural: tudo o que vive na terra envelhece e morr
 
 ### Transformada por Cristo
 
-Jesus não aboliu a morte; atravessou-a. Ele sentiu medo diante dela, mas a aceitou por amor ao Pai, e com a sua obediência transformou a maldição da morte em caminho para a vida (CIC 1009). Para quem está unido a ele, morrer deixa de ser só um fim: é ir ao encontro de Cristo. Daí a ousadia de Paulo: para mim, viver é Cristo, e morrer é lucro; desejo partir para estar com Cristo (Fl 1,21-23; CIC 1010-1011).
+Jesus não aboliu a morte; atravessou-a. No Getsêmani, sentiu pavor e angústia diante dela (Mc 14,33-36), mas a aceitou por amor ao Pai, e com a sua obediência transformou a maldição da morte em caminho para a vida (CIC 1009). Para quem está unido a ele, morrer deixa de ser só um fim: é ir ao encontro de Cristo. Daí a ousadia de Paulo: para mim, viver é Cristo, e morrer é lucro; desejo partir para estar com Cristo (Fl 1,21-23; CIC 1010-1011).
 
 ## Uma só vida
 
@@ -66,7 +70,7 @@ Em 1336, o papa Bento XII definiu que as almas dos justos, logo após a morte, o
 
 ### Diante de Cristo
 
-O juízo particular não é um tribunal frio com uma balança de boas e más ações. É o encontro com Cristo, à luz do qual a pessoa vê a verdade de toda a sua vida (CIC 1022). E o critério é o amor. São João da Cruz o disse numa frase que o Catecismo cita: ao entardecer desta vida, seremos examinados no amor (CIC 1022). Jesus já tinha dito o mesmo: o que fizestes a um destes mais pequenos, a mim o fizestes (Mt 25,40).
+O juízo particular não é um tribunal frio com uma balança de boas e más ações. É o encontro com Cristo, à luz do qual a pessoa vê a verdade de toda a sua vida (CIC 1022). Cada um recebe segundo as suas obras e a sua fé (CIC 1021), e a medida de tudo é o amor, que é a fé vivida. São João da Cruz o disse numa frase que o Catecismo cita: ao entardecer desta vida, seremos examinados no amor (CIC 1022). Jesus já tinha dito o mesmo: o que fizestes a um destes mais pequenos, a mim o fizestes (Mt 25,40).
 
 Quem julga é aquele que deu a vida por nós. Isso não torna o juízo menos sério, mas o enche de esperança: o juiz é também o Salvador.
 
@@ -78,7 +82,7 @@ Não. A Igreja ensina que a alma, depois da morte, está consciente: recebe imed
 
 ### Quem nunca conheceu Cristo também será julgado?
 
-Todos serão julgados por Cristo, mas cada um segundo a luz que recebeu. Quem, sem culpa, não conheceu o Evangelho, mas procurou Deus com sinceridade e seguiu a consciência, pode alcançar a salvação pela graça de Cristo (CIC 847). Deus não pede a ninguém o que não lhe deu.
+Todos serão julgados por Cristo, mas cada um segundo a luz que recebeu. Quem, sem culpa, não conheceu o Evangelho, mas procurou Deus com sinceridade e seguiu a consciência, pode alcançar a salvação pela graça de Cristo (CIC 847). Deus não pede a ninguém o que não lhe deu: a quem muito foi dado, muito será pedido (Lc 12,48).
 
 ### Como se preparar para a morte?
 
@@ -90,6 +94,6 @@ A Igreja sempre pediu que se reze por uma boa morte. Na Ave-Maria, pedimos a Nos
 - A morte é **consequência do pecado**, mas Cristo a transformou em caminho para a vida (CIC 1008-1011).
 - **Só se vive uma vez**: não há reencarnação, e depois da morte vem o juízo (Hb 9,27; CIC 1013).
 - Logo depois da morte, cada um passa pelo **juízo particular**, que leva ao céu, à purificação ou ao inferno (CIC 1021-1022).
-- O juízo é o **encontro com Cristo**, e o critério é o amor (CIC 1022).
+- O juízo é o **encontro com Cristo**: cada um é julgado segundo a fé e as obras, e a medida é o amor (CIC 1021-1022).
 
 No próximo artigo da trilha: o céu, a vida plena com Deus para a qual fomos criados.
