@@ -27,6 +27,10 @@ revisao:
   notas: >-
     Escrito do zero em 31/10/2026. Substitui os rascunhos padres-deveriam-casar e igreja-mulheres-sacerdotes, apagados.
     Ordinatio sacerdotalis e a resposta da CDF de 1995 conferidas no vatican.va; Clemente, Aos Coríntios 44, e Inácio, Aos Tralianos 3, em newadvent.org, em 31/10/2026.
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 31/10/2026: existem e dizem o que o texto afirma.
+    CNBB impressa, opcional: "sacerdócio régio" (1Pd 2,9) e "por amor do Reino dos céus" (Mt 19,12).
+    Parecer doutrinal interno: favorável com correções em 31/10/2026, correções aplicadas (docs/pareceres/o-sacramento-da-ordem.md).
 ---
 
 Quase todo católico conhece um padre: aquele que celebra a Missa, ouve confissões, batiza os filhos e acompanha os enterros. Mas poucos sabem dizer o que aconteceu no dia em que ele foi ordenado, por que o chamamos de “padre” e o que o distingue dos outros fiéis. E as perguntas que mais se ouvem sobre o assunto, por que só homens e por que não se casam, costumam ser respondidas com opiniões, não com o que a Igreja ensina.
@@ -75,7 +79,7 @@ Os três graus aparecem cedo e claramente. Por volta de 110, Santo Inácio de An
 
 Porque Jesus, que tratou as mulheres com uma liberdade que escandalizava os seus contemporâneos, escolheu só homens para formar o grupo dos Doze, e os Apóstolos fizeram o mesmo ao escolher os seus sucessores (CIC 1577). A Igreja não se considera dona dessa escolha, mas vinculada a ela.
 
-Em 1994, São João Paulo II declarou que a Igreja não tem de modo algum a faculdade de conferir a ordenação sacerdotal às mulheres, e que essa sentença deve ser considerada definitiva por todos os fiéis (São João Paulo II, *Ordinatio sacerdotalis*, 4). A Congregação para a Doutrina da Fé esclareceu depois que essa doutrina pertence ao depósito da fé e foi proposta infalivelmente pelo magistério ordinário e universal (Congregação para a Doutrina da Fé, *Resposta à dúvida*, 1995). Não se trata, portanto, de uma regra disciplinar que um papa futuro possa mudar.
+Em 1994, São João Paulo II declarou que a Igreja não tem de modo algum a faculdade de conferir a ordenação sacerdotal às mulheres, e que essa sentença deve ser considerada definitiva por todos os fiéis (São João Paulo II, *Ordinatio sacerdotalis*, 4). A Congregação para a Doutrina da Fé esclareceu depois que essa doutrina pertence ao depósito da fé e foi proposta infalivelmente pelo magistério ordinário e universal (Congregação para a Doutrina da Fé, *Resposta à dúvida*, 1995). Não se trata, portanto, de uma regra disciplinar que um papa futuro possa mudar. Essa declaração trata da ordenação sacerdotal, de bispos e presbíteros. Para o diaconado vale hoje a mesma norma, a de que só o homem batizado recebe validamente a ordenação (CIC 1577), mas sem aquela declaração formal; a questão de diaconisas tem sido estudada pela Santa Sé.
 
 Isso não diz nada contra a dignidade das mulheres. O próprio João Paulo II lembra que Maria, a mais santa das criaturas, não recebeu a missão dos Apóstolos nem o sacerdócio ministerial, e que o papel das mulheres na Igreja é absolutamente necessário e insubstituível (*Ordinatio sacerdotalis*, 3). O sacerdócio não é um prêmio nem um degrau de poder: é um serviço, e ninguém tem direito a ele (CIC 1578).
 
