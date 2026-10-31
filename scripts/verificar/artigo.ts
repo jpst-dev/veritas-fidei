@@ -1,5 +1,6 @@
 import { parse } from 'yaml'
 import { verificarReferencias } from './biblia.ts'
+import { urlDoParagrafo } from './catecismo.ts'
 
 export type Gravidade = 'erro' | 'aviso'
 
@@ -99,6 +100,7 @@ export function verificarEstrutura(artigo: Artigo): Achado[] {
   if ((dados.referencias?.length ?? 0) < 3) {
     achados.push({ gravidade: gravePublicado, mensagem: `${dados.referencias?.length ?? 0} referência(s); mínimo 3` })
   }
+  achados.push(...verificarLinksDoCatecismo(dados.referencias ?? [], gravePublicado))
   if (secao === 'defesa-da-fe' && !dados.quaestio) {
     achados.push({ gravidade: gravePublicado, mensagem: 'artigo da Defesa da fé sem "quaestio"' })
   }
@@ -138,6 +140,26 @@ export function verificarEstrutura(artigo: Artigo): Achado[] {
     achados.push({ gravidade: 'aviso', mensagem: `${palavras} palavras (o padrão é de ${min} a ${max})` })
   }
 
+  return achados
+}
+
+/**
+ * Referência ao Catecismo com link: os parágrafos do título têm de estar na página do link.
+ * Pega o link errado mesmo quando a página existe (o --links só pega o 404).
+ */
+function verificarLinksDoCatecismo(referencias: { titulo?: string; url?: string }[], gravidade: Gravidade): Achado[] {
+  const achados: Achado[] = []
+  for (const { titulo, url } of referencias) {
+    if (!url?.includes('cathechism_po') || !titulo?.startsWith('Catecismo')) continue
+    // Os números fora dos parênteses são os parágrafos
+    const numeros = [...titulo.replace(/\([^)]*\)/g, '').matchAll(/\d+/g)].map((m) => Number(m[0]))
+    const fora = numeros.filter((n) => urlDoParagrafo(n) !== url)
+    if (fora[0] === numeros[0] && fora.length) {
+      achados.push({ gravidade, mensagem: `link do Catecismo errado em "${titulo}": o CIC ${fora[0]} está em ${urlDoParagrafo(fora[0]!)}` })
+    } else if (fora.length) {
+      achados.push({ gravidade: 'aviso', mensagem: `"${titulo}": o CIC ${fora[0]} está em outra página do Catecismo; separe a referência` })
+    }
+  }
   return achados
 }
 

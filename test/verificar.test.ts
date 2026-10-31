@@ -129,6 +129,28 @@ Texto.
     expect(verificarEstrutura(defesa).map((a) => a.mensagem).some((m) => m.startsWith('título em pergunta'))).toBe(false)
   })
 
+  it('confere se o link do Catecismo é a página dos parágrafos citados', () => {
+    const comLink = (titulo: string, arquivo: string) =>
+      verificarEstrutura(
+        lerArtigo(`---
+title: Teste
+referencias:
+  - titulo: "${titulo}"
+    url: https://www.vatican.va/archive/cathechism_po/index_new/${arquivo}
+---
+
+Texto.
+`),
+      ).map((a) => a.mensagem)
+    expect(comLink('Catecismo da Igreja Católica, 441-455 (Filho de Deus)', 'p1s2c2_422-682_po.html')).toContain(
+      'link do Catecismo errado em "Catecismo da Igreja Católica, 441-455 (Filho de Deus)": o CIC 441 está em https://www.vatican.va/archive/cathechism_po/index_new/p1s2cap2_422-682_po.html',
+    )
+    expect(comLink('Catecismo da Igreja Católica, 441-455 e 589-594 (o 1 do parêntese não conta)', 'p1s2cap2_422-682_po.html').some((m) => m.includes('Catecismo'))).toBe(false)
+    expect(comLink('Catecismo da Igreja Católica, 683-747 e 1830-1832', 'p1s2cap3_683-1065_po.html')).toContain(
+      '"Catecismo da Igreja Católica, 683-747 e 1830-1832": o CIC 1830 está em outra página do Catecismo; separe a referência',
+    )
+  })
+
   it('aponta formato de citação e aspas retas', () => {
     const formato = verificarFormato(artigo).map((a) => a.mensagem)
     expect(formato).toContain('"CIC § 1374": use "CIC 1374"')

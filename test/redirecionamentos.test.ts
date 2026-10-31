@@ -32,7 +32,7 @@ describe('redirecionamentos do site antigo', () => {
   })
 
   it('artigo publicado vai para ele mesmo, com 301', () => {
-    const [, regra] = regras.find(([de]) => de === '/explorar/doutrina/doutrina-1/1')!
-    expect(regra.redirect).toEqual({ to: '/artigos/santissima-trindade', statusCode: 301 })
+    const [, regra] = regras.find(([de]) => de === '/explorar/doutrina/doutrina-2/1')!
+    expect(regra.redirect).toEqual({ to: '/artigos/os-sete-sacramentos', statusCode: 301 })
   })
 })
