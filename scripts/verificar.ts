@@ -163,8 +163,8 @@ async function conferirOrtografia(artigo: Artigo): Promise<Achado[]> {
 if (!arquivos.length) {
   const todos = (await readdir(PASTA)).filter((f) => f.endsWith('.md')).map((f) => join(PASTA, f))
   for (const f of todos) {
-    const { dados } = lerArtigo(await readFile(f, 'utf8'))
-    if (dados.status && dados.status !== 'rascunho') arquivos.push(f)
+    const { dados, erroFrontmatter } = lerArtigo(await readFile(f, 'utf8'))
+    if (erroFrontmatter || (dados.status && dados.status !== 'rascunho')) arquivos.push(f)
   }
 }
 

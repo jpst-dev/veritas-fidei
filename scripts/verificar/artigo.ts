@@ -20,11 +20,19 @@ export interface Artigo {
   dados: Record<string, any>
   /** Linhas do corpo, com o número real no arquivo; blocos de código ficam de fora. */
   linhas: { n: number; texto: string }[]
+  /** Frontmatter que não é YAML válido (o site também não consegue ler o artigo). */
+  erroFrontmatter?: string
 }
 
 export function lerArtigo(fonte: string): Artigo {
   const m = fonte.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?/)
-  const dados = m ? (parse(m[1]!) ?? {}) : {}
+  let dados: Artigo['dados'] = {}
+  let erroFrontmatter: string | undefined
+  try {
+    dados = m ? (parse(m[1]!) ?? {}) : {}
+  } catch (e) {
+    erroFrontmatter = (e as Error).message.split('\n')[0]
+  }
   const deslocamento = m ? m[0].split('\n').length - 1 : 0
   const linhas: Artigo['linhas'] = []
   let emCodigo = false
@@ -35,7 +43,7 @@ export function lerArtigo(fonte: string): Artigo {
       if (/^\s*```/.test(texto)) emCodigo = !emCodigo
       else if (!emCodigo) linhas.push({ n: i + 1 + deslocamento, texto })
     })
-  return { dados, linhas }
+  return { dados, linhas, erroFrontmatter }
 }
 
 const PROIBIDOS = /^(introdução|conclusão|conclusões|referências|bibliografia|leitura recomendada|leituras recomendadas)$/i
@@ -65,13 +73,17 @@ function pareceTitleCase(titulo: string): boolean {
   return palavras.length >= 3 && maiusculas.length / palavras.length > 0.6
 }
 
-export function verificarEstrutura({ dados, linhas }: Artigo): Achado[] {
+export function verificarEstrutura(artigo: Artigo): Achado[] {
+  const { dados, linhas } = artigo
   const achados: Achado[] = []
   const publicado = dados.status === 'publicado'
   const gravePublicado: Gravidade = publicado ? 'erro' : 'aviso'
   const secao = (dados.secao ?? 'aprender') as keyof typeof OBRIGATORIAS
 
   // Frontmatter
+  if (artigo.erroFrontmatter) {
+    achados.push({ gravidade: 'erro', linha: 1, mensagem: `frontmatter inválido (YAML): ${artigo.erroFrontmatter}; ponha entre aspas o valor com ":"` })
+  }
   if (typeof dados.title === 'string' && pareceTitleCase(dados.title)) {
     achados.push({ gravidade: gravePublicado, mensagem: `título em "Title Case"; use frase: "${dados.title}"` })
   }

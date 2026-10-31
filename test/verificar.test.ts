@@ -95,6 +95,17 @@ Texto com "aspas retas" (CIC § 1374).
     expect(estrutura.some((m) => m.startsWith('título em "Title Case"'))).toBe(true)
   })
 
+  it('aponta frontmatter que não é YAML válido', () => {
+    const quebrado = lerArtigo(`---
+title: Quem é Deus
+description: Um só Deus: eterno e todo-poderoso
+---
+
+Texto.
+`)
+    expect(verificarEstrutura(quebrado)[0]?.mensagem).toMatch(/^frontmatter inválido \(YAML\)/)
+  })
+
   it('reserva o título em pergunta para a Defesa da fé', () => {
     const aprender = lerArtigo(`---
 title: Quem é Deus?
