@@ -13,11 +13,19 @@ referencias:
     url: https://www.vatican.va/archive/cathechism_po/index_new/p1s2cap3_683-1065_po.html
   - titulo: Catecismo da Igreja Católica, 1038-1050 (o juízo final; novos céus e nova terra)
     url: https://www.vatican.va/archive/cathechism_po/index_new/p1s2cap3_683-1065_po.html
+  - titulo: Instrução Ad resurgendum cum Christo (2016)
+    autor: Congregação para a Doutrina da Fé
+    url: https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_con_cfaith_doc_20160815_ad-resurgendum-cum-christo_po.html
 revisao:
   citacoesConferidas: false
   referenciasConferidas: false
   notas: >-
     Escrito do zero em 31/10/2026. Substitui o rascunho segunda-vinda-cristo-fim-tempos, apagado.
+    Ad resurgendum cum Christo, n. 3-7, conferida no vatican.va em 31/10/2026.
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 31/10/2026: existem e dizem o que o texto afirma.
+    Nenhuma expressão bíblica entre aspas a conferir na CNBB.
+    Parecer doutrinal interno: favorável com correções em 31/10/2026, correções aplicadas (docs/pareceres/a-volta-de-cristo.md).
 ---
 
 Poucos temas da fé atraem tanta especulação quanto o fim do mundo. De tempos em tempos aparece alguém marcando a data, decifrando sinais no noticiário ou identificando o Anticristo num político da vez. E, cansados disso, muitos cristãos simplesmente deixam de pensar no assunto.
@@ -42,7 +50,7 @@ A Igreja chama essa vinda de **Parusia**, palavra grega que quer dizer chegada, 
 
 ### Quando?
 
-Ninguém sabe. Jesus foi categórico: daquele dia e daquela hora ninguém sabe, nem os anjos do céu, nem o Filho, mas só o Pai (Mt 24,36). E aos Apóstolos, que perguntavam, respondeu: não vos cabe saber os tempos nem os momentos que o Pai fixou (At 1,7; CIC 673).
+Ninguém sabe. Jesus foi categórico: daquele dia e daquela hora ninguém sabe, nem os anjos do céu, nem o Filho, mas só o Pai (Mt 24,36). O Catecismo explica que aquilo que Cristo diz ignorar, ele declara em outro lugar não ter a missão de revelar (CIC 474). E aos Apóstolos, que perguntavam, respondeu: não vos cabe saber os tempos nem os momentos que o Pai fixou (At 1,7; CIC 673).
 
 Por isso qualquer pessoa que marque datas para o fim do mundo contradiz o próprio Cristo. O que Jesus pede não é cálculo, mas vigilância: estai preparados, porque o Filho do Homem virá numa hora em que não pensais (Mt 24,44).
 
@@ -82,7 +90,7 @@ Algumas comunidades evangélicas ensinam que, antes de uma grande tribulação, 
 
 ### A Igreja permite a cremação?
 
-Permite, desde que ela não seja escolhida para negar a fé na ressurreição dos corpos (CIC 2301). A Igreja recomenda o sepultamento, que exprime melhor a esperança na ressurreição, e pede que as cinzas sejam guardadas num lugar sagrado, não espalhadas nem guardadas em casa.
+Permite, desde que ela não seja escolhida para negar a fé na ressurreição dos corpos (CIC 2301). A Igreja recomenda o sepultamento, que exprime melhor a esperança na ressurreição. Em caso de cremação, pede que as cinzas sejam conservadas num lugar sagrado, como o cemitério, e não sejam espalhadas no ar, na terra ou na água; conservá-las em casa só é admitido pelo bispo em casos excepcionais (Congregação para a Doutrina da Fé, *Ad resurgendum cum Christo*, 2016, n. 5-7).
 
 ### Se o fim pode demorar séculos, por que pensar nisso agora?
 
