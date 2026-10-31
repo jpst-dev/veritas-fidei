@@ -20,6 +20,10 @@ revisao:
   notas: >-
     Escrito do zero em 31/10/2026. Substitui o rascunho lei-natural, apagado.
     Tomás de Aquino, Suma Teológica I-II, q. 94, a. 2, conferido em newadvent.org em 31/10/2026.
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 31/10/2026: existem e dizem o que o texto afirma.
+    Nenhuma expressão bíblica entre aspas a conferir na CNBB.
+    Parecer doutrinal interno: favorável com correções em 31/10/2026, correções aplicadas (docs/pareceres/a-lei-natural.md).
 ---
 
 Uma criança pequena, que nunca leu um livro de ética, protesta com toda a força quando alguém lhe toma o brinquedo: “Não é justo!” Em todas as culturas conhecidas, trair um amigo é vergonhoso, e cuidar dos próprios pais é digno de honra. Os costumes mudam muito de um povo para outro, mas há algo que parece não mudar: a convicção de que existe o justo e o injusto, e de que não fomos nós que inventamos essa diferença.
@@ -82,7 +86,7 @@ Não. A ideia é anterior ao cristianismo. Cícero, um pagão do século I antes
 
 ### E a lei do Estado?
 
-A lei civil deve apoiar-se na lei natural, tirando conclusões dos seus princípios ou acrescentando normas práticas (CIC 1959). Uma lei humana que contradiga gravemente a lei natural, como uma que autorizasse matar inocentes, perde a sua força de lei. É por isso que todos admiramos quem desobedeceu a leis injustas, como as que permitiam a escravidão.
+A lei civil deve apoiar-se na lei natural, tirando conclusões dos seus princípios ou acrescentando normas práticas (CIC 1959). Uma lei humana que se afasta da razão não realiza a noção de lei, diz o Catecismo, e leis injustas não podem obrigar as consciências (CIC 1902-1903); o cidadão deve até recusar-se a cumpri-las quando contrariam a ordem moral (CIC 2242). É por isso que todos admiramos quem desobedeceu a leis injustas, como as que permitiam a escravidão.
 
 ### Então a moral é só questão de razão? Onde entra Deus?
 
