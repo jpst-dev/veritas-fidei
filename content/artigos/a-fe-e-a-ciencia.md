@@ -123,4 +123,4 @@ Pode, e muitos são. O Catecismo diz que os sábios e pesquisadores podem dizer 
 - A Igreja **permite** estudar a evolução do corpo humano, mas ensina que cada alma é **criada diretamente por Deus** (*Humani generis*, 36).
 - No caso Galileu, o erro foi de **interpretação da Escritura**, e a Igreja o reconheceu (Discurso de São João Paulo II, 1992).
 
-No último artigo da trilha: a objeção de que, se Deus existe, não haveria tanto mal no mundo.
+No próximo artigo da trilha: os milagres.
