@@ -14,7 +14,7 @@ export default defineNuxtConfig({
       // Sobrescrito por NUXT_PUBLIC_SITE_URL na Vercel quando houver domínio próprio
       siteUrl: 'https://veritas-fidei.vercel.app',
       // E-mail do projeto para correções; vazio, o link "Sugerir uma correção" não aparece
-      emailCorrecoes: '',
+      emailCorrecoes: 'contato@jteixeira.dev',
     },
   },
 
