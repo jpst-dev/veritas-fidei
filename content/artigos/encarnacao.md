@@ -12,6 +12,7 @@ referencias:
   - titulo: Catecismo da Igreja Católica, 525-534 (o Natal e a vida oculta)
     url: https://www.vatican.va/archive/cathechism_po/index_new/p1s2cap2_422-682_po.html
   - titulo: Concílio de Calcedônia (451), definição de fé (DH 301-302)
+  - titulo: Concílio de Constantinopla II (553), anatematismo 10 (DH 432)
   - titulo: Concílio de Constantinopla III (681), definição sobre as duas vontades (DH 556-559)
   - titulo: Constituição pastoral Gaudium et spes, 22
     autor: Concílio Vaticano II
@@ -29,6 +30,10 @@ revisao:
     Escrito do zero em 30/10/2026; não substitui rascunho. Não repete jesus-e-deus (provas da divindade) nem
     maria-mae-de-deus (Éfeso e Nestório): aqui o foco é o porquê da Encarnação e a humanidade de Cristo.
     Atanásio, Sobre a Encarnação 54,3, e Gregório de Nazianzo, Carta 101, conferidos em newadvent.org em 30/10/2026.
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 30/10/2026: existem e dizem o que o texto afirma.
+    Opcional: conferir a redação na CNBB impressa das expressões entre aspas (o sentido já foi conferido na Nova Vulgata): “o Verbo se fez carne e habitou entre nós” (Jo 1,14); “Deus amou tanto o mundo, que deu o seu Filho único” (Jo 3,16); “em sabedoria, em estatura e em graça” (Lc 2,52).
+    Parecer doutrinal interno: favorável com correções em 30/10/2026, correções aplicadas (docs/pareceres/encarnacao.md).
 ---
 
 O artigo anterior terminou com uma promessa: depois da queda, Deus anunciou que um descendente da mulher venceria o mal. Durante séculos, Israel esperou esse Salvador. Ninguém imaginava a forma que a resposta de Deus tomaria. O Salvador prometido não seria apenas um enviado de Deus, por maior que fosse. Seria o próprio Filho de Deus, feito homem.
@@ -43,7 +48,7 @@ No Credo, a Igreja confessa que o Filho de Deus, “por nós, homens, e para nos
 >
 > — CIC 464
 
-O Catecismo chama a fé na Encarnação de “sinal distintivo” da fé cristã (CIC 463). Muitas religiões falam de um Deus que se comunica com os homens. Só o cristianismo afirma que Deus se tornou um de nós.
+O Catecismo chama a fé na Encarnação de “sinal distintivo” da fé cristã (CIC 463): é aqui que se reconhece um cristão.
 
 ## Por que Deus se fez homem
 
@@ -89,7 +94,7 @@ O Filho de Deus não entrou no mundo com poder e esplendor. Nasceu numa família
 
 ### Os anos de Nazaré
 
-Durante a maior parte da vida, cerca de trinta anos, Jesus viveu em Nazaré uma vida comum: trabalho manual, vida em família, oração na sinagoga, submissão a Maria e José (Lc 2,51; CIC 531). Os Evangelhos dizem quase nada desses anos, e isso já é uma lição. Deus quis santificar a vida ordinária. São Paulo VI, citado pelo Catecismo, chamou Nazaré de escola onde se aprende o silêncio, a vida em família e o valor do trabalho (CIC 533). A casa, a oficina e a rotina de quem nunca será famoso também foram vividas pelo Filho de Deus.
+Durante a maior parte da vida, cerca de trinta anos (Lc 3,23), Jesus viveu em Nazaré uma vida comum: trabalho manual, vida em família, oração na sinagoga, submissão a Maria e José (Lc 2,51; CIC 531). Os Evangelhos dizem quase nada desses anos, e isso já é uma lição. Deus quis santificar a vida ordinária. São Paulo VI, citado pelo Catecismo, chamou Nazaré de escola onde se aprende o silêncio, a vida em família e o valor do trabalho (CIC 533). A casa, a oficina e a rotina de quem nunca será famoso também foram vividas pelo Filho de Deus.
 
 ## Dúvidas comuns
 
@@ -99,7 +104,7 @@ Sim. Como homem, Jesus tinha um conhecimento humano, que cresceu com o tempo (CI
 
 ### Se Jesus é Deus, como pôde sofrer e ser tentado?
 
-Porque a sua natureza humana é verdadeira. A Carta aos Hebreus diz que temos um sumo sacerdote capaz de se compadecer das nossas fraquezas, pois foi provado em tudo como nós, menos no pecado (Hb 4,15). Deus, na sua natureza divina, não sofre. Mas o Filho de Deus sofreu na natureza humana que assumiu. Por isso a Igreja pode dizer, sem exagero, que um da Trindade sofreu na carne (CIC 470).
+Porque a sua natureza humana é verdadeira. A Carta aos Hebreus diz que temos um sumo sacerdote capaz de se compadecer das nossas fraquezas, pois foi provado em tudo como nós, menos no pecado (Hb 4,15). Deus, na sua natureza divina, não sofre. Mas o Filho de Deus sofreu na natureza humana que assumiu. Por isso a Igreja pode dizer, sem exagero, que um da Trindade sofreu na carne (CIC 470; Concílio de Constantinopla II, DH 432).
 
 ### Jesus nasceu mesmo em 25 de dezembro?
 
