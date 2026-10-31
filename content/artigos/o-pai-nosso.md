@@ -20,6 +20,10 @@ revisao:
   notas: >-
     Escrito do zero em 31/10/2026.
     Tertuliano, Sobre a oração 1, e Didaqué 8, conferidos em newadvent.org em 31/10/2026.
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 31/10/2026: existem e dizem o que o texto afirma.
+    A conferir na CNBB impressa, se quiser: "Senhor, ensina-nos a rezar" (Lc 11,1); o texto do Pai-Nosso segue a forma litúrgica.
+    Parecer doutrinal interno: favorável com correções em 31/10/2026, correções aplicadas (docs/pareceres/o-pai-nosso.md).
 ---
 
 Os discípulos viam Jesus rezar. Ele se retirava sozinho, passava noites em oração, e voltava transformado. Um dia, quando ele terminou de rezar, um deles pediu: “Senhor, ensina-nos a rezar” (Lc 11,1). A resposta foi o Pai-Nosso.
@@ -34,11 +38,17 @@ Tertuliano, no início do século III, já dizia que nele está o resumo de todo
 
 E o Catecismo adverte: Jesus não nos deixou uma fórmula para repetir de modo mecânico. Junto com as palavras, ele nos dá o Espírito Santo, que as torna vida em nós (CIC 2766).
 
+### A oração da Igreja
+
+O Pai-Nosso nunca foi uma oração apenas individual. Desde a Tradição apostólica, ele está enraizado na liturgia (CIC 2768). Nos sacramentos da iniciação cristã, a Igreja o entrega solenemente aos que vão ser batizados: quem renasce pela Palavra de Deus aprende a invocar o Pai com as palavras do próprio Filho (CIC 2769). Por isso a maior parte dos comentários antigos ao Pai-Nosso foi escrita para catecúmenos e recém-batizados.
+
+Na Missa, ele é rezado por toda a assembleia entre a oração eucarística e a comunhão. Recolhe todos os pedidos feitos até ali e bate à porta do banquete do Reino, que a comunhão antecipa (CIC 2770). E faz parte das Horas principais do Ofício Divino, a oração diária da Igreja (CIC 2768). Quem reza o Pai-Nosso sozinho, em casa, reza com toda a Igreja.
+
 ## “Pai nosso, que estais nos céus”
 
 ### Ousar chamar Deus de Pai
 
-Na Missa, o sacerdote convida a rezar o Pai-Nosso com uma expressão que chama a atenção: “ousamos dizer”. Ousamos porque, por nós mesmos, não teríamos esse direito. Só o Filho conhece o Pai, e só por meio dele podemos chamá-lo assim (CIC 2777, 2779). Pelo Batismo, fomos feitos filhos no Filho.
+Na Missa, numa das fórmulas com que o sacerdote convida a rezar o Pai-Nosso, aparece uma expressão que chama a atenção: “ousamos dizer”. Ousamos porque, por nós mesmos, não teríamos esse direito. Só o Filho conhece o Pai, e só por meio dele podemos chamá-lo assim (CIC 2777, 2779). Pelo Batismo, fomos feitos filhos no Filho.
 
 O Catecismo pede também que purifiquemos a nossa imagem de Deus. Às vezes ela vem marcada pelas experiências com o nosso próprio pai. Deus é Pai de um modo que ultrapassa qualquer paternidade humana (CIC 2779).
 
@@ -62,7 +72,7 @@ Os quatro pedidos seguintes apresentam ao Pai a nossa pobreza (CIC 2803).
 
 ### O pão nosso de cada dia nos dai hoje
 
-Pedimos com a confiança de filhos, que tudo esperam do Pai (CIC 2828). É o pão material, o necessário para viver, sem passividade, mas sem angústia (CIC 2830). E é também o pão da Palavra e o pão da Eucaristia: Jesus é o pão da vida (Jo 6,35). A palavra grega traduzida por “de cada dia” é rara e misteriosa; tomada ao pé da letra, significa “supersubstancial”, e os Padres viram nela a Eucaristia (CIC 2837).
+Pedimos com a confiança de filhos, que tudo esperam do Pai (CIC 2828). É o pão material, o necessário para viver, sem passividade, mas sem angústia (CIC 2830). E é também o pão da Palavra e o pão da Eucaristia: Jesus é o pão da vida (Jo 6,35). A palavra grega traduzida por “de cada dia” não aparece em nenhum outro lugar do Novo Testamento. Tomada ao pé da letra, significa “supersubstancial”, e designa diretamente o Pão da Vida, o corpo de Cristo. Santo Agostinho, citado pelo Catecismo, dizia que a Eucaristia é o nosso pão de cada dia, e que também o são as leituras ouvidas na igreja (CIC 2837).
 
 ### Perdoai-nos as nossas ofensas, assim como nós perdoamos
 
@@ -80,7 +90,7 @@ O “mal”, aqui, não é uma ideia abstrata, mas uma pessoa: o Maligno, que se
 
 ### Por que os protestantes terminam com “pois vosso é o reino, o poder e a glória”?
 
-Essa frase, chamada **doxologia**, aparece em alguns manuscritos antigos de Mateus e na *Didaqué* (*Didaqué*, 8). Não pertence ao texto mais antigo do Evangelho, mas é antiga e boa. A Igreja Católica também a reza: na Missa, depois de uma oração do sacerdote, o povo responde com ela (CIC 2855). O Pai-Nosso termina com o **Amém**, que significa “assim seja” (CIC 2856).
+Essa frase, chamada **doxologia**, foi acrescentada muito cedo pelo uso litúrgico e aparece em alguns manuscritos de Mateus, mas não nos mais antigos. A *Didaqué* já traz uma forma breve: porque teu é o poder e a glória pelos séculos (*Didaqué*, 8). As Constituições Apostólicas, do século IV, acrescentaram “o reino” (CIC 2760). A Igreja Católica também a reza: na Missa, depois de uma oração do sacerdote que desenvolve o último pedido, o povo responde com ela (CIC 2760, 2855). O Pai-Nosso termina com o **Amém**, que significa “assim seja” (CIC 2856).
 
 ### Rezar sempre as mesmas palavras não é repetição vã?
 
