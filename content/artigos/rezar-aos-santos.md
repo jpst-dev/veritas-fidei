@@ -39,6 +39,10 @@ revisao:
   notas: >-
     Escrito do zero em 31/10/2026. Substitui os rascunhos intercessao-dos-santos, intercessao-dos-santos-uma-defesa-aprofundada e culto-santos-politeismo, apagados.
     Martírio de Policarpo 17 conferido em newadvent.org e Trento, sessão XXV, em papalencyclicals.net, em 31/10/2026.
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 31/10/2026: existem e dizem o que o texto afirma.
+    Nenhuma expressão bíblica entre aspas a conferir na CNBB.
+    Parecer doutrinal interno: favorável com correções em 31/10/2026, correções aplicadas (docs/pareceres/rezar-aos-santos.md).
 ---
 
 Para muitos cristãos evangélicos, ver um católico rezando diante da imagem de um santo é motivo de estranhamento, às vezes de escândalo. Se Jesus é o caminho até o Pai, por que passar por Maria, por São José ou por Santo Antônio? Não seria desconfiar de Cristo?
@@ -69,13 +73,13 @@ E todo cristão faz isso. Quem pede a um amigo “reza por mim” não põe o am
 
 ### Os santos estão vivos
 
-A diferença, então, seria que os santos morreram. Mas Jesus respondeu a quem negava a ressurreição que Deus não é Deus de mortos, mas de vivos, porque para ele todos vivem (Lc 20,38). Na Transfiguração, Moisés e Elias, que tinham deixado esta vida havia séculos, aparecem conversando com Jesus (Mc 9,4). A Carta aos Hebreus fala de uma grande nuvem de testemunhas que nos cerca (Hb 12,1).
+A diferença, então, seria que os santos morreram. Mas Jesus respondeu a quem negava a ressurreição que Deus não é Deus de mortos, mas de vivos, porque para ele todos vivem (Lc 20,38). Na Transfiguração, Moisés e Elias, que tinham deixado este mundo havia séculos, aparecem conversando com Jesus (Mc 9,4). A Carta aos Hebreus fala de uma grande nuvem de testemunhas que nos cerca (Hb 12,1).
 
 Se a união com Cristo é mais forte que a morte (Rm 8,38-39), os que morreram nele continuam membros do mesmo Corpo. E um membro do Corpo não deixa de se importar com os outros por estar mais perto da Cabeça.
 
 ### Os santos no céu rezam
 
-O Apocalipse mostra justamente isso. Os vinte e quatro anciãos, diante do trono de Deus, seguram taças de ouro cheias de incenso, que são as orações dos santos (Ap 5,8); um anjo oferece o incenso com as orações dos santos diante de Deus (Ap 8,3-4). As almas dos mártires, sob o altar, clamam a Deus pelo que acontece na terra (Ap 6,9-10). Os que estão no céu não estão alheios a nós: apresentam a Deus as orações da Igreja.
+O Apocalipse mostra justamente isso. Os vinte e quatro anciãos, diante do trono de Deus, seguram taças de ouro cheias de incenso, que são as orações dos santos (Ap 5,8); um anjo oferece o incenso com as orações dos santos diante de Deus (Ap 8,3-4). As almas dos mártires, sob o altar, sabem o que acontece na terra e clamam a Deus por justiça (Ap 6,9-10). Os que estão no céu não estão alheios a nós: apresentam a Deus as orações da Igreja.
 
 ### Venerar não é adorar
 
@@ -83,11 +87,11 @@ A adoração pertence só a Deus. Aos santos a Igreja dá outra coisa: veneraç�
 
 ## Respondendo às objeções
 
-**“Basta rezar direto a Deus.”** É verdade, e a oração mais alta da Igreja, a Missa, é dirigida ao Pai, por Cristo, no Espírito. Ninguém é obrigado a pedir a intercessão de um santo para falar com Deus. Mas também basta rezar direto a Deus, e ainda assim pedimos a oração dos irmãos. Não por necessidade, mas por amor: Deus quis que nos salvássemos juntos, não isolados.
+**“Basta rezar direto a Deus.”** É verdade, e a oração mais alta da Igreja, a Missa, é dirigida ao Pai, por Cristo, no Espírito. Ninguém é obrigado a pedir a intercessão de um santo para falar com Deus. Mas também basta rezar direto a Deus, e ainda assim pedimos a oração dos irmãos. Não por necessidade, mas por amor: Deus quis salvar os homens não isoladamente, mas como um povo (CIC 781).
 
 **“A Bíblia proíbe falar com os mortos.”** A Lei proíbe a necromancia: consultar os mortos para obter revelações ou dominar o futuro, como fez Saul com a necromante de Endor (Dt 18,10-11; 1Sm 28). A Igreja também condena isso (CIC 2116). Pedir a um santo que reze por nós não é consultar nem invocar espíritos: é dirigir a Deus, junto com um irmão, a mesma oração.
 
-**“Como os santos podem ouvir tantos pedidos?”** Não por uma capacidade própria, como se fossem onipresentes, mas porque estão em Deus, que lhes dá conhecer o que convém. O Apocalipse os mostra conhecendo e apresentando as orações da terra (Ap 5,8). Como isso acontece é um mistério da vida no céu, que a Bíblia não descreve em detalhe.
+**“Como os santos podem ouvir tantos pedidos?”** Não por uma capacidade própria, como se fossem onipresentes, mas porque estão em Deus, que lhes dá conhecer o que convém. O Apocalipse mostra os que estão no céu apresentando a Deus as orações da terra (Ap 5,8). Como isso acontece é um mistério da vida no céu, que a Bíblia não descreve em detalhe.
 
 **“Isso é paganismo disfarçado.”** Algumas formas de devoção popular podem exagerar, e a Igreja sempre as corrigiu. Mas o fundamento é bíblico e cristão desde o começo, como mostra o *Martírio de Policarpo*. Que os pagãos também tivessem festas e imagens não prova nada: eles também tinham orações e templos, e nem por isso a oração cristã é pagã.
 
@@ -97,6 +101,6 @@ A adoração pertence só a Deus. Aos santos a Igreja dá outra coisa: veneraç�
 - **Cristo é o único mediador**, e é nele que os cristãos rezam uns pelos outros, como Paulo pede no mesmo trecho (1Tm 2,1-5; CIC 2634-2635).
 - Os santos **estão vivos** em Deus e **rezam por nós**, como mostra o Apocalipse (Lc 20,38; Ap 5,8; CIC 956).
 - **Venerar não é adorar**: desde os mártires de Esmirna, os cristãos adoram só a Cristo e amam os santos como discípulos (CIC 957).
-- Pedir a intercessão dos santos não é necromancia nem paganismo, e **não é obrigatório**; é bom e útil, e é um gesto de comunhão (DH 1821; CIC 2683).
+- Pedir a intercessão dos santos não é necromancia nem paganismo. A Igreja não impõe a ninguém uma devoção particular, mas ensina que invocar os santos é **bom e útil**, e não idolatria (DH 1821; CIC 2683).
 
 Este artigo fecha a trilha sobre a Igreja. A comunhão dos santos é a própria Igreja vista por inteiro, na terra e no céu (CIC 946).
