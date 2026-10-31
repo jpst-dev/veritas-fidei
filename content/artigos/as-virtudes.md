@@ -18,6 +18,10 @@ revisao:
   notas: >-
     Escrito do zero em 31/10/2026. Substitui o rascunho virtudes-cardeais-teologais, apagado.
     Agostinho, Os costumes da Igreja Católica I,25,46, conferido em newadvent.org em 31/10/2026.
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 31/10/2026: existem e dizem o que o texto afirma.
+    Nenhuma expressão bíblica entre aspas a conferir na CNBB.
+    Parecer doutrinal interno: favorável com correções em 31/10/2026, correções aplicadas (docs/pareceres/as-virtudes.md).
 ---
 
 Quem aprende a tocar piano sofre no começo: cada nota exige atenção, os dedos não obedecem, tudo é esforço. Anos depois, o pianista toca com liberdade e até com alegria. Não ficou menos livre por ter adquirido o hábito; ficou mais livre, porque agora pode fazer o que antes só desejava.
@@ -57,7 +61,7 @@ Santo Agostinho mostrou como as quatro nascem de um único amor. Viver bem, dizi
 
 ### Dom de Deus
 
-As virtudes humanas, por si só, não bastam para a vida a que Deus nos chama. Fomos chamados a participar da natureza divina (2Pd 1,4), e para isso Deus nos dá virtudes que não poderíamos adquirir sozinhos. Elas se chamam **teologais** porque têm Deus por origem, por motivo e por objeto (CIC 1812). São infundidas por Deus na alma, normalmente no Batismo, e tornam os fiéis capazes de agir como filhos seus (CIC 1813).
+As virtudes humanas, por si só, não bastam para a vida a que Deus nos chama. Fomos chamados a participar da natureza divina (2Pd 1,4), e para isso Deus nos dá virtudes que não poderíamos adquirir sozinhos. Elas se chamam **teologais** porque têm Deus por origem, por motivo e por objeto (CIC 1812). São infundidas por Deus na alma e tornam os fiéis capazes de agir como filhos seus (CIC 1813). É no Batismo que a Trindade as concede, junto com a graça santificante (CIC 1266).
 
 São três, como diz São Paulo: agora permanecem a fé, a esperança e a caridade (1Cor 13,13).
 
@@ -73,7 +77,7 @@ Entre as três, a maior é a caridade (1Cor 13,13). Sem ela, diz São Paulo, ain
 
 Além das virtudes, o Espírito Santo dá aos fiéis os seus **sete dons**: sabedoria, entendimento, conselho, fortaleza, ciência, piedade e temor de Deus. São disposições permanentes que nos tornam dóceis às suas inspirações e levam as virtudes à perfeição (CIC 1830-1831).
 
-E onde o Espírito age, aparecem os seus **frutos**: caridade, alegria, paz, paciência, bondade, fidelidade, mansidão, domínio de si (Gl 5,22-23). A tradição da Igreja, seguindo a Vulgata, enumera doze (CIC 1832). Os frutos são o sinal de que a virtude criou raízes: o bem já não é só cumprido, é amado.
+E onde o Espírito age, aparecem os seus **frutos**: caridade, alegria, paz, paciência, benignidade, bondade, fidelidade, mansidão e domínio de si (Gl 5,22-23). A tradição da Igreja, seguindo a Vulgata, enumera doze (CIC 1832). Os frutos são o sinal de que a virtude criou raízes: o bem já não é só cumprido, é amado.
 
 ## Dúvidas comuns
 
