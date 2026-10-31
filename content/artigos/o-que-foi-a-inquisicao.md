@@ -37,8 +37,13 @@ revisao:
   citacoesConferidas: false
   referenciasConferidas: false
   notas: >-
-    Escrito do zero em 31/10/2026.
+    Escrito do zero em 31/10/2026. Substitui o rascunho igreja-e-inquisicao, apagado.
     Carta de São João Paulo II de 15/06/2004 e Dignitatis humanae 2 e 12 conferidas no texto oficial do vatican.va em 31/10/2026.
+    Leão X, Exsurge Domine, prop. 33, conferida em papalencyclicals.net; São João Crisóstomo, Homilias sobre Mateus 46, conferida em newadvent.org.
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 31/10/2026: existem e dizem o que o texto afirma.
+    Nenhuma expressão bíblica entre aspas a conferir na CNBB.
+    Parecer doutrinal interno: favorável com correções em 31/10/2026, correções aplicadas (docs/pareceres/o-que-foi-a-inquisicao.md).
 ---
 
 Poucas palavras pesam tanto contra a Igreja quanto “Inquisição”. Ela evoca masmorras, torturas, fogueiras e milhões de vítimas. Para muitos, é a prova definitiva de que a Igreja, que prega o amor, foi na verdade uma máquina de opressão.
@@ -91,7 +96,7 @@ Os arquivos não confirmam esses números. As mortes foram muito menos numerosas
 
 ### 2. “Se a Igreja errou nisso, como confiar no que ela ensina?”
 
-A Igreja nunca ensinou como verdade de fé que se deve matar hereges; ao contrário, sempre manteve que a fé não pode ser imposta (*Dignitatis humanae*, 12). O erro esteve na prática de homens da Igreja, influenciados pela mentalidade do seu tempo. A infalibilidade não garante que os membros da Igreja não pequem. Jesus já tinha avisado que o joio cresceria junto com o trigo até a colheita (Mt 13,29-30).
+A Igreja nunca definiu como verdade de fé que se deve matar hereges, e sempre manteve que a fé não pode ser imposta (*Dignitatis humanae*, 12). É verdade que houve papas que aprovaram essa prática: em 1520, Leão X chegou a condenar, entre as proposições de Lutero, a de que queimar hereges seria contra a vontade do Espírito. Mas foi uma condenação em bloco, num documento disciplinar, e não uma definição de fé. O Concílio Vaticano II, à luz da Revelação, ensinou com toda a clareza o direito à liberdade religiosa (*Dignitatis humanae*, 2). A infalibilidade protege as definições de fé, não garante que os membros da Igreja, nem os papas, não errem na prática. Jesus já tinha avisado que o joio cresceria junto com o trigo até a colheita; e, na parábola, o senhor manda justamente **não** arrancar o joio antes do tempo (Mt 13,29-30), passagem que São João Crisóstomo já lia como proibição de matar os hereges (*Homilias sobre Mateus*, 46).
 
 ### 3. “A Igreja só pediu perdão porque foi pressionada.”
 
