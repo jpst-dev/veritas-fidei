@@ -1,6 +1,6 @@
 ---
 title: A ressurreição aconteceu?
-description: "Para muitos, a ressurreição de Jesus é um mito ou uma visão dos discípulos. O que dizem os testemunhos mais antigos e por que as explicações alternativas não bastam."
+description: "Para muitos, a ressurreição de Jesus é um mito ou uma visão dos discípulos. O que dizem os testemunhos mais antigos e por que as outras explicações não bastam."
 tema: jesus-cristo
 secao: defesa-da-fe
 status: em-revisao
@@ -38,6 +38,10 @@ revisao:
   notas: >-
     Escrito do zero em 30/10/2026; não substitui rascunho.
     Inácio, Aos Esmirnenses 3, e Clemente de Roma, Aos Coríntios 5, conferidos em newadvent.org em 30/10/2026.
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 30/10/2026: existem e dizem o que o texto afirma.
+    Nenhuma expressão bíblica entre aspas a conferir na CNBB.
+    Parecer doutrinal interno: favorável com correções em 30/10/2026, correções aplicadas (docs/pareceres/a-ressurreicao-aconteceu.md).
 ---
 
 Toda a fé cristã depende de um fato. São Paulo não deixa dúvida: se Cristo não ressuscitou, a nossa pregação é vazia, e vazia também é a vossa fé (1Cor 15,14). O cristianismo não é, antes de tudo, uma moral ou uma filosofia, mas o anúncio de que um homem crucificado sob Pôncio Pilatos saiu vivo do túmulo.
@@ -78,9 +82,9 @@ Os discípulos não dizem apenas que o túmulo estava vazio, mas que viram Jesus
 
 ### Os discípulos mudaram
 
-Na Sexta-feira Santa, os discípulos fugiram. Pedro negou conhecer Jesus. Depois da morte do mestre, estavam escondidos, com medo (Jo 20,19). Poucas semanas depois, os mesmos homens anunciavam publicamente em Jerusalém que Jesus tinha ressuscitado, diante das mesmas autoridades que o tinham condenado (At 4,1-20). Vários morreram por esse testemunho: no fim do século I, São Clemente de Roma lembrava o martírio de Pedro e de Paulo (São Clemente de Roma, *Aos Coríntios*, 5). Ninguém dá a vida por uma mentira que ele mesmo inventou.
+Na Sexta-feira Santa, os discípulos fugiram. Pedro negou conhecer Jesus. Depois da morte do mestre, estavam escondidos, com medo (Jo 20,19). Poucas semanas depois, os mesmos homens anunciavam publicamente em Jerusalém que Jesus tinha ressuscitado, diante das mesmas autoridades que o tinham condenado (At 4,1-20). Vários morreram por esse testemunho: Tiago, irmão de João, foi morto à espada (At 12,2), e no fim do século I São Clemente de Roma lembrava o martírio de Pedro e de Paulo (São Clemente de Roma, *Aos Coríntios*, 5). Dificilmente alguém dá a vida por uma mentira que ele mesmo inventou.
 
-E não foram só os amigos. Tiago, parente de Jesus, não acreditava nele durante a sua vida (Jo 7,5) e depois se tornou um dos líderes da Igreja de Jerusalém. Paulo perseguia os cristãos e se tornou o maior anunciador da ressurreição. Os dois atribuem a mudança à mesma coisa: Jesus lhes apareceu (1Cor 15,7-8).
+E não foram só os amigos. Os parentes de Jesus, entre os quais estava Tiago (Mc 6,3), não acreditavam nele durante a sua vida (Jo 7,5), e Tiago depois se tornou um dos líderes da Igreja de Jerusalém. Paulo perseguia os cristãos e se tornou o maior anunciador da ressurreição. Os dois atribuem a mudança à mesma coisa: Jesus lhes apareceu (1Cor 15,7-8).
 
 ## Respondendo às objeções
 
@@ -92,7 +96,7 @@ E não foram só os amigos. Tiago, parente de Jesus, não acreditava nele durant
 
 **“Os relatos se contradizem.”** Os Evangelhos divergem em detalhes, como quantas mulheres foram ao túmulo ou em que ordem as aparições aconteceram. Isso é próprio de testemunhos independentes: testemunhas reais lembram de coisas diferentes, enquanto uma história combinada costuma sair igual em todos os detalhes. No essencial, todos concordam: Jesus morreu, foi sepultado, o túmulo foi encontrado vazio, e ele apareceu vivo aos discípulos.
 
-**“Os mortos não ressuscitam.”** É verdade: pelas forças da natureza, não. A fé não diz que Jesus voltou à vida por si mesmo, mas que Deus o ressuscitou. Quem exclui de antemão que Deus possa agir não chega a essa conclusão por causa dos fatos, mas antes deles. A pergunta honesta é qual explicação dá conta de tudo o que aconteceu.
+**“Os mortos não ressuscitam.”** É verdade: pelas forças da natureza, não. A fé não diz que um cadáver voltou à vida por um processo natural, mas que Deus o ressuscitou: a ressurreição é obra do Pai, do Filho e do Espírito Santo, e o próprio Filho a realizou pelo seu poder divino, como tinha dito: tenho o poder de dar a minha vida e de retomá-la (Jo 10,17-18; CIC 648-649). Quem exclui de antemão que Deus possa agir não chega a essa conclusão por causa dos fatos, mas antes deles. A pergunta honesta é qual explicação dá conta de tudo o que aconteceu.
 
 ## Em resumo
 
