@@ -21,6 +21,10 @@ revisao:
   notas: >-
     Escrito do zero em 31/10/2026. Substitui os rascunhos cinco-vias-tomas-aquino e teologia-natural-existencia-deus, apagados.
     Tomás de Aquino, Suma Teológica I, q. 2, a. 2-3, e I, q. 46, a. 2 ad 7, conferidos em newadvent.org em 31/10/2026.
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 31/10/2026: existem e dizem o que o texto afirma.
+    Nenhuma expressão bíblica entre aspas a conferir na CNBB.
+    Parecer doutrinal interno: favorável com correções em 31/10/2026, correções aplicadas (docs/pareceres/as-cinco-vias.md).
 ---
 
 “Prove que Deus existe.” Muitos cristãos ficam sem resposta diante desse pedido, como se a fé fosse um sentimento que não se discute. A Igreja pensa diferente. Ela ensina que a razão humana, por si mesma, pode chegar com certeza à existência de Deus. E um dos caminhos mais célebres para isso foi traçado no século XIII por Santo Tomás de Aquino: as **cinco vias**.
@@ -77,17 +81,19 @@ Dizemos que uma coisa é mais ou menos boa, verdadeira, nobre que outra. Esse �
 
 Coisas sem inteligência, como os corpos da natureza, agem sempre, ou quase sempre, do mesmo modo e na direção de um fim. Não por acaso, mas de modo ordenado. Ora, quem não tem inteligência só tende a um fim se for dirigido por alguém que conhece, como a flecha pelo arqueiro. Existe, então, uma inteligência que ordena todas as coisas naturais ao seu fim: Deus.
 
+Esta via costuma ser confundida com o argumento do “design inteligente”, que procura no mundo algo complexo demais para a ciência explicar. Não é isso. Tomás não parte das lacunas da ciência, mas da regularidade da natureza: o fato de as coisas agirem de modo constante e orientado. Essa regularidade continua de pé, e até aparece com mais clareza, quando a ciência descobre o mecanismo pelo qual algo acontece. As leis da natureza não dispensam a inteligência que as ordena: são a sua marca.
+
 ## O que as vias provam
 
 As vias chegam a uma causa primeira: um primeiro motor imóvel, um ser que existe por si, fonte de toda perfeição, uma inteligência que ordena o mundo. O Catecismo resume: o mundo e o homem atestam que não têm em si mesmos nem o seu primeiro princípio nem o seu fim último, e participam do Ser sem princípio nem fim (CIC 34).
 
-Mas as vias não mostram tudo sobre Deus. Não mostram que ele é Trindade, nem que se fez homem: isso só a Revelação pode ensinar (CIC 35). Por isso o Catecismo diz que as provas da existência de Deus **dispõem para a fé** e ajudam a ver que a fé não se opõe à razão (CIC 35). São um começo, não o fim do caminho. Logo depois, na *Suma*, Tomás dedica muitas questões a mostrar que essa causa primeira tem de ser simples, perfeita, infinita, única: é o Deus que a fé adora.
+Mas as vias não mostram tudo sobre Deus. Não mostram que ele é Trindade, nem que se fez homem: isso só a Revelação pode ensinar (CIC 35). Por isso o Catecismo diz que as provas da existência de Deus **dispõem para a fé** e ajudam a ver que a fé não se opõe à razão (CIC 35). São um começo, não o fim do caminho. Logo depois, na *Suma*, Tomás dedica várias questões a mostrar que essa causa primeira tem de ser simples, perfeita, boa, infinita, imutável, eterna e única (*Suma Teológica*, I, q. 3-11): é o Deus que a fé adora.
 
 ## Dúvidas comuns
 
 ### Se tudo tem causa, quem causou Deus?
 
-As vias não dizem que “tudo tem causa”. Dizem que tudo o que **muda**, que **começa** ou que **pode não existir** precisa de causa. Deus não muda, não começa e não pode não existir: é o próprio ser. Perguntar quem causou Deus é como perguntar quem casou o solteiro. A questão não se aplica.
+As vias não dizem que “tudo tem causa”. Dizem que tudo o que **muda**, que **começa** ou que **pode não existir** precisa de causa. Deus não muda, não começa e não pode não existir: é o próprio ser. Perguntar quem causou Deus é perguntar pela causa de algo que, por definição, não a pode ter. Se ele tivesse uma causa, não seria a causa primeira a que as vias chegam, e a pergunta continuaria até chegar a quem não tem causa nenhuma.
 
 ### A ciência não substituiu esses argumentos?
 

@@ -30,8 +30,8 @@ revisao:
   citacoesConferidas: true
   referenciasConferidas: true
   notas: >-
-    Escrito do zero em 30/10/2026. Não substitui nenhum rascunho; as provas da existência de Deus ficam para o tema Filosofia
-    (rascunhos teologia-natural-existencia-deus, cinco-vias-tomas-aquino e outros, a reescrever).
+    Escrito do zero em 30/10/2026. Não substitui nenhum rascunho; as provas da existência de Deus ficam para o tema Fé e razão
+    (artigo as-cinco-vias, que substituiu os rascunhos teologia-natural-existencia-deus e cinco-vias-tomas-aquino em 31/10/2026).
     Citações do Catecismo conferidas pelo verificador. Fides et Ratio (proêmio) conferida no vatican.va; Suma I, q. 1, a. 1
     conferida em newadvent.org; Santo Agostinho citado pelo Catecismo (CIC 30 e 158).
     Referências conferidas na Nova Vulgata (npm run biblia) em 30/10/2026: existem e dizem o que o texto afirma.
@@ -71,7 +71,7 @@ O segundo caminho passa por dentro de nós. O ser humano busca a verdade e a bel
 
 Os dois caminhos levam ao mesmo ponto: o mundo e o homem não têm em si mesmos nem o seu princípio, nem o seu fim, mas apontam para uma realidade que é causa primeira e fim último de tudo, “e a que todos chamam Deus” (CIC 34).
 
-As provas clássicas, como as cinco vias de São Tomás de Aquino, são o desenvolvimento rigoroso desses caminhos. Elas pertencem à filosofia e terão artigos próprios no tema Filosofia. Aqui basta o essencial: crer em Deus não é um salto no escuro contra a razão.
+As provas clássicas, como as cinco vias de São Tomás de Aquino, são o desenvolvimento rigoroso desses caminhos. Elas pertencem à filosofia e são explicadas no artigo [As cinco vias](/artigos/as-cinco-vias), da trilha Fé e razão. Aqui basta o essencial: crer em Deus não é um salto no escuro contra a razão.
 
 ## Deus se revela
 
