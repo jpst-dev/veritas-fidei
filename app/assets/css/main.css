@@ -156,6 +156,17 @@
     text-decoration-color: var(--color-accent);
   }
 
+  /* Palavra encontrada no trecho da busca: sublinhado na cor litúrgica, sem fundo amarelo */
+  .marca-busca {
+    background: none;
+    color: var(--color-text);
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: var(--color-accent);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+  }
+
   .btn {
     display: inline-flex;
     align-items: center;

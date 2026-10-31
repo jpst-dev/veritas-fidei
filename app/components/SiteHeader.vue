@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { NuxtLink } from '#components'
+
 const liturgia = useLiturgia()
 const route = useRoute()
 
@@ -21,6 +23,22 @@ watch(aberto, (v) => {
 })
 function aoTeclar(e: KeyboardEvent) {
   if (e.key === 'Escape') aberto.value = false
+  // "/" abre a busca, como em muitos sites; não vale enquanto se digita num campo
+  const alvo = e.target as HTMLElement | null
+  const digitando = alvo?.closest('input, textarea, select, [contenteditable="true"]')
+  if (e.key === '/' && !digitando && !e.ctrlKey && !e.metaKey && !e.altKey) {
+    e.preventDefault()
+    abrirBusca()
+  }
+}
+
+// A busca mora na página Artigos; já estando nela, só põe o cursor na caixa
+const naBusca = computed(() => route.path === '/artigos')
+function abrirBusca() {
+  if (!naBusca.value) return navigateTo('/artigos#busca')
+  const campo = document.getElementById('busca')
+  campo?.scrollIntoView({ block: 'center' })
+  campo?.focus()
 }
 onMounted(() => window.addEventListener('keydown', aoTeclar))
 onBeforeUnmount(() => {
@@ -31,13 +49,13 @@ onBeforeUnmount(() => {
 
 <template>
   <header class="mx-auto w-full max-w-6xl px-6 pt-4 lg:pt-7">
-    <div class="flex items-center gap-x-8 pb-4 lg:pb-5">
-      <NuxtLink to="/" class="font-display text-lg font-semibold tracking-[0.12em] hover:no-underline sm:text-2xl">
+    <div class="flex items-center gap-x-3 pb-4 lg:gap-x-5 lg:pb-5">
+      <NuxtLink to="/" class="font-display text-base font-semibold tracking-[0.1em] whitespace-nowrap hover:no-underline sm:text-2xl sm:tracking-[0.12em]">
         <span class="text-accent" aria-hidden="true">✠</span> VERITAS FIDEI
       </NuxtLink>
 
       <nav aria-label="Principal" class="hidden lg:block">
-        <ul class="flex gap-x-7 font-display text-sm tracking-[0.1em] uppercase">
+        <ul class="flex gap-x-6 font-display text-sm tracking-[0.1em] whitespace-nowrap uppercase">
           <li v-for="link in links" :key="link.to">
             <NuxtLink :to="link.to" class="link-nav" :class="{ ativo: secaoAtual(link.to) }">{{ link.rotulo }}</NuxtLink>
           </li>
@@ -49,7 +67,20 @@ onBeforeUnmount(() => {
         <span>{{ liturgia.rotulo }}</span>
       </p>
 
-      <div class="ml-auto flex gap-2 xl:ml-0">
+      <div class="ml-auto flex gap-1.5 sm:gap-2 xl:ml-0">
+        <!-- Link para a busca; na própria página Artigos vira botão que só foca a caixa -->
+        <component
+          :is="naBusca ? 'button' : NuxtLink"
+          v-bind="naBusca ? { type: 'button', onClick: abrirBusca } : { to: '/artigos#busca' }"
+          class="grid size-11 cursor-pointer place-items-center border border-line text-muted hover:border-accent hover:text-accent hover:no-underline"
+          aria-label="Buscar nos artigos"
+          title="Buscar (tecla /)"
+        >
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+            <circle cx="11" cy="11" r="6.5" />
+            <path d="M16 16l4.5 4.5" />
+          </svg>
+        </component>
         <ThemeToggle />
         <button
           type="button"
