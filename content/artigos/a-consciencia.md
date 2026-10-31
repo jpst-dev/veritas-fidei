@@ -8,7 +8,7 @@ nivel: iniciante
 tags: [consciencia, moral, liberdade, discernimento, lei-natural]
 referencias:
   - titulo: Catecismo da Igreja Católica, 1776-1802 (a consciência moral)
-    url: https://www.vatican.va/archive/cathechism_po/index_new/p3s1c1a6_1776-1802_po.html
+    url: https://www.vatican.va/archive/cathechism_po/index_new/p3s1cap1_1699-1876_po.html
   - titulo: Carta ao Duque de Norfolk, 5 (a consciência)
     autor: São John Henry Newman
     url: https://www.newmanreader.org/works/anglicans/volume2/gladstone/section5.html
@@ -18,6 +18,10 @@ revisao:
   notas: >-
     Escrito do zero em 31/10/2026. Substitui o rascunho formacao-consciencia-moral, apagado.
     Newman, Carta ao Duque de Norfolk 5, conferida em newmanreader.org em 31/10/2026.
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 31/10/2026: existem e dizem o que o texto afirma.
+    Nenhuma expressão bíblica entre aspas a conferir na CNBB.
+    Parecer doutrinal interno: favorável com correções em 31/10/2026, correções aplicadas (docs/pareceres/a-consciencia.md).
 ---
 
 “Siga a sua consciência.” Poucos conselhos são mais repetidos, e poucos são tão mal entendidos. Para uns, consciência é sinônimo de sentimento: se não me sinto culpado, está tudo bem. Para outros, é uma desculpa elegante: “a minha consciência me permite”, e a conversa acaba. E há quem viva com a consciência em sobressalto, vendo pecado em tudo.
@@ -75,7 +79,7 @@ Por isso “seguir a consciência” não basta. É preciso seguir a consciênci
 
 ### Posso seguir a minha consciência contra o ensinamento da Igreja?
 
-Quem tem uma consciência certa deve segui-la (CIC 1790). Mas o católico sabe que a Igreja recebeu de Cristo a missão de ensinar a verdade moral, e que a sua consciência pode estar mal formada. Uma consciência que se forma de verdade não se fecha em si mesma: escuta a Palavra de Deus e o ensinamento da Igreja como luz, não como ameaça (CIC 1783, 1785). Rejeitar a autoridade da Igreja é, aliás, uma das causas de erro que o Catecismo aponta (CIC 1792).
+Quem tem uma consciência certa deve segui-la (CIC 1790). Mas o católico sabe que a Igreja recebeu de Cristo a missão de ensinar a verdade moral, e que a sua consciência pode estar mal formada. Uma consciência que se forma de verdade não se fecha em si mesma: escuta a Palavra de Deus e o ensinamento da Igreja como luz, não como ameaça (CIC 1783, 1785). O Catecismo é explícito: a consciência deve abrir-se ao ensino autorizado do Magistério sobre as questões morais, e não se deve opor a consciência pessoal à lei moral ou ao Magistério da Igreja (CIC 2039). Rejeitar a autoridade da Igreja é, aliás, uma das causas de erro que ele aponta (CIC 1792).
 
 A famosa frase de Newman, que brindaria “à consciência primeiro, e ao papa depois”, costuma ser citada fora do contexto. Ele a escreveu justamente para dizer que a autoridade do papa se apoia na consciência, e que a consciência verdadeira não é a vontade própria, mas a voz de Deus (São John Henry Newman, *Carta ao Duque de Norfolk*, 5).
 
