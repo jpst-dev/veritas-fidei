@@ -10,6 +10,9 @@ const links = [
   { to: '/sobre', rotulo: 'Sobre', resumo: 'O projeto e como os textos são revisados' },
 ]
 
+// O item fica ativo também nas páginas internas da seção (/trilhas/historia-da-igreja → Trilhas)
+const secaoAtual = (to: string) => route.path === to || route.path.startsWith(`${to}/`)
+
 // Gaveta do celular: fecha ao navegar e com Esc, e trava a rolagem do fundo
 const aberto = ref(false)
 watch(() => route.fullPath, () => (aberto.value = false))
@@ -28,7 +31,7 @@ onBeforeUnmount(() => {
 
 <template>
   <header class="mx-auto w-full max-w-6xl px-6 pt-4 lg:pt-7">
-    <div class="filete-duplo flex items-center gap-x-8 border-b-[3px] pb-4 lg:pb-5">
+    <div class="flex items-center gap-x-8 pb-4 lg:pb-5">
       <NuxtLink to="/" class="font-display text-lg font-semibold tracking-[0.12em] hover:no-underline sm:text-2xl">
         <span class="text-accent" aria-hidden="true">✠</span> VERITAS FIDEI
       </NuxtLink>
@@ -36,7 +39,7 @@ onBeforeUnmount(() => {
       <nav aria-label="Principal" class="hidden lg:block">
         <ul class="flex gap-x-7 font-display text-sm tracking-[0.1em] uppercase">
           <li v-for="link in links" :key="link.to">
-            <NuxtLink :to="link.to" active-class="text-accent">{{ link.rotulo }}</NuxtLink>
+            <NuxtLink :to="link.to" class="link-nav" :class="{ ativo: secaoAtual(link.to) }">{{ link.rotulo }}</NuxtLink>
           </li>
         </ul>
       </nav>

@@ -122,6 +122,28 @@
     border-style: double;
   }
 
+  /* Menu do topo: o link ativo ganha a cor litúrgica e um traço curto embaixo */
+  .link-nav {
+    position: relative;
+    text-decoration: none !important;
+  }
+
+  .link-nav:hover,
+  .link-nav.ativo {
+    color: var(--color-accent);
+  }
+
+  .link-nav.ativo::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -0.55rem;
+    width: 1.4rem;
+    height: 2px;
+    background: var(--color-accent);
+    transform: translateX(-50%);
+  }
+
   .btn {
     display: inline-flex;
     align-items: center;
