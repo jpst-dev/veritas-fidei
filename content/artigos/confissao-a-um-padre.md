@@ -6,6 +6,7 @@ tema: sacramentos
 secao: defesa-da-fe
 status: publicado
 publicadoEm: 2026-10-26
+atualizadoEm: 2026-10-31
 nivel: iniciante
 tags: [confissao, penitencia, sacramentos]
 quaestio:
@@ -37,7 +38,13 @@ referencias:
 revisao:
   citacoesConferidas: true
   referenciasConferidas: true
-  notas: Conferido pelo autor em 26/10/2026.
+  notas: >-
+    Conferido pelo autor em 26/10/2026.
+    Didaqué 4, 14 e 14, 1, Cipriano, Sobre os que caíram 28, e Ambrósio, Sobre a Penitência I, 2, conferidos em newadvent.org em 31/10/2026.
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 31/10/2026: existem e dizem o que o texto afirma.
+    CNBB impressa, opcional: "ministério da reconciliação" (2Cor 5,18).
+    Parecer doutrinal interno: favorável com correções em 31/10/2026, correções aplicadas (docs/pareceres/confissao-a-um-padre.md).
 ---
 
 “Eu me confesso direto com Deus.” Muitos católicos já disseram ou ouviram essa frase, e muitos cristãos evangélicos a consideram simplesmente óbvia. Por que contar os próprios pecados a outro homem, também pecador, se Deus vê tudo e pode perdoar tudo?
@@ -82,7 +89,7 @@ Jesus não deu aos Apóstolos apenas o poder de perdoar, mas também o de **rete
 
 ### Os primeiros cristãos confessavam os pecados
 
-A confissão não começou em 1215. A *Didaqué*, um catecismo escrito por volta do ano 100, manda: “Na igreja, confessarás as tuas faltas” (*Didaqué*, 4,14), e pede que os cristãos confessem os pecados antes da Eucaristia de domingo (*Didaqué*, 14,1). São Tiago já orientava a confessar os pecados uns aos outros e a orar uns pelos outros (Tg 5,16).
+A confissão não começou em 1215. A *Didaqué*, um catecismo escrito por volta do ano 100, manda confessar as próprias faltas na assembleia da Igreja (*Didaqué*, 4,14), e pede que os cristãos confessem os pecados antes da Eucaristia de domingo (*Didaqué*, 14,1). São Tiago já orientava a confessar os pecados uns aos outros e a orar uns pelos outros (Tg 5,16).
 
 Por volta de 251, São Cipriano elogia os cristãos que, mesmo sem terem cometido o pecado grave da apostasia, mas só por terem pensado nisso, confessam com dor e simplicidade essa falta aos sacerdotes de Deus (São Cipriano, *Sobre os que caíram*, 28). No século IV, Santo Ambrósio é taxativo: o poder de perdoar os pecados foi confiado só aos sacerdotes (Santo Ambrósio, *Sobre a Penitência*, I,2).
 
@@ -92,7 +99,7 @@ Por volta de 251, São Cipriano elogia os cristãos que, mesmo sem terem cometid
 
 **2. “Há um só mediador.”** O padre não é um segundo mediador, ao lado de Cristo. Ele é um instrumento do único Mediador. Pela mesma lógica, um pastor que prega o Evangelho também seria um “intermediário”, e São Paulo não deveria ter dito que Deus exorta os homens através dos Apóstolos (2Cor 5,20).
 
-**3. “A Bíblia manda confessar a Deus.”** E a confissão sacramental é confissão a Deus. 1Jo 1,9 não diz como confessar, e outros textos mostram a confissão feita diante de outros (Tg 5,16; At 19,18). Além disso, a Igreja nunca ensinou que não se deve rezar pedindo perdão diretamente a Deus: o arrependimento sincero deve acompanhar o cristão todos os dias. A confissão ao padre é o caminho que Cristo deixou, sobretudo para os pecados graves.
+**3. “A Bíblia manda confessar a Deus.”** E a confissão sacramental é confissão a Deus. 1Jo 1,9 não diz como confessar, e outros textos mostram a confissão feita diante de outros (Tg 5,16; At 19,18). Além disso, a Igreja nunca ensinou que não se deve rezar pedindo perdão diretamente a Deus: o arrependimento sincero deve acompanhar o cristão todos os dias. Mas, para os pecados graves, a confissão ao padre não é opcional: é o caminho que Cristo deixou para o seu perdão (CIC 1456). Quem se arrepende por amor a Deus, com contrição perfeita, já é perdoado, desde que tenha o propósito de se confessar logo que possível (CIC 1452); e quem tem consciência de pecado grave não deve comungar sem antes receber a absolvição (CIC 1457).
 
 **4. “É invenção medieval.”** A *forma* da penitência mudou ao longo dos séculos, e é honesto reconhecer isso. Nos primeiros séculos, os pecados mais graves e públicos levavam a uma penitência pública, longa, concedida muitas vezes uma só vez na vida. A partir do século VI, sobretudo com os monges irlandeses, difundiu-se a confissão privada e repetida, como a conhecemos. O IV Concílio de Latrão, em 1215, não inventou a confissão: apenas mandou que todo fiel se confessasse **ao menos uma vez por ano** (IV Concílio de Latrão, cân. 21; DH 812). Só se obriga a fazer ao menos uma vez algo que já existe.
 
