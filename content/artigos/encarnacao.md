@@ -1,6 +1,6 @@
 ---
 title: A Encarnação
-description: "O Filho de Deus se fez homem. Por que Deus escolheu esse caminho, o que quer dizer que Jesus é verdadeiro Deus e verdadeiro homem e o que o Natal e Nazaré revelam."
+description: "O Filho de Deus se fez homem. Por que Deus escolheu esse caminho, o que significa ser verdadeiro Deus e verdadeiro homem e o que revelam o Natal e Nazaré."
 tema: jesus-cristo
 secao: aprender
 status: em-revisao
