@@ -9,8 +9,10 @@ publicadoEm: 2026-10-30
 nivel: intermediario
 tags: [maria, imaculada-conceicao, pecado-original, graca, redencao]
 referencias:
-  - titulo: Catecismo da Igreja Católica, 490-493 (a Imaculada Conceição) e 411
+  - titulo: Catecismo da Igreja Católica, 490-493 (a Imaculada Conceição)
     url: https://www.vatican.va/archive/cathechism_po/index_new/p1s2cap2_422-682_po.html
+  - titulo: Catecismo da Igreja Católica, 411 (o Proto-evangelho)
+    url: https://www.vatican.va/archive/cathechism_po/index_new/p1s2c1_198-421_po.html
   - titulo: Bula Ineffabilis Deus (8 de dezembro de 1854), DH 2800-2804
     autor: Pio IX
   - titulo: Concílio de Trento, sessão V, decreto sobre o pecado original (DH 1516) e sessão VI, cân. 23 (DH 1573)
