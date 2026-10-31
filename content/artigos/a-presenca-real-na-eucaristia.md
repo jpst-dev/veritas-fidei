@@ -6,6 +6,7 @@ tema: sacramentos
 secao: aprender
 status: publicado
 publicadoEm: 2026-10-26
+atualizadoEm: 2026-10-31
 nivel: intermediario
 tags: [eucaristia, presenca-real, transubstanciacao, sacramentos]
 referencias:
@@ -30,7 +31,14 @@ referencias:
 revisao:
   citacoesConferidas: true
   referenciasConferidas: true
-  notas: Conferido pelo autor em 26/10/2026.
+  notas: >-
+    Conferido pelo autor em 26/10/2026.
+    Inácio, Aos Esmirnenses 7, 1, Justino, I Apologia 66, e Cirilo, Catequeses mistagógicas IV, 6, conferidos em newadvent.org em 31/10/2026.
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 31/10/2026: existem e dizem o que o texto afirma.
+    CNBB impressa, opcional: "Isto é o meu corpo", "Fazei isto em memória de mim" (Lc 22,19) e Jo 6,63, entre aspas no artigo.
+    Parecer doutrinal interno: favorável com correções em 31/10/2026, correções aplicadas (docs/pareceres/a-presenca-real-na-eucaristia.md).
+    Substitui os rascunhos eucaristia-apenas-simbolo e missa-ritual-repetitivo, apagados.
 ---
 
 Na Missa, depois das palavras da consagração, o padre eleva a hóstia e o povo se ajoelha. Para quem vê de fora, é um gesto estranho diante de um pedaço de pão. Para o católico, é o gesto mais natural do mundo: ali não há mais pão, mas o próprio Cristo.
@@ -90,7 +98,7 @@ Os primeiros cristãos leram esses textos literalmente, e o testemunho começa l
 - **São Cirilo de Jerusalém**, por volta de 350, ensina aos recém-batizados: não julguem pelo gosto, mas tenham certeza, pela fé, de que receberam o corpo e o sangue de Cristo (São Cirilo de Jerusalém, *Catequeses mistagógicas*, IV,6).
 - **São João Crisóstomo** e **Santo Ambrósio**, no século IV, ensinam que não é o homem que faz das ofertas o corpo e o sangue de Cristo, mas o próprio Cristo, pela força da sua palavra (CIC 1375).
 
-Quando, no século XI, Berengário de Tours passou a ensinar que a presença era só simbólica, a novidade foi rejeitada justamente por contradizer o que sempre se crera. E quando a Reforma Protestante voltou a questionar a presença real, o Concílio de Trento reafirmou a fé de sempre, lembrando que “sempre na Igreja se teve esta convicção” (CIC 1376).
+Quando, no século XI, Berengário de Tours passou a ensinar que a presença era só simbólica, a novidade foi rejeitada justamente por contradizer o que sempre se crera, e ele mesmo acabou assinando, em 1079, uma profissão da fé na conversão substancial do pão e do vinho (DH 700). E quando a Reforma Protestante voltou a questionar a presença real, o Concílio de Trento reafirmou a fé de sempre, lembrando que “sempre na Igreja se teve esta convicção” (CIC 1376).
 
 ## Dúvidas comuns
 
@@ -106,6 +114,10 @@ Porque a mudança atinge a substância, não as aparências. Os sentidos não se
 
 Os pagãos do século II faziam exatamente essa acusação, e ela só faz sentido porque os cristãos de fato diziam comer o corpo de Cristo. Mas a comunhão não é canibalismo: não se recebe Cristo em pedaços, morto, sob a aparência de carne. Recebe-se o Cristo vivo e ressuscitado, inteiro, sob a aparência de pão, e não somos nós que o assimilamos, mas ele que nos assimila a si.
 
+### A Missa repete o sacrifício da cruz?
+
+Não. Cristo se ofereceu uma vez por todas (Hb 7,27), e nada se acrescenta a esse sacrifício. A Missa é sacrifício porque **torna presente** o único sacrifício da cruz, é o seu memorial e aplica os seus frutos (CIC 1366). É a mesma vítima e o mesmo sacerdote, Cristo, que agora se oferece pelo ministério dos padres; só o modo de oferecer é diferente, sem derramamento de sangue (CIC 1367). Por isso a Missa não é um ritual repetitivo: cada vez, a Igreja é levada ao Calvário e à Páscoa, que não passam.
+
 ### A transubstanciação não depende da filosofia de Aristóteles?
 
 A palavra usa um vocabulário filosófico, mas a fé não depende de nenhuma escola. A Igreja não ensina uma teoria sobre a matéria; ensina que, depois da consagração, o que está no altar já não é pão, embora pareça pão. Isso já era crido muito antes de Aristóteles ser lido no Ocidente, como mostram Inácio, Justino e Cirilo.
@@ -116,4 +128,5 @@ A palavra usa um vocabulário filosófico, mas a fé não depende de nenhuma esc
 - A **transubstanciação** é a mudança da substância do pão e do vinho no corpo e no sangue de Cristo; as aparências permanecem (CIC 1376).
 - Jesus insistiu nessa verdade em **João 6**, mesmo quando muitos o abandonaram, e a instituiu na **Última Ceia**.
 - Os cristãos creem nisso **desde o século I**, como testemunham Santo Inácio, São Justino e São Cirilo.
+- A Missa **torna presente o único sacrifício da cruz**, sem repeti-lo (CIC 1366-1367).
 - Por isso a Igreja **adora** a Eucaristia, na Missa e fora dela (CIC 1378).
