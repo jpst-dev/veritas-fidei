@@ -20,11 +20,15 @@ revisao:
   notas: >-
     Escrito do zero em 30/10/2026; não substitui rascunho. A divindade de Jesus (jesus-e-deus) e o papado (trilha da
     Igreja) são só mencionados.
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 30/10/2026: existem e dizem o que o texto afirma.
+    Opcional: conferir a redação na CNBB impressa das expressões entre aspas (o sentido já foi conferido na Nova Vulgata): “Completou-se o tempo, e o Reino de Deus está próximo. Convertei-vos e crede no Evangelho” (Mc 1,15); “milagres, prodígios e sinais” (At 2,22).
+    Parecer doutrinal interno: favorável com correções em 30/10/2026, correções aplicadas (docs/pareceres/o-reino-de-deus.md).
 ---
 
-Por volta dos trinta anos, Jesus deixou Nazaré. Durante cerca de três anos, percorreu a Galileia e a Judeia pregando, curando doentes, comendo com pecadores e reunindo discípulos. Os Evangelhos dedicam a maior parte das suas páginas a esse tempo e, depois, à sua morte e ressurreição.
+Por volta dos trinta anos, Jesus deixou Nazaré. Durante dois ou três anos (o Evangelho de João menciona três Páscoas nesse período: Jo 2,13; 6,4; 11,55), percorreu a Galileia e a Judeia pregando, curando doentes, comendo com pecadores e reunindo discípulos. Os Evangelhos dedicam a maior parte das suas páginas a esse tempo e, depois, à sua morte e ressurreição.
 
-Qual era o centro da sua pregação? Não era ele mesmo, pelo menos não de modo direto, nem um código moral, nem uma nova religião. Era uma notícia: “Completou-se o tempo, e o Reino de Deus está próximo. Convertei-vos e crede no Evangelho” (Mc 1,15). Este artigo mostra o que Jesus queria dizer com isso, e o que os seus gestos revelavam.
+Qual era o centro da sua pregação? Não um código moral nem um sistema de ideias, mas uma notícia: “Completou-se o tempo, e o Reino de Deus está próximo. Convertei-vos e crede no Evangelho” (Mc 1,15). Quem o ouvia logo percebia que essa notícia tinha tudo a ver com ele: o Reino chegava com a sua pessoa, as suas palavras e os seus gestos (CIC 542). Este artigo mostra o que isso queria dizer.
 
 ## O que a Igreja ensina
 
@@ -44,7 +48,7 @@ Logo depois, o Espírito o leva ao deserto. Durante quarenta dias Jesus jejua, e
 
 ### Os Doze
 
-Desde o começo, Jesus escolhe doze homens para estarem com ele e participarem da sua missão, e os envia a pregar o Reino e curar (Lc 9,1-2; CIC 551). O número não é casual: lembra as doze tribos de Israel. Jesus está reunindo o novo povo de Deus. Entre os Doze, Simão Pedro recebe o primeiro lugar e as chaves do Reino (Mt 16,18-19; CIC 552-553), um ponto que a trilha sobre a Igreja aprofunda.
+Desde o começo, Jesus escolhe doze homens para estarem com ele e participarem da sua missão, e os envia a pregar o Reino e curar (Lc 9,1-2; CIC 551). O número não é casual: lembra as doze tribos de Israel, que os Apóstolos um dia julgarão (Lc 22,30). Jesus está reunindo o novo povo de Deus. Entre os Doze, Simão Pedro recebe o primeiro lugar e as chaves do Reino (Mt 16,18-19; CIC 552-553), um ponto que a trilha sobre a Igreja aprofunda.
 
 ## O anúncio do Reino
 
