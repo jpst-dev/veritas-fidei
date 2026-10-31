@@ -1,9 +1,11 @@
 ---
 title: O Magistério e a infalibilidade
 description: "Quem diz o que a Igreja ensina, e com que autoridade? O que é o Magistério, quando ele é infalível e o que a infalibilidade do papa não significa."
+obra: concilio-de-trento
 tema: igreja
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-31
 nivel: intermediario
 tags: [magisterio, infalibilidade, papa, dogma, ex-cathedra]
 referencias:
@@ -20,8 +22,8 @@ referencias:
     autor: Concílio Vaticano II
     url: https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19641121_lumen-gentium_po.html
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 31/10/2026. Substitui os rascunhos magisterio-da-igreja, infalibilidade-papal, infalibilidade-papa-definicao-limites e infalibilidade-papal-biblica, apagados.
     Pastor aeternus, cap. 4, e a definição de fé do III Concílio de Constantinopla conferidos em papalencyclicals.net em 31/10/2026.

@@ -1,9 +1,11 @@
 ---
 title: Pedir a intercessão dos santos tira o lugar de Cristo?
 description: "Se Cristo é o único mediador, por que os católicos pedem a oração dos santos? O que é a comunhão dos santos e por que venerar não é adorar."
+obra: todos-os-santos
 tema: igreja
 secao: defesa-da-fe
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-31
 nivel: intermediario
 tags: [santos, intercessao, comunhao-dos-santos, mediacao, apologetica]
 quaestio:
@@ -34,8 +36,8 @@ referencias:
   - titulo: Martírio de Policarpo, 17
     url: https://www.newadvent.org/fathers/0102.htm
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 31/10/2026. Substitui os rascunhos intercessao-dos-santos, intercessao-dos-santos-uma-defesa-aprofundada e culto-santos-politeismo, apagados.
     Martírio de Policarpo 17 conferido em newadvent.org e Trento, sessão XXV, em papalencyclicals.net, em 31/10/2026.

@@ -1,9 +1,11 @@
 ---
 title: Pedro e o papa
 description: "Jesus escolheu Pedro como pedra da sua Igreja e lhe deu as chaves. O que dizem os Evangelhos, como a Igreja antiga entendeu isso e o que é o papa hoje."
+obra: apascenta-as-minhas-ovelhas
 tema: igreja
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-31
 nivel: iniciante
 tags: [pedro, papa, primado, chaves, roma]
 referencias:
@@ -18,8 +20,8 @@ referencias:
     autor: Santo Irineu de Lião
     url: https://www.newadvent.org/fathers/0103303.htm
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 31/10/2026. Substitui o rascunho o-papado-nas-escrituras, apagado.
     Irineu, Contra as heresias III,3, e Pastor aeternus, cap. 2, conferidos em 31/10/2026 (newadvent.org e papalencyclicals.net).

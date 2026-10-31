@@ -1,9 +1,11 @@
 ---
 title: Os bispos, sucessores dos Apóstolos
 description: "Os Apóstolos não deixaram só escritos: deixaram sucessores. O que é a sucessão apostólica, o que os primeiros cristãos diziam dela e o que faz um bispo."
+obra: consagracao-de-sao-nicolau
 tema: igreja
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-31
 nivel: intermediario
 tags: [bispos, sucessao-apostolica, colegio-episcopal, ordem, hierarquia]
 referencias:
@@ -21,8 +23,8 @@ referencias:
     autor: Tertuliano
     url: https://www.newadvent.org/fathers/0311.htm
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 31/10/2026. Substitui o rascunho sucessao-apostolica, apagado.
     Clemente, Aos Coríntios 42 e 44, Inácio, Aos Esmirnenses 8, e Tertuliano, A prescrição dos hereges 32, conferidos em newadvent.org em 31/10/2026.

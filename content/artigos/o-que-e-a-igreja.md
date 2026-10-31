@@ -1,9 +1,11 @@
 ---
 title: O que é a Igreja
 description: "A Igreja não é uma associação de pessoas com as mesmas ideias. O que significa dizer que ela é o Corpo de Cristo e que é una, santa, católica e apostólica."
+obra: igreja-militante
 tema: igreja
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-31
 nivel: iniciante
 tags: [igreja, corpo-de-cristo, povo-de-deus, notas-da-igreja, eclesiologia]
 referencias:
@@ -19,8 +21,8 @@ referencias:
     autor: Santo Inácio de Antioquia
     url: https://www.newadvent.org/fathers/0109.htm
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 31/10/2026; não substitui rascunho.
     Inácio, Aos Esmirnenses 8, conferido em newadvent.org em 31/10/2026.
