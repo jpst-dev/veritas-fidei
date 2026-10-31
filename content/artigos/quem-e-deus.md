@@ -4,7 +4,8 @@ description: "Um só Deus, que se revela como “Eu sou”: eterno, todo-poderos
 obra: sarca-ardente
 tema: deus-e-trindade
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-30
 nivel: iniciante
 tags: [deus, nome-de-deus, atributos-divinos, omnipotencia, amor-de-deus]
 referencias:
@@ -17,8 +18,8 @@ referencias:
     autor: São Tomás de Aquino
     url: https://www.newadvent.org/summa/1003.htm
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 30/10/2026. Substitui o rascunho atributos-divinos (texto do site antigo, com referências a livros
     comerciais e foco em teologia natural), apagado no mesmo commit.

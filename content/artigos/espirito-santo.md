@@ -4,7 +4,8 @@ description: A terceira Pessoa da Trindade, Senhor que dá a vida. Quem é o Esp
 obra: pentecostes
 tema: deus-e-trindade
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-30
 nivel: iniciante
 tags: [espirito-santo, trindade, pentecostes, dons-do-espirito, crisma]
 referencias:
@@ -21,8 +22,8 @@ referencias:
     autor: São Tomás de Aquino
     url: https://www.newadvent.org/summa/1036.htm
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 30/10/2026; não substitui rascunho (o acervo não tinha texto próprio sobre o Espírito Santo).
     Irineu, Contra as heresias III,24,1 (“onde está a Igreja, aí está o Espírito de Deus”) conferido em newadvent.org em

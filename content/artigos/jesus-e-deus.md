@@ -4,7 +4,8 @@ description: Muitos dizem que Jesus foi um grande profeta, mas nunca se disse De
 obra: tome
 tema: deus-e-trindade
 secao: defesa-da-fe
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-30
 nivel: intermediario
 tags: [jesus-cristo, divindade-de-cristo, trindade, encarnacao, arianismo]
 quaestio:
@@ -39,8 +40,8 @@ referencias:
     autor: São Tomás de Aquino
     url: https://www.newadvent.org/summa/4016.htm
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 30/10/2026; não substitui rascunho (o acervo não tinha texto sobre a divindade de Cristo; o rascunho
     concilio-niceia trata da história do concílio e fica para a seção de História).

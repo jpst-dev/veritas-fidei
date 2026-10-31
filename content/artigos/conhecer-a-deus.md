@@ -4,7 +4,8 @@ description: O que a razão humana alcança sobre Deus, por que ela não basta e
 obra: criacao-de-adao
 tema: deus-e-trindade
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-30
 nivel: iniciante
 tags: [deus, razao, fe, revelacao, teologia-natural]
 referencias:
@@ -26,8 +27,8 @@ referencias:
     autor: Santo Agostinho
     url: https://www.newadvent.org/fathers/110101.htm
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 30/10/2026. Não substitui nenhum rascunho; as provas da existência de Deus ficam para o tema Filosofia
     (rascunhos teologia-natural-existencia-deus, cinco-vias-tomas-aquino e outros, a reescrever).

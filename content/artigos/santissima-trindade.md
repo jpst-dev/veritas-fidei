@@ -4,8 +4,9 @@ description: Um só Deus em três Pessoas. O que a Igreja ensina, como Deus reve
 obra: trindade-el-greco
 tema: deus-e-trindade
 secao: aprender
-status: em-revisao
+status: publicado
 publicadoEm: 2026-10-26
+atualizadoEm: 2026-10-30
 nivel: intermediario
 tags: [trindade, deus, dogma, espirito-santo, filho-de-deus]
 referencias:
@@ -25,8 +26,8 @@ referencias:
     autor: São Tomás de Aquino
     url: https://www.newadvent.org/summa/1027.htm
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Reescrito do zero em 30/10/2026 no padrão novo (a versão publicada em 26/10/2026 não tinha passado por parecer nem
     pela conferência na Nova Vulgata). Mesmo endereço; publicadoEm mantido.
