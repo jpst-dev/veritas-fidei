@@ -14,6 +14,8 @@ referencias:
   - titulo: Constituição dogmática Pastor aeternus, cap. 4 (DH 3065-3075)
     autor: Concílio Vaticano I
     url: https://www.papalencyclicals.net/councils/ecum20.htm
+  - titulo: III Concílio de Constantinopla (681), definição de fé
+    url: https://www.papalencyclicals.net/councils/ecum06.htm
   - titulo: Constituição dogmática Lumen gentium, 25
     autor: Concílio Vaticano II
     url: https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19641121_lumen-gentium_po.html
@@ -22,7 +24,11 @@ revisao:
   referenciasConferidas: false
   notas: >-
     Escrito do zero em 31/10/2026. Substitui os rascunhos magisterio-da-igreja, infalibilidade-papal, infalibilidade-papa-definicao-limites e infalibilidade-papal-biblica, apagados.
-    Pastor aeternus, cap. 4, conferido em papalencyclicals.net em 31/10/2026.
+    Pastor aeternus, cap. 4, e a definição de fé do III Concílio de Constantinopla conferidos em papalencyclicals.net em 31/10/2026.
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 31/10/2026: existem e dizem o que o texto afirma.
+    CNBB impressa, opcional: “pareceu bem ao Espírito Santo e a nós” (At 15,28).
+    Parecer doutrinal interno: favorável com correções em 31/10/2026, correções aplicadas (docs/pareceres/o-magisterio.md).
 ---
 
 Toda comunidade que lê a Bíblia acaba diante da mesma pergunta: quando duas pessoas sinceras entendem um texto de modo diferente, quem decide? Sem uma resposta, a fé se divide em tantas interpretações quantos forem os leitores.
@@ -74,7 +80,7 @@ O Concílio Vaticano I definiu, em 1870, que o papa é infalível quando fala *e
 - define uma doutrina sobre a fé ou a moral;
 - e a propõe para ser crida por toda a Igreja (*Pastor aeternus*, cap. 4; CIC 891).
 
-Faltando qualquer dessas condições, não há definição infalível. Por isso as definições *ex cathedra* são raras. Os exemplos mais claros são os dogmas da Imaculada Conceição, em 1854, e da Assunção de Maria, em 1950, ambos proclamados depois de consultar os bispos do mundo inteiro.
+Faltando qualquer dessas condições, não há definição infalível. Por isso as definições *ex cathedra* são raras. Os exemplos mais claros são os dogmas da Imaculada Conceição, definido por Pio IX em 1854 (*Ineffabilis Deus*), e da Assunção de Maria, definido por Pio XII em 1950 (*Munificentissimus Deus*), ambos proclamados depois de consultar os bispos do mundo inteiro.
 
 ### O que a infalibilidade não é
 
@@ -94,11 +100,11 @@ A palavra não está na Bíblia, como também não está “Trindade”. Mas o f
 
 ### Um papa já não ensinou um erro?
 
-O caso mais citado é o do papa Honório I, condenado depois de morto pelo III Concílio de Constantinopla, em 681, por ter favorecido numa carta a heresia monotelita, que negava a vontade humana de Cristo. Mas a carta não era uma definição dirigida a toda a Igreja, e não cumpre nenhuma das condições de uma definição *ex cathedra*. O caso mostra que um papa pode errar no ensino comum ou na prudência, o que a Igreja nunca negou.
+O caso mais citado é o do papa Honório I, condenado depois de morto pelo III Concílio de Constantinopla, em 681, que o nomeou entre os que favoreceram a heresia monotelita, a qual negava a vontade humana de Cristo (III Concílio de Constantinopla, definição de fé). Honório a tinha favorecido numa carta. Mas a carta não era uma definição dirigida a toda a Igreja, e não cumpre nenhuma das condições de uma definição *ex cathedra*. O caso mostra que um papa pode errar no ensino comum ou na prudência, o que a Igreja nunca negou.
 
 ### Se o Magistério interpreta a Bíblia, o católico não pode lê-la sozinho?
 
-Pode e deve. A Igreja recomenda vivamente a leitura da Bíblia a todos os fiéis. O Magistério não substitui a leitura pessoal: oferece a garantia de que, nas questões de fé, a interpretação comum da Igreja é a dos Apóstolos. É como ler a Constituição de um país sabendo que há um tribunal que, nas dúvidas sérias, diz o que ela significa.
+Pode e deve. A Igreja recomenda vivamente a leitura da Bíblia a todos os fiéis. O Magistério não substitui a leitura pessoal: oferece a garantia de que, nas questões de fé, a interpretação comum da Igreja é a dos Apóstolos. É como ler a Constituição de um país sabendo que há um tribunal que, nas dúvidas sérias, diz o que ela significa: um tribunal que não está acima da Constituição, mas a serviço dela.
 
 ## Em resumo
 
