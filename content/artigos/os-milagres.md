@@ -23,6 +23,11 @@ revisao:
     Escrito do zero em 31/10/2026. Não substitui nenhum rascunho.
     Tomás de Aquino, Suma Teológica I, q. 105, a. 7-8, conferido em newadvent.org em 31/10/2026.
     O 72.º milagre de Lourdes (Antonietta Raco, abril de 2025) conferido em Catholic World Report, EWTN News e ACI Prensa em 31/10/2026.
+    Suma Teológica I-II, q. 113, a. 9, conferido em newadvent.org.
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 31/10/2026: existem e dizem o que o texto afirma.
+    Nenhuma expressão bíblica entre aspas a conferir na CNBB.
+    Parecer doutrinal interno: favorável com correções em 31/10/2026, correções aplicadas (docs/pareceres/os-milagres.md).
 ---
 
 Para uns, milagre é qualquer coisa boa e inesperada: a vaga no estacionamento, o exame que deu negativo. Para outros, é uma impossibilidade, uma ideia de tempos que não conheciam a ciência. A Igreja não fica com nenhum dos dois. Ela fala de milagres com muito mais precisão, e também com muito mais cautela, do que se costuma imaginar.
@@ -79,7 +84,7 @@ O exemplo mais conhecido é o de **Lourdes**. Desde o século XIX, as curas atri
 
 ### Nas canonizações
 
-O mesmo rigor vale para as beatificações e canonizações. Em geral, além do exame das virtudes heroicas, a Igreja pede um milagre atribuído à intercessão do candidato para a beatificação e outro para a canonização. Cada caso passa por uma junta de médicos, que diz se a cura tem explicação natural, e por uma comissão de teólogos, que examina se ela se deve à intercessão pedida.
+O mesmo rigor vale para as beatificações e canonizações. Em geral, além do exame das virtudes heroicas, a Igreja pede um milagre atribuído à intercessão do candidato para a beatificação e outro para a canonização. Os mártires são beatificados sem milagre, porque o martírio já é o testemunho supremo, mas para a canonização também se pede um. Cada caso passa por uma junta de médicos, que diz se a cura tem explicação natural, e por uma comissão de teólogos, que examina se ela se deve à intercessão pedida.
 
 ### Milagres e revelações privadas
 
@@ -89,7 +94,7 @@ Mesmo quando a Igreja reconhece um milagre ou uma aparição, isso não acrescen
 
 ### A ciência não prova que milagres são impossíveis?
 
-Não. A ciência estuda as regularidades da natureza; ela pode dizer que uma cura **não tem explicação natural conhecida**, e é justamente isso que os médicos de Lourdes fazem. Mas afirmar que um milagre é impossível já não é ciência: é a tese filosófica de que nada existe além da natureza. Se Deus existe, como a razão mostra pelas cinco vias, não há nada de absurdo em ele agir no mundo que criou.
+Não. A ciência estuda as regularidades da natureza; ela pode dizer que uma cura **não tem explicação natural conhecida**, e é justamente isso que os médicos de Lourdes fazem. Mas afirmar que um milagre é impossível já não é ciência: é a tese filosófica de que nada existe além da natureza. Se Deus existe, como a razão mostra pelas cinco vias, não há nada de absurdo em ele agir no mundo que criou. Por isso o Concílio Vaticano I ensinou, como verdade de fé, que os milagres são possíveis e que podem ser conhecidos com certeza.
 
 ### E se um dia a medicina explicar essas curas?
 
@@ -97,7 +102,7 @@ Não. A ciência estuda as regularidades da natureza; ela pode dizer que uma cur
 
 ### Os milagres ainda acontecem?
 
-Sim. Jesus prometeu que sinais acompanhariam os que cressem, e os Apóstolos pregaram com o Senhor confirmando a Palavra pelos sinais que a acompanhavam (Mc 16,20). A Igreja continua a reconhecer milagres em Lourdes e nas canonizações. Mas o maior milagre, dizem os santos, é a conversão de um coração.
+Sim. Jesus prometeu que sinais acompanhariam os que cressem, e os Apóstolos pregaram com o Senhor confirmando a Palavra pelos sinais que a acompanhavam (Mc 16,17-20). A Igreja continua a reconhecer milagres em Lourdes e nas canonizações. Mas há uma obra de Deus ainda maior, que acontece todos os dias sem chamar a atenção. Santo Agostinho dizia, e Santo Tomás repete, que fazer de um pecador um justo é maior do que criar o céu e a terra, porque o céu e a terra passarão, mas a justificação do pecador permanece (*Suma Teológica*, I-II, q. 113, a. 9).
 
 ## Em resumo
 
