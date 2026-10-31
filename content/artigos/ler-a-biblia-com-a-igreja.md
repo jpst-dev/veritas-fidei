@@ -1,9 +1,11 @@
 ---
 title: Ler a Bíblia com a Igreja
 description: "Como entender o que a Bíblia diz: as regras que a Igreja dá para interpretá-la, os sentidos da Escritura e conselhos práticos para começar a ler."
+obra: batismo-do-eunuco
 tema: biblia-e-tradicao
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-30
 nivel: iniciante
 tags: [biblia, interpretacao, sentidos-da-escritura, leitura-da-biblia]
 referencias:
@@ -21,8 +23,8 @@ referencias:
   - titulo: Comentário a Isaías, prólogo
     autor: São Jerônimo
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 30/10/2026; substitui o rascunho interpretacao-privada, apagado (a questão da interpretação
     pessoal entrou neste artigo; a URL antiga passa a apontar para ele).

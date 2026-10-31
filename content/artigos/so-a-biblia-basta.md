@@ -1,9 +1,11 @@
 ---
 title: Só a Bíblia basta?
 description: "Muitos irmãos protestantes dizem que a Bíblia é a única regra de fé. O que a Escritura diz sobre si mesma e por que a Igreja a recebe junto com a Tradição."
+obra: paulo-escrevendo
 tema: biblia-e-tradicao
 secao: defesa-da-fe
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-30
 nivel: intermediario
 tags: [sola-scriptura, tradicao, protestantismo, canon, magisterio]
 quaestio:
@@ -39,8 +41,8 @@ referencias:
     autor: Santo Irineu de Lião
     url: https://www.newadvent.org/fathers/0103304.htm
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 30/10/2026; substitui os rascunhos sola-scriptura e sola-scriptura-uma-analise-critica, apagados
     (as URLs antigas passam a apontar para este artigo).

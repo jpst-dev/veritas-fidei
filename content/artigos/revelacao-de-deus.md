@@ -1,9 +1,11 @@
 ---
 title: A Revelação de Deus
 description: Deus não ficou calado. Por que ele se revela, como preparou a humanidade passo a passo e por que em Jesus Cristo disse tudo.
+obra: moises
 tema: biblia-e-tradicao
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-30
 nivel: iniciante
 tags: [revelacao, palavra-de-deus, alianca, revelacoes-privadas]
 referencias:
@@ -21,8 +23,8 @@ referencias:
   - titulo: Subida do Monte Carmelo, II,22
     autor: São João da Cruz
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 30/10/2026; não substitui rascunho (o acervo não tinha texto sobre a Revelação em si).
     Irineu, Contra as heresias III,20,2 (o Verbo habitou no homem para acostumar o homem a receber Deus) conferido em

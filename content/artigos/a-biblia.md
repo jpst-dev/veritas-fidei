@@ -1,9 +1,11 @@
 ---
 title: A Bíblia, Palavra de Deus
 description: "O que quer dizer que a Bíblia é inspirada, por que ela não engana e quem definiu os livros que fazem parte dela: o cânon das Escrituras."
+obra: inspiracao-de-sao-mateus
 tema: biblia-e-tradicao
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-30
 nivel: iniciante
 tags: [biblia, inspiracao, canon, deuterocanonicos, antigo-testamento]
 referencias:
@@ -17,8 +19,8 @@ referencias:
     autor: Santo Atanásio de Alexandria
     url: https://www.newadvent.org/fathers/2806039.htm
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 30/10/2026; não substitui rascunho (o rascunho igreja-inventou-biblia-para-controlar é uma objeção
     da Defesa da fé e fica para depois).

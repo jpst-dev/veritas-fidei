@@ -1,9 +1,11 @@
 ---
 title: A Tradição
 description: "Antes de ser escrito, o Evangelho foi pregado. O que a Igreja chama de Tradição, por que ela não compete com a Bíblia e quem a guarda."
+obra: pedro-prega
 tema: biblia-e-tradicao
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-30
 nivel: iniciante
 tags: [tradicao, escritura, magisterio, sucessao-apostolica, sensus-fidei]
 referencias:
@@ -22,8 +24,8 @@ referencias:
     autor: São Vicente de Lérins
     url: https://www.newadvent.org/fathers/3506.htm
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 30/10/2026; substitui o rascunho tradicao-invalida-biblia, apagado (a objeção de Mc 7 entrou nas
     dúvidas comuns; a URL antiga passa a apontar para este artigo).
