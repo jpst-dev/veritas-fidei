@@ -1,9 +1,11 @@
 ---
 title: O sacramento da Ordem
 description: "Bispos, padres e diáconos: o que a Igreja ensina sobre o sacerdócio ministerial, por que só homens são ordenados e de onde vem o celibato."
+obra: ordenacao-de-santo-estevao
 tema: sacramentos
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-31
 nivel: intermediario
 tags: [ordem, sacerdocio, padres, celibato, sacramentos]
 referencias:
@@ -22,8 +24,8 @@ referencias:
     autor: Santo Inácio de Antioquia
     url: https://www.newadvent.org/fathers/0106.htm
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 31/10/2026. Substitui os rascunhos padres-deveriam-casar e igreja-mulheres-sacerdotes, apagados.
     Ordinatio sacerdotalis e a resposta da CDF de 1995 conferidas no vatican.va; Clemente, Aos Coríntios 44, e Inácio, Aos Tralianos 3, em newadvent.org, em 31/10/2026.
