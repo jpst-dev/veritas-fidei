@@ -1,9 +1,11 @@
 ---
 title: O que é rezar
 description: "A oração não é uma técnica nem um dever a cumprir: é um encontro. O que a Igreja ensina sobre a oração, as suas formas e as dificuldades de quem reza."
+obra: cristo-e-a-samaritana
 tema: oracao
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-31
 nivel: iniciante
 tags: [oracao, contemplacao, meditacao, oracao-vocal, vida-espiritual]
 referencias:
@@ -18,8 +20,8 @@ referencias:
     autor: São João Damasceno
     url: https://www.newadvent.org/fathers/33043.htm
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 31/10/2026.
     João Damasceno, Exposição da fé ortodoxa III,24, conferido em newadvent.org em 31/10/2026.

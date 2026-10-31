@@ -1,9 +1,11 @@
 ---
 title: A meditação da Palavra
 description: "Ler a Bíblia rezando: o que é a lectio divina, os seus passos e como começar a meditar a Palavra de Deus no dia a dia."
+obra: marta-e-maria
 tema: oracao
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-31
 nivel: iniciante
 tags: [lectio-divina, meditacao, biblia, palavra-de-deus, oracao]
 referencias:
@@ -18,8 +20,8 @@ referencias:
   - titulo: Catecismo da Igreja Católica, 2705-2708 (a meditação)
     url: https://www.vatican.va/archive/cathechism_po/index_new/p4s1cap3_2697-2758_po.html
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 31/10/2026.
     Verbum Domini 86-87 e Dei Verbum 12, 21 e 25 conferidos no texto oficial do vatican.va em 31/10/2026.

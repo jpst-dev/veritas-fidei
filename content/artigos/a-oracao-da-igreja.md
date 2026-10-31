@@ -1,9 +1,11 @@
 ---
 title: A oração da Igreja
 description: "A liturgia não é um ritual que se assiste: é a oração de Cristo com a sua Igreja. A Missa, o domingo e a Liturgia das Horas, que santifica o dia inteiro."
+obra: missa-de-sao-gil
 tema: oracao
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-31
 nivel: intermediario
 tags: [liturgia, liturgia-das-horas, missa, domingo, oracao]
 referencias:
@@ -15,8 +17,8 @@ referencias:
   - titulo: Catecismo da Igreja Católica, 1174-1178 (a Liturgia das Horas)
     url: https://www.vatican.va/archive/cathechism_po/index_new/p2s1cap2_1135-1209_po.html
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 31/10/2026.
     Sacrosanctum Concilium 7, 10, 12, 13, 84 e 100 conferidos no texto oficial do vatican.va em 31/10/2026.

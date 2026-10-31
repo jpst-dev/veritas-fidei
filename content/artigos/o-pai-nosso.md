@@ -1,9 +1,11 @@
 ---
 title: O Pai-Nosso
 description: "A oração que Jesus ensinou é o resumo de todo o Evangelho. O que significa chamar Deus de Pai e o que pedimos em cada uma das sete petições."
+obra: sermao-da-montanha
 tema: oracao
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-31
 nivel: iniciante
 tags: [pai-nosso, oracao-do-senhor, oracao, evangelho, perdao]
 referencias:
@@ -15,8 +17,8 @@ referencias:
   - titulo: Didaqué, 8
     url: https://www.newadvent.org/fathers/0714.htm
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 31/10/2026.
     Tertuliano, Sobre a oração 1, e Didaqué 8, conferidos em newadvent.org em 31/10/2026.

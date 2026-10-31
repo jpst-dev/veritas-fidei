@@ -1,9 +1,11 @@
 ---
 title: O terço é repetição vã?
 description: "Jesus condenou as repetições vãs dos pagãos. Rezar dezenas de Ave-Marias não seria exatamente isso? O que é o terço e por que a repetição não é vazia."
+obra: festa-do-rosario
 tema: oracao
 secao: defesa-da-fe
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-31
 nivel: intermediario
 tags: [terco, rosario, ave-maria, repeticao, maria, contemplacao]
 quaestio:
@@ -32,8 +34,8 @@ referencias:
   - titulo: Catecismo da Igreja Católica, 2667-2679 (a oração a Jesus e a Maria)
     url: https://www.vatican.va/archive/cathechism_po/index_new/p4s1cap2_2650-2696_po.html
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 31/10/2026. Substitui o rascunho santo-rosario, apagado.
     Rosarium Virginis Mariae 1, 12, 19 e 26 e Marialis cultus 47 conferidos no texto oficial do vatican.va em 31/10/2026.
