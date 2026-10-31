@@ -13,6 +13,9 @@ referencias:
   - titulo: Cartas, X, 96 (carta de Plínio a Trajano sobre os cristãos)
     autor: Plínio, o Jovem
     url: https://www.thelatinlibrary.com/pliny.ep10.html
+  - titulo: Aos Romanos, 4
+    autor: Santo Inácio de Antioquia
+    url: https://www.newadvent.org/fathers/0107.htm
   - titulo: Martírio de Policarpo, 9
     url: https://www.newadvent.org/fathers/0102.htm
   - titulo: Apologético, 50
@@ -27,9 +30,13 @@ revisao:
   citacoesConferidas: false
   referenciasConferidas: false
   notas: >-
-    Escrito do zero em 31/10/2026.
+    Escrito do zero em 31/10/2026. Substitui os rascunhos cristaos-tres-primeiros-seculos, perseguicoes-martires e constantino-edito-milao, apagados.
     Tácito, Anais XV,44, e Plínio, Cartas X,96, conferidos no texto latino (thelatinlibrary.com) em 31/10/2026.
-    Inácio, Aos Romanos 4; Martírio de Policarpo 9; Carta a Diogneto 5; Tertuliano, Apologético 50; Lactâncio, Sobre a morte dos perseguidores 48, conferidos em newadvent.org em 31/10/2026.
+    Inácio, Aos Romanos 4; Martírio de Policarpo 9; Carta a Diogneto 5; Tertuliano, Apologético 50; Lactâncio, Sobre a morte dos perseguidores 48; Sozomeno, História eclesiástica V,16, conferidos em newadvent.org em 31/10/2026.
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 31/10/2026: existem e dizem o que o texto afirma.
+    Nenhuma expressão bíblica entre aspas a conferir na CNBB.
+    Parecer doutrinal interno: favorável com correções em 31/10/2026, correções aplicadas (docs/pareceres/a-igreja-dos-martires.md).
 ---
 
 Quando se pensa nos primeiros cristãos, logo vêm à mente as catacumbas e os leões do Coliseu. A imagem tem um fundo de verdade, mas é incompleta. Durante quase três séculos, ser cristão no Império Romano podia custar a vida. E, no entanto, foi justamente nesse tempo que a Igreja cresceu como nunca.
@@ -72,9 +79,13 @@ Em Esmirna, por volta de 155, o velho bispo **Policarpo**, discípulo do apósto
 
 A partir do século III, a perseguição se tornou política do Império. O imperador **Décio**, em 250, obrigou todos os habitantes a sacrificar aos deuses e a obter um certificado de que o tinham feito. **Valeriano**, em 257-258, mirou bispos e padres: morreram São Cipriano de Cartago e o papa Sisto II, com o diácono São Lourenço. A última e mais violenta foi a **Grande Perseguição** de Diocleciano e dos seus sucessores, a partir de 303: igrejas destruídas, livros sagrados queimados, milhares de mortos.
 
+### Os que caíram
+
+Nem todos resistiram. Na perseguição de Décio, muitos cristãos sacrificaram aos deuses ou compraram um certificado falso para escapar. Passada a tormenta, muitos desses **caídos** quiseram voltar à Igreja. Alguns rigoristas achavam que não havia perdão para eles. São Cipriano, bispo de Cartago, defendeu outro caminho: uma penitência séria, proporcional à falta, e depois a reconciliação. A Igreja dos mártires foi também a Igreja do perdão.
+
 ### Mártires de todas as condições
 
-Os mártires não eram só bispos. Em Cartago, em 203, a jovem nobre **Perpétua**, mãe de um bebê, e a escrava **Felicidade**, grávida, morreram juntas na arena. Em Roma, as virgens **Inês** e **Cecília** e o soldado **Sebastião** tornaram-se dos santos mais venerados da Igreja. A fé cristã não distinguia senhor e escravo, homem e mulher, e o martírio também não.
+Os mártires não eram só bispos. Em Cartago, em 203, a jovem nobre **Perpétua**, mãe de um bebê, e a escrava **Felicidade**, grávida, morreram juntas na arena. As atas do seu martírio, escritas em parte pela própria Perpétua na prisão, estão entre os documentos mais comoventes da Antiguidade cristã. Em Roma, as virgens **Inês** e **Cecília** e o soldado **Sebastião** tornaram-se dos santos mais venerados da Igreja; o culto deles é muito antigo, mas os relatos das suas mortes que chegaram até nós são posteriores e misturam história e tradição. A fé cristã não distinguia senhor e escravo, homem e mulher, e o martírio também não.
 
 ## Como viviam os cristãos
 
@@ -82,7 +93,7 @@ Os mártires não eram só bispos. Em Cartago, em 203, a jovem nobre **Perpétua
 
 A perseguição não transformou os cristãos numa seita fechada. Um texto do século II, a *Carta a Diogneto*, descreve-os assim: não se distinguem dos outros homens pelo país, pela língua ou pelos costumes. Vivem nas suas cidades, mas como peregrinos. Casam-se como todos e têm filhos, mas não abandonam os recém-nascidos. Estão na carne, mas não vivem segundo a carne; passam a vida na terra, mas são cidadãos do céu (*Carta a Diogneto*, 5).
 
-O que chamava a atenção dos pagãos era a caridade: o cuidado com as viúvas, os órfãos, os doentes, os presos e os mortos, inclusive os que não eram cristãos.
+O que chamava a atenção dos pagãos era a caridade: o cuidado com as viúvas, os órfãos, os doentes, os presos e os mortos, inclusive os que não eram cristãos. O testemunho mais eloquente vem de um adversário. No século IV, o imperador Juliano, que tentou restaurar o paganismo, escreveu a um sacerdote pagão que era uma vergonha deixar os seus na miséria, quando os ímpios galileus, como ele chamava os cristãos, sustentavam não só os seus pobres, mas também os dos pagãos (Sozomeno, *História eclesiástica*, V, 16).
 
 ### A semente
 
