@@ -1,7 +1,7 @@
 ---
 title: Os bispos, sucessores dos Apóstolos
 description: "Os Apóstolos não deixaram só escritos: deixaram sucessores. O que é a sucessão apostólica, o que os primeiros cristãos diziam dela e o que faz um bispo."
-obra: consagracao-de-sao-nicolau
+obra: consagracao-de-santo-agostinho
 tema: igreja
 secao: aprender
 status: publicado
