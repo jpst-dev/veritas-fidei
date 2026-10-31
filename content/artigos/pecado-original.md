@@ -12,13 +12,21 @@ referencias:
   - titulo: Catecismo da Igreja Católica, 1250 e 1261-1264 (o Batismo e o pecado original)
     url: https://www.vatican.va/archive/cathechism_po/index_new/p2s2cap1_1210-1419_po.html
   - titulo: Concílio de Trento, sessão V (1546), decreto sobre o pecado original (DH 1510-1516)
+  - titulo: Concílio de Trento, sessão VI (1547), decreto sobre a justificação, cânon 5 (DH 1555)
   - titulo: Concílio de Cartago (418), cânones sobre o pecado e a graça (DH 222-230)
+  - titulo: Carta encíclica Humani generis, 37
+    autor: Pio XII
+    url: https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_12081950_humani-generis.html
 revisao:
   citacoesConferidas: false
   referenciasConferidas: false
   notas: >-
     Escrito do zero em 30/10/2026; não substitui rascunho (o acervo não tinha texto sobre o pecado original).
-    São Leão Magno e São Tomás de Aquino citados pelo CIC 412.
+    São Leão Magno e São Tomás de Aquino citados pelo CIC 412. Humani generis 37 conferida no vatican.va.
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 30/10/2026: existem e dizem o que o texto afirma.
+    Opcional: conferir a redação na CNBB impressa das expressões entre aspas (o sentido já foi conferido na Nova Vulgata): “Onde estás?” (Gn 3,9).
+    Parecer doutrinal interno: favorável com correções em 30/10/2026, correções aplicadas (docs/pareceres/pecado-original.md).
 ---
 
 Não é preciso ser teólogo para perceber que algo no mundo está fora do lugar. Sabemos o que é o bem e, muitas vezes, fazemos o contrário. Queremos amar e nos pegamos sendo egoístas. As crianças não precisam aprender a ter ciúmes ou a mentir; precisam aprender a não fazê-lo. E a história humana, com as suas guerras e injustiças, parece confirmar que o problema não é de um povo ou de uma época, mas de todos.
@@ -63,7 +71,7 @@ O Catecismo explica que Adão tinha recebido a santidade original não só para 
 
 E a natureza humana não ficou totalmente corrompida. Ficou **ferida**: sujeita à ignorância, ao sofrimento e à morte, e inclinada ao pecado. Essa inclinação se chama **concupiscência** (CIC 405). Somos capazes do bem, mas o bem nos custa.
 
-A Igreja teve de defender esse equilíbrio contra dois erros opostos (CIC 406). No século V, Pelágio dizia que Adão só nos deixou um mau exemplo, e que o homem consegue viver bem pelas próprias forças, sem precisar da graça. No século XVI, alguns reformadores protestantes diziam o contrário: que a natureza humana ficou radicalmente pervertida e a liberdade anulada. A Igreja ensina o caminho do meio: a natureza está ferida, não destruída, e precisa da graça para ser curada (Concílio de Trento, DH 1511-1515).
+A Igreja teve de defender esse equilíbrio contra dois erros opostos (CIC 406). No século V, Pelágio dizia que Adão só nos deixou um mau exemplo, e que o homem consegue viver bem pelas próprias forças, sem precisar da graça. No século XVI, alguns reformadores protestantes diziam o contrário: que a natureza humana ficou radicalmente pervertida e a liberdade anulada. A Igreja ensina o caminho do meio: a natureza está ferida, não destruída, e precisa da graça para ser curada (Concílio de Trento, sessão V, DH 1511-1515, e sessão VI, DH 1555).
 
 ### O Batismo
 
@@ -81,7 +89,7 @@ Daí a pergunta: por que Deus não impediu o pecado? O Catecismo responde com S�
 
 ### Adão e Eva existiram mesmo?
 
-A Igreja ensina que a queda foi um acontecimento real, no início da história humana, cometido livremente pelos nossos primeiros pais (CIC 390). O relato do Gênesis usa uma linguagem simbólica, e a Igreja não pede que se leia como uma reportagem. Mas também não o reduz a um mito sobre o mal em geral. Como essa verdade se articula com o que a ciência diz sobre a origem do ser humano é uma pergunta séria, que fica para a trilha sobre fé e razão.
+A Igreja ensina que a queda foi um acontecimento real, no início da história humana, cometido livremente pelos nossos primeiros pais (CIC 390). O relato do Gênesis usa uma linguagem simbólica, e a Igreja não pede que se leia como uma reportagem. Mas também não o reduz a um mito sobre o mal em geral. Pio XII lembrou que o pecado original procede de um pecado verdadeiramente cometido por um só Adão, e que os fiéis não podem aceitar a ideia de que “Adão” seja só um nome para um conjunto de primeiros pais, porque não se vê como conciliá-la com essa doutrina (Pio XII, *Humani generis*, 37). Como essa verdade se articula com o que a ciência diz sobre a origem do ser humano é uma pergunta séria, que fica para a trilha sobre fé e razão.
 
 ### É justo eu sofrer as consequências de um pecado que não cometi?
 
