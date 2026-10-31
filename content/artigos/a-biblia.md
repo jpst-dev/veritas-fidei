@@ -24,6 +24,10 @@ revisao:
     da Defesa da fé e fica para depois).
     Atanásio, Carta festal 39 (lista dos 27 livros do Novo Testamento) conferida em newadvent.org em 30/10/2026; a lista
     dele para o Antigo Testamento é diferente e não é usada no texto.
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 30/10/2026: existem e dizem o que o texto afirma.
+    Nenhuma expressão bíblica entre aspas a conferir na CNBB.
+    Parecer doutrinal interno: favorável com correções em 30/10/2026, correções aplicadas (docs/pareceres/a-biblia.md).
 ---
 
 Para muitos, a Bíblia é um livro só. Na verdade, é uma biblioteca: são 73 livros, escritos ao longo de mais de mil anos, em três línguas, por autores muito diferentes, de reis a pescadores. Há narrativas, leis, poemas, cartas, profecias. E, no entanto, a Igreja diz que tudo isso forma um único livro, com um único autor principal: Deus.
@@ -64,7 +68,7 @@ A Bíblia não veio com um índice pronto. A lista dos livros que fazem parte de
 
 ### O Antigo Testamento
 
-Nos tempos de Jesus, os judeus tinham duas coleções principais. Uma, em hebraico, usada na Palestina. Outra, em grego, a chamada **Septuaginta**, usada pelos judeus espalhados pelo mundo, que incluía alguns livros a mais. Os autores do Novo Testamento citam muitas vezes o Antigo pela tradução grega, e foi essa coleção que os primeiros cristãos receberam.
+Nos tempos de Jesus, os judeus tinham duas coleções principais. Uma, em hebraico, usada na Palestina. Outra, em grego, a chamada **Septuaginta**, usada pelos judeus espalhados pelo mundo. Os autores do Novo Testamento citam muitas vezes o Antigo pela tradução grega, e os manuscritos da Septuaginta que chegaram até nós incluem alguns livros a mais, que os primeiros cristãos liam como Escritura.
 
 O cânon católico do Antigo Testamento tem 46 livros (CIC 120). Sete deles não estão na Bíblia hebraica: Tobias, Judite, 1 e 2 Macabeus, Sabedoria, Eclesiástico e Baruc, além de partes de Ester e de Daniel. São os chamados **deuterocanônicos**, o “segundo cânon”, porque a sua inclusão foi discutida por alguns na Igreja antiga antes de ser reconhecida.
 
@@ -72,7 +76,7 @@ O cânon católico do Antigo Testamento tem 46 livros (CIC 120). Sete deles não
 
 Os 27 livros do Novo Testamento também não foram reconhecidos de uma vez. Os quatro Evangelhos e as cartas de Paulo eram lidos desde muito cedo; sobre outros, como Hebreus, Tiago, 2 Pedro e o Apocalipse, houve dúvidas em algumas regiões. Em 367, Santo Atanásio de Alexandria lista exatamente os 27 livros que temos hoje, e chama esses livros de “fontes da salvação” (Santo Atanásio, *Carta festal* 39).
 
-No fim do século IV, os sínodos africanos de Hipona (393) e Cartago (397) apresentaram a lista completa, com os 73 livros. O Concílio de Florença a repetiu em 1442. E, quando a Reforma protestante questionou os deuterocanônicos, o **Concílio de Trento**, em 1546, definiu solenemente o cânon, com os mesmos livros (DH 1501-1504).
+No fim do século IV, os sínodos africanos de Hipona (393) e Cartago (397) apresentaram uma lista completa que corresponde ao cânon católico de hoje. O Concílio de Florença a repetiu em 1442. E, quando a Reforma protestante questionou os deuterocanônicos, o **Concílio de Trento**, em 1546, definiu solenemente o cânon, com os mesmos livros (DH 1501-1504).
 
 ### Antigo e Novo, um só livro
 
@@ -84,11 +88,11 @@ Jesus mesmo lia as Escrituras de Israel como falando dele: no caminho de Emaús,
 
 ### Por que a Bíblia católica tem mais livros que a protestante?
 
-Porque Lutero e os reformadores, no século XVI, adotaram a lista da Bíblia hebraica e passaram os deuterocanônicos para um apêndice, como livros bons para ler, mas não inspirados. A Igreja Católica manteve os livros que vinha lendo desde os primeiros séculos, na liturgia e na pregação, e que as Igrejas ortodoxas também conservam. A questão não é que a Igreja “acrescentou” livros: os protestantes é que retiraram livros que a Igreja já tinha.
+Porque Lutero e os reformadores, no século XVI, adotaram a lista da Bíblia hebraica e passaram os deuterocanônicos para um apêndice, como livros bons para ler, mas não inspirados. A Igreja Católica manteve os livros que vinha lendo desde os primeiros séculos, na liturgia e na pregação, e que as Igrejas ortodoxas também conservam. A questão, portanto, não é que a Igreja tenha acrescentado livros: foram os reformadores que deixaram de lado livros que a Igreja já lia havia mais de mil anos.
 
 ### A Bíblia não tem erros?
 
-Ela tem passagens difíceis, números que não batem entre um livro e outro, modos de falar do mundo que não são os da ciência moderna. Mas a Igreja ensina que aquilo que os autores sagrados **afirmam** é afirmado pelo Espírito Santo (CIC 107). Para saber o que eles afirmam, é preciso ler cada texto no seu gênero e no seu contexto. Quando o salmista diz que o sol sai de uma ponta do céu e vai até a outra, não está dando uma aula de astronomia, mas louvando a Deus pela criação. A dificuldade costuma estar na nossa leitura, não no texto.
+Ela tem passagens difíceis, números que não batem entre um livro e outro, modos de falar do mundo que não são os da ciência moderna. Mas a Igreja ensina que aquilo que os autores sagrados **afirmam** é afirmado pelo Espírito Santo (CIC 107). Para saber o que eles afirmam, é preciso ler cada texto no seu gênero e no seu contexto. Quando o salmista diz que o sol sai de uma ponta do céu e vai até a outra (Sl 19,7), não está dando uma aula de astronomia, mas louvando a Deus pela criação. A dificuldade costuma estar na nossa leitura, não no texto.
 
 ### Então a Igreja inventou a Bíblia?
 
