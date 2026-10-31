@@ -24,10 +24,8 @@ useSeoMeta({
       <p>
         Cada artigo só é publicado depois de uma revisão em que as citações da Escritura, do Catecismo, dos Padres e
         dos documentos da Igreja são conferidas nas fontes, e as referências verificadas. Preferimos publicar pouco e
-        com cuidado.
-      </p>
-      <p>
-        Encontrou um erro? Ele será corrigido com gratidão.
+        com cuidado. Os critérios, a fidelidade ao Magistério e o modo de apontar um erro estão em
+        <NuxtLink to="/compromisso">Nosso compromisso</NuxtLink>.
       </p>
     </div>
   </div>

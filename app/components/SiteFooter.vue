@@ -3,8 +3,9 @@
     <div class="mx-auto flex max-w-6xl flex-wrap justify-between gap-4 px-6 py-9 text-base text-muted">
       <p class="italic">Ad maiorem Dei gloriam</p>
       <nav aria-label="Rodapé">
-        <ul class="flex gap-6">
+        <ul class="flex flex-wrap gap-x-6 gap-y-2">
           <li><NuxtLink to="/sobre">Sobre</NuxtLink></li>
+          <li><NuxtLink to="/compromisso">Nosso compromisso</NuxtLink></li>
           <li><a href="/rss.xml">RSS</a></li>
           <li><NuxtLink to="/creditos">Créditos das imagens</NuxtLink></li>
           <li><a href="https://jteixeira.dev" rel="author">jteixeira.dev</a></li>

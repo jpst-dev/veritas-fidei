@@ -77,6 +77,15 @@ const obra = computed(() => {
 const nomeDoTema = computed(() => temas.value?.nomes[artigo.value!.tema] ?? artigo.value!.tema)
 const indice = computed(() => artigo.value?.body?.toc?.links ?? [])
 
+// "Sugerir uma correção": abre o e-mail do projeto com o artigo já no assunto
+const emailCorrecoes = useRuntimeConfig().public.emailCorrecoes
+const linkCorrecao = computed(() => {
+  if (!emailCorrecoes || !artigo.value) return ''
+  const assunto = encodeURIComponent(`Correção: ${artigo.value.title}`)
+  const corpo = encodeURIComponent(`Artigo: ${useRuntimeConfig().public.siteUrl}${route.path}\n\nO que está errado:\n`)
+  return `mailto:${emailCorrecoes}?subject=${assunto}&body=${corpo}`
+})
+
 // O artigo conta como lido quando o leitor chega ao fim do texto
 const texto = ref<HTMLElement | null>(null)
 const fim = ref<HTMLElement | null>(null)
@@ -195,6 +204,15 @@ useSeoMeta({
               </li>
             </ol>
           </section>
+
+          <!-- Discreto: na cor apagada, só ganha a cor litúrgica ao passar o mouse -->
+          <p class="mt-8 text-[0.93rem] text-muted">
+            <template v-if="linkCorrecao">
+              Notou algum erro neste texto?
+              <a :href="linkCorrecao" class="link-discreto">Sugerir uma correção</a> ·
+            </template>
+            <NuxtLink to="/compromisso" class="link-discreto">Nosso compromisso</NuxtLink>
+          </p>
 
           <div ref="fim" aria-hidden="true" />
 

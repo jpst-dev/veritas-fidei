@@ -144,6 +144,18 @@
     transform: translateX(-50%);
   }
 
+  /* Link de rodapé de artigo: cinza com sublinhado fino, cor litúrgica no hover */
+  .link-discreto {
+    text-decoration: underline;
+    text-decoration-color: var(--color-line);
+    text-underline-offset: 4px;
+  }
+
+  .link-discreto:hover {
+    color: var(--color-accent);
+    text-decoration-color: var(--color-accent);
+  }
+
   .btn {
     display: inline-flex;
     align-items: center;
@@ -252,6 +264,14 @@
   font-size: 3.6em;
   line-height: 0.82;
   color: var(--color-accent);
+}
+
+/* Páginas que abrem com um bloco de citação: a capitular cairia no meio do texto */
+.prose-vf.sem-capitular > p:first-of-type::first-letter {
+  float: none;
+  margin: 0;
+  font: inherit;
+  color: inherit;
 }
 
 /* Citações (Escritura, Catecismo, Padres) em bloco destacado */
