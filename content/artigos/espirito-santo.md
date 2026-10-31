@@ -26,6 +26,10 @@ revisao:
     Escrito do zero em 30/10/2026; não substitui rascunho (o acervo não tinha texto próprio sobre o Espírito Santo).
     Irineu, Contra as heresias III,24,1 (“onde está a Igreja, aí está o Espírito de Deus”) conferido em newadvent.org em
     30/10/2026. A imagem da alma da Igreja vem do CIC 797, sem atribuição no texto (a nota do Catecismo não foi conferida).
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 30/10/2026: existem e dizem o que o texto afirma.
+    Opcional: conferir a redação na CNBB impressa das expressões entre aspas (o sentido já foi conferido na Nova Vulgata): “Separai-me Barnabé e Saulo” (At 13,2); “o Espírito do Senhor está sobre mim” (Lc 4,18).
+    Parecer doutrinal interno: favorável com correções em 30/10/2026, correções aplicadas (docs/pareceres/espirito-santo.md).
 ---
 
 No Credo, rezamos: creio no Espírito Santo, Senhor que dá a vida. De todas as Pessoas da Trindade, é a que muitos cristãos conhecem menos. Do Pai, temos a imagem de um pai; do Filho, o rosto de Jesus nos Evangelhos. Do Espírito Santo, temos uma pomba, línguas de fogo e um vento. Não é por acaso. O Catecismo diz que o Espírito Santo não fala de si mesmo: faz-nos conhecer Cristo e nos dispõe a acolhê-lo, mas fica escondido (CIC 687).
@@ -42,7 +46,7 @@ O Espírito Santo é Deus, a terceira Pessoa da Santíssima Trindade, igual ao P
 
 Não é uma força de Deus, nem uma energia, nem um modo de falar da ação de Deus no mundo: é **alguém**, uma Pessoa distinta do Pai e do Filho. E não é uma criatura: é Deus por inteiro. Foi o que a Igreja confessou no Concílio de Constantinopla, em 381, contra quem negava a sua divindade, nas palavras que rezamos no Credo: o Espírito Santo, “Senhor que dá a vida”, que procede do Pai e, “com o Pai e o Filho, é adorado e glorificado” (CIC 245).
 
-O artigo anterior desta trilha sobre a Trindade já mostrou como o Espírito procede do Pai e do Filho. Aqui, o foco é outro: o que o Espírito faz, e como ele age na Igreja e em cada um de nós.
+O artigo desta trilha sobre a Trindade já mostrou como o Espírito procede do Pai e do Filho. Aqui, o foco é outro: o que o Espírito faz, e como ele age na Igreja e em cada um de nós.
 
 ## Na Sagrada Escritura
 
@@ -60,7 +64,7 @@ Na última ceia, Jesus promete enviar o Espírito como “outro Paráclito” (J
 
 ### Pentecostes
 
-Cinquenta dias depois da Páscoa, os Apóstolos estão reunidos com Maria. Vem do céu um ruído como de um vento forte, aparecem línguas como de fogo que pousam sobre cada um, e todos ficam cheios do Espírito Santo (At 2,1-4). Pedro, que tinha negado Jesus por medo, sai e anuncia Cristo à multidão, e explica que se cumpre a promessa de Joel (At 2,16-17).
+Cinquenta dias depois da Páscoa, os Apóstolos estão reunidos, como estavam desde a Ascensão, em oração com Maria (At 1,14). Vem do céu um ruído como de um vento forte, aparecem línguas como de fogo que pousam sobre cada um, e todos ficam cheios do Espírito Santo (At 2,1-4). Pedro, que tinha negado Jesus por medo, sai e anuncia Cristo à multidão, e explica que se cumpre a promessa de Joel (At 2,16-17).
 
 O Catecismo diz que nesse dia o Espírito se manifestou, se deu e se comunicou como Pessoa divina, e que nele “revelou-Se plenamente a Santíssima Trindade” (CIC 731-732). É o nascimento público da Igreja.
 
@@ -90,7 +94,7 @@ Recebemos o Espírito no **Batismo**, e de modo especial na **Crisma**, que é, 
 
 ### Dons e frutos
 
-A tradição da Igreja fala de **sete dons** do Espírito Santo: sabedoria, entendimento, conselho, fortaleza, ciência, piedade e temor de Deus (CIC 1831). Não são poderes para exibir, mas disposições que nos tornam dóceis aos impulsos do Espírito (CIC 1830). A lista vem da profecia de Isaías sobre o Messias (Is 11,2), que a tradição latina leu com sete nomes.
+A tradição da Igreja fala de **sete dons** do Espírito Santo: sabedoria, entendimento, conselho, fortaleza, ciência, piedade e temor de Deus (CIC 1831). Não são poderes para exibir, mas disposições que nos tornam dóceis aos impulsos do Espírito (CIC 1830). A lista vem da profecia de Isaías sobre o Messias (Is 11,2-3). O texto hebraico tem seis nomes; as antigas traduções grega e latina, que a tradição seguiu, acrescentam a piedade.
 
 Os **frutos** são o que o Espírito produz em quem se deixa conduzir por ele. São Paulo cita, entre outros, caridade, alegria, paz, paciência e mansidão (Gl 5,22-23). A tradição latina, seguindo a Vulgata, conta doze (CIC 1832).
 
