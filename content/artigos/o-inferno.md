@@ -21,6 +21,10 @@ revisao:
   notas: >-
     Escrito do zero em 31/10/2026; não substitui rascunho.
     Audiência de João Paulo II de 28/07/1999 conferida no vatican.va e Inácio, Aos Efésios 16, em newadvent.org, em 31/10/2026.
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 31/10/2026: existem e dizem o que o texto afirma.
+    Nenhuma expressão bíblica entre aspas a conferir na CNBB.
+    Parecer doutrinal interno: favorável com correções em 31/10/2026, correções aplicadas (docs/pareceres/o-inferno.md).
 ---
 
 O inferno é o tema mais incômodo da fé cristã. Muitos pregadores preferem não falar dele, e muitos fiéis acham que ele foi uma invenção para meter medo, coisa de outros tempos. Do outro lado, há quem fale do inferno como se Deus estivesse ansioso para mandar gente para lá.
@@ -65,7 +69,7 @@ A morte encerra o tempo da escolha. Depois dela, não há mudança de direção:
 
 ## O que o inferno não é
 
-**Não é um lugar físico** que se possa localizar. São João Paulo II lembra que o inferno indica, mais do que um lugar, a situação de quem se afasta de Deus de modo livre e definitivo, e que as imagens da Escritura, como o fogo, mostram a frustração completa e o vazio de uma vida sem Deus (audiência de 28 de julho de 1999). Isso não diminui a sua realidade; mostra que a sua dor mais profunda é a perda de Deus.
+**Não é, antes de tudo, um lugar.** São João Paulo II lembra que o inferno indica, mais do que um lugar, a situação de quem se afasta de Deus de modo livre e definitivo, e que as imagens da Escritura mostram a frustração completa e o vazio de uma vida sem Deus (audiência de 28 de julho de 1999). Isso não diminui a sua realidade. A sua dor mais profunda é a perda de Deus, mas não é a única: a Igreja fala também das penas do “fogo eterno” (CIC 1035), cuja natureza não conhecemos. E, depois da ressurreição, os condenados estarão nele também com o corpo: Jesus fala de perder na geena a alma e o corpo (Mt 10,28; CIC 1034).
 
 **Não é um castigo arbitrário**, desproporcional, aplicado por um juiz cruel. É a consequência da recusa de Deus, que é a fonte de toda vida e alegria.
 
@@ -79,7 +83,7 @@ A misericórdia de Deus é infinita e oferecida a todos até o último instante.
 
 ### Então devo viver com medo de ir para o inferno?
 
-Não. O pensamento do inferno não deve gerar angústia, mas ser uma advertência salutar dentro do anúncio de que Jesus ressuscitado venceu o mal (São João Paulo II, audiência de 28 de julho de 1999). O cristão vive da confiança em Deus, não do pavor. Quem está em pecado grave tem sempre o caminho de volta: o arrependimento e a confissão. E a Igreja reza em cada Missa para que sejamos livres da condenação eterna, porque Deus não quer que ninguém se perca, mas que todos se convertam (2Pd 3,9; CIC 1037).
+Não. O pensamento do inferno não deve gerar angústia, mas ser uma advertência salutar dentro do anúncio de que Jesus ressuscitado venceu o mal (São João Paulo II, audiência de 28 de julho de 1999). O cristão vive da confiança em Deus, não do pavor. Quem está em pecado grave tem sempre o caminho de volta: o arrependimento e a confissão. E a Igreja reza na Missa, na Oração eucarística I, para que sejamos livres da condenação eterna, porque Deus não quer que ninguém se perca, mas que todos se convertam (2Pd 3,9; CIC 1037).
 
 ### O que é pecado mortal?
 
@@ -90,7 +94,7 @@ Não. O pensamento do inferno não deve gerar angústia, mas ser uma advertênci
 - A Igreja afirma a **existência e a eternidade** do inferno, de que Jesus falou muitas vezes (Mt 25,41.46; CIC 1034-1035).
 - O inferno é a **autoexclusão definitiva** da comunhão com Deus, escolhida livremente por quem morre em pecado mortal sem arrependimento (CIC 1033).
 - **Deus não predestina ninguém** para o inferno; quer a salvação de todos (CIC 1037).
-- A sua pena principal é a **separação de Deus**; as imagens bíblicas, como o fogo, mostram o vazio de uma vida sem ele (CIC 1035).
+- A sua pena principal é a **separação de Deus**; a Igreja fala também das penas do “fogo eterno” (CIC 1035).
 - A Igreja nunca declarou que alguém determinado esteja no inferno; a doutrina é um **apelo à conversão**, não à angústia (CIC 1036).
 
 No próximo artigo da trilha: a ressurreição dos mortos e o fim dos tempos.
