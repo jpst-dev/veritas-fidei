@@ -37,6 +37,10 @@ revisao:
   notas: >-
     Escrito do zero em 31/10/2026. Substitui o rascunho santo-rosario, apagado.
     Rosarium Virginis Mariae 1, 12, 19 e 26 e Marialis cultus 47 conferidos no texto oficial do vatican.va em 31/10/2026.
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 31/10/2026: existem e dizem o que o texto afirma.
+    A conferir na CNBB impressa, se quiser: "pensam que serão ouvidos por força de falar muito" (Mt 6,7) e "tu me amas?" (Jo 21,15-17).
+    Parecer doutrinal interno: favorável com correções em 31/10/2026, correções aplicadas (docs/pareceres/o-terco-e-repeticao-va.md).
 ---
 
 Quem vê um grupo rezando o terço pela primeira vez pode estranhar: dezenas de Ave-Marias, uma depois da outra, quase sempre no mesmo ritmo. Muitos irmãos protestantes, e não poucos católicos, se perguntam se aquilo não é justamente o que Jesus condenou no Sermão da Montanha: as repetições vãs dos pagãos.
@@ -65,7 +69,7 @@ O Catecismo o apresenta entre as formas de **meditação**: a oração cristã s
 
 Jesus não condenou a repetição, mas a ideia pagã de que Deus é convencido pela **quantidade** de palavras, como se a oração fosse uma fórmula mágica. O próprio texto o mostra: os pagãos “pensam que serão ouvidos por força de falar muito” (Mt 6,7). O problema é a intenção, não o número.
 
-Tanto é assim que o próprio Jesus repetiu. No Getsêmani, voltou a rezar pela terceira vez, dizendo as mesmas palavras (Mt 26,44; Mc 14,39). O cego de Jericó gritava sem parar: Jesus, Filho de Davi, tem piedade de mim, e quanto mais o mandavam calar, mais gritava; Jesus o atendeu (Lc 18,38-39). O salmo 136 repete vinte e seis vezes o mesmo refrão: porque eterno é o seu amor (Sl 136,1-3). E no céu, diante do trono de Deus, os seres vivos não cessam dia e noite de dizer: Santo, Santo, Santo (Ap 4,8).
+Tanto é assim que o próprio Jesus repetiu. No Getsêmani, voltou a rezar pela terceira vez, dizendo as mesmas palavras (Mt 26,44; Mc 14,39). O cego de Jericó gritava sem parar: Jesus, Filho de Davi, tem piedade de mim, e quanto mais o mandavam calar, mais gritava; Jesus o atendeu (Lc 18,38-39). O salmo 136 repete vinte e seis vezes o mesmo refrão: porque eterno é o seu amor (Sl 136). E no céu, diante do trono de Deus, os seres vivos não cessam dia e noite de dizer: Santo, Santo, Santo (Ap 4,8).
 
 ### A repetição do amor
 
@@ -77,7 +81,7 @@ Quem ama repete. Uma mãe não diz uma única vez ao filho que o ama. E a tradi�
 
 No terço, as Ave-Marias são como o fundo musical de outra coisa: a **meditação dos mistérios**. Em cada dezena, contempla-se um momento da vida de Cristo: a Anunciação, o Nascimento, o Batismo no Jordão, a Última Ceia, a Agonia no Horto, a Crucificação, a Ressurreição. São João Paulo II acrescentou os mistérios luminosos justamente para reforçar esse caráter cristológico, abrangendo a vida pública de Jesus (*Rosarium Virginis Mariae*, 19).
 
-Enquanto os lábios repetem, o coração olha para Cristo com os olhos de Maria, aquela que conservava todas as coisas e as meditava no seu coração. Por isso o terço pede um ritmo tranquilo e uma certa demora, que favoreçam a meditação (*Marialis cultus*, 47).
+Enquanto os lábios repetem, o coração olha para Cristo com os olhos de Maria, aquela que conservava todas as coisas e as meditava no seu coração (Lc 2,19). Por isso o terço pede um ritmo tranquilo e uma certa demora, que favoreçam a meditação (*Marialis cultus*, 47).
 
 ## Respondendo às objeções
 
@@ -91,7 +95,7 @@ Ele condenou a oração que confia na quantidade de palavras, não a repetição
 
 ### 3. “As orações são dirigidas a Maria, não a Deus.”
 
-A Ave-Maria é feita, na sua primeira parte, de palavras da Escritura: a saudação do anjo, ave, cheia de graça, o Senhor é contigo (Lc 1,28), e a de Isabel, bendita és tu entre as mulheres e bendito é o fruto do teu ventre (Lc 1,42). É Deus quem, pelo anjo, saúda Maria primeiro (CIC 2676). E o centro da Ave-Maria é o nome de **Jesus**. Como explicou São João Paulo II, a Ave-Maria se dirige a Maria, mas com ela e por ela o ato de amor vai, em última análise, para Jesus (*Rosarium Virginis Mariae*, 26). O terço também começa com o Credo e cada dezena com o Pai-Nosso, e termina com o Glória à Trindade.
+A Ave-Maria é feita, na sua primeira parte, de palavras da Escritura: a saudação do anjo, ave, cheia de graça, o Senhor é contigo (Lc 1,28), e a de Isabel, bendita és tu entre as mulheres e bendito é o fruto do teu ventre (Lc 1,42). É Deus quem, pelo anjo, saúda Maria primeiro (CIC 2676). A segunda parte, “Santa Maria, Mãe de Deus, rogai por nós, pecadores”, não vem da Bíblia: é o pedido da Igreja, que confia à oração da Mãe de Jesus as suas necessidades, como pediríamos a um irmão que rezasse por nós (CIC 2677). E o centro da Ave-Maria é o nome de **Jesus**. Como explicou São João Paulo II, a Ave-Maria se dirige a Maria, mas com ela e por ela o ato de amor vai, em última análise, para Jesus (*Rosarium Virginis Mariae*, 26). O terço também costuma começar com o Credo, abre cada dezena com o Pai-Nosso e a fecha com o Glória à Trindade.
 
 ### 4. “Não é melhor rezar com palavras próprias?”
 
