@@ -16,7 +16,8 @@ quaestio:
     O mesmo São Paulo pede aos tessalonicenses que guardem as tradições que
     receberam, “seja por palavra, seja por carta” (2Ts 2,15).
   respondo: >-
-    A Escritura é Palavra de Deus e regra suprema da fé, mas não é a única forma
+    A Escritura é Palavra de Deus e, junto com a Tradição, regra suprema da fé
+    (Dei Verbum, 21), mas não é a única forma
     pela qual a Palavra de Deus chega até nós. Ela mesma não ensina que basta
     sozinha, não diz quais livros a compõem e foi recebida dentro da Igreja,
     junto com a Tradição dos Apóstolos. A Igreja guarda as duas como um só
@@ -44,7 +45,11 @@ revisao:
     Escrito do zero em 30/10/2026; substitui os rascunhos sola-scriptura e sola-scriptura-uma-analise-critica, apagados
     (as URLs antigas passam a apontar para este artigo).
     Tertuliano, A prescrição contra os hereges 19, e Irineu, Contra as heresias III,4,1, conferidos em newadvent.org em
-    30/10/2026. Unitatis redintegratio 21 conferido no vatican.va.
+    30/10/2026. Unitatis redintegratio 21 e Dei Verbum 21 conferidos no vatican.va.
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 30/10/2026: existem e dizem o que o texto afirma.
+    Opcional: conferir a redação na CNBB impressa das expressões entre aspas (o sentido já foi conferido na Nova Vulgata): “seja por palavra, seja por carta” (2Ts 2,15); “coluna e sustentáculo da verdade” (1Tm 3,15).
+    Parecer doutrinal interno: favorável com correções em 30/10/2026, correções aplicadas (docs/pareceres/so-a-biblia-basta.md).
 ---
 
 Para a maior parte dos nossos irmãos protestantes, a Bíblia é a única regra de fé. O princípio tem um nome latino, *sola Scriptura*, “só a Escritura”, e foi uma das bandeiras da Reforma do século XVI. Para quem cresceu nele, a doutrina católica sobre a Tradição pode soar como desconfiança da Bíblia, ou como uma porta aberta para acrescentar ao Evangelho o que não está nele.
@@ -57,7 +62,7 @@ São Paulo escreve que toda a Escritura é inspirada por Deus e útil para ensin
 
 ## O que a Igreja ensina
 
-A Igreja crê que a Escritura é Palavra de Deus, inspirada e sem erro, e que toda pregação deve ser alimentada e regida por ela (*Dei Verbum*, 21). Mas ensina também que a Palavra de Deus foi transmitida de dois modos, por escrito e pela pregação viva dos Apóstolos, e que os dois formam um só depósito. Por isso o Catecismo diz que a Igreja
+A Igreja crê que a Escritura é Palavra de Deus, inspirada e sem erro, e que toda pregação deve ser alimentada e regida por ela. O Vaticano II diz que a Igreja sempre considerou as Escrituras, juntamente com a Tradição, como regra suprema da sua fé (*Dei Verbum*, 21). Mas ensina também que a Palavra de Deus foi transmitida de dois modos, por escrito e pela pregação viva dos Apóstolos, e que os dois formam um só depósito. Por isso o Catecismo diz que a Igreja
 
 > não tira só da Sagrada Escritura a sua certeza a respeito de todas as coisas reveladas.
 >
@@ -79,7 +84,7 @@ Nenhum livro da Escritura traz a lista dos livros inspirados. O índice que abre
 
 ### Os primeiros cristãos viviam da Tradição
 
-Durante décadas, a Igreja viveu sem o Novo Testamento escrito, e por séculos sem um cânon fechado. No século II, Santo Irineu de Lião perguntava: se os Apóstolos não nos tivessem deixado escritos, não seria preciso seguir a tradição que entregaram às Igrejas? (Santo Irineu de Lião, *Contra as heresias*, III,4,1). E Tertuliano, por volta do ano 200, diante de hereges que também citavam a Bíblia, dizia que a primeira questão não é discutir versículos, mas saber a quem pertence a fé à qual as Escrituras pertencem: onde estiver a verdadeira regra da fé, ali estarão também as verdadeiras Escrituras e a sua verdadeira interpretação (Tertuliano, *A prescrição contra os hereges*, 19).
+Nas primeiras décadas, a Igreja viveu sem o Novo Testamento completo, e por séculos sem um cânon fechado. No século II, Santo Irineu de Lião perguntava: se os Apóstolos não nos tivessem deixado escritos, não seria preciso seguir a tradição que entregaram às Igrejas? (Santo Irineu de Lião, *Contra as heresias*, III,4,1). E Tertuliano, por volta do ano 200, diante de hereges que também citavam a Bíblia, dizia que a primeira questão não é discutir versículos, mas saber a quem pertence a fé à qual as Escrituras pertencem: onde estiver a verdadeira regra da fé, ali estarão também as verdadeiras Escrituras e a sua verdadeira interpretação (Tertuliano, *A prescrição contra os hereges*, 19).
 
 ### A Bíblia precisa ser interpretada
 
@@ -87,7 +92,7 @@ A Escritura não se interpreta sozinha. São Pedro diz que nas cartas de Paulo h
 
 ## Respondendo às objeções
 
-**“2Tm 3,16-17 diz que a Escritura torna o homem perfeito.”** Diz que ela é útil para isso, e é. Mas Paulo diz algo parecido de outras realidades: Tiago diz que a perseverança torna o cristão perfeito (Tg 1,4), e ninguém conclui que basta a perseverança. Um texto que afirma o valor de uma coisa não exclui as outras.
+**“2Tm 3,16-17 diz que a Escritura torna o homem perfeito.”** Diz que ela é útil para isso, e é. Mas a própria Escritura diz algo parecido de outras realidades: Tiago diz que a perseverança torna o cristão perfeito (Tg 1,4), e ninguém conclui que basta a perseverança. Um texto que afirma o valor de uma coisa não exclui as outras.
 
 **“Jesus condenou as tradições.”** Condenou tradições **humanas** que anulavam o mandamento de Deus (Mc 7,8-13). A Tradição apostólica não vem dos homens, mas do ensino de Cristo transmitido pelos Apóstolos. O mesmo Novo Testamento elogia quem guarda as tradições recebidas (1Cor 11,2).
 
