@@ -11,6 +11,9 @@ referencias:
     url: https://www.vatican.va/archive/cathechism_po/index_new/p4-intr_2558-2565_po.html
   - titulo: Catecismo da Igreja Católica, 2697-2758 (a vida de oração e o combate da oração)
     url: https://www.vatican.va/archive/cathechism_po/index_new/p4s1cap3_2697-2758_po.html
+  - titulo: Suma Teológica, II-II, q. 83, a. 2
+    autor: Santo Tomás de Aquino
+    url: https://www.newadvent.org/summa/3083.htm
   - titulo: Exposição da fé ortodoxa, III, 24
     autor: São João Damasceno
     url: https://www.newadvent.org/fathers/33043.htm
@@ -20,6 +23,11 @@ revisao:
   notas: >-
     Escrito do zero em 31/10/2026.
     João Damasceno, Exposição da fé ortodoxa III,24, conferido em newadvent.org em 31/10/2026.
+    Tomás de Aquino, Suma Teológica II-II, q. 83, a. 2, conferido em newadvent.org em 31/10/2026.
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 31/10/2026: existem e dizem o que o texto afirma.
+    A conferir na CNBB impressa, se quiser: "Dá-me de beber" (Jo 4,7).
+    Parecer doutrinal interno: favorável com correções em 31/10/2026, correções aplicadas (docs/pareceres/o-que-e-rezar.md).
 ---
 
 Uma mulher vai ao poço buscar água no calor do meio-dia. Lá está sentado um estrangeiro, cansado da viagem, que lhe pede: “Dá-me de beber”. A conversa que começa ali muda a vida dela. No fim, quem tinha sede de verdade era ela, e quem tinha a água viva era ele (Jo 4,7-10).
@@ -63,7 +71,7 @@ O Espírito Santo ensina a Igreja a rezar de vários modos. O Catecismo destaca 
 - **Bênção e adoração**: reconhecer que tudo vem de Deus e responder-lhe bendizendo (CIC 2626).
 - **Petição**: pedir o que precisamos, a começar pelo perdão. É a forma mais espontânea, porque somos criaturas e pecadores (CIC 2629).
 - **Intercessão**: pedir pelos outros, unidos a Cristo, que intercede sempre por nós (CIC 2634).
-- **Ação de graças**: agradecer pelos dons recebidos.
+- **Ação de graças**: agradecer pelos dons recebidos. Qualquer acontecimento pode se tornar ocasião de dar graças (CIC 2637-2638).
 - **Louvor**: glorificar a Deus não pelo que ele faz, mas porque ele é (CIC 2639).
 
 Jesus incentivou especialmente a petição: pedi e vos será dado; procurai e encontrareis; batei e vos será aberto. Se vós, que sois maus, sabeis dar coisas boas aos vossos filhos, quanto mais o Pai do céu (Mt 7,7-11).
@@ -91,7 +99,7 @@ As dificuldades mais comuns:
 
 ### Se Deus já sabe tudo, por que pedir?
 
-Porque a oração não informa a Deus: transforma quem reza. Ao pedir, reconhecemos que somos criaturas e filhos, que não somos a nossa própria origem nem os donos do que nos acontece (CIC 2629). E Deus quis associar a nossa liberdade à sua obra: há bens que ele dá a quem pede.
+Porque a oração não informa a Deus: transforma quem reza. Ao pedir, reconhecemos que somos criaturas e filhos, que não somos a nossa própria origem nem os donos do que nos acontece (CIC 2629). Também não rezamos para mudar a vontade de Deus. Santo Tomás de Aquino explica que a providência divina dispôs não só o que vai acontecer, mas também por quais causas, e entre elas está a nossa oração: pedimos para obter o que Deus quis dar por meio dela (Santo Tomás de Aquino, *Suma Teológica*, II-II, q. 83, a. 2). Por isso São Tiago diz: não tendes, porque não pedis (Tg 4,2; CIC 2737).
 
 ### E quando a oração não é atendida?
 
