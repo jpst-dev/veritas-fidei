@@ -233,7 +233,7 @@
       "tema": "sacramentos"
     },
     "/explorar/objeccoes-comuns/objeccoes-magisterio/1": {
-      "slug": "infalibilidade-papal-biblica",
+      "slug": "o-magisterio",
       "tema": "igreja"
     },
     "/explorar/objeccoes-comuns/objeccoes-magisterio/2": {
@@ -289,11 +289,11 @@
       "tema": "igreja"
     },
     "/explorar/papado/primado-de-pedro/2": {
-      "slug": "infalibilidade-papal",
+      "slug": "o-magisterio",
       "tema": "igreja"
     },
     "/explorar/papado/primado-de-pedro/4": {
-      "slug": "infalibilidade-papa-definicao-limites",
+      "slug": "o-magisterio",
       "tema": "igreja"
     },
     "/explorar/papado/primado-de-pedro/3": {
@@ -301,7 +301,7 @@
       "tema": "igreja"
     },
     "/explorar/papado/magisterio-da-igreja/1": {
-      "slug": "magisterio-da-igreja",
+      "slug": "o-magisterio",
       "tema": "igreja"
     }
   },
