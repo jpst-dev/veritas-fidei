@@ -93,7 +93,7 @@ E Deus conhece tudo. Nenhuma criatura está oculta diante dele; tudo está nu e 
 
 ### A Bíblia não diz que Deus se arrependeu ou mudou de ideia?
 
-Diz, em várias passagens: Deus se arrepende de ter feito o homem (Gn 6,6) e desiste do castigo que tinha anunciado a Nínive (Jn 3,10), e a Igreja as lê com atenção ao modo humano de falar. Quando a Escritura atribui a Deus emoções e mudanças, usa a nossa linguagem para dizer algo verdadeiro, por exemplo, que Deus leva a sério a resposta do homem. Mas a nossa linguagem fica sempre aquém de Deus (CIC 42-43). O que muda é a nossa situação diante dele; Deus permanece fiel a si mesmo (CIC 212).
+Diz. Deus se arrepende de ter feito o homem (Gn 6,6) e desiste do castigo que tinha anunciado a Nínive (Jn 3,10). A Igreja lê essas passagens com atenção ao modo humano de falar. Quando a Escritura atribui a Deus emoções e mudanças, usa a nossa linguagem para dizer algo verdadeiro, por exemplo, que Deus leva a sério a resposta do homem. Mas a nossa linguagem fica sempre aquém de Deus (CIC 42-43). O que muda é a nossa situação diante dele; Deus permanece fiel a si mesmo (CIC 212).
 
 ### Se Deus é chamado de Pai, ele é homem?
 
