@@ -20,9 +20,14 @@ revisao:
   citacoesConferidas: false
   referenciasConferidas: false
   notas: >-
-    Escrito do zero em 31/10/2026.
+    Escrito do zero em 31/10/2026. Substitui o rascunho reforma-protestante-catolica, apagado.
     Concílio de Trento, sessões IV e VI, conferidas na tradução de Waterworth (history.hanover.edu) em 31/10/2026.
     Unitatis redintegratio 3 e 7 conferidos no texto oficial do vatican.va em 31/10/2026.
+    Trento, sessão XXV (Decreto sobre as indulgências), conferido na mesma tradução.
+    Declaração conjunta sobre a doutrina da justificação (1999), 40-41, conferida por citação secundária; a página do vatican.va não está mais disponível.
+    Citações do Catecismo conferidas pelo verificador.
+    Nenhuma referência bíblica no texto.
+    Parecer doutrinal interno: favorável com correções em 31/10/2026, correções aplicadas (docs/pareceres/a-reforma-e-o-concilio-de-trento.md).
 ---
 
 Em 31 de outubro de 1517, um monge agostiniano alemão, Martinho Lutero, divulgou noventa e cinco teses contra a pregação das indulgências. Ninguém imaginava que daquele debate acadêmico nasceria a maior divisão da história do cristianismo ocidental. Cinco séculos depois, católicos e protestantes ainda vivem separados, mas olham para essa história de modo muito diferente do que olhavam.
@@ -47,7 +52,7 @@ Muitos católicos clamavam havia décadas por uma reforma “na cabeça e nos me
 
 ### O que Lutero contestava
 
-Lutero começou contra os abusos das indulgências, mas logo chegou a questões de fundo. Os reformadores defendiam três princípios: **só a Escritura** como regra de fé, sem a autoridade da Tradição e do Magistério; **só a fé** como causa da justificação, entendida como uma declaração de Deus que cobre o pecador sem transformá-lo por dentro; e **só a graça**, contra qualquer cooperação humana. Rejeitaram também o sacrifício da Missa, o sacerdócio ordenado e a maior parte dos sacramentos.
+Lutero começou contra os abusos das indulgências, mas logo chegou a questões de fundo. Os reformadores resumiam a sua posição em três fórmulas: **só a Escritura** como regra de fé, sem a autoridade da Tradição e do Magistério; **só a fé** como meio da justificação, entendida sobretudo como uma declaração de Deus, que atribui ao pecador a justiça de Cristo; e **só a graça**, num sentido que excluía qualquer cooperação da liberdade humana. A Igreja também ensina que a salvação é obra da graça; a divergência estava nessa exclusão da cooperação e na ideia de uma justiça apenas atribuída, não recebida por dentro. Rejeitaram também o sacrifício da Missa, o sacerdócio ordenado e a maior parte dos sacramentos.
 
 A Reforma se dividiu depressa. Na Suíça, Zuínglio e depois Calvino foram além de Lutero, sobretudo sobre a Eucaristia. Na Inglaterra, Henrique VIII rompeu com Roma em 1534, por causa da recusa do papa em anular o seu casamento. Em poucas décadas, metade da Europa tinha deixado a comunhão com Roma, muitas vezes por decisão dos príncipes, que impunham a sua religião aos súditos.
 
@@ -61,7 +66,7 @@ Trento fez duas coisas: **esclareceu a doutrina** nos pontos contestados e **ref
 
 ### A Escritura e a Tradição
 
-Contra o princípio do “só a Escritura”, o concílio ensinou que a verdade do Evangelho está contida nos livros escritos e nas tradições não escritas recebidas dos Apóstolos, e que ambas devem ser recebidas com igual piedade e reverência (Concílio de Trento, sessão IV; CIC 82). Fixou também a lista dos livros da Bíblia, incluindo os que os protestantes rejeitavam, como Tobias, Sabedoria e Macabeus.
+Contra o princípio do “só a Escritura”, o concílio ensinou que a verdade do Evangelho está contida nos livros escritos e nas tradições não escritas recebidas dos Apóstolos, e que ambas devem ser recebidas com igual piedade e reverência (Concílio de Trento, sessão IV; CIC 82). Definiu também solenemente a lista dos livros da Bíblia, já ensinada no Concílio de Florença, incluindo os que os protestantes rejeitavam, como Tobias, Sabedoria e Macabeus.
 
 ### A justificação
 
@@ -73,7 +78,7 @@ Mas Trento recusou o “só a fé” no sentido de que nada mais seria necessár
 
 ### A reforma da Igreja
 
-Trento também atacou os abusos. Obrigou os bispos a residir nas suas dioceses e a visitá-las, proibiu a acumulação de cargos, mandou criar **seminários** para formar o clero, regulou a pregação e as indulgências. Depois do concílio vieram o *Catecismo Romano* (1566), o Missal e o Breviário reformados, e uma edição revista da Vulgata.
+Trento também atacou os abusos. Obrigou os bispos a residir nas suas dioceses e a visitá-las, proibiu a acumulação de cargos, mandou criar **seminários** para formar o clero e regulou a pregação. Sobre as **indulgências**, ensinou que o poder de concedê-las vem de Cristo e que o seu uso é salutar para o povo cristão, mas aboliu todo lucro ligado a elas, fonte dos piores abusos (sessão XXV, Decreto sobre as indulgências). A indulgência é a remissão da pena temporal dos pecados já perdoados, não a compra do perdão (CIC 1471). Depois do concílio vieram o *Catecismo Romano* (1566), o Missal e o Breviário reformados, e uma edição revista da Vulgata.
 
 ## A renovação católica
 
