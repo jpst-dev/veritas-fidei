@@ -20,6 +20,10 @@ revisao:
   notas: >-
     Escrito do zero em 31/10/2026.
     Agostinho, A Cidade de Deus XIV,28, conferido em newadvent.org em 31/10/2026.
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 31/10/2026: existem e dizem o que o texto afirma.
+    Expressão "como deuses" (Gn 3,5) tomada do CIC 1850; nenhuma outra expressão bíblica entre aspas a conferir na CNBB.
+    Parecer doutrinal interno: favorável com correções em 31/10/2026, correções aplicadas (docs/pareceres/o-pecado-e-a-graca.md).
 ---
 
 Jesus contou a história de um filho que pediu ao pai a sua parte da herança, foi para longe e a gastou toda. Quando já passava fome cuidando de porcos, caiu em si e voltou para casa. O pai, que o via de longe, correu ao seu encontro, abraçou-o e mandou fazer festa: este meu filho estava morto e voltou a viver (Lc 15,11-32).
@@ -62,7 +66,7 @@ O pecado mortal destrói a caridade no coração e afasta o homem de Deus, prefe
 
 Faltando uma delas, o pecado não é mortal. A ignorância involuntária, as paixões, as pressões externas e as perturbações psicológicas podem diminuir ou até eliminar a culpa (CIC 1860). Mas o Catecismo lembra que ninguém ignora os princípios da lei moral, escritos na consciência de todos (CIC 1860).
 
-O pecado mortal tira a graça santificante. Se não for perdoado pelo arrependimento e pelo perdão de Deus, leva à exclusão do Reino, porque a nossa liberdade é capaz de escolhas definitivas (CIC 1861). Mesmo assim, o julgamento das pessoas pertence só a Deus (CIC 1861).
+O pecado mortal tira a graça santificante. Se não for perdoado pelo arrependimento e pelo perdão de Deus, leva à exclusão do Reino, porque a nossa liberdade é capaz de escolhas definitivas (CIC 1861). Podemos dizer que um ato é, em si, uma falta grave; mas o juízo sobre as pessoas, sobre a sua culpa diante de Deus, confiamos à justiça e à misericórdia dele (CIC 1861).
 
 ### O pecado venial
 
@@ -74,7 +78,7 @@ O pecado venial acontece quando a matéria é leve, ou quando, em matéria grave
 
 Se a história terminasse no pecado, não seria Evangelho. Onde abundou o pecado, superabundou a graça (Rm 5,20). Todos pecaram, e todos são justificados gratuitamente pela graça, por meio da redenção em Cristo Jesus (Rm 3,23-24).
 
-A **graça** é o favor, o socorro gratuito que Deus nos dá para respondermos ao seu chamado e nos tornarmos seus filhos (CIC 1996). Mais do que uma ajuda, ela é uma participação na própria vida de Deus (CIC 1997). Por isso ninguém pode merecer a primeira graça, a da conversão e do perdão: a iniciativa é sempre de Deus (CIC 2010). Pela graça fomos salvos, por meio da fé, e isso não vem de nós: é dom de Deus (Ef 2,8-9).
+A **graça** é o favor, o socorro gratuito que Deus nos dá para respondermos ao seu chamado e nos tornarmos seus filhos (CIC 1996). Mais do que uma ajuda, ela é uma participação na própria vida de Deus (CIC 1997). Por isso ninguém pode merecer a primeira graça, a da conversão e do perdão: a iniciativa é sempre de Deus (CIC 2010). Pela graça fomos salvos, por meio da fé, e isso não vem de nós: é dom de Deus (Ef 2,8-9). E a fé que salva é a fé viva, que age pela caridade (Gl 5,6; CIC 1814).
 
 ### A justificação
 
@@ -94,7 +98,7 @@ Jesus falou da blasfêmia contra o Espírito Santo, que não será perdoada (Mt 
 
 ### Pequei gravemente. E agora?
 
-Volte, como o filho da parábola. Deus não se cansa de perdoar. Para os pecados graves, o caminho ordinário da reconciliação é o sacramento da Penitência (CIC 1456), de que trata a trilha dos sacramentos. E o pai da parábola não esperou o filho terminar o discurso: correu ao seu encontro (Lc 15,20).
+Volte, como o filho da parábola. Deus não se cansa de perdoar. Para os pecados graves, o caminho ordinário da reconciliação é o sacramento da Penitência (CIC 1456), de que trata a trilha dos sacramentos. Até lá, peça perdão a Deus com uma contrição sincera, nascida do amor a ele: com o propósito firme de se confessar logo que possível, ela já obtém o perdão (CIC 1452). Mas quem tem consciência de pecado grave não deve comungar antes de se confessar (CIC 1385). E lembre-se de que o pai da parábola correu ao encontro do filho e nem o deixou terminar o discurso (Lc 15,20-22).
 
 ### Falar tanto de pecado não deixa as pessoas oprimidas?
 
