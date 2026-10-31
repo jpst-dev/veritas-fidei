@@ -13,7 +13,9 @@ referencias:
   - titulo: Constituição dogmática Dei Verbum, 25
     autor: Concílio Vaticano II
     url: https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_po.html
-  - titulo: Catecismo da Igreja Católica, 2653-2654 e 2705-2708 (a Palavra de Deus e a meditação)
+  - titulo: Catecismo da Igreja Católica, 2653-2654 (a Palavra de Deus, fonte da oração)
+    url: https://www.vatican.va/archive/cathechism_po/index_new/p4s1cap2_2650-2696_po.html
+  - titulo: Catecismo da Igreja Católica, 2705-2708 (a meditação)
     url: https://www.vatican.va/archive/cathechism_po/index_new/p4s1cap3_2697-2758_po.html
 revisao:
   citacoesConferidas: false
@@ -35,7 +37,7 @@ Na tarde da Ressurreição, dois discípulos voltavam desanimados para Emaús. U
 
 O Concílio Vaticano II exortou com insistência todos os fiéis a conhecer Jesus Cristo pela leitura frequente das Escrituras, lembrando a frase de São Jerônimo: ignorar as Escrituras é ignorar Cristo (*Dei Verbum*, 25; CIC 133). E acrescentou uma condição:
 
-> Lembrem-se, porém, de que a leitura da Sagrada Escritura deve ser acompanhada de oração, para que seja possível o diálogo entre Deus e o homem, porque "a Ele falamos, quando rezamos, a Ele ouvimos, quando lemos os divinos oráculos".
+> Lembrem-se, porém, de que a leitura da Sagrada Escritura deve ser acompanhada de oração, para que seja possível o diálogo entre Deus e o homem, porque “a Ele falamos, quando rezamos, a Ele ouvimos, quando lemos os divinos oráculos”.
 >
 > — CIC 2653
 
