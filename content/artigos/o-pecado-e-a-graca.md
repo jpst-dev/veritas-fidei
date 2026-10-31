@@ -1,9 +1,11 @@
 ---
 title: O pecado e a graça
 description: "O que é o pecado, a diferença entre pecado mortal e venial, e a graça de Deus, que perdoa, cura e torna possível uma vida nova."
+obra: retorno-do-filho-prodigo-murillo
 tema: moral
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-31
 nivel: iniciante
 tags: [pecado, pecado-mortal, graca, justificacao, conversao]
 referencias:
@@ -15,8 +17,8 @@ referencias:
     autor: Santo Agostinho
     url: https://www.newadvent.org/fathers/120114.htm
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 31/10/2026.
     Agostinho, A Cidade de Deus XIV,28, conferido em newadvent.org em 31/10/2026.

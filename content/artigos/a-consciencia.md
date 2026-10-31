@@ -1,23 +1,29 @@
 ---
 title: A consciência
 description: "Seguir a consciência é sempre certo? O que a Igreja ensina sobre a consciência moral, como formá-la e o que fazer quando ela erra."
+obra: madalena-a-luz-da-vela
 tema: moral
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-31
 nivel: iniciante
 tags: [consciencia, moral, liberdade, discernimento, lei-natural]
 referencias:
   - titulo: Catecismo da Igreja Católica, 1776-1802 (a consciência moral)
     url: https://www.vatican.va/archive/cathechism_po/index_new/p3s1cap1_1699-1876_po.html
+  - titulo: Constituição pastoral Gaudium et spes, 16 (a dignidade da consciência moral)
+    autor: Concílio Vaticano II
+    url: https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651207_gaudium-et-spes_po.html
   - titulo: Carta ao Duque de Norfolk, 5 (a consciência)
     autor: São John Henry Newman
     url: https://www.newmanreader.org/works/anglicans/volume2/gladstone/section5.html
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 31/10/2026. Substitui o rascunho formacao-consciencia-moral, apagado.
     Newman, Carta ao Duque de Norfolk 5, conferida em newmanreader.org em 31/10/2026.
+    Gaudium et spes 16 conferida no texto oficial do vatican.va em 31/10/2026.
     Citações do Catecismo conferidas pelo verificador.
     Referências conferidas na Nova Vulgata (npm run biblia) em 31/10/2026: existem e dizem o que o texto afirma.
     Nenhuma expressão bíblica entre aspas a conferir na CNBB.
@@ -50,7 +56,7 @@ Um exemplo simples. Todos sabemos que não se deve mentir. Um colega me pede que
 
 ### A voz de Deus
 
-Mas a consciência não é só um cálculo. O Concílio Vaticano II, citado pelo Catecismo, diz que no mais profundo da consciência o homem descobre uma lei que não deu a si mesmo, mas à qual deve obedecer; a consciência é o núcleo mais secreto e o sacrário do homem, onde ele está a sós com Deus (CIC 1776).
+Mas a consciência não é só um cálculo. O Concílio Vaticano II diz que no mais profundo da consciência o homem descobre uma lei que não deu a si mesmo, mas à qual deve obedecer; a consciência é o núcleo mais secreto e o sacrário do homem, onde ele está a sós com Deus (*Gaudium et spes*, 16; CIC 1776).
 
 São John Henry Newman, no século XIX, disse isso com uma frase que o Catecismo retoma: a consciência é uma mensageira daquele que nos fala veladamente, e é o primeiro de todos os vigários de Cristo (CIC 1778). Por isso a consciência tem autoridade: não porque eu decida o que é bom, mas porque nela eu ouço um bem que não depende de mim.
 

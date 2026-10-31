@@ -1,9 +1,11 @@
 ---
 title: A lei natural
 description: "Existe um certo e um errado que valem para todos? O que a Igreja chama de lei natural, como a conhecemos e por que ela está no coração dos Dez Mandamentos."
+obra: moises-apresenta-as-tabuas
 tema: moral
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-31
 nivel: iniciante
 tags: [lei-natural, moral, razao, dez-mandamentos, consciencia]
 referencias:
@@ -15,8 +17,8 @@ referencias:
     autor: Santo Tomás de Aquino
     url: https://www.newadvent.org/summa/2094.htm
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 31/10/2026. Substitui o rascunho lei-natural, apagado.
     Tomás de Aquino, Suma Teológica I-II, q. 94, a. 2, conferido em newadvent.org em 31/10/2026.

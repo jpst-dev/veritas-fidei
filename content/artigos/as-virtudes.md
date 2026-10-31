@@ -1,23 +1,29 @@
 ---
 title: As virtudes
 description: "Prudência, justiça, fortaleza e temperança; fé, esperança e caridade. O que são as virtudes, como se adquirem e por que tornam o bem mais fácil."
+obra: virtudes-cardeais-e-teologais
 tema: moral
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-31
 nivel: iniciante
 tags: [virtudes, virtudes-cardeais, virtudes-teologais, caridade, graca]
 referencias:
   - titulo: Catecismo da Igreja Católica, 1803-1845 (as virtudes)
     url: https://www.vatican.va/archive/cathechism_po/index_new/p3s1cap1_1699-1876_po.html
+  - titulo: Suma Teológica, I-II, q. 61 (as virtudes cardeais)
+    autor: Santo Tomás de Aquino
+    url: https://www.newadvent.org/summa/2061.htm
   - titulo: Os costumes da Igreja Católica, 25
     autor: Santo Agostinho
     url: https://www.newadvent.org/fathers/1401.htm
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 31/10/2026. Substitui o rascunho virtudes-cardeais-teologais, apagado.
     Agostinho, Os costumes da Igreja Católica I,25,46, conferido em newadvent.org em 31/10/2026.
+    Tomás de Aquino, Suma Teológica I-II, q. 61, conferida em newadvent.org em 31/10/2026.
     Citações do Catecismo conferidas pelo verificador.
     Referências conferidas na Nova Vulgata (npm run biblia) em 31/10/2026: existem e dizem o que o texto afirma.
     Nenhuma expressão bíblica entre aspas a conferir na CNBB.

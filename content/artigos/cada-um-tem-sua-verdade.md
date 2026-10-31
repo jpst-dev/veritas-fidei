@@ -1,9 +1,11 @@
 ---
 title: Cada um tem a sua verdade?
 description: "Se as culturas discordam e a moral muda com o tempo, não seria intolerante dizer que algo é certo para todos? A resposta da Igreja ao relativismo moral."
+obra: que-e-a-verdade
 tema: moral
 secao: defesa-da-fe
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-31
 nivel: intermediario
 tags: [relativismo, lei-natural, verdade, liberdade, tolerancia]
 quaestio:
@@ -33,8 +35,8 @@ referencias:
     autor: Cardeal Joseph Ratzinger
     url: https://www.vatican.va/gpII/documents/homily-pro-eligendo-pontifice_20050418_po.html
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 31/10/2026.
     Veritatis splendor 32, 52-53, 80 e 96 conferidos no texto oficial do vatican.va em 31/10/2026.
