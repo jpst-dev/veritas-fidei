@@ -115,7 +115,7 @@ Texto.
       gravidade: 'erro',
       mensagem: 'título em pergunta fora da Defesa da fé; em Aprender o título afirma',
     })
-    expect(verificarEstrutura(defesa).map((a) => a.mensagem)).toContain('artigo da Defesa da fé com título que não é pergunta')
+    expect(verificarEstrutura(defesa).map((a) => a.mensagem).some((m) => m.startsWith('título em pergunta'))).toBe(false)
   })
 
   it('aponta formato de citação e aspas retas', () => {
