@@ -6,6 +6,7 @@ tema: sacramentos
 secao: aprender
 status: publicado
 publicadoEm: 2026-10-26
+atualizadoEm: 2026-10-31
 nivel: iniciante
 tags: [sacramentos, graca]
 referencias:
@@ -22,7 +23,13 @@ referencias:
 revisao:
   citacoesConferidas: true
   referenciasConferidas: true
-  notas: Conferido pelo autor em 26/10/2026.
+  notas: >-
+    Conferido pelo autor em 26/10/2026.
+    Agostinho, Tratados sobre o Evangelho de João 80, 3, conferido em newadvent.org em 31/10/2026.
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 31/10/2026: existem e dizem o que o texto afirma.
+    CNBB impressa, opcional: "isto é o meu corpo", "isto é o meu sangue" (Lc 22,19-20) e "grande mistério" (Ef 5,32).
+    Parecer doutrinal interno: favorável com correções em 31/10/2026, correções aplicadas (docs/pareceres/os-sete-sacramentos.md).
 ---
 
 Um copo de água, um pouco de óleo, pão e vinho, as mãos de um bispo, o “sim” de dois noivos. Coisas simples, quase banais. E, no entanto, a Igreja ensina que, por meio delas, Deus age de verdade: perdoa, cura, alimenta e consagra. São os **sacramentos**, e é por eles que a vida de Cristo chega até nós, hoje.
@@ -103,7 +110,7 @@ Desde os primeiros séculos, os cristãos entenderam que nesses ritos era Deus q
 
 Com o tempo, a Igreja foi explicitando o que sempre viveu. A lista dos sete sacramentos aparece de forma organizada no século XII e é afirmada pelo II Concílio de Lião (1274) e pelo Concílio de Florença (1439). Diante da Reforma Protestante, o Concílio de Trento (1547) ensinou solenemente que os sacramentos são sete, nem mais, nem menos, e que todos foram instituídos por Cristo (Concílio de Trento, sessão VII, cân. 1; DH 1601).
 
-Um dado chama a atenção: as Igrejas ortodoxas, separadas de Roma desde o século XI, também reconhecem sete sacramentos (que chamam de “mistérios”). Esse acordo entre o Oriente e o Ocidente, depois de séculos de separação, mostra que a fé nos sete sacramentos não é uma invenção tardia: ela vem da Igreja indivisa dos primeiros séculos.
+Um dado chama a atenção: as Igrejas ortodoxas, separadas de Roma desde o século XI, e as Igrejas orientais antigas, separadas desde o século V, celebram esses mesmos ritos como ações de Cristo (os ortodoxos os chamam de “mistérios”). A contagem em sete foi fixada na Idade Média, mas o que ela conta é muito mais antigo: a lista apenas deu nome a uma prática que a Igreja indivisa já vivia.
 
 ## Dúvidas comuns
 
@@ -114,6 +121,10 @@ Importa, e muito. O sacramento é sempre válido quando celebrado como a Igreja 
 ### Deus só pode salvar por meio dos sacramentos?
 
 A Igreja ensina que, para quem conhece o Evangelho, os sacramentos são o caminho que o próprio Cristo deixou, e por isso são necessários para a salvação (CIC 1129). Mas ela também reconhece que Deus é maior que os meios que ele mesmo criou: “Deus ligou a salvação ao sacramento do Batismo; mas Ele próprio não está prisioneiro dos seus sacramentos” (CIC 1257).
+
+### Por que alguns sacramentos não se repetem?
+
+O Batismo, a Confirmação e a Ordem imprimem na pessoa um **caráter**, uma marca espiritual que a configura a Cristo para sempre (CIC 1121). Por isso são recebidos uma só vez: quem foi batizado não precisa ser batizado de novo, mesmo que tenha se afastado da fé. Os outros sacramentos podem ser recebidos muitas vezes, como a Eucaristia e a Confissão.
 
 ### Por que sete, e não só dois?
 
