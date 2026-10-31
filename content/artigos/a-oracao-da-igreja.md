@@ -7,7 +7,7 @@ status: em-revisao
 nivel: intermediario
 tags: [liturgia, liturgia-das-horas, missa, domingo, oracao]
 referencias:
-  - titulo: Constituição Sacrosanctum Concilium, 7, 10, 12, 84 e 100 (1963)
+  - titulo: Constituição Sacrosanctum Concilium, 7, 10, 12, 13, 84 e 100 (1963)
     autor: Concílio Vaticano II
     url: https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_po.html
   - titulo: Catecismo da Igreja Católica, 1066-1075 (a liturgia, obra da Santíssima Trindade)
@@ -19,7 +19,11 @@ revisao:
   referenciasConferidas: false
   notas: >-
     Escrito do zero em 31/10/2026.
-    Sacrosanctum Concilium 7, 10, 12, 84 e 100 conferidos no texto oficial do vatican.va em 31/10/2026.
+    Sacrosanctum Concilium 7, 10, 12, 13, 84 e 100 conferidos no texto oficial do vatican.va em 31/10/2026.
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 31/10/2026: existem e dizem o que o texto afirma.
+    A conferir na CNBB impressa, se quiser: "meu Deus, meu Deus, por que me abandonaste?" (Mt 27,46) e "em tuas mãos entrego o meu espírito" (Lc 23,46).
+    Parecer doutrinal interno: favorável com correções em 31/10/2026, correções aplicadas (docs/pareceres/a-oracao-da-igreja.md).
 ---
 
 Muitos católicos dizem que vão à Missa “assistir”. A palavra trai uma ideia comum: a de que a liturgia é algo que o padre faz e nós olhamos, enquanto a oração “de verdade” seria a pessoal, feita em silêncio. A Igreja ensina quase o contrário. A liturgia é a oração mais alta que existe, porque nela é o próprio Cristo quem reza ao Pai, e nós rezamos com ele.
@@ -53,7 +57,7 @@ Por isso a liturgia não é uma soma de orações individuais. É a oração do 
 
 ### Fonte e cume
 
-No centro da liturgia está a Eucaristia, que o Concílio chama de fonte e cume de toda a vida cristã (CIC 1324). Nela está todo o tesouro espiritual da Igreja: o próprio Cristo, a nossa Páscoa (CIC 1324). Toda a oração cristã vem dela e conduz a ela.
+No centro da liturgia está a Eucaristia, que o Concílio chama de fonte e cume de toda a vida cristã (*Lumen gentium*, 11; CIC 1324). Nela está todo o tesouro espiritual da Igreja: o próprio Cristo, a nossa Páscoa (CIC 1324). Toda a oração cristã vem dela e conduz a ela.
 
 ### O dia do Senhor
 
@@ -75,7 +79,7 @@ O Concílio usa uma imagem bonita: quando a Igreja reza o Ofício, é verdadeira
 
 ### Não é só para padres e freiras
 
-Os sacerdotes e os religiosos têm a obrigação de rezá-la, em nome da Igreja. Mas a Liturgia das Horas está destinada a tornar-se a oração de todo o povo de Deus (CIC 1175). O Concílio recomenda que, nos domingos e festas, as horas principais, sobretudo as Vésperas, sejam celebradas em comum nas igrejas, e que os leigos também a rezem, com os sacerdotes, entre si ou mesmo sozinhos (*Sacrosanctum Concilium*, 100).
+Os clérigos têm a obrigação de rezá-la, em nome da Igreja, e muitos religiosos também, segundo as suas regras. Mas a Liturgia das Horas está destinada a tornar-se a oração de todo o povo de Deus (CIC 1175). O Concílio recomenda que, nos domingos e festas, as horas principais, sobretudo as Vésperas, sejam celebradas em comum nas igrejas, e que os leigos também a rezem, com os sacerdotes, entre si ou mesmo sozinhos (*Sacrosanctum Concilium*, 100).
 
 ## Dúvidas comuns
 
@@ -89,7 +93,7 @@ A Igreja recomenda muito os exercícios de piedade do povo cristão, desde que e
 
 ### Como começar a rezar a Liturgia das Horas?
 
-Pelo mais simples: as Laudes de manhã ou as Completas à noite, que são breves. Existem edições em livro e aplicativos com o texto de cada dia. No começo, o ritmo dos salmos pode estranhar, mas com o tempo eles se tornam a linguagem da oração. Os salmos foram a oração de Jesus, e são a oração da Igreja há dois mil anos.
+Pelo mais simples: as Laudes de manhã ou as Completas à noite, que são breves. Existem edições em livro e aplicativos com o texto de cada dia. No começo, o ritmo dos salmos pode estranhar, mas com o tempo eles se tornam a linguagem da oração. Os salmos foram a oração de Jesus: depois da Última Ceia, cantou os hinos com os discípulos; na cruz, rezou o salmo 22, “meu Deus, meu Deus, por que me abandonaste?”; e morreu com as palavras do salmo 31, “em tuas mãos entrego o meu espírito” (Mt 26,30; Mt 27,46; Lc 23,46). Rezando-os, a Igreja reza com a voz do seu Senhor, há dois mil anos.
 
 ## Em resumo
 
