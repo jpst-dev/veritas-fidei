@@ -12,6 +12,9 @@ referencias:
   - titulo: Constituição dogmática Lumen gentium, 1-8
     autor: Concílio Vaticano II
     url: https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19641121_lumen-gentium_po.html
+  - titulo: Respostas a questões relativas a alguns aspectos da doutrina sobre a Igreja (2007)
+    autor: Congregação para a Doutrina da Fé
+    url: https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_con_cfaith_doc_20070629_responsa-quaestiones_po.html
   - titulo: Carta aos Esmirnenses, 8
     autor: Santo Inácio de Antioquia
     url: https://www.newadvent.org/fathers/0109.htm
@@ -21,6 +24,11 @@ revisao:
   notas: >-
     Escrito do zero em 31/10/2026; não substitui rascunho.
     Inácio, Aos Esmirnenses 8, conferido em newadvent.org em 31/10/2026.
+    Respostas da CDF de 2007, segunda questão, conferidas no vatican.va em 31/10/2026.
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 31/10/2026: existem e dizem o que o texto afirma.
+    Nenhuma expressão bíblica entre aspas a conferir na CNBB.
+    Parecer doutrinal interno: favorável com correções em 31/10/2026, correções aplicadas (docs/pareceres/o-que-e-a-igreja.md).
 ---
 
 Para muita gente, “Igreja” quer dizer o prédio da esquina, o padre e o bispo, ou uma instituição com regras, escândalos e opiniões sobre tudo. Outros pensam numa espécie de clube: pessoas que acreditam nas mesmas coisas e resolveram se reunir. Há algo de verdade nessas imagens, mas nenhuma delas diz o essencial.
@@ -43,7 +51,7 @@ Sinal e instrumento: a Igreja mostra a união com Deus e, ao mesmo tempo, a real
 
 A Igreja não é uma invenção posterior dos discípulos. Jesus a preparou durante a sua vida. Começou anunciando o Reino de Deus e reunindo ao redor de si os que acolhiam esse anúncio (CIC 763-764). Escolheu doze Apóstolos, número que lembra as doze tribos de Israel, e pôs Pedro à frente deles (Mc 3,13-19; CIC 765). Deu-lhes a missão de pregar, batizar e perdoar os pecados em seu nome (Mt 28,19-20; Jo 20,21-23).
 
-A Igreja nasceu sobretudo da cruz. Os Padres viram no sangue e na água que saíram do lado aberto de Cristo (Jo 19,34) os sacramentos que fazem a Igreja: o Batismo e a Eucaristia. Assim como Eva foi formada do lado de Adão adormecido, a Igreja nasceu do coração trespassado de Cristo (CIC 766). E em Pentecostes o Espírito Santo desceu sobre os Apóstolos, e a Igreja se manifestou publicamente ao mundo (At 2,1-41; CIC 767).
+A Igreja nasceu sobretudo da cruz. Os Padres viram no sangue e na água que saíram do lado aberto de Cristo (Jo 19,34) os sacramentos que fazem a Igreja: o Batismo e a Eucaristia (CIC 1225). Assim como Eva foi formada do lado de Adão adormecido, a Igreja nasceu do coração trespassado de Cristo (CIC 766). E em Pentecostes o Espírito Santo desceu sobre os Apóstolos, e a Igreja se manifestou publicamente ao mundo (At 2,1-41; CIC 767).
 
 ## O Corpo de Cristo
 
@@ -79,11 +87,11 @@ A fé em Jesus não é uma relação particular, sem os outros. Jesus não escre
 
 ### “Fora da Igreja não há salvação” quer dizer que os não católicos se perdem?
 
-A frase, que vem dos Padres, quer dizer, de modo positivo, que toda a salvação vem de Cristo, e Cristo se torna presente no seu Corpo, que é a Igreja (CIC 846). Por isso não se salva quem, sabendo que Deus fundou a Igreja como necessária, se recusa a entrar nela ou a perseverar nela. Mas isso não vale para quem, sem culpa, não conhece Cristo e a sua Igreja e procura Deus com sinceridade, seguindo a consciência sob a ação da graça: também esses podem alcançar a salvação (CIC 847).
+A frase, que vem dos Padres, quer dizer, de modo positivo, que toda a salvação vem de Cristo, e Cristo se torna presente no seu Corpo, que é a Igreja (CIC 846). Por isso não se salva quem, sabendo que Deus fundou a Igreja como necessária, se recusa a entrar nela ou a perseverar nela. Mas isso não vale para quem, sem culpa, não conhece Cristo e a sua Igreja e procura Deus com sinceridade, seguindo a consciência sob a ação da graça: também esses podem alcançar a salvação (CIC 847). Mesmo nesse caso, a salvação vem da graça de Cristo, por caminhos que só Deus conhece, e a Igreja continua com o dever de anunciar o Evangelho a todos (CIC 848).
 
 ### E os protestantes e os ortodoxos?
 
-A Igreja de Cristo **subsiste** na Igreja Católica, governada pelo sucessor de Pedro e pelos bispos em comunhão com ele (CIC 816). Mas há fora dos seus limites visíveis muitos elementos de santificação e de verdade: a Palavra de Deus, o Batismo, a fé, a esperança, a caridade (CIC 819). Quem crê em Cristo e foi validamente batizado está numa comunhão real, embora imperfeita, com a Igreja Católica; com as Igrejas ortodoxas, essa comunhão é tão profunda que pouco falta para a plenitude (CIC 838). Por isso a Igreja os chama de irmãos e trabalha pela unidade.
+A Igreja de Cristo **subsiste** na Igreja Católica, governada pelo sucessor de Pedro e pelos bispos em comunhão com ele (CIC 816). Isso não quer dizer que a Igreja de Cristo esteja dividida entre as várias confissões: quer dizer que ela continua a existir, com todos os elementos que Cristo instituiu, na Igreja Católica, onde concretamente se encontra nesta terra (Congregação para a Doutrina da Fé, *Respostas a questões sobre a doutrina da Igreja*, 2007, segunda questão). Mas há fora dos seus limites visíveis muitos elementos de santificação e de verdade: a Palavra de Deus, o Batismo, a fé, a esperança, a caridade (CIC 819). Quem crê em Cristo e foi validamente batizado está numa comunhão real, embora imperfeita, com a Igreja Católica; com as Igrejas ortodoxas, essa comunhão é tão profunda que pouco falta para a plenitude (CIC 838). Por isso a Igreja os chama de irmãos e trabalha pela unidade.
 
 ## Em resumo
 
