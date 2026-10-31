@@ -1,7 +1,7 @@
 ---
 title: O purgatório é uma invenção da Igreja?
 description: Se Cristo pagou tudo na cruz, por que falar de purificação depois da morte? O que a Igreja ensina, de onde isso vem e o que não é verdade.
-tema: novissimos
+tema: vida-eterna
 secao: defesa-da-fe
 status: publicado
 publicadoEm: 2026-10-26

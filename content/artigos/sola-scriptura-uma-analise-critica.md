@@ -1,7 +1,7 @@
 ---
 title: "Sola Scriptura: Uma Análise Crítica"
 description: "Por que o princípio protestante da 'Somente a Escritura' é inconsistente com o próprio testemunho bíblico"
-tema: escritura-e-tradicao
+tema: biblia-e-tradicao
 secao: aprender
 status: rascunho
 nivel: intermediario

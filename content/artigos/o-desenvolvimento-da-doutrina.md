@@ -1,7 +1,7 @@
 ---
 title: "O Desenvolvimento da Doutrina"
 description: "Como a Igreja Católica entende o desenvolvimento doutrinal"
-tema: escritura-e-tradicao
+tema: biblia-e-tradicao
 secao: aprender
 status: rascunho
 nivel: avancado

@@ -1,7 +1,7 @@
 ---
 title: "A Consciência e a Irredutibilidade da Mente"
 description: "Por que a consciência humana não pode ser reduzida a processos físicos"
-tema: filosofia
+tema: fe-e-razao
 secao: aprender
 status: rascunho
 nivel: avancado

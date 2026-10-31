@@ -10,7 +10,7 @@ const publicado = (slug: string) => /^status: publicado$/m.test(readFileSync(`co
 describe('redirecionamentos do site antigo', () => {
   it('cobre todos os tópicos, subcategorias e categorias antigas', () => {
     const total = Object.keys(antigas.artigos).length + Object.keys(antigas.secoes).length + Object.keys(antigas.categorias).length
-    expect(regras.length).toBe(total + 5)
+    expect(regras.length).toBe(total + 8)
   })
 
   it('aponta só temas que existem', () => {

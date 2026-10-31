@@ -1,7 +1,7 @@
 ---
 title: "O Problema do Mal"
 description: "Como conciliar a existência de Deus com a presença do mal no mundo"
-tema: filosofia
+tema: fe-e-razao
 secao: aprender
 status: rascunho
 nivel: intermediario

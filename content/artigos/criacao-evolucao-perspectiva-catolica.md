@@ -1,7 +1,7 @@
 ---
 title: "Criação e Evolução: Uma Perspectiva Católica"
 description: "Como a Igreja compreende a teoria da evolução no contexto da doutrina da criação"
-tema: filosofia
+tema: fe-e-razao
 secao: aprender
 status: rascunho
 nivel: intermediario

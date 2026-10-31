@@ -46,6 +46,13 @@ export function redirecionamentos() {
   for (const [de, tema] of Object.entries(antigas.secoes as Record<string, Destino>)) redirecionar(de, paraSecao(tema))
   for (const [de, tema] of Object.entries(antigas.categorias as Record<string, Destino>)) redirecionar(de, paraSecao(tema))
 
+  // Temas renomeados na revisão de 30/10/2026; tema ainda sem artigo não tem página
+  const temaRenomeado = (novo: string): Redirect =>
+    temasComArtigos.has(novo) ? { to: `/temas/${novo}`, statusCode: 301 } : { to: '/temas', statusCode: 302 }
+  redirecionar('/temas/escritura-e-tradicao', temaRenomeado('biblia-e-tradicao'))
+  redirecionar('/temas/filosofia', temaRenomeado('fe-e-razao'))
+  redirecionar('/temas/novissimos', temaRenomeado('vida-eterna'))
+
   redirecionar('/explorar', { to: '/temas', statusCode: 301 })
   redirecionar('/topicos', { to: '/artigos', statusCode: 301 })
   redirecionar('/buscar', { to: '/artigos', statusCode: 301 })

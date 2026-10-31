@@ -1,7 +1,7 @@
 ---
 title: "As Cinco Vias de São Tomás de Aquino"
 description: "Análise dos cinco caminhos propostos por São Tomás para demonstrar a existência de Deus"
-tema: filosofia
+tema: fe-e-razao
 secao: aprender
 status: rascunho
 nivel: intermediario

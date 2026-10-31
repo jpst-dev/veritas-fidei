@@ -1,7 +1,7 @@
 ---
 title: "Hilemorfismo: Corpo e Alma na Filosofia Tomista"
 description: "A compreensão de matéria e forma na antropologia cristã e suas implicações contemporâneas"
-tema: filosofia
+tema: fe-e-razao
 secao: aprender
 status: rascunho
 nivel: avancado

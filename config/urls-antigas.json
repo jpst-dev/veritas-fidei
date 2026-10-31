@@ -30,39 +30,39 @@
     },
     "/explorar/doutrina/doutrina-4/1": {
       "slug": "vida-eterna-ceu-inferno-purgatorio",
-      "tema": "novissimos"
+      "tema": "vida-eterna"
     },
     "/explorar/doutrina/doutrina-4/2": {
       "slug": "segunda-vinda-cristo-fim-tempos",
-      "tema": "novissimos"
+      "tema": "vida-eterna"
     },
     "/explorar/escritura-tradicao/sola-scriptura/1": {
       "slug": "sola-scriptura",
-      "tema": "escritura-e-tradicao"
+      "tema": "biblia-e-tradicao"
     },
     "/explorar/escritura-tradicao/sola-scriptura/2": {
       "slug": "sola-scriptura-uma-analise-critica",
-      "tema": "escritura-e-tradicao"
+      "tema": "biblia-e-tradicao"
     },
     "/explorar/escritura-tradicao/desenvolvimento-doutrinal/7": {
       "slug": "o-desenvolvimento-da-doutrina",
-      "tema": "escritura-e-tradicao"
+      "tema": "biblia-e-tradicao"
     },
     "/explorar/filosofia-teologia/filosofia-teologia-1/1": {
       "slug": "teologia-natural-existencia-deus",
-      "tema": "filosofia"
+      "tema": "fe-e-razao"
     },
     "/explorar/filosofia-teologia/filosofia-teologia-1/2": {
       "slug": "argumento-ontologico",
-      "tema": "filosofia"
+      "tema": "fe-e-razao"
     },
     "/explorar/filosofia-teologia/filosofia-teologia-1/3": {
       "slug": "argumento-cosmologico-kalam",
-      "tema": "filosofia"
+      "tema": "fe-e-razao"
     },
     "/explorar/filosofia-teologia/filosofia-teologia-1/4": {
       "slug": "cinco-vias-tomas-aquino",
-      "tema": "filosofia"
+      "tema": "fe-e-razao"
     },
     "/explorar/filosofia-teologia/filosofia-teologia-1/5": {
       "slug": "atributos-divinos",
@@ -74,23 +74,23 @@
     },
     "/explorar/filosofia-teologia/filosofia-teologia-2/2": {
       "slug": "problema-mal",
-      "tema": "filosofia"
+      "tema": "fe-e-razao"
     },
     "/explorar/filosofia-teologia/filosofia-teologia-2/3": {
       "slug": "argumento-moral",
-      "tema": "filosofia"
+      "tema": "fe-e-razao"
     },
     "/explorar/filosofia-teologia/filosofia-teologia-3/1": {
       "slug": "hilemorfismo-corpo-alma",
-      "tema": "filosofia"
+      "tema": "fe-e-razao"
     },
     "/explorar/filosofia-teologia/filosofia-teologia-3/3": {
       "slug": "universais-realismo-moderado",
-      "tema": "filosofia"
+      "tema": "fe-e-razao"
     },
     "/explorar/filosofia-teologia/filosofia-teologia-4/2": {
       "slug": "big-bang-cosmologia-catolica",
-      "tema": "filosofia"
+      "tema": "fe-e-razao"
     },
     "/explorar/filosofia-teologia/filosofia-teologia-5/1": {
       "slug": "virtudes-cardeais-teologais",
@@ -194,11 +194,11 @@
     },
     "/explorar/objeccoes-comuns/objeccoes-biblia/1": {
       "slug": "sola-scriptura",
-      "tema": "escritura-e-tradicao"
+      "tema": "biblia-e-tradicao"
     },
     "/explorar/objeccoes-comuns/objeccoes-biblia/2": {
       "slug": "interpretacao-privada",
-      "tema": "escritura-e-tradicao"
+      "tema": "biblia-e-tradicao"
     },
     "/explorar/objeccoes-comuns/objeccoes-maria/3": {
       "slug": "intercessao-dos-santos",
@@ -214,7 +214,7 @@
     },
     "/explorar/objeccoes-comuns/objeccoes-historicas/5": {
       "slug": "igreja-inventou-biblia-para-controlar",
-      "tema": "escritura-e-tradicao"
+      "tema": "biblia-e-tradicao"
     },
     "/explorar/objeccoes-comuns/objeccoes-historicas/2": {
       "slug": "igreja-e-inquisicao",
@@ -250,15 +250,15 @@
     },
     "/explorar/objeccoes-comuns/objeccoes-doutrinarias/1": {
       "slug": "purgatorio-invencao-igreja",
-      "tema": "novissimos"
+      "tema": "vida-eterna"
     },
     "/explorar/objeccoes-comuns/objeccoes-doutrinarias/2": {
       "slug": "igreja-doutrinas-nao-biblicas",
-      "tema": "escritura-e-tradicao"
+      "tema": "biblia-e-tradicao"
     },
     "/explorar/objeccoes-comuns/objeccoes-doutrinarias/3": {
       "slug": "tradicao-invalida-biblia",
-      "tema": "escritura-e-tradicao"
+      "tema": "biblia-e-tradicao"
     },
     "/explorar/objeccoes-comuns/objeccoes-culturais/1": {
       "slug": "catolicismo-paganismo-disfarcado",
@@ -309,13 +309,13 @@
     "/explorar/doutrina/doutrina-1": "deus-e-trindade",
     "/explorar/doutrina/doutrina-2": "sacramentos",
     "/explorar/doutrina/doutrina-3": "moral",
-    "/explorar/doutrina/doutrina-4": "novissimos",
-    "/explorar/escritura-tradicao/sola-scriptura": "escritura-e-tradicao",
-    "/explorar/escritura-tradicao/desenvolvimento-doutrinal": "escritura-e-tradicao",
-    "/explorar/filosofia-teologia/filosofia-teologia-1": "filosofia",
-    "/explorar/filosofia-teologia/filosofia-teologia-2": "filosofia",
-    "/explorar/filosofia-teologia/filosofia-teologia-3": "filosofia",
-    "/explorar/filosofia-teologia/filosofia-teologia-4": "filosofia",
+    "/explorar/doutrina/doutrina-4": "vida-eterna",
+    "/explorar/escritura-tradicao/sola-scriptura": "biblia-e-tradicao",
+    "/explorar/escritura-tradicao/desenvolvimento-doutrinal": "biblia-e-tradicao",
+    "/explorar/filosofia-teologia/filosofia-teologia-1": "fe-e-razao",
+    "/explorar/filosofia-teologia/filosofia-teologia-2": "fe-e-razao",
+    "/explorar/filosofia-teologia/filosofia-teologia-3": "fe-e-razao",
+    "/explorar/filosofia-teologia/filosofia-teologia-4": "fe-e-razao",
     "/explorar/filosofia-teologia/filosofia-teologia-5": "moral",
     "/explorar/historia-igreja/historia-igreja-1": "historia-da-igreja",
     "/explorar/historia-igreja/historia-igreja-2": "historia-da-igreja",
@@ -338,8 +338,8 @@
   },
   "categorias": {
     "/explorar/doutrina": null,
-    "/explorar/escritura-tradicao": "escritura-e-tradicao",
-    "/explorar/filosofia-teologia": "filosofia",
+    "/explorar/escritura-tradicao": "biblia-e-tradicao",
+    "/explorar/filosofia-teologia": "fe-e-razao",
     "/explorar/historia-igreja": "historia-da-igreja",
     "/explorar/mariologia": "maria",
     "/explorar/objeccoes-comuns": "defesa-da-fe",

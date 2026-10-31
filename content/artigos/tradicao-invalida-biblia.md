@@ -1,7 +1,7 @@
 ---
 title: "A Tradição Invalida a Bíblia?"
 description: "Resposta à objeção de que a Tradição católica compete com ou contradiz as Escrituras"
-tema: escritura-e-tradicao
+tema: biblia-e-tradicao
 secao: defesa-da-fe
 status: rascunho
 nivel: intermediario

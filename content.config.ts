@@ -10,14 +10,16 @@ export const STATUS = ['rascunho', 'em-revisao', 'publicado'] as const
 /** Slugs dos temas. Cada um tem um arquivo em content/temas/<slug>.yml. */
 export const TEMAS = [
   'deus-e-trindade',
-  'sacramentos',
-  'maria',
+  'biblia-e-tradicao',
+  'jesus-cristo',
   'igreja',
-  'escritura-e-tradicao',
-  'historia-da-igreja',
-  'filosofia',
+  'maria',
+  'vida-eterna',
+  'sacramentos',
   'moral',
-  'novissimos',
+  'oracao',
+  'fe-e-razao',
+  'historia-da-igreja',
 ] as const
 
 /** Seções do site. Novos públicos e formatos entram como novas seções/coleções. */

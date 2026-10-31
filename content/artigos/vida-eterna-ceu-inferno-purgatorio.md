@@ -1,7 +1,7 @@
 ---
 title: "A Vida Eterna: Céu, Inferno e Purgatório"
 description: "Compreensão católica sobre os destinos eternos e o estado intermediário da purificação"
-tema: novissimos
+tema: vida-eterna
 secao: aprender
 status: rascunho
 nivel: intermediario

@@ -1,7 +1,7 @@
 ---
 title: "Sola Scriptura"
 description: "Resposta à doutrina protestante da Sola Scriptura"
-tema: escritura-e-tradicao
+tema: biblia-e-tradicao
 secao: defesa-da-fe
 status: rascunho
 nivel: iniciante

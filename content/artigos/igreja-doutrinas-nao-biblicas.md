@@ -1,7 +1,7 @@
 ---
 title: "A Igreja Acrescentou Doutrinas Não Bíblicas à Fé?"
 description: "Resposta à acusação de que a Igreja Católica adicionou ensinamentos contrários à Bíblia"
-tema: escritura-e-tradicao
+tema: biblia-e-tradicao
 secao: defesa-da-fe
 status: rascunho
 nivel: intermediario

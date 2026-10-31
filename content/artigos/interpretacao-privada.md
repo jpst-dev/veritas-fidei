@@ -1,7 +1,7 @@
 ---
 title: "Interpretação Privada"
 description: "Resposta à ideia de que cada um pode interpretar a Bíblia por si mesmo"
-tema: escritura-e-tradicao
+tema: biblia-e-tradicao
 secao: defesa-da-fe
 status: rascunho
 nivel: iniciante

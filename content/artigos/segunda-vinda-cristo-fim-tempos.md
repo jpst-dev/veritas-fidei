@@ -1,7 +1,7 @@
 ---
 title: "A Segunda Vinda de Cristo e o Fim dos Tempos"
 description: "Doutrina católica sobre a parusia, a ressurreição dos mortos e o juízo final"
-tema: novissimos
+tema: vida-eterna
 secao: aprender
 status: rascunho
 nivel: intermediario

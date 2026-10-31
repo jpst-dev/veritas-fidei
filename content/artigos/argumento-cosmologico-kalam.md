@@ -1,7 +1,7 @@
 ---
 title: "O Argumento Cosmológico de Kalam"
 description: "Uma defesa contemporânea do argumento cosmológico baseado na impossibilidade de um regresso infinito"
-tema: filosofia
+tema: fe-e-razao
 secao: aprender
 status: rascunho
 nivel: intermediario

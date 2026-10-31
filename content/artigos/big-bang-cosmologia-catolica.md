@@ -1,7 +1,7 @@
 ---
 title: "O Big Bang e a Cosmologia Católica"
 description: "As implicações filosóficas e teológicas da cosmologia moderna"
-tema: filosofia
+tema: fe-e-razao
 secao: aprender
 status: rascunho
 nivel: intermediario

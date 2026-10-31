@@ -1,7 +1,7 @@
 ---
 title: "Teologia Natural e as Provas da Existência de Deus"
 description: "Visão geral dos principais argumentos filosóficos para a existência de Deus na tradição católica"
-tema: filosofia
+tema: fe-e-razao
 secao: aprender
 status: rascunho
 nivel: intermediario

@@ -1,7 +1,7 @@
 ---
 title: "A Igreja Inventou a Bíblia para Controlar as Pessoas"
 description: "Resposta à afirmação que a Igreja Católica inventou ou manipulou as Escrituras para fins de controle"
-tema: escritura-e-tradicao
+tema: biblia-e-tradicao
 secao: defesa-da-fe
 status: rascunho
 nivel: intermediario

@@ -1,7 +1,7 @@
 ---
 title: "O Argumento Moral para a Existência de Deus"
 description: "Como a existência de valores morais objetivos aponta para a existência de Deus"
-tema: filosofia
+tema: fe-e-razao
 secao: aprender
 status: rascunho
 nivel: intermediario

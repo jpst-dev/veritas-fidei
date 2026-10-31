@@ -9,8 +9,10 @@ const { data: temas } = await useTemas()
 const { data: obras } = await useObras()
 const { data: artigos } = await useArtigos()
 const { lidos } = useLidos()
+// Trilhas na ordem dos temas, que segue o Catecismo
+const ordemDoTema = (slug: string) => temas.value?.lista.find((t) => t.slug === slug)?.ordem ?? Infinity
 const cartoes = computed(() =>
-  (trilhas.value ?? []).map((trilha) => {
+  [...(trilhas.value ?? [])].sort((a, b) => ordemDoTema(a.tema) - ordemDoTema(b.tema)).map((trilha) => {
     const passos = ordemDeLeitura((artigos.value ?? []).filter((a) => trilha.artigos.includes(slugDe(a.path))), trilha)
     return {
       ...trilha,

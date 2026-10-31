@@ -1,7 +1,7 @@
 ---
 title: "Universais e o Realismo Moderado"
 description: "A visão tomista dos universais e sua importância para o conhecimento humano"
-tema: filosofia
+tema: fe-e-razao
 secao: aprender
 status: rascunho
 nivel: avancado

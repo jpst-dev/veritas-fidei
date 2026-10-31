@@ -1,7 +1,7 @@
 ---
 title: "O Santo Rosário"
 description: "História, significado e modo de rezar o Rosário como meio privilegiado de contemplação cristã"
-tema: maria
+tema: oracao
 secao: aprender
 status: rascunho
 nivel: iniciante

@@ -1,7 +1,7 @@
 ---
 title: "O Argumento Ontológico"
 description: "Uma análise do argumento que deduz a existência de Deus a partir do seu conceito"
-tema: filosofia
+tema: fe-e-razao
 secao: aprender
 status: rascunho
 nivel: avancado
