@@ -38,6 +38,10 @@ revisao:
     Escrito do zero em 31/10/2026. Substitui o rascunho problema-mal, apagado.
     Tomás de Aquino, Suma Teológica I, q. 2, a. 3, obj. 1 e ad 1, e q. 48, a. 1, conferidos em newadvent.org em 31/10/2026.
     Salvifici doloris 26 conferido no texto oficial do vatican.va em 31/10/2026.
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 31/10/2026: existem e dizem o que o texto afirma.
+    A conferir na CNBB impressa, se quiser: "meu Deus, meu Deus, por que me abandonaste?" (Mt 27,46).
+    Parecer doutrinal interno: favorável com correções em 31/10/2026, correções aplicadas (docs/pareceres/se-deus-existe-por-que-o-mal.md).
 ---
 
 Uma criança morre de câncer. Um terremoto soterra uma cidade. Um homem mata outro por dinheiro. Diante disso, a pergunta vem sozinha: se Deus existe, onde ele estava? Para muitos, essa não é só uma dúvida, mas a razão principal para não crer.
@@ -72,7 +76,7 @@ Isso significa que Deus não criou o mal. Tudo o que ele criou é bom. O mal exi
 
 O mal mais grave não é o terremoto: é o pecado. E este vem da liberdade. Deus criou anjos e homens livres para que caminhassem até ele por escolha e por amor; e quem pode escolher pode também se desviar. De fato, pecaram, e assim entrou no mundo o mal moral, incomparavelmente mais grave que o mal físico (CIC 311).
 
-Deus poderia ter feito criaturas incapazes de errar. Mas não seriam livres, e não poderiam amar. Um amor que não pode dizer não, não é amor. A Escritura diz que Deus não fez a morte nem se alegra com a perdição dos vivos (Sb 1,13), e que foi pelo pecado que a morte entrou no mundo (Rm 5,12).
+Por que Deus não fez desde o início criaturas firmes no bem? Porque quis que elas chegassem a ele por um caminho em que a escolha fosse real, e o amor, uma resposta delas. A firmeza no bem existe: é a dos santos no céu, que já não podem pecar porque veem a Deus, e é a liberdade mais perfeita, porque quanto mais o homem faz o bem, mais livre se torna (CIC 1733). Mas ela é o fim do caminho, não o seu começo. A Escritura diz que Deus não fez a morte nem se alegra com a perdição dos vivos (Sb 1,13), e que foi pelo pecado que a morte entrou no mundo (Rm 5,12).
 
 ### O mal físico e um mundo a caminho
 
@@ -90,7 +94,7 @@ Muitas vezes não vemos esse bem. O Catecismo é honesto: os caminhos da Provid�
 
 ### Deus não ficou de fora
 
-Aqui a fé vai além de qualquer filosofia. O Deus cristão não olha o sofrimento de longe. Em Jesus, ele entrou nele: foi traído, torturado, crucificado, e gritou na cruz: meu Deus, meu Deus, por que me abandonaste? (Mt 27,46). E ressuscitou, para vencer o mal pela raiz.
+Aqui a fé vai além de qualquer filosofia. O Deus cristão não olha o sofrimento de longe. Em Jesus, ele entrou nele: foi traído, torturado, crucificado, e gritou na cruz: meu Deus, meu Deus, por que me abandonaste? (Mt 27,46). Não foi desespero: são as primeiras palavras do salmo 22, que termina em confiança e louvor, e com elas Jesus assumiu, em nosso nome, o afastamento do pecado em relação a Deus (CIC 603). E ressuscitou, para vencer o mal pela raiz.
 
 São João Paulo II observou que Cristo não explica de modo abstrato as razões do sofrimento. Antes de tudo, diz: Segue-me! Vem, participa com o teu sofrimento desta obra da salvação do mundo, que se realiza pela minha Cruz (*Salvifici doloris*, 26). A resposta cristã ao mal não é uma teoria, é uma Pessoa. E uma promessa: Deus enxugará toda lágrima dos seus olhos, e não haverá mais morte, nem luto, nem dor (Ap 21,4).
 
