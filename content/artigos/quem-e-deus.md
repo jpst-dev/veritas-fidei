@@ -21,6 +21,10 @@ revisao:
   notas: >-
     Escrito do zero em 30/10/2026. Substitui o rascunho atributos-divinos (texto do site antigo, com referências a livros
     comerciais e foco em teologia natural), apagado no mesmo commit.
+    Citações do Catecismo conferidas pelo verificador; Latrão IV (DS 800) e Tertuliano conferidos nas notas oficiais do CIC 202 e 228.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 30/10/2026: existem e dizem o que o texto afirma.
+    Opcional: conferir a redação na CNBB impressa das expressões entre aspas (o sentido já foi conferido na Nova Vulgata): “Eu sou Aquele que sou” (Ex 3,14); “Deus é amor” (1Jo 4,8.16).
+    Parecer doutrinal interno: favorável com correções em 30/10/2026, correções aplicadas (docs/pareceres/quem-e-deus.md).
 ---
 
 O artigo anterior desta trilha mostrou que podemos conhecer a Deus, pela razão e pela fé. Fica a pergunta seguinte, a que mais importa: **quem** é ele?
@@ -51,7 +55,7 @@ O momento central dessa revelação acontece no deserto. Moisés vê uma sarça 
 
 O nome é misterioso. Ao mesmo tempo que se revela, Deus mostra que está acima de tudo o que podemos dizer: ele é o “Deus escondido” (Is 45,15; CIC 206). Mas o nome também promete presença. O mesmo Deus que diz “Eu sou” diz a Moisés que estará com ele (Ex 3,12). O Catecismo resume: ele se revela “como o Deus que está sempre presente junto do seu povo para o salvar” (CIC 207).
 
-Por respeito, Israel deixou de pronunciar esse nome e passou a dizer “Senhor” no seu lugar. É o título que os cristãos usarão para proclamar a divindade de Jesus: “Jesus é o Senhor” (CIC 209). Por isso as Bíblias católicas e a liturgia dizem “o Senhor”, e não as quatro letras.
+Por respeito, Israel deixou de pronunciar esse nome e passou a dizer “Senhor” no seu lugar. É o título que os cristãos usarão para proclamar a divindade de Jesus: “Jesus é o Senhor” (CIC 209). Por isso, na liturgia, a Igreja diz “o Senhor” e não pronuncia o nome.
 
 ### Só Deus é
 
@@ -75,7 +79,7 @@ São João vai além e diz: “Deus é amor” (1Jo 4,8.16). Não só que Deus a
 
 ## Todo-poderoso e presente em tudo
 
-De todos os atributos de Deus, o Credo nomeia só um: o **todo-poderoso** (CIC 268). Nada é impossível para Deus, como o anjo disse a Maria (Lc 1,37). Mas esse poder não é capricho. Em Deus, o poder, a sabedoria, a justiça e a bondade são uma coisa só (CIC 271). Ele pode tudo o que é bom, e mostra o seu poder sobretudo quando perdoa (CIC 270).
+De todos os atributos de Deus, o Credo nomeia só um: o **todo-poderoso** (CIC 268). Nada é impossível para Deus, como o anjo disse a Maria (Lc 1,37). Mas esse poder não é capricho. Em Deus, o poder, a vontade, a inteligência, a sabedoria e a justiça são uma coisa só (CIC 271): o seu poder está sempre unido à sua sabedoria e à sua justiça. E Deus mostra esse poder no mais alto grau quando perdoa (CIC 270).
 
 Deus também é infinitamente maior do que o mundo e, ao mesmo tempo, está presente no mais íntimo de cada criatura. Nele vivemos, nos movemos e existimos, disse São Paulo em Atenas (At 17,28). Santo Agostinho exprimiu isso numa fórmula que o Catecismo recolhe: Deus está “acima do que em mim há de mais elevado e é mais interior do que aquilo que eu tenho de mais íntimo” (CIC 300). O salmista já perguntava para onde poderia fugir da presença de Deus, e respondia que em nenhum lugar, nem no céu nem no abismo (Sl 139,7-10).
 
@@ -89,7 +93,7 @@ E Deus conhece tudo. Nenhuma criatura está oculta diante dele; tudo está nu e 
 
 ### A Bíblia não diz que Deus se arrependeu ou mudou de ideia?
 
-Diz, em várias passagens, e a Igreja as lê com atenção ao modo humano de falar. Quando a Escritura atribui a Deus emoções e mudanças, usa a nossa linguagem para dizer algo verdadeiro, por exemplo, que Deus leva a sério a resposta do homem. Mas a nossa linguagem fica sempre aquém de Deus (CIC 42-43). O que muda é a nossa situação diante dele; Deus permanece fiel a si mesmo (CIC 212).
+Diz, em várias passagens: Deus se arrepende de ter feito o homem (Gn 6,6) e desiste do castigo que tinha anunciado a Nínive (Jn 3,10), e a Igreja as lê com atenção ao modo humano de falar. Quando a Escritura atribui a Deus emoções e mudanças, usa a nossa linguagem para dizer algo verdadeiro, por exemplo, que Deus leva a sério a resposta do homem. Mas a nossa linguagem fica sempre aquém de Deus (CIC 42-43). O que muda é a nossa situação diante dele; Deus permanece fiel a si mesmo (CIC 212).
 
 ### Se Deus é chamado de Pai, ele é homem?
 
