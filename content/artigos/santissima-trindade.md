@@ -1,6 +1,7 @@
 ---
 title: A Santíssima Trindade
 description: Um só Deus em três Pessoas. O que a Igreja ensina, como Deus revelou esse mistério e como a fé foi formulada sem cair nos erros mais comuns.
+obra: trindade-el-greco
 tema: deus-e-trindade
 secao: aprender
 status: em-revisao

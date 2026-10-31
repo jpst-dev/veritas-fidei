@@ -1,6 +1,7 @@
 ---
 title: Jesus é Deus?
 description: Muitos dizem que Jesus foi um grande profeta, mas nunca se disse Deus. O que os Evangelhos mostram e como responder às passagens que parecem dizer o contrário.
+obra: tome
 tema: deus-e-trindade
 secao: defesa-da-fe
 status: em-revisao

@@ -1,6 +1,7 @@
 ---
 title: O Espírito Santo
 description: A terceira Pessoa da Trindade, Senhor que dá a vida. Quem é o Espírito Santo, como a Bíblia o revela e o que ele faz na Igreja e em cada cristão.
+obra: pentecostes
 tema: deus-e-trindade
 secao: aprender
 status: em-revisao

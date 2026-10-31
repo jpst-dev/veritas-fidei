@@ -1,6 +1,7 @@
 ---
 title: Conhecer a Deus pela razão e pela fé
 description: O que a razão humana alcança sobre Deus, por que ela não basta e como Deus se revela. O ponto de partida para falar de Deus.
+obra: criacao-de-adao
 tema: deus-e-trindade
 secao: aprender
 status: em-revisao
