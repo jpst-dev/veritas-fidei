@@ -1,9 +1,11 @@
 ---
 title: A morte e o juízo
 description: "O que acontece quando morremos? O que a Igreja ensina sobre a morte, por que só se vive uma vez e o que é o juízo que cada um encontra logo depois de morrer."
+obra: morte-de-sao-jose
 tema: vida-eterna
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-31
 nivel: iniciante
 tags: [morte, juizo-particular, alma, novissimos, reencarnacao]
 referencias:
@@ -15,8 +17,8 @@ referencias:
     autor: Bento XII
     url: https://www.papalencyclicals.net/ben12/b12bdeus.htm
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 31/10/2026. Substitui o rascunho vida-eterna-ceu-inferno-purgatorio, apagado.
     Benedictus Deus conferida em papalencyclicals.net em 31/10/2026.

@@ -1,9 +1,11 @@
 ---
 title: O céu
 description: "O céu não é um lugar nas nuvens nem um descanso entediante. O que a Igreja ensina sobre a vida plena com Deus, a visão de Deus e a comunhão dos que estão nele."
+obra: adoracao-do-cordeiro
 tema: vida-eterna
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-31
 nivel: iniciante
 tags: [ceu, visao-beatifica, vida-eterna, novissimos, esperanca]
 referencias:
@@ -15,8 +17,8 @@ referencias:
     autor: Santo Agostinho
     url: https://www.newadvent.org/fathers/120122.htm
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 31/10/2026; não substitui rascunho.
     Agostinho, A Cidade de Deus XXII, 30, conferido em newadvent.org em 31/10/2026.

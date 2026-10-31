@@ -1,9 +1,11 @@
 ---
 title: O inferno
 description: "Um Deus de amor pode condenar alguém para sempre? O que a Igreja ensina sobre o inferno, por que ele é uma escolha da liberdade e o que ele não é."
+obra: queda-dos-anjos-rebeldes
 tema: vida-eterna
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-31
 nivel: intermediario
 tags: [inferno, novissimos, liberdade, pecado-mortal, condenacao]
 referencias:
@@ -16,8 +18,8 @@ referencias:
     autor: Santo Inácio de Antioquia
     url: https://www.newadvent.org/fathers/0104.htm
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 31/10/2026; não substitui rascunho.
     Audiência de João Paulo II de 28/07/1999 conferida no vatican.va e Inácio, Aos Efésios 16, em newadvent.org, em 31/10/2026.

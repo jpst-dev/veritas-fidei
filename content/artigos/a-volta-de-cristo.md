@@ -1,9 +1,11 @@
 ---
 title: A volta de Cristo e a ressurreição dos mortos
 description: "Cristo voltará, os mortos ressuscitarão e haverá um juízo final. O que a Igreja ensina sobre o fim dos tempos, e o que não se pode saber."
+obra: ascensao
 tema: vida-eterna
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-31
 nivel: intermediario
 tags: [parusia, ressurreicao-da-carne, juizo-final, fim-dos-tempos, novissimos]
 referencias:
@@ -17,8 +19,8 @@ referencias:
     autor: Congregação para a Doutrina da Fé
     url: https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_con_cfaith_doc_20160815_ad-resurgendum-cum-christo_po.html
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 31/10/2026. Substitui o rascunho segunda-vinda-cristo-fim-tempos, apagado.
     Ad resurgendum cum Christo, n. 3-7, conferida no vatican.va em 31/10/2026.

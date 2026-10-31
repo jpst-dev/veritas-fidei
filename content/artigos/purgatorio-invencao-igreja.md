@@ -1,10 +1,12 @@
 ---
 title: O purgatório é uma invenção da Igreja?
 description: "Se Cristo pagou tudo na cruz, por que uma purificação depois da morte? O que a Igreja ensina sobre o purgatório e de onde vem essa doutrina."
+obra: dante-e-os-tres-reinos
 tema: vida-eterna
 secao: defesa-da-fe
-status: em-revisao
+status: publicado
 publicadoEm: 2026-10-26
+atualizadoEm: 2026-10-31
 nivel: intermediario
 tags: [purgatorio, novissimos, oracao-pelos-mortos, indulgencias]
 quaestio:
@@ -39,8 +41,8 @@ referencias:
     autor: Santo Agostinho
     url: https://www.newadvent.org/fathers/110109.htm
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Reescrito do zero em 31/10/2026, no mesmo endereço (publicado antes em 26/10/2026).
     Trento, sessão XXV, Spe salvi 47, Tertuliano, A coroa do soldado 3, Cirilo, Catequeses mistagógicas V, 9, e Agostinho, Confissões IX, 11, conferidos em 31/10/2026.
