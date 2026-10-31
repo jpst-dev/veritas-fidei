@@ -44,6 +44,10 @@ revisao:
   notas: >-
     Reescrito do zero em 31/10/2026, no mesmo endereço (publicado antes em 26/10/2026).
     Trento, sessão XXV, Spe salvi 47, Tertuliano, A coroa do soldado 3, Cirilo, Catequeses mistagógicas V, 9, e Agostinho, Confissões IX, 11, conferidos em 31/10/2026.
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 31/10/2026: existem e dizem o que o texto afirma.
+    CNBB impressa, opcional: "como que através do fogo" (1Cor 3,15).
+    Parecer doutrinal interno: favorável com correções em 31/10/2026, correções aplicadas (docs/pareceres/purgatorio-invencao-igreja.md).
 ---
 
 Para muitos cristãos evangélicos, o purgatório é o exemplo clássico de algo que a Igreja Católica acrescentou à Bíblia: uma doutrina medieval, ligada à venda de indulgências, que no fundo duvidaria de que a cruz de Cristo basta. E muitos católicos, quando ouvem a objeção, não sabem o que responder, ou imaginam o purgatório como um inferno com prazo de validade.
@@ -68,7 +72,7 @@ O ensinamento da Igreja é mais sóbrio do que muitos imaginam:
 >
 > — CIC 1030
 
-O purgatório é a purificação final **dos eleitos**, isto é, de quem já está salvo, e é absolutamente distinto do castigo dos condenados (CIC 1031). Não é uma segunda chance para quem recusou Deus. A Igreja pode ajudar essas almas com a oração, sobretudo a Missa, com a esmola, as indulgências e as obras de penitência (CIC 1032).
+O purgatório é a purificação final **dos eleitos**, isto é, de quem já está salvo, e é absolutamente distinto do castigo dos condenados (CIC 1031). Não é uma segunda chance para quem recusou Deus. A Igreja pode ajudar essas almas com a oração, sobretudo a Missa, com a esmola, as indulgências e as obras de penitência (CIC 1032). A indulgência não é o perdão de um pecado, muito menos a sua compra: é a remissão da pena temporal de pecados cuja culpa já foi perdoada, que a Igreja concede a partir do tesouro das satisfações de Cristo e dos santos (CIC 1471).
 
 A doutrina foi formulada sobretudo nos concílios de Florença e de Trento (CIC 1031). O que é de fé é pouco: existe uma purificação depois da morte, e as almas que passam por ela são ajudadas pelas orações dos vivos (Concílio de Trento, sessão XXV, Decreto sobre o purgatório). A Igreja não definiu onde é, quanto tempo dura nem como é esse “fogo”. Trento mandou até que os pregadores deixassem de lado as questões difíceis e sutis, o que é incerto e o que cheira a superstição ou a lucro (idem).
 
@@ -104,7 +108,7 @@ Os cristãos herdaram essa prática desde o começo:
 
 **3. “O ladrão foi direto para o paraíso.”** A Igreja não diz que todos passam pelo purgatório. Uma conversão nascida de uma caridade ardente pode purificar o pecador por inteiro, de modo que nenhuma pena subsista (CIC 1472). O homem que, crucificado, reconhece Jesus e lhe confia a vida é um exemplo disso.
 
-**4. “A Bíblia não fala de purgatório.”** A palavra não está na Bíblia, como também não estão “Trindade” e “encarnação”. A realidade está: a salvação “como que através do fogo” (1Cor 3,15) e a oração pelos mortos (2Mc 12,46). Quanto a 2 Macabeus, o livro fazia parte da Bíblia grega usada pelos primeiros cristãos e foi recebido no cânon pelos concílios africanos do fim do século IV. Foram os reformadores, no século XVI, que o deixaram fora.
+**4. “A Bíblia não fala de purgatório.”** A palavra não está na Bíblia, como também não estão “Trindade” e “encarnação”. A realidade está: a salvação “como que através do fogo” (1Cor 3,15) e a oração pelos mortos (2Mc 12,46). Quanto a 2 Macabeus, o livro fazia parte da Bíblia grega usada pelos primeiros cristãos e foi recebido na lista dos livros sagrados pelos concílios de Hipona (393) e de Cartago (397). Foram os reformadores, no século XVI, que o deixaram fora; o Concílio de Trento confirmou então o cânon, que o Catecismo reproduz com os dois livros dos Macabeus (CIC 120).
 
 **5. “Foi inventado na Idade Média para dar dinheiro.”** A oração pelos mortos é anterior a Cristo, e a dos cristãos está atestada desde os primeiros séculos, como mostram Tertuliano, Cirilo e Agostinho. A Idade Média trouxe a palavra “purgatório” e, sim, abusos reais na pregação das indulgências. A própria Igreja os condenou em Trento, que mandou abolir todo lucro ligado a elas (Concílio de Trento, sessão XXV, Decreto sobre as indulgências). Um abuso não torna falsa a doutrina de que se abusou.
 
