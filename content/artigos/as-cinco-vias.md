@@ -1,9 +1,11 @@
 ---
 title: As cinco vias
 description: "Como a razão pode chegar à existência de Deus: as cinco vias de Santo Tomás de Aquino explicadas passo a passo, e o que elas provam e o que não provam."
+obra: apoteose-de-santo-tomas
 tema: fe-e-razao
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-31
 nivel: intermediario
 tags: [existencia-de-deus, cinco-vias, tomas-de-aquino, teologia-natural, filosofia]
 referencias:
@@ -16,8 +18,8 @@ referencias:
   - titulo: Catecismo da Igreja Católica, 31-38 (os caminhos para conhecer a Deus)
     url: https://www.vatican.va/archive/cathechism_po/index_new/p1s1c1_26-49_po.html
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 31/10/2026. Substitui os rascunhos cinco-vias-tomas-aquino e teologia-natural-existencia-deus, apagados.
     Tomás de Aquino, Suma Teológica I, q. 2, a. 2-3, e I, q. 46, a. 2 ad 7, conferidos em newadvent.org em 31/10/2026.

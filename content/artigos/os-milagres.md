@@ -1,9 +1,11 @@
 ---
 title: Os milagres
 description: "O que é um milagre, para que servem os sinais de Jesus e dos santos, e como a Igreja examina uma cura antes de chamá-la de milagre."
+obra: ressurreicao-de-lazaro
 tema: fe-e-razao
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-31
 nivel: intermediario
 tags: [milagres, sinais, credibilidade, lourdes, canonizacao, fe-e-razao]
 referencias:
@@ -17,8 +19,8 @@ referencias:
   - titulo: Lourdes announces 72nd miracle (Catholic World Report, 16/04/2025)
     url: https://www.catholicworldreport.com/2025/04/16/lourdes-announces-72nd-miracle/
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 31/10/2026. Não substitui nenhum rascunho.
     Tomás de Aquino, Suma Teológica I, q. 105, a. 7-8, conferido em newadvent.org em 31/10/2026.

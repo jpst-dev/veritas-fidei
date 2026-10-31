@@ -1,9 +1,11 @@
 ---
 title: A alma humana
 description: "O que a Igreja ensina sobre a alma: forma do corpo, espiritual, criada por Deus e imortal. E por que a razão também chega a ela."
+obra: ascensao-ao-empireo
 tema: fe-e-razao
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-31
 nivel: intermediario
 tags: [alma, corpo, pessoa-humana, imortalidade, hilemorfismo, filosofia]
 referencias:
@@ -16,8 +18,8 @@ referencias:
     autor: Santo Tomás de Aquino
     url: https://www.newadvent.org/summa/1076.htm
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 31/10/2026. Substitui os rascunhos hilemorfismo-corpo-alma e consciencia-irredutibilidade-mente, apagados.
     Tomás de Aquino, Suma Teológica I, q. 75, a. 2-3 e a. 6, q. 76, a. 1, e q. 84, a. 7, conferidos em newadvent.org em 31/10/2026.

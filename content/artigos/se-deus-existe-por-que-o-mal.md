@@ -1,9 +1,11 @@
 ---
 title: Se Deus existe, por que o mal?
 description: "Se Deus é bom e todo-poderoso, por que permite o sofrimento? O que a razão pode dizer, o que só a fé responde, e onde está Deus quando sofremos."
+obra: crucifixao-de-isenheim
 tema: fe-e-razao
 secao: defesa-da-fe
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-31
 nivel: intermediario
 tags: [problema-do-mal, sofrimento, providencia, liberdade, teodiceia, cruz]
 quaestio:
@@ -32,8 +34,8 @@ referencias:
     autor: São João Paulo II
     url: https://www.vatican.va/content/john-paul-ii/pt/apost_letters/1984/documents/hf_jp-ii_apl_11021984_salvifici-doloris.html
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 31/10/2026. Substitui o rascunho problema-mal, apagado.
     Tomás de Aquino, Suma Teológica I, q. 2, a. 3, obj. 1 e ad 1, e q. 48, a. 1, conferidos em newadvent.org em 31/10/2026.

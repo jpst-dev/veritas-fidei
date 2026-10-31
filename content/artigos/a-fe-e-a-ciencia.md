@@ -1,9 +1,11 @@
 ---
 title: A fé e a ciência
 description: "A verdade não contradiz a verdade: o que a Igreja ensina sobre a fé e a ciência, o Big Bang, a evolução e o caso Galileu."
+obra: o-astronomo
 tema: fe-e-razao
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-31
 nivel: intermediario
 tags: [ciencia, criacao, evolucao, big-bang, galileu, fe-e-razao]
 referencias:
@@ -24,8 +26,8 @@ referencias:
     autor: São João Paulo II
     url: https://www.vatican.va/content/john-paul-ii/it/speeches/1992/october/documents/hf_jp-ii_spe_19921031_accademia-scienze.html
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 31/10/2026. Substitui os rascunhos big-bang-cosmologia-catolica e criacao-evolucao-perspectiva-catolica, apagados.
     Gaudium et spes 36 e Humani generis 36 conferidos no texto oficial do vatican.va em 31/10/2026.
