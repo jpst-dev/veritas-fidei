@@ -21,6 +21,10 @@ revisao:
   notas: >-
     Escrito do zero em 31/10/2026. Substitui os rascunhos hilemorfismo-corpo-alma e consciencia-irredutibilidade-mente, apagados.
     Tomás de Aquino, Suma Teológica I, q. 75, a. 2-3 e a. 6, q. 76, a. 1, e q. 84, a. 7, conferidos em newadvent.org em 31/10/2026.
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 31/10/2026: existem e dizem o que o texto afirma.
+    Nenhuma expressão bíblica entre aspas a conferir na CNBB.
+    Parecer doutrinal interno: favorável com correções em 31/10/2026, correções aplicadas (docs/pareceres/a-alma-humana.md).
 ---
 
 Hoje é comum ouvir que o ser humano é só um cérebro muito complexo, e que a alma é uma ideia antiga que a neurociência aposentou. No extremo oposto, há quem imagine a alma como um fantasma preso dentro do corpo, que um dia se liberta e segue sozinho. Nenhuma das duas imagens é a da Igreja.
@@ -45,9 +49,9 @@ São quatro verdades: a alma é **espiritual**, é **criada diretamente por Deus
 
 ### A alma é a forma do corpo
 
-O ponto mais surpreendente da doutrina católica é a **unidade**. O homem não é uma alma que usa um corpo, como quem dirige um carro. A Igreja ensina que a alma é a **forma** do corpo: é graças a ela que a matéria é um corpo humano e vivo. Espírito e matéria, no homem, não são duas naturezas unidas, mas a sua união forma uma única natureza (CIC 365).
+O ponto mais surpreendente da doutrina católica é a **unidade**. O homem não é uma alma que usa um corpo, como quem dirige um carro. A Igreja ensina que a alma é a **forma** do corpo: é graças a ela que a matéria é um corpo humano e vivo. Espírito e matéria, no homem, não são duas naturezas unidas, mas a sua união forma uma única natureza (CIC 365). Não é uma opinião de escola: o Concílio de Vienne, em 1312, definiu que a alma racional é, por si mesma e essencialmente, a forma do corpo humano.
 
-“Forma” aqui é uma palavra técnica, herdada de Aristóteles e desenvolvida por Santo Tomás. Não quer dizer o formato exterior, mas o princípio que faz uma coisa ser o que é. A mesma matéria, com outra forma, seria outra coisa. Tomás explica: aquilo pelo qual o corpo primeiro vive é a alma; é por ela que nos nutrimos, sentimos, nos movemos e também entendemos (Santo Tomás de Aquino, *Suma Teológica*, I, q. 76, a. 1). Uma só alma é princípio de toda a vida humana, da digestão ao pensamento.
+“Forma” aqui é uma palavra técnica, herdada de Aristóteles e desenvolvida por Santo Tomás. Não quer dizer o formato exterior, mas o princípio que faz uma coisa ser o que é. A mesma matéria, com outra forma, seria outra coisa. Tomás explica: aquilo pelo qual o corpo primeiro vive é a alma; é por ela que nos nutrimos, sentimos, nos movemos e também entendemos (Santo Tomás de Aquino, *Suma Teológica*, I, q. 76, a. 1). Uma só alma é princípio de toda a vida humana, da digestão ao pensamento. A Igreja não impõe a filosofia de Tomás como tal, mas encontrou nela as palavras mais exatas para dizer o que crê.
 
 ### O corpo tem dignidade
 
@@ -73,7 +77,7 @@ A neurociência estuda com proveito essas condições. O que ela não pode fazer
 
 Se a alma humana tem uma operação própria, que não é de nenhum órgão, ela tem também um ser próprio. E o que existe por si não se corrompe quando outra coisa se corrompe. O corpo se desfaz porque é composto; a alma, que não é composta de matéria, não tem por onde se desfazer. Por isso a alma humana é **incorruptível** (*Suma Teológica*, I, q. 75, a. 6).
 
-A Igreja ensina a imortalidade da alma como verdade de fé (CIC 366). Mas é uma verdade que a razão também alcança, e muitos filósofos antes de Cristo, como Platão, já a defendiam.
+A Igreja ensina a imortalidade da alma como verdade de fé (CIC 366), definida pelo V Concílio de Latrão em 1513. Mas é uma verdade que a razão também alcança, e filósofos antes de Cristo, como Platão, já a defendiam. Platão, porém, via o corpo como uma prisão da alma, a imagem do fantasma que este artigo recusou no início. A fé conserva o que ele viu de verdadeiro e corrige o resto: a alma é imortal, mas foi feita para o corpo.
 
 ## A alma vem de Deus
 
@@ -93,7 +97,7 @@ São Paulo fala em espírito, alma e corpo (1Ts 5,23). A Igreja ensina que essa 
 
 ### O que acontece com a alma depois da morte?
 
-Na morte, a alma se separa do corpo e vai ao encontro de Deus, à espera de se reunir ao corpo glorificado (CIC 997). Jesus disse: não temais os que matam o corpo, mas não podem matar a alma (Mt 10,28). A trilha Vida eterna trata disso com mais detalhe.
+Na morte, a alma se separa do corpo e vai ao encontro de Deus, à espera de se reunir ao corpo glorificado (CIC 997). Como a alma é forma do corpo, a alma separada continua viva e consciente, mas não é a pessoa inteira. Por isso a ressurreição não é um detalhe: é a plenitude do homem que Deus criou. Jesus disse: não temais os que matam o corpo, mas não podem matar a alma (Mt 10,28). A trilha Vida eterna trata disso com mais detalhe.
 
 ## Em resumo
 
