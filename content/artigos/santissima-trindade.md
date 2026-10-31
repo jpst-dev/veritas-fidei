@@ -31,6 +31,10 @@ revisao:
     pela conferência na Nova Vulgata). Mesmo endereço; publicadoEm mantido.
     Padres conferidos em 30/10/2026 em newadvent.org: Didaqué 7 (fórmula batismal); Teófilo, A Autólico II,15 (“Trindade:
     Deus, o seu Verbo e a sua Sabedoria”); Tertuliano, Contra Práxeas 2 (“três Pessoas… de uma só substância”).
+    Citações do Catecismo conferidas pelo verificador (CIC 266 citado só em parte: o texto oficial tem “confudir”).
+    Referências conferidas na Nova Vulgata (npm run biblia) em 30/10/2026: existem e dizem o que o texto afirma.
+    Opcional: conferir a redação na CNBB impressa da saudação de 2Cor 13,13, citada pelo Catecismo (CIC 249).
+    Parecer doutrinal interno: favorável com correções em 30/10/2026, correções aplicadas (docs/pareceres/santissima-trindade.md).
 ---
 
 Todo cristão começa e termina a oração do mesmo jeito: em nome do Pai, e do Filho, e do Espírito Santo. É o sinal da cruz, que fazemos tantas vezes que quase não pensamos no que ele diz. Mas ele resume o mistério mais profundo da fé. Fomos batizados com essas palavras, como Jesus mandou (Mt 28,19), e o Catecismo nota um detalhe: somos batizados “em nome”, no singular, e não “nos nomes”, porque não há senão um só Deus (CIC 233).
@@ -59,7 +63,7 @@ A palavra “Trindade” não aparece na Bíblia. O que aparece é a realidade: 
 
 ### Sinais no Antigo Testamento
 
-O Antigo Testamento é firmemente monoteísta: o Senhor nosso Deus é o único Senhor (Dt 6,4). Ainda assim, o Catecismo diz que Deus deixou “traços do seu Ser trinitário” na criação e na revelação a Israel (CIC 237). Os Padres da Igreja viram um desses traços na visita dos três homens a Abraão, junto aos carvalhos de Mambré, a quem ele acolhe como se fossem um só Senhor (Gn 18,1-3). É a cena que o ícone de Rublev pinta. Mas esses sinais só se leem assim à luz de Cristo; sozinhos, não revelam a Trindade.
+O Antigo Testamento é firmemente monoteísta: o Senhor nosso Deus é o único Senhor (Dt 6,4). Ainda assim, o Catecismo diz que Deus deixou “traços do seu Ser trinitário” na criação e na revelação a Israel (CIC 237). Muitos Padres da Igreja viram um desses traços na visita dos três homens a Abraão, junto aos carvalhos de Mambré: ele se dirige a eles ora no singular, como a um só Senhor, ora no plural (Gn 18,1-5). É a cena que o ícone de Rublev pinta. Mas esses sinais só se leem assim à luz de Cristo; sozinhos, não revelam a Trindade.
 
 ### O Pai revelado pelo Filho
 
@@ -75,11 +79,11 @@ As três Pessoas aparecem juntas em momentos decisivos. No batismo de Jesus, o E
 
 ## Na Tradição
 
-Desde o começo, a Igreja vivia essa fé antes de ter palavras técnicas para ela, sobretudo no batismo (CIC 249). A *Didaqué*, um manual cristão do fim do século I, já manda batizar “em nome do Pai, e do Filho, e do Espírito Santo” (*Didaqué*, 7).
+Desde o começo, a Igreja vivia essa fé antes de ter palavras técnicas para ela, sobretudo no batismo (CIC 249). A *Didaqué*, um manual cristão do fim do século I ou do começo do II, já manda batizar “em nome do Pai, e do Filho, e do Espírito Santo” (*Didaqué*, 7).
 
 As palavras vieram aos poucos. Por volta de 180, São Teófilo de Antioquia é o primeiro autor conhecido a usar a palavra “Trindade”, ao falar de Deus, do seu Verbo e da sua Sabedoria (São Teófilo de Antioquia, *A Autólico*, II,15). No início do século III, Tertuliano escreve que a única divindade se distribui em três Pessoas, Pai, Filho e Espírito Santo, que são “de uma só substância” (Tertuliano, *Contra Práxeas*, 2).
 
-Os grandes concílios fixaram a linguagem diante dos erros. Em **Niceia**, em 325, a Igreja confessou que o Filho é “consubstancial” ao Pai, isto é, um só Deus com ele (CIC 242). Em **Constantinopla**, em 381, confessou o Espírito Santo, “Senhor que dá a vida”, que “com o Pai e o Filho, é adorado e glorificado” (CIC 245). É o Credo que rezamos na Missa.
+Os grandes concílios fixaram a linguagem diante dos erros. Em **Niceia**, em 325, a Igreja confessou que o Filho é “consubstancial” ao Pai, isto é, um só Deus com ele (CIC 242). Em **Constantinopla**, em 381, confessou o Espírito Santo, “Senhor que dá a vida”, que “com o Pai e o Filho, é adorado e glorificado” (CIC 245). É o Credo mais longo, rezado na Missa.
 
 Para isso, a Igreja usou palavras da filosofia, mas deu a elas um sentido novo (CIC 251). **Substância**, ou natureza, diz o que Deus é: uma só. **Pessoa** diz quem é: o Pai, o Filho, o Espírito Santo, três. **Relação** diz como as Pessoas se distinguem: uma em referência à outra (CIC 252).
 
@@ -89,8 +93,8 @@ Um ponto ainda separa católicos e ortodoxos. A tradição latina diz no Credo q
 
 Quase todos os erros sobre a Trindade caem em um de três tipos. Conhecê-los ajuda a entender por que a Igreja fala como fala.
 
-- **Negar a distinção das Pessoas.** É dizer que Pai, Filho e Espírito Santo são máscaras ou fases do mesmo Deus, que ora age como Pai, ora como Filho. No século III, esse erro foi chamado de modalismo. A Igreja responde que os nomes não são “meros nomes que designam modalidades do ser divino” (CIC 254).
-- **Negar a igualdade das Pessoas.** É fazer do Filho ou do Espírito uma criatura, ainda que a mais alta de todas. Foi o erro de Ário, condenado em Niceia. Por isso o Credo diz que o Filho é “gerado, não criado” (CIC 242).
+- **Negar a distinção das Pessoas.** É dizer que Pai, Filho e Espírito Santo são máscaras ou fases do mesmo Deus, que ora age como Pai, ora como Filho. Esse erro, defendido no século III por Sabélio e outros, é chamado hoje de modalismo. A Igreja responde que os nomes não são “meros nomes que designam modalidades do ser divino” (CIC 254).
+- **Negar a igualdade das Pessoas.** É fazer do Filho ou do Espírito uma criatura, ainda que a mais alta de todas. Foi o erro de Ário, condenado em Niceia; por isso o Credo diz que o Filho é “gerado, não criado” (CIC 242). Os que negavam a divindade do Espírito Santo foram respondidos em Constantinopla.
 - **Negar a unidade.** É imaginar três deuses associados, como três sócios. A Igreja responde que as Pessoas não dividem entre si a divindade única (CIC 253).
 
 As comparações populares costumam cair num desses erros. A água que pode ser gelo, líquido e vapor sugere três estados sucessivos da mesma coisa, que é o modalismo. Três pessoas humanas lado a lado sugerem três deuses. Nenhuma imagem dá conta do mistério; quando usadas, servem só para mostrar que um e três, ditos em sentidos diferentes, não se contradizem.
