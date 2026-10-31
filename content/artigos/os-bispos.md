@@ -26,6 +26,10 @@ revisao:
   notas: >-
     Escrito do zero em 31/10/2026. Substitui o rascunho sucessao-apostolica, apagado.
     Clemente, Aos Coríntios 42 e 44, Inácio, Aos Esmirnenses 8, e Tertuliano, A prescrição dos hereges 32, conferidos em newadvent.org em 31/10/2026.
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 31/10/2026: existem e dizem o que o texto afirma.
+    CNBB impressa, opcional: “pareceu bem ao Espírito Santo e a nós” (At 15,28).
+    Parecer doutrinal interno: favorável com correções em 31/10/2026, correções aplicadas (docs/pareceres/os-bispos.md).
 ---
 
 Quando se fala da hierarquia da Igreja, muita gente pensa numa estrutura de poder montada ao longo dos séculos, como a de uma empresa ou de um Estado. Os bispos seriam uma espécie de gerentes regionais, e o papa, o presidente.
@@ -72,7 +76,7 @@ Os bispos não são delegados do papa: a sua autoridade vem do sacramento e é p
 
 Assim como os Doze formavam um grupo com Pedro à frente, os bispos formam um **colégio** com o papa à frente (CIC 880). Cada bispo cuida da sua diocese, mas todos são responsáveis, juntos, pela Igreja inteira (CIC 886).
 
-O colégio não tem autoridade sem o papa, mas, unido a ele, tem o poder supremo sobre toda a Igreja (CIC 883). A expressão mais solene disso são os **concílios ecumênicos**, como os de Niceia, Trento e o Vaticano II. O primeiro modelo está nos Atos: em Jerusalém, os Apóstolos e os anciãos se reuniram para decidir uma questão que dividia a Igreja, e a decisão foi comunicada com as palavras “pareceu bem ao Espírito Santo e a nós” (At 15,6.28).
+O colégio não tem autoridade sem o papa, mas, unido a ele, tem o poder supremo sobre toda a Igreja (CIC 883). A expressão mais solene disso são os **concílios ecumênicos**, como os de Niceia, Trento e o Vaticano II; e não há concílio ecumênico que não seja confirmado, ou ao menos aceito, pelo sucessor de Pedro (CIC 884). O primeiro modelo está nos Atos: em Jerusalém, os Apóstolos e os anciãos se reuniram para decidir uma questão que dividia a Igreja, e a decisão foi comunicada com as palavras “pareceu bem ao Espírito Santo e a nós” (At 15,6.28).
 
 ## Dúvidas comuns
 
@@ -82,11 +86,11 @@ Porque os próprios Apóstolos não deixaram só escritos: deixaram pessoas. O N
 
 ### No Novo Testamento, “bispo” e “presbítero” não eram a mesma coisa?
 
-Às vezes, sim. Em alguns textos os dois termos aparecem para as mesmas pessoas (At 20,17.28; Tt 1,5-7): o vocabulário ainda não estava fixo. Mas a função de que fala a sucessão já existia: Timóteo e Tito recebem dos Apóstolos a autoridade de estabelecer e de corrigir os presbíteros. No começo do século II, as cartas de Inácio já mostram em várias Igrejas os três graus que conhecemos, bispo, presbíteros e diáconos.
+Às vezes, sim. Em alguns textos os dois termos aparecem para as mesmas pessoas (At 20,17.28; Tt 1,5-7): o vocabulário ainda não estava fixo. Mas a função de que fala a sucessão já existia: Timóteo e Tito recebem dos Apóstolos a autoridade de estabelecer e de corrigir os presbíteros (1Tm 5,19-22; Tt 1,5). No começo do século II, as cartas de Inácio já mostram em várias Igrejas os três graus que conhecemos, bispo, presbíteros e diáconos.
 
 ### E quando um bispo erra ou dá escândalo?
 
-O sacramento não torna ninguém impecável. Houve e há bispos que falharam gravemente, e a Igreja tem o dever de corrigir e de reparar. O próprio Novo Testamento mostra disputas e falhas entre os pastores. A sucessão garante que a missão e os sacramentos continuam, não que cada bispo seja santo. Por isso a Igreja reza por eles em toda Missa.
+O sacramento não torna ninguém impecável. Houve e há bispos que falharam gravemente, e a Igreja tem o dever de corrigir e de reparar. O próprio Novo Testamento mostra disputas e falhas entre os pastores. A sucessão garante que a missão e os sacramentos continuam, não que cada bispo seja santo. E a Igreja reza pelo papa e pelo bispo em toda Missa.
 
 ### Os ortodoxos têm bispos verdadeiros?
 
