@@ -30,6 +30,11 @@ revisao:
     Escrito do zero em 31/10/2026. Substitui os rascunhos big-bang-cosmologia-catolica e criacao-evolucao-perspectiva-catolica, apagados.
     Gaudium et spes 36 e Humani generis 36 conferidos no texto oficial do vatican.va em 31/10/2026.
     Mensagem de 1996 (4-6) e discurso de 1992 (5-12) de São João Paulo II conferidos no texto italiano do vatican.va (não há versão portuguesa) em 31/10/2026.
+    Tomás de Aquino, Suma Teológica I, q. 46, a. 2, conferido em newadvent.org.
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 31/10/2026: existem e dizem o que o texto afirma.
+    Nenhuma expressão bíblica entre aspas a conferir na CNBB.
+    Parecer doutrinal interno: favorável com correções em 31/10/2026, correções aplicadas (docs/pareceres/a-fe-e-a-ciencia.md).
 ---
 
 Muita gente cresceu ouvindo que a ciência e a fé são inimigas: uma fala de fatos, a outra de crenças; uma avançou queimando a outra. Nessa história, o caso Galileu aparece como prova, e a evolução como o golpe final.
@@ -60,7 +65,7 @@ A ciência mede, testa e descreve como a natureza funciona. A fé, e também a f
 
 Daí uma regra de leitura. A Escritura ensina, sem erro, a verdade que Deus quis consignar nela **para a nossa salvação** (CIC 107). Ela não pretende ensinar astronomia nem biologia. Os seis dias da criação são uma apresentação **simbólica** da obra de Deus (CIC 337): o texto ensina que tudo vem de Deus, que tudo é bom, que o homem é imagem de Deus. Não diz quanto tempo levou, nem em que ordem os astros se formaram.
 
-Um cardeal do tempo de Galileu, César Barônio, resumiu isso numa frase que ficou famosa: o Espírito Santo quis nos ensinar como se vai para o céu, e não como vai o céu.
+Uma frase atribuída a um cardeal do tempo de Galileu, César Barônio, resume isso: o Espírito Santo quis nos ensinar como se vai para o céu, e não como vai o céu (citada por São João Paulo II, Discurso à Pontifícia Academia das Ciências, 1992, 12).
 
 ## A origem do universo e do homem
 
@@ -68,7 +73,7 @@ Um cardeal do tempo de Galileu, César Barônio, resumiu isso numa frase que fic
 
 Foi um padre católico, o belga **Georges Lemaître**, quem propôs em 1927 que o universo está em expansão e, depois, que teve origem num estado inicial muito denso e quente, a ideia que hoje chamamos de Big Bang. Lemaître era ao mesmo tempo sacerdote e cosmólogo de primeira linha, e nunca viu conflito entre as duas coisas.
 
-Mas ele mesmo insistia num ponto: o Big Bang **não é** a prova científica da criação. A criação, no sentido cristão, não é uma explosão no começo do tempo. É o ato pelo qual Deus dá o ser a tudo o que existe, **em todo momento**. Santo Tomás já distinguia as duas coisas: que o mundo depende de Deus para existir, a razão o demonstra; que o mundo teve um começo no tempo, sabemos pela fé (Santo Tomás de Aquino, *Suma Teológica*, I, q. 46, a. 2). Se um dia a física descrever algo “antes” do Big Bang, nada muda na fé: o universo continuará sem explicar por si mesmo a sua existência.
+Mas é preciso cuidado: o Big Bang **não é** a prova científica da criação, e Lemaître evitava misturar a sua teoria física com a teologia. A criação, no sentido cristão, não é uma explosão no começo do tempo. É o ato pelo qual Deus dá o ser a tudo o que existe, **em todo momento**. Santo Tomás já distinguia as duas coisas: que o mundo depende de Deus para existir, a razão o demonstra; que o mundo teve um começo no tempo, sabemos pela fé (Santo Tomás de Aquino, *Suma Teológica*, I, q. 46, a. 2). Se um dia a física descrever algo “antes” do Big Bang, nada muda na fé: o universo continuará sem explicar por si mesmo a sua existência.
 
 ### A evolução: o que a Igreja permite
 
@@ -86,7 +91,7 @@ O conflito, portanto, não é entre a fé e a biologia, mas entre a fé e o **ma
 
 ### O que aconteceu
 
-Em 1633, Galileu Galilei foi condenado pelo Santo Ofício por defender que a Terra gira em torno do Sol. É o episódio mais citado para provar que a Igreja é inimiga da ciência.
+Em 1633, Galileu Galilei foi julgado pelo Santo Ofício por defender que a Terra gira em torno do Sol. Foi declarado “veementemente suspeito de heresia”, obrigado a abjurar e condenado à prisão, que cumpriu em casa até a morte. É o episódio mais citado para provar que a Igreja é inimiga da ciência.
 
 São João Paulo II tratou do caso em 1992, ao receber as conclusões de uma comissão que ele mesmo criara para estudá-lo. Reconheceu que a maior parte dos teólogos da época errou: pensou que o conhecimento do mundo físico era imposto pelo sentido literal da Escritura, quando a Escritura não se ocupa dos detalhes do mundo físico. E observou que Galileu, crente sincero, foi nesse ponto **mais perspicaz que os seus adversários teólogos**: ele escreveu que a Escritura não pode errar, mas os seus intérpretes podem (Discurso de 31/10/1992, 5 e 12).
 
@@ -94,7 +99,7 @@ São João Paulo II tratou do caso em 1992, ao receber as conclusões de uma com
 
 O papa chamou o episódio de uma trágica incompreensão recíproca, que depois foi transformada num mito: o de uma oposição essencial entre ciência e fé (Discurso de 1992, 10). O caso foi real e doloroso, e a Igreja o reconhece. Mas é uma exceção que confirma a regra do Concílio: o erro não estava na fé, e sim numa leitura da Bíblia que lhe atribuía o que ela não queria ensinar.
 
-E a regra vale também no outro sentido. A Igreja fundou universidades, manteve observatórios e teve entre os seus filhos cientistas como Copérnico, que era cônego, Gregor Mendel, monge agostiniano e pai da genética, e o próprio Lemaître.
+E a regra vale também no outro sentido. A Igreja fundou universidades, manteve observatórios e teve entre os seus filhos cientistas como Copérnico, que era cônego, Gregor Mendel, frade agostiniano e pai da genética, e o próprio Lemaître.
 
 ## Dúvidas comuns
 
