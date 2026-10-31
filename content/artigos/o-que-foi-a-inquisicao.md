@@ -1,9 +1,11 @@
 ---
 title: O que foi a Inquisição?
 description: "A Inquisição matou milhões em nome de Cristo? O que os historiadores mostram, o que a lenda acrescentou, e por que a Igreja pediu perdão."
+obra: tribunal-da-inquisicao
 tema: historia-da-igreja
 secao: defesa-da-fe
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-31
 nivel: intermediario
 tags: [inquisicao, liberdade-religiosa, pedido-de-perdao, historia, lenda-negra]
 quaestio:
@@ -34,8 +36,8 @@ referencias:
   - titulo: Catecismo da Igreja Católica, 2104-2109 (o direito à liberdade religiosa)
     url: https://www.vatican.va/archive/cathechism_po/index_new/p3s2cap1_2083-2195_po.html
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 31/10/2026. Substitui o rascunho igreja-e-inquisicao, apagado.
     Carta de São João Paulo II de 15/06/2004 e Dignitatis humanae 2 e 12 conferidas no texto oficial do vatican.va em 31/10/2026.

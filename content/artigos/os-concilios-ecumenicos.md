@@ -1,9 +1,11 @@
 ---
 title: Os concílios ecumênicos
 description: "O que é um concílio ecumênico, por que a Igreja os reúne e o que os grandes concílios da Antiguidade definiram sobre Cristo e a Trindade."
+obra: concilio-de-niceia
 tema: historia-da-igreja
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-31
 nivel: intermediario
 tags: [concilios, niceia, efeso, calcedonia, magisterio, historia]
 referencias:
@@ -15,8 +17,8 @@ referencias:
     autor: Concílio Vaticano II
     url: https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19641121_lumen-gentium_po.html
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 31/10/2026. Substitui os rascunhos concilios-ecumenicos, concilio-niceia e concilio-efeso, apagados.
     Lumen gentium 22 conferido no texto oficial do vatican.va em 31/10/2026.

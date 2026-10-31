@@ -1,9 +1,11 @@
 ---
 title: A Igreja dos mártires
 description: "Os três primeiros séculos do cristianismo: por que Roma perseguiu os cristãos, como eles viviam e morriam, e como a perseguição terminou."
+obra: ultima-oracao-dos-martires
 tema: historia-da-igreja
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-31
 nivel: iniciante
 tags: [martires, perseguicoes, igreja-primitiva, imperio-romano, constantino, historia]
 referencias:
@@ -27,8 +29,8 @@ referencias:
   - titulo: Catecismo da Igreja Católica, 2473-2474 (o martírio)
     url: https://www.vatican.va/archive/cathechism_po/index_new/p3s2cap2_2196-2557_po.html
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 31/10/2026. Substitui os rascunhos cristaos-tres-primeiros-seculos, perseguicoes-martires e constantino-edito-milao, apagados.
     Tácito, Anais XV,44, e Plínio, Cartas X,96, conferidos no texto latino (thelatinlibrary.com) em 31/10/2026.

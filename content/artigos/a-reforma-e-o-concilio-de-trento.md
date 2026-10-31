@@ -1,9 +1,11 @@
 ---
 title: A Reforma e o Concílio de Trento
 description: "Por que o cristianismo ocidental se dividiu no século XVI, o que Lutero contestava, o que Trento respondeu e como a Igreja se renovou com os seus santos."
+obra: concilio-de-trento-cati
 tema: historia-da-igreja
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-31
 nivel: intermediario
 tags: [reforma, lutero, trento, justificacao, contrarreforma, historia]
 referencias:
@@ -17,8 +19,8 @@ referencias:
   - titulo: Catecismo da Igreja Católica, 1987-2011 (a justificação, a graça e o mérito)
     url: https://www.vatican.va/archive/cathechism_po/index_new/p3s1cap3_1949-2051_po.html
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 31/10/2026. Substitui o rascunho reforma-protestante-catolica, apagado.
     Concílio de Trento, sessões IV e VI, conferidas na tradução de Waterworth (history.hanover.edu) em 31/10/2026.

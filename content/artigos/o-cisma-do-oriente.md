@@ -1,9 +1,11 @@
 ---
 title: O Cisma do Oriente
 description: "Como católicos e ortodoxos se separaram: o afastamento gradual, 1054, o Filioque, o primado do papa, e o caminho de reaproximação depois do Vaticano II."
+obra: cruzados-em-constantinopla
 tema: historia-da-igreja
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-31
 nivel: intermediario
 tags: [cisma, ortodoxos, 1054, filioque, ecumenismo, historia]
 referencias:
@@ -20,8 +22,8 @@ referencias:
   - titulo: Catecismo da Igreja Católica, 247-248 (o Filioque)
     url: https://www.vatican.va/archive/cathechism_po/index_new/p1s2c1_198-421_po.html
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 31/10/2026. Substitui o rascunho cisma-oriente, apagado.
     Unitatis redintegratio 14-15 e Ut unum sint 54 conferidos no texto oficial do vatican.va em 31/10/2026.
