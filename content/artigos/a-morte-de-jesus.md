@@ -11,6 +11,8 @@ referencias:
     url: https://www.vatican.va/archive/cathechism_po/index_new/p1s2cap2_422-682_po.html
   - titulo: Catecismo da Igreja Católica, 631-637 (a descida à mansão dos mortos)
     url: https://www.vatican.va/archive/cathechism_po/index_new/p1s2cap2_422-682_po.html
+  - titulo: Catecismo da Igreja Católica, 1366 (a Eucaristia, sacrifício)
+    url: https://www.vatican.va/archive/cathechism_po/index_new/p2s2cap1_1210-1419_po.html
   - titulo: Declaração Nostra aetate, 4
     autor: Concílio Vaticano II
     url: https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decl_19651028_nostra-aetate_po.html
@@ -21,6 +23,10 @@ revisao:
   notas: >-
     Escrito do zero em 30/10/2026; não substitui rascunho. O Catecismo Romano é citado pelo CIC 598; Nostra aetate 4
     conferida no vatican.va.
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 30/10/2026: existem e dizem o que o texto afirma.
+    Nenhuma expressão bíblica entre aspas a conferir na CNBB além da citação do CIC 601.
+    Parecer doutrinal interno: favorável com correções em 30/10/2026, correções aplicadas (docs/pareceres/a-morte-de-jesus.md).
 ---
 
 Os Evangelhos dedicam à última semana de Jesus mais espaço do que a qualquer outro período da sua vida. A cruz se tornou o sinal dos cristãos. Mas, para quem olha de fora, isso é estranho: por que celebrar a morte violenta de um inocente? E por que dizer que essa morte salva?
@@ -41,7 +47,7 @@ A morte de Cristo é o sacrifício que nos reconcilia com Deus (CIC 613). E é, 
 
 ### O processo
 
-Jesus foi condenado por uma combinação de fatores. Uma parte das autoridades religiosas de Jerusalém o via como uma ameaça: ele perdoava pecados, colocava-se acima do sábado, falava do Templo com autoridade e se apresentava como o Filho de Deus. O Sinédrio o acusou de blasfêmia (Mc 14,61-64). Como só os romanos podiam executar, levaram-no a Pilatos com uma acusação política: dizer-se rei. Pilatos, mesmo sem encontrar culpa, cedeu à pressão e mandou crucificá-lo (Jo 19,12-16).
+Jesus foi condenado por uma combinação de fatores. Uma parte das autoridades religiosas de Jerusalém o via como uma ameaça: ele perdoava pecados, colocava-se acima do sábado, falava do Templo com autoridade e se apresentava como o Filho de Deus (CIC 574). O Sinédrio o acusou de blasfêmia (Mc 14,61-64). Como só os romanos podiam executar (Jo 18,31), levaram-no a Pilatos com uma acusação política: dizer-se rei (Lc 23,2). Pilatos, mesmo sem encontrar culpa, cedeu à pressão e mandou crucificá-lo (Jo 19,12-16).
 
 ### Não “os judeus”
 
@@ -89,7 +95,7 @@ O Pai não sente prazer no sofrimento. A cruz não é a vingança de um Deus ira
 
 ### Se Cristo já morreu por todos, eu preciso fazer alguma coisa?
 
-Cristo fez o que nenhum de nós poderia fazer. Mas a salvação não é imposta: é oferecida, e precisa ser acolhida pela fé, pelos sacramentos e pela vida. Jesus convida os discípulos a tomar a sua cruz e segui-lo, e quer associar ao seu sacrifício os que são salvos por ele (CIC 618). Em cada Missa, a Igreja torna presente esse único sacrifício e se une a ele.
+Cristo fez o que nenhum de nós poderia fazer. Mas a salvação não é imposta: é oferecida, e precisa ser acolhida pela fé, pelos sacramentos e pela vida. Jesus convida os discípulos a tomar a sua cruz e segui-lo, e quer associar ao seu sacrifício os que são salvos por ele (CIC 618). Em cada Missa, a Igreja não repete a cruz: torna presente esse único sacrifício e se une a ele (CIC 1366).
 
 ### O que quer dizer que Jesus “desceu à mansão dos mortos”?
 
