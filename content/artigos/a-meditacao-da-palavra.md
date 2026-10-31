@@ -20,7 +20,11 @@ revisao:
   referenciasConferidas: false
   notas: >-
     Escrito do zero em 31/10/2026.
-    Verbum Domini 86-87 e Dei Verbum 25 conferidos no texto oficial do vatican.va em 31/10/2026.
+    Verbum Domini 86-87 e Dei Verbum 12, 21 e 25 conferidos no texto oficial do vatican.va em 31/10/2026.
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 31/10/2026: existem e dizem o que o texto afirma.
+    Nenhuma expressão bíblica entre aspas a conferir na CNBB.
+    Parecer doutrinal interno: favorável com correções em 31/10/2026, correções aplicadas (docs/pareceres/a-meditacao-da-palavra.md).
 ---
 
 Na tarde da Ressurreição, dois discípulos voltavam desanimados para Emaús. Um desconhecido se juntou a eles e, começando por Moisés e todos os profetas, explicou-lhes o que as Escrituras diziam a respeito dele. Só o reconheceram ao partir o pão. Mas depois disseram um ao outro: não ardia o nosso coração quando ele nos falava pelo caminho e nos explicava as Escrituras? (Lc 24,13-35).
@@ -36,6 +40,10 @@ O Concílio Vaticano II exortou com insistência todos os fiéis a conhecer Jesu
 > — CIC 2653
 
 Ler a Bíblia rezando é entrar num diálogo. Santo Agostinho, citado por Bento XVI, dizia: quando lês, é Deus que te fala; quando rezas, és tu que falas a Deus (*Verbum Domini*, 86).
+
+### As duas mesas
+
+Os discípulos de Emaús ouviram a Palavra pelo caminho e reconheceram o Senhor ao partir o pão. As duas coisas andam juntas. O Concílio diz que a Igreja sempre venerou as Escrituras como venera o próprio Corpo do Senhor, e que nunca deixou de oferecer aos fiéis o pão da vida, tanto da mesa da Palavra como da mesa do Corpo de Cristo (*Dei Verbum*, 21). A meditação pessoal não é uma devoção à parte: prolonga a Palavra ouvida na Missa e prepara para recebê-la de novo.
 
 ## Meditar é buscar
 
@@ -94,7 +102,7 @@ A Palavra age mesmo quando não percebemos. Deus diz pelo profeta Isaías: como 
 
 ### Isso não é coisa de monge?
 
-Nasceu nos mosteiros, mas o Concílio e o Sínodo de 2008 a recomendaram a todos os fiéis, em todos os estados de vida (*Verbum Domini*, 86). Marta se ocupava de muitas coisas; Maria, sentada aos pés do Senhor, escutava a sua palavra, e escolheu a melhor parte (Lc 10,38-42).
+Nasceu nos mosteiros, mas o Concílio e o Sínodo de 2008 a recomendaram a todos os fiéis, em todos os estados de vida (*Verbum Domini*, 86). Marta se ocupava de muitas coisas; Maria, sentada aos pés do Senhor, escutava a sua palavra, e escolheu a melhor parte (Lc 10,38-42). Isso não quer dizer que rezar dispense servir: a *lectio* só se completa na ação e na caridade (*Verbum Domini*, 87). A escuta é a raiz do serviço, não o seu contrário.
 
 ## Em resumo
 
