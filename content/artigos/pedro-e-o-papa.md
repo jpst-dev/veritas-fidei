@@ -23,6 +23,10 @@ revisao:
   notas: >-
     Escrito do zero em 31/10/2026. Substitui o rascunho o-papado-nas-escrituras, apagado.
     Irineu, Contra as heresias III,3, e Pastor aeternus, cap. 2, conferidos em 31/10/2026 (newadvent.org e papalencyclicals.net).
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 31/10/2026: existem e dizem o que o texto afirma.
+    Nenhuma expressão bíblica entre aspas a conferir na CNBB.
+    Parecer doutrinal interno: favorável com correções em 31/10/2026, correções aplicadas (docs/pareceres/pedro-e-o-papa.md).
 ---
 
 O papa é provavelmente a figura religiosa mais conhecida do mundo. Mas, para muitos, inclusive católicos, não é claro de onde vem a sua autoridade. Ele é um chefe eleito, como um presidente? Um líder simbólico? Ou a Igreja inventou o papado séculos depois de Cristo?
@@ -37,7 +41,7 @@ A Igreja crê que Jesus escolheu Pedro como chefe dos Apóstolos, fundamento vis
 >
 > — CIC 882
 
-O papa não é dono da Igreja nem da fé: é o servo da unidade. Por isso um dos seus títulos mais antigos é “servo dos servos de Deus”.
+O papa não é dono da Igreja nem da fé: é o servo da unidade. Por isso, desde São Gregório Magno, no século VI, ele se chama “servo dos servos de Deus”.
 
 ## Pedro nos Evangelhos
 
@@ -67,11 +71,11 @@ Isso não quer dizer que Pedro governasse sozinho. Os Doze formavam um colégio,
 
 ### Por que Roma?
 
-Pedro terminou a vida em Roma, onde foi martirizado na perseguição de Nero, por volta do ano 64. A primeira carta de Pedro é enviada de “Babilônia” (1Pd 5,13), nome com que os primeiros cristãos se referiam a Roma. No fim do século I, São Clemente de Roma lembrava o martírio de Pedro e de Paulo (São Clemente de Roma, *Aos Coríntios*, 5). O papa é o sucessor de Pedro porque é o bispo da Igreja de Roma, onde Pedro viveu e morreu.
+Pedro terminou a vida em Roma, onde foi martirizado na perseguição de Nero, segundo a tradição entre os anos 64 e 67. A primeira carta de Pedro é enviada de “Babilônia” (1Pd 5,13), provavelmente o nome com que os primeiros cristãos se referiam a Roma. No fim do século I, São Clemente de Roma lembrava o martírio de Pedro e de Paulo (São Clemente de Roma, *Aos Coríntios*, 5). O papa é o sucessor de Pedro porque é o bispo da Igreja de Roma, onde Pedro viveu e morreu.
 
 ### Os primeiros séculos
 
-Os primeiros cristãos já reconheciam a Igreja de Roma como referência para as outras. Por volta do ano 96, quando houve uma divisão na Igreja de Corinto, foi a Igreja de Roma, pelo seu bispo Clemente, que escreveu para restabelecer a paz, embora o apóstolo João talvez ainda vivesse. Por volta do ano 180, Santo Irineu de Lião enumerou os bispos de Roma desde Pedro: Lino, Anacleto, Clemente, e assim por diante até o seu tempo. E escreveu que toda Igreja deve estar de acordo com a Igreja de Roma, por causa da sua mais poderosa autoridade (Santo Irineu, *Contra as heresias*, III, 3, 2-3).
+Os primeiros cristãos já reconheciam a Igreja de Roma como referência para as outras. Por volta do ano 96, quando houve uma divisão na Igreja de Corinto, foi a Igreja de Roma, pelo seu bispo Clemente, que escreveu para restabelecer a paz. Por volta do ano 180, Santo Irineu de Lião enumerou os bispos de Roma desde Pedro: Lino, Anacleto, Clemente, e assim por diante até o seu tempo. E escreveu que toda Igreja deve estar de acordo com a Igreja de Roma, por causa da sua mais poderosa autoridade (Santo Irineu, *Contra as heresias*, III, 3, 2-3).
 
 A maneira concreta de exercer o primado mudou muito ao longo dos séculos. Mas a convicção de que a Igreja de Roma, por causa de Pedro, tem um papel único na comunhão de todas as Igrejas está presente desde o começo.
 
@@ -83,7 +87,7 @@ O papa é o bispo de Roma e, por isso, sucessor de Pedro, chefe do colégio dos 
 
 ### A pedra não é Cristo, ou a fé de Pedro?
 
-A Bíblia chama Cristo de pedra angular (Ef 2,20; 1Pd 2,4-7), e a Igreja não nega isso: Cristo é o fundamento de tudo. Mas em Mt 16 é a Simão que Jesus dá o nome de pedra, e é a ele que dá as chaves. Em aramaico, a língua de Jesus, o jogo de palavras é perfeito: Kefa e kefa. Muitos Padres viram na pedra também a fé que Pedro confessou, e as duas leituras não se excluem: Jesus edifica a Igreja sobre Pedro, que confessa a fé (CIC 552). Até muitos estudiosos protestantes reconhecem hoje que a pedra, no texto, é Pedro.
+A Bíblia chama Cristo de pedra angular (Ef 2,20; 1Pd 2,4-7), e a Igreja não nega isso: Cristo é o fundamento de tudo. Mas em Mt 16 é a Simão que Jesus dá o nome de pedra, e é a ele que dá as chaves. Em aramaico, a língua de Jesus, o jogo de palavras é perfeito: Kefa e kefa. Muitos Padres viram na pedra também a fé que Pedro confessou, e o Catecismo acolhe essa leitura (CIC 424). As duas não se excluem: Jesus edifica a Igreja sobre Pedro, que confessa a fé (CIC 552).
 
 ### Os papas não erraram e pecaram?
 
