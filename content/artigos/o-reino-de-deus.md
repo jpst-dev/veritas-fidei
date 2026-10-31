@@ -1,9 +1,11 @@
 ---
 title: O Reino de Deus
 description: "A vida pública de Jesus: o batismo, o deserto, o anúncio do Reino aos pobres e aos pecadores, as parábolas, os milagres e a escolha dos Doze."
+obra: vocacao-de-pedro-e-andre
 tema: jesus-cristo
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-30
 nivel: iniciante
 tags: [reino-de-deus, vida-publica, milagres, parabolas, apostolos]
 referencias:
@@ -15,8 +17,8 @@ referencias:
   - titulo: Constituição dogmática Dei Filius, cap. 3 (DH 3009)
     autor: Concílio Vaticano I
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 30/10/2026; não substitui rascunho. A divindade de Jesus (jesus-e-deus) e o papado (trilha da
     Igreja) são só mencionados.

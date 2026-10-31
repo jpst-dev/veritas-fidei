@@ -1,9 +1,11 @@
 ---
 title: A Encarnação
 description: "O Filho de Deus se fez homem. Por que Deus escolheu esse caminho, o que significa ser verdadeiro Deus e verdadeiro homem e o que revelam o Natal e Nazaré."
+obra: adoracao-dos-pastores
 tema: jesus-cristo
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-30
 nivel: iniciante
 tags: [encarnacao, natal, natureza-humana-de-cristo, calcedonia, vida-oculta]
 referencias:
@@ -24,8 +26,8 @@ referencias:
     autor: São Gregório de Nazianzo
     url: https://www.newadvent.org/fathers/3103a.htm
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 30/10/2026; não substitui rascunho. Não repete jesus-e-deus (provas da divindade) nem
     maria-mae-de-deus (Éfeso e Nestório): aqui o foco é o porquê da Encarnação e a humanidade de Cristo.

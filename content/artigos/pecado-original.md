@@ -1,9 +1,11 @@
 ---
 title: O pecado original e a promessa
 description: "Por que o mundo está ferido, o que aconteceu no princípio, como esse pecado atinge todos nós e a primeira promessa de um Salvador."
+obra: expulsao-do-paraiso
 tema: jesus-cristo
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-30
 nivel: iniciante
 tags: [pecado-original, adao-e-eva, queda, proto-evangelho, redencao]
 referencias:
@@ -18,8 +20,8 @@ referencias:
     autor: Pio XII
     url: https://www.vatican.va/content/pius-xii/pt/encyclicals/documents/hf_p-xii_enc_12081950_humani-generis.html
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 30/10/2026; não substitui rascunho (o acervo não tinha texto sobre o pecado original).
     São Leão Magno e São Tomás de Aquino citados pelo CIC 412. Humani generis 37 conferida no vatican.va.

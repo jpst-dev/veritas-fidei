@@ -1,9 +1,11 @@
 ---
 title: A ressurreição aconteceu?
 description: "Para muitos, a ressurreição de Jesus é um mito ou uma visão dos discípulos. O que dizem os testemunhos mais antigos e por que as outras explicações não bastam."
+obra: mulheres-no-sepulcro
 tema: jesus-cristo
 secao: defesa-da-fe
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-30
 nivel: intermediario
 tags: [ressurreicao, tumulo-vazio, aparicoes, historicidade, apologetica]
 quaestio:
@@ -33,8 +35,8 @@ referencias:
     autor: São Clemente de Roma
     url: https://www.newadvent.org/fathers/1010.htm
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 30/10/2026; não substitui rascunho.
     Inácio, Aos Esmirnenses 3, e Clemente de Roma, Aos Coríntios 5, conferidos em newadvent.org em 30/10/2026.

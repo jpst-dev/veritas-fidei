@@ -1,9 +1,11 @@
 ---
 title: A morte de Jesus
 description: "Quem condenou Jesus, por que a sua morte não foi um acidente e o que significa dizer que ele morreu pelos nossos pecados, como sacrifício de amor."
+obra: cristo-crucificado
 tema: jesus-cristo
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-10-30
 nivel: iniciante
 tags: [paixao, cruz, redencao, sacrificio, servo-sofredor]
 referencias:
@@ -18,8 +20,8 @@ referencias:
     url: https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decl_19651028_nostra-aetate_po.html
   - titulo: Concílio de Trento, sessão VI (1547), decreto sobre a justificação, cap. 7 (DH 1529)
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 30/10/2026; não substitui rascunho. O Catecismo Romano é citado pelo CIC 598; Nostra aetate 4
     conferida no vatican.va.
