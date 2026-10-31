@@ -18,7 +18,7 @@ referencias:
   - titulo: Sobre o Espírito Santo, 27,66
     autor: São Basílio Magno
     url: https://www.newadvent.org/fathers/3203.htm
-  - titulo: Commonitório, 2,6
+  - titulo: Commonitório, 2,6 e 23
     autor: São Vicente de Lérins
     url: https://www.newadvent.org/fathers/3506.htm
 revisao:
@@ -28,7 +28,11 @@ revisao:
     Escrito do zero em 30/10/2026; substitui o rascunho tradicao-invalida-biblia, apagado (a objeção de Mc 7 entrou nas
     dúvidas comuns; a URL antiga passa a apontar para este artigo).
     Irineu, Contra as heresias III,3,1 e III,4,1-2; Basílio, Sobre o Espírito Santo 27,66; Vicente de Lérins,
-    Commonitório 2,6 conferidos em newadvent.org em 30/10/2026.
+    Commonitório 2,6 e 23 conferidos em newadvent.org em 30/10/2026.
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 30/10/2026: existem e dizem o que o texto afirma.
+    Opcional: conferir a redação na CNBB impressa das expressões entre aspas (o sentido já foi conferido na Nova Vulgata): “seja por palavra, seja por carta” (2Ts 2,15).
+    Parecer doutrinal interno: favorável com correções em 30/10/2026, correções aplicadas (docs/pareceres/a-tradicao.md).
 ---
 
 Os primeiros cristãos não tinham o Novo Testamento. Nos anos que seguiram a Ressurreição, nenhum Evangelho tinha sido escrito ainda, e mesmo depois levou tempo até que todos os livros fossem reunidos e reconhecidos. E, no entanto, essas comunidades sabiam em quem acreditavam, celebravam a Eucaristia, batizavam, rezavam o Pai-Nosso. Como?
@@ -47,7 +51,7 @@ Não se trata, portanto, de um conjunto de costumes antigos, nem de um segundo l
 
 ## Antes de ser escrito, o Evangelho foi pregado
 
-Jesus não escreveu nenhum livro, nem mandou os Apóstolos escreverem. Mandou que pregassem: ide e fazei discípulos de todas as nações, ensinando-os a observar tudo o que vos ordenei (Mt 28,19-20). O Catecismo diz que o Evangelho foi transmitido de duas maneiras: **oralmente**, pela pregação, pelos exemplos e pelas instituições dos Apóstolos, e **por escrito**, pelos que puseram a mensagem da salvação por escrito sob a inspiração do Espírito Santo (CIC 76).
+Jesus não escreveu nenhum livro, e a missão que confiou aos Apóstolos foi, antes de tudo, pregar: ide e fazei discípulos de todas as nações, ensinando-os a observar tudo o que vos ordenei (Mt 28,19-20). O Catecismo diz que o Evangelho foi transmitido de duas maneiras: **oralmente**, pela pregação, pelos exemplos e pelas instituições dos Apóstolos, e **por escrito**, pelos que puseram a mensagem da salvação por escrito sob a inspiração do Espírito Santo (CIC 76).
 
 O próprio Novo Testamento mostra essa transmissão acontecendo. São Paulo escreve aos coríntios que lhes transmitiu o que ele mesmo recebeu, sobre a Ceia do Senhor e sobre a morte e ressurreição de Cristo (1Cor 11,23; 15,3). Aos tessalonicenses, pede que guardem as tradições que aprenderam, “seja por palavra, seja por carta” (2Ts 2,15). E a Timóteo recomenda que confie o que ouviu dele a homens fiéis, capazes de ensinar outros (2Tm 2,2). São quatro gerações numa frase: Paulo, Timóteo, os homens fiéis e os outros.
 
@@ -73,7 +77,7 @@ No século IV, São Basílio Magno observa que, das crenças e práticas guardad
 
 ### Tradição e tradições
 
-O Catecismo faz uma distinção importante. A **Tradição** com maiúscula é a que vem dos Apóstolos. Outra coisa são as **tradições** que surgiram com o tempo nas Igrejas locais: costumes litúrgicos, devoções, disciplinas, escolas de teologia. Elas expressam a grande Tradição em cada lugar e época, mas podem ser mantidas, mudadas ou até abandonadas, sob a direção do Magistério (CIC 83). A Missa vem da Tradição; a língua em que ela é celebrada é uma tradição. O domingo vem da Tradição; o jejum antes da comunhão, com a sua duração, é disciplina que a Igreja já mudou várias vezes.
+O Catecismo faz uma distinção importante. A **Tradição** com maiúscula é a que vem dos Apóstolos. Outra coisa são as **tradições** que surgiram com o tempo nas Igrejas locais: costumes litúrgicos, devoções, disciplinas, escolas de teologia. Elas expressam a grande Tradição em cada lugar e época, mas podem ser mantidas, mudadas ou até abandonadas, sob a direção do Magistério (CIC 83). A Missa vem da Tradição; a língua em que ela é celebrada é uma tradição. O domingo vem da Tradição apostólica (CIC 2177); o jejum antes da comunhão, com a sua duração, é disciplina que a Igreja já mudou várias vezes.
 
 ## Quem guarda a Tradição
 
@@ -95,7 +99,7 @@ A Tradição não é assunto só dos bispos. Todos os fiéis receberam o Espíri
 
 A Tradição é viva. Não muda o que recebeu, mas o compreende cada vez melhor. O Catecismo diz que, com a ajuda do Espírito Santo, a compreensão do depósito da fé cresce pela contemplação e pelo estudo dos fiéis, pela experiência das coisas espirituais e pela pregação dos bispos (CIC 94). Recolhe também uma frase de São Gregório Magno: as palavras divinas crescem com quem as lê (CIC 94).
 
-No século V, São Vicente de Lérins deu um critério para saber o que pertence à fé: aquilo que foi crido em toda parte, sempre e por todos (São Vicente de Lérins, *Commonitório*, 2,6). Crescer, para ele, é como uma criança que se torna adulta: continua a ser a mesma pessoa.
+No século V, São Vicente de Lérins deu um critério para saber o que pertence à fé: aquilo que foi crido em toda parte, sempre e por todos (São Vicente de Lérins, *Commonitório*, 2,6). E crescer, para ele, é como o corpo que se desenvolve com os anos: quem foi jovem continua a ser a mesma pessoa depois de velho (*Commonitório*, 23).
 
 ## Dúvidas comuns
 
