@@ -45,6 +45,10 @@ revisao:
     concilio-niceia trata da história do concílio e fica para a seção de História).
     Fontes antigas conferidas em 30/10/2026: Inácio, Ef 18,2 (“o nosso Deus, Jesus Cristo”) em newadvent.org; Plínio,
     Cartas X,96,7 (“carmenque Christo quasi deo dicere”) em thelatinlibrary.com.
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 30/10/2026: existem e dizem o que o texto afirma.
+    Opcional: conferir a redação na CNBB impressa das expressões entre aspas (o sentido já foi conferido na Nova Vulgata): “Meu Senhor e meu Deus” (Jo 20,28); “de condição divina” (Fl 2,6); “nosso grande Deus e Salvador, Jesus Cristo” (Tt 2,13).
+    Parecer doutrinal interno: favorável com correções em 30/10/2026, correções aplicadas (docs/pareceres/jesus-e-deus.md).
 ---
 
 Muita gente admira Jesus. Para muitos, ele foi um grande mestre moral, um profeta, talvez o maior de todos. O que não aceitam é o que a Igreja diz dele: que é Deus. Nossos irmãos Testemunhas de Jeová o veem como a primeira e mais alta criatura; o islã, como um profeta; muitos espíritas, como um espírito muito evoluído. E até católicos às vezes se perguntam se essa não foi uma ideia que a Igreja acrescentou depois.
@@ -73,9 +77,9 @@ O mesmo vale para o que ele reivindica. Diz ser maior que o Templo, onde Deus ha
 
 ### Jesus disse quem era
 
-Jesus também falou de forma explícita, e os seus ouvintes entenderam. Disse: antes que Abraão existisse, eu sou (Jo 8,58). Usou o nome com que Deus se revelou a Moisés, e por isso quiseram apedrejá-lo. Disse: eu e o Pai somos um (Jo 10,30), e de novo pegaram pedras, porque, sendo homem, ele se fazia Deus (Jo 10,33). No julgamento, quando o sumo sacerdote pergunta se ele é o Filho do Deus bendito, Jesus responde “eu sou” e fala de si sentado à direita do Poder; o sumo sacerdote rasga as vestes e o condena por blasfêmia (Mc 14,61-64).
+Jesus também falou de forma explícita, e os seus ouvintes entenderam. Disse: antes que Abraão existisse, eu sou (Jo 8,58). Não disse “eu era”, como diria quem só tivesse vivido antes: evocou o nome com que Deus se revelou a Moisés, e por isso quiseram apedrejá-lo (Jo 8,59). Disse: eu e o Pai somos um (Jo 10,30), e de novo pegaram pedras, porque, sendo homem, ele se fazia Deus (Jo 10,33). No julgamento, quando o sumo sacerdote pergunta se ele é o Filho do Deus bendito, Jesus responde “eu sou” e fala de si sentado à direita do Poder; o sumo sacerdote rasga as vestes e o condena por blasfêmia (Mc 14,61-64).
 
-Ninguém é condenado à morte por se dizer profeta. Jesus foi condenado porque os seus juízes entenderam que ele se fazia igual a Deus.
+O sumo sacerdote não o condenou por se dizer profeta, mas por blasfêmia: os seus juízes entenderam que ele se fazia igual a Deus.
 
 ### Os Apóstolos o chamaram de Deus
 
@@ -87,7 +91,7 @@ Também o título de Senhor diz muito. Na tradução grega do Antigo Testamento,
 
 ### Os primeiros cristãos o adoravam
 
-A fé na divindade de Jesus não esperou o século IV. Por volta de 110, Santo Inácio de Antioquia, bispo que conheceu a geração dos Apóstolos, escreve: “o nosso Deus, Jesus Cristo, foi levado no seio por Maria” (Santo Inácio de Antioquia, *Carta aos Efésios*, 18,2). Na mesma época, um governador romano pagão, Plínio, o Jovem, descreve ao imperador o que os cristãos faziam nas reuniões: cantavam hinos “a Cristo, como a um deus” (Plínio, *Cartas*, X,96,7). Para judeus que só adoravam o Deus único, adorar Jesus só fazia sentido se ele fosse Deus.
+A fé na divindade de Jesus não esperou o século IV. Por volta de 110, Santo Inácio de Antioquia, bispo que conheceu a geração dos Apóstolos, escreve: “o nosso Deus, Jesus Cristo, foi levado no seio por Maria” (Santo Inácio de Antioquia, *Carta aos Efésios*, 18,2). Na mesma época, um governador romano pagão, Plínio, o Jovem, descreve ao imperador o que os cristãos faziam nas reuniões: cantavam, em alternância, um hino “a Cristo, como a um deus” (Plínio, *Cartas*, X,96,7). Para judeus que só adoravam o Deus único, adorar Jesus só fazia sentido se ele fosse Deus.
 
 ## Respondendo às objeções
 
