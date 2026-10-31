@@ -23,9 +23,12 @@ revisao:
   citacoesConferidas: false
   referenciasConferidas: false
   notas: >-
-    Escrito do zero em 31/10/2026.
+    Escrito do zero em 31/10/2026. Substitui o rascunho cisma-oriente, apagado.
     Unitatis redintegratio 14-15 e Ut unum sint 54 conferidos no texto oficial do vatican.va em 31/10/2026.
     Declaração conjunta de 1965 conferida no texto inglês do vatican.va (a página portuguesa não traz o texto) em 31/10/2026.
+    Citações do Catecismo conferidas pelo verificador.
+    Nenhuma referência bíblica no texto.
+    Parecer doutrinal interno: favorável com correções em 31/10/2026, correções aplicadas (docs/pareceres/o-cisma-do-oriente.md).
 ---
 
 Um católico que entra numa igreja ortodoxa encontra uma Missa que lhe parece estranha e, ao mesmo tempo, muito familiar: o mesmo Credo, os mesmos sacramentos, a mesma veneração à Mãe de Deus, bispos que descendem dos Apóstolos. E, no entanto, não pode comungar ali, nem o ortodoxo na igreja católica. Há quase mil anos, a Igreja do Oriente e a do Ocidente vivem separadas.
@@ -88,7 +91,7 @@ Desde então, os papas e os patriarcas se encontram com frequência, e um diálo
 
 ### Os ortodoxos são hereges?
 
-A Igreja não os trata assim. O Credo é o mesmo, os sete sacramentos são válidos, a sucessão apostólica foi conservada. A separação é sobretudo um **cisma**, uma ruptura da comunhão, com algumas diferenças doutrinais que o diálogo procura esclarecer. Por isso, em certas circunstâncias e com aprovação da autoridade, um católico que não tem acesso a um padre católico pode receber deles os sacramentos (*Unitatis redintegratio*, 15).
+A Igreja não os trata assim. O Credo é o mesmo, os sete sacramentos são válidos, a sucessão apostólica foi conservada. A separação é sobretudo um **cisma**, uma ruptura da comunhão. Mas há diferenças doutrinais reais: os ortodoxos não aceitam dogmas que a Igreja Católica definiu, sobretudo o primado de jurisdição e a infalibilidade do papa, definidos no Vaticano I. A Igreja não chama de hereges os ortodoxos de hoje, que nasceram de boa-fé nessa tradição, e o diálogo procura esclarecer essas questões. Por causa da proximidade, um católico pode, em casos excepcionais, receber de um padre ortodoxo a Confissão, a Eucaristia ou a Unção dos enfermos: quando há necessidade ou verdadeira utilidade espiritual e é física ou moralmente impossível recorrer a um padre católico (CIC 1399; *Código de Direito Canônico*, cân. 844 §2).
 
 ### Então tanto faz ser católico ou ortodoxo?
 
