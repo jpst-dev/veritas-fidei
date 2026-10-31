@@ -39,6 +39,10 @@ revisao:
     Escrito do zero em 31/10/2026.
     Veritatis splendor 32, 52-53, 80 e 96 conferidos no texto oficial do vatican.va em 31/10/2026.
     Homilia pro eligendo Romano Pontifice (18/04/2005) conferida no vatican.va em 31/10/2026.
+    Citações do Catecismo conferidas pelo verificador.
+    Referências conferidas na Nova Vulgata (npm run biblia) em 31/10/2026: existem e dizem o que o texto afirma.
+    Nenhuma expressão bíblica entre aspas a conferir na CNBB.
+    Parecer doutrinal interno: favorável com correções em 31/10/2026, correções aplicadas (docs/pareceres/cada-um-tem-sua-verdade.md).
 ---
 
 “Isso é verdade para você, não para mim.” A frase virou quase uma regra de boa convivência. Diante de qualquer afirmação moral, alguém lembra que as culturas pensam diferente, que a moral de ontem não é a de hoje, e que impor uma visão aos outros é intolerância. A conclusão parece óbvia: não existe certo e errado para todos; cada um tem a sua verdade.
@@ -65,7 +69,7 @@ São João Paulo II, na encíclica *Veritatis splendor*, descreveu o erro oposto
 
 ### As culturas discordam menos do que parece
 
-As diferenças entre culturas são reais, mas estão sobretudo nas aplicações. Todos os povos conhecidos honram a coragem, condenam a traição, cuidam dos seus mortos, punem quem mata sem motivo. Discute-se quem é “o próximo”, até onde vai o dever, quais exceções valem. Mas os princípios coincidem de modo impressionante, porque a razão humana é a mesma em toda parte (CIC 1957).
+As diferenças entre culturas são reais, mas estão sobretudo nas aplicações. As grandes tradições morais da humanidade honram a coragem, condenam a traição, cuidam dos seus mortos, punem quem mata sem motivo. Discute-se quem é “o próximo”, até onde vai o dever, quais exceções valem. Mas os princípios coincidem de modo impressionante, porque a razão humana é a mesma em toda parte (CIC 1957).
 
 E mesmo onde a discordância é profunda, isso não prova que não haja verdade. Os povos já discordaram sobre a forma da Terra, e a Terra continuou redonda. A discordância mostra que alguém está errado, não que ninguém está certo.
 
@@ -93,7 +97,7 @@ Mudam os costumes e a nossa compreensão. A lei natural é imutável e permanent
 
 ### 3. “Afirmar uma verdade moral é intolerante.”
 
-A tolerância só tem sentido se há uma verdade: que as pessoas merecem respeito, mesmo quando erram. Essa é uma afirmação moral universal. Sem ela, nem a tolerância seria obrigatória. A Igreja defende normas morais universais justamente a serviço da liberdade e da dignidade de cada homem, porque não há liberdade fora ou contra a verdade (*Veritatis splendor*, 96). E a verdade deve ser proposta com caridade, nunca imposta pela força: ninguém deve ser forçado a agir contra a própria consciência (CIC 1782).
+A tolerância só tem sentido se há uma verdade: que as pessoas merecem respeito, mesmo quando erram. Essa é uma afirmação moral universal. Sem ela, nem a tolerância seria obrigatória. A Igreja defende normas morais universais justamente a serviço da liberdade e da dignidade de cada homem, porque não há liberdade fora ou contra a verdade (*Veritatis splendor*, 96). E a verdade deve ser proposta com caridade, nunca imposta pela força: ninguém deve ser forçado a agir contra a própria consciência (CIC 1782). Isso não quer dizer que tudo seja permitido: esse direito tem justos limites, e a lei civil deve proteger o bem comum segundo a ordem moral objetiva (CIC 2106, 2109).
 
 ### 4. “Mas quem decide o que é certo? A Igreja?”
 
@@ -111,4 +115,4 @@ A humildade verdadeira não é negar a verdade, mas reconhecer que não somos n�
 - O relativismo **se contradiz** e nos deixa sem fundamento para condenar a injustiça.
 - A verdade moral está **a serviço da liberdade** e deve ser proposta com caridade, nunca imposta (*Veritatis splendor*, 96; CIC 1782).
 
-Conhecereis a verdade, e a verdade vos libertará (Jo 8,32).
+Aos que permanecem na sua palavra, Jesus promete: conhecereis a verdade, e a verdade vos libertará (Jo 8,31-32).
