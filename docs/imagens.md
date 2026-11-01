@@ -41,29 +41,43 @@ O script recusa sozinho o que não estiver na lista.
    Caravaggio, Rembrandt, Rublev, Giotto, Rafael, Murillo, El Greco,
    iluminuras medievais, ícones). Evitar obras com interpretação teológica
    duvidosa ou cenas que precisem de explicação para não escandalizar.
-3. **Reprodução de qualidade.** Arquivo com pelo menos 1600 px no lado maior,
+3. **Reprodução de qualidade.** Arquivo com pelo menos **1600 px de largura**
+   (a faixa de abertura ocupa a tela toda; um quadro vertical de 1600 px de
+   altura fica estreito e borrado),
    sem moldura de museu, sem legenda impressa, sem marca-d'água, cores fiéis.
    Entre várias versões no Commons, a do *Google Art Project* ou a do próprio
    museu costuma ser a melhor.
 4. **Funciona recortada.** O site recorta as imagens (4:3, 3:4, 16:10). Se o
    essencial da cena está numa ponta, use `posicao`; se a obra é larga demais
    (um tríptico, um afresco inteiro), procure um **detalhe** no Commons.
-5. **Pede o tema escuro.** Fundos escuros (Caravaggio, Rembrandt) combinam com a
+5. **Sem nu em close na faixa.** Cenas com nudez (o Batismo, a Crucifixão, o
+   Juízo) só se o recorte da faixa não fizer do nu o foco.
+6. **Um artista por tema.** Evite repetir o mesmo pintor dentro de um tema, e a
+   mesma obra em dois artigos.
+7. **Pede o tema escuro.** Fundos escuros (Caravaggio, Rembrandt) combinam com a
    paleta Noite. Obras claras e muito coloridas ficam melhor em cartões
    pequenos do que em faixas grandes.
 
 ## 4. Passo a passo
 
+Quem escolhe a obra sou eu (o assistente), com uma alternativa; o autor decide
+entre as duas no canvas de mockups do bloco (docs/fluxo-artigo.md).
+
 ```sh
-# 1. Encontre o arquivo no Commons e copie o nome (sem "File:")
+# 1. Procure no Commons: já descarta licença proibida e avisa reprodução
+#    pequena, quadro vertical, obra já catalogada e artista já usado no tema
+npm run commons -- "Caravaggio Emmaus" --tema jesus-cristo --baixar <pasta>
+# 2. Olhe as prévias baixadas; escolha e importe (nome sem "File:")
 npm run obra -- batismo-de-cristo "Piero della Francesca - Battesimo di Cristo (National Gallery, London).jpg"
 ```
 
 O script:
 
 - confere a licença na API do Commons e recusa o que não for aceito;
-- gera `public/obras/<slug>-1600.webp` e `<slug>-800.webp` (WebP, lado maior
-  limitado ao tamanho);
+- gera `public/obras/<slug>-1600.webp` e `<slug>-800.webp` (WebP, limitado
+  pela **largura**, sem ampliar, com teto de peso de 420 e 140 KB: a qualidade
+  cai aos poucos e, na de 1600, a imagem encolhe até 70% se preciso);
+- avisa quando o original tem menos de 1600 px de largura;
 - cria `content/obras/<slug>.yml` com licença e fonte preenchidas e os
   demais campos marcados com `REVISAR`.
 
@@ -87,6 +101,13 @@ Por fim, ligue a obra a quem a usa:
 
 A página `/creditos` lista todas as obras automaticamente.
 
+Para refazer as imagens de uma obra já catalogada (depois de mudar o script, ou
+para trocar pela reprodução maior da mesma fonte): `npm run obra -- --refazer <slug>`.
+
+Por fim, `npm run conferir -- <slug>` (com o `npm run dev` no ar) abre o artigo
+em 5 larguras e avisa se a faixa ficou ampliada; as capturas `topo-*` mostram o
+recorte como o leitor vê.
+
 ## 5. Checklist antes de publicar
 
 - [ ] A obra ilustra de fato o tema do artigo.
@@ -94,5 +115,5 @@ A página `/creditos` lista todas as obras automaticamente.
 - [ ] Nenhum campo com `REVISAR` em `content/obras/`.
 - [ ] Título, autor, data e acervo conferidos na página do Commons.
 - [ ] `alt` descreve a cena.
-- [ ] O recorte foi conferido no site (home, cartões e página do artigo).
+- [ ] O recorte foi conferido no site (`npm run conferir`, capturas `topo-*`).
 - [ ] A mesma obra não se repete em artigos vizinhos da home, quando houver alternativa.

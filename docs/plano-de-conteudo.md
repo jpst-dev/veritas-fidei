@@ -4,10 +4,11 @@ Combinado em 01/11/2026. Meta igual para todos os temas, por enquanto:
 **6 artigos de ensino (Aprender) e 3 da Defesa da fé por tema**. Novas trilhas
 não estão previstas: os artigos entram avulsos no tema.
 
-Ritmo: em **rodadas**, uma passada por todos os temas a cada rodada, para o
-site ficar equilibrado a qualquer momento. Cada artigo segue o fluxo de sempre:
-texto e parecer (docs/pareceres), mockup com duas imagens, publicação com a
-confirmação do autor. Rascunhos antigos servem de ponto de partida, mas o texto
+Ritmo: em **blocos por tema**, um tema de cada vez, para o site ficar
+equilibrado. Cada artigo segue o fluxo de [fluxo-artigo.md](fluxo-artigo.md)
+(parecer, revisão independente, imagem escolhida com alternativa, conferência
+visual); a entrega ao autor é uma por bloco, com publicação após a confirmação
+dele. Rascunhos antigos servem de ponto de partida, mas o texto
 é escrito do zero (e o rascunho substituído é apagado, com o slug redirecionado
 em `urls-antigas.json` quando mudar).
 
@@ -19,7 +20,7 @@ Legenda: ✅ publicado · ✍️ em andamento · ☐ a fazer · *(r)* há rascun
 | --- | --- | --- |
 | Deus e Trindade | 4/6 | 1/3 |
 | Bíblia e Tradição | 4/6 | 1/3 |
-| Jesus Cristo | 4/6 | 2/3 |
+| Jesus Cristo | 5/6 | 2/3 |
 | Igreja | 4/6 | 1/3 |
 | Maria | 4/6 | 1/3 |
 | Vida eterna | 4/6 | 1/3 |
@@ -44,7 +45,7 @@ Legenda: ✅ publicado · ✍️ em andamento · ☐ a fazer · *(r)* há rascun
 - ☐ Defesa: A Igreja proibia ler a Bíblia?
 
 ### Jesus Cristo
-- ☐ Ensino: A Ressurreição
+- ✅ Ensino: A Ressurreição
 - ☐ Ensino: A Ascensão e Pentecostes
 - ☐ Defesa: Jesus existiu mesmo?
 

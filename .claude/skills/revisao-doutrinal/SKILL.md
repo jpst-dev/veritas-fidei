@@ -82,10 +82,20 @@ Salve em `docs/pareceres/<slug>.md` e resuma ao usuário. Formato:
 Documentos e parágrafos abertos durante a revisão, e o que ficou para o
 autor conferir em papel, se quiser (a redação das expressões bíblicas entre aspas que não vêm
 do Catecismo, na CNBB impressa).
+
+## Revisão independente
+(Relatório do agente revisor-independente, colado depois deste parecer, com
+o desfecho de cada ponto: corrigido, ou por que não.)
 ```
+
+Para conferir as fontes, `npm run cic -- --artigo <arquivo>` mostra os
+parágrafos citados com as notas de rodapé (de onde vêm as citações dos Padres),
+e `npm run biblia -- --artigo <arquivo>` põe a frase do artigo ao lado do latim.
 
 ## Depois do parecer
 
+- Chame o agente `revisor-independente` só com o caminho do artigo (passo 6 de
+  `docs/fluxo-artigo.md`) e complete a seção "Revisão independente".
 - Não altere o artigo sem o usuário pedir: proponha as correções.
 - Com o voto `favorável` e o checklist de `docs/revisao.md` cumprido, o
   usuário decide a publicação. Registre em `revisao.notas` uma linha:
