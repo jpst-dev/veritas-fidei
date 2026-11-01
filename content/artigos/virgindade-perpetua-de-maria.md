@@ -103,7 +103,7 @@ Porque os Evangelhos não foram escritos para responder a todas as perguntas que
 
 ### Os protestantes negam essa doutrina?
 
-Hoje muitos dos nossos irmãos protestantes não a aceitam. Mas os primeiros reformadores, como Lutero e Zwinglio, a mantinham, e a negação só se tornou comum entre os protestantes séculos depois da Reforma. Os ortodoxos a professam como os católicos.
+Hoje muitos dos nossos irmãos protestantes não a aceitam. Mas os primeiros reformadores, como Lutero e Zuínglio, a mantinham, e a negação só se tornou comum entre os protestantes séculos depois da Reforma. Os ortodoxos a professam como os católicos.
 
 ### Que diferença isso faz para a minha fé?
 

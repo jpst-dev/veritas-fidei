@@ -1,151 +1,106 @@
 ---
-title: "Maria como Medianeira de Todas as Graças"
-description: "O papel de Maria na mediação e distribuição das graças de Cristo"
+title: Maria medianeira contradiz o único mediador?
+tituloBusca: "Maria medianeira: contradiz 1Tm 2,5?"
+description: "A Bíblia diz que há um só mediador, Cristo. Então por que a Igreja chama Maria de medianeira? O que esse título quer dizer, e o que a Igreja pediu em 2025."
 tema: maria
-secao: aprender
-status: rascunho
+secao: defesa-da-fe
+obra: bodas-de-cana-murillo
+status: publicado
+publicadoEm: 2026-11-01
 nivel: intermediario
-tags: ["Maria", "Medianeira", "Graças", "Intercessão"]
+tags: [maria, medianeira, mediacao, intercessao, mater-populi-fidelis, corredentora, 1-timoteo-2]
+quaestio:
+  pareceQue: >-
+    São Paulo diz que há um só Deus e um só mediador entre Deus e os homens,
+    Cristo Jesus (1Tm 2,5). Chamar Maria de medianeira, e ainda mais de
+    medianeira de todas as graças, põe uma criatura no lugar que a Escritura
+    reserva a Cristo. Portanto, o título contradiz a Bíblia.
+  emSentidoContrario: >-
+    “A função maternal de Maria para com os homens, de modo algum ofusca ou
+    diminui a mediação única de Cristo, mas antes manifesta a sua eficácia”
+    (CIC 970).
+  respondo: >-
+    Cristo é o único Mediador em sentido próprio, e ninguém lhe acrescenta
+    nada. Mas a sua mediação não exclui, antes suscita, a cooperação das
+    criaturas, como a oração de uns pelos outros. Maria é medianeira nesse
+    sentido subordinado: como mãe que intercede e leva a Cristo. Por isso a
+    Igreja pede cautela com expressões que pareçam fazer dela uma fonte da
+    graça, e desaconselha o título de Corredentora.
 referencias:
-  - titulo: "Catecismo da Igreja Católica §§ 967-970"
-    autor: "Igreja Católica"
-    url: "https://www.vatican.va/archive/cathechism_po/index_new/p123a9p6_963-975_po.html"
-  - titulo: "Lumen Gentium § 62"
-    autor: "Concílio Vaticano II"
-    url: "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19641121_lumen-gentium_po.html"
-  - titulo: "Redemptoris Mater §§ 38-41"
-    autor: "São João Paulo II"
-    url: "https://www.vatican.va/content/john-paul-ii/pt/encyclicals/documents/hf_jp-ii_enc_25031987_redemptoris-mater.html"
-  - titulo: "Tratado da Verdadeira Devoção à Santíssima Virgem"
-    autor: "São Luís Maria Grignion de Montfort"
-    url: "https://www.montfort.org.br/bra/cadernos/maria/devocao/"
+  - titulo: Catecismo da Igreja Católica, 968-970 (Maria, Mãe na ordem da graça)
+    url: https://www.vatican.va/archive/cathechism_po/index_new/p1s2cap3_683-1065_po.html
+  - titulo: Concílio Vaticano II, constituição Lumen Gentium (1964), 60-62
+    url: https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19641121_lumen-gentium_po.html
+  - titulo: Dicastério para a Doutrina da Fé, nota Mater Populi fidelis sobre alguns títulos marianos (2025)
+    url: https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20251104_mater-populi-fidelis_po.html
 revisao:
-  citacoesConferidas: false
-  referenciasConferidas: false
-  notas: "Migrado do site antigo (2025): revisar texto, citações e referências."
+  citacoesConferidas: true
+  referenciasConferidas: true
+  notas: >-
+    Reescrito em 01/11/2026 no lugar do rascunho antigo de mesmo endereço, agora como Questão da Defesa da fé e de acordo com a nota Mater Populi fidelis (2025), que declara sempre inoportuno o título de Corredentora e aponta os limites de "medianeira de todas as graças".
+    Fontes conferidas: Mater Populi fidelis, 17-28, 44-49 e 65-71 (vatican.va, português), com a data (4/11/2025) e a aprovação de Leão XIV (7/10/2025).
+    Citações do Catecismo conferidas pelo verificador (npm run cic -- --artigo).
+    Referências conferidas na Nova Vulgata (npm run biblia -- --artigo) em 01/11/2026: existem e dizem o que o texto afirma.
+    A Escritura é parafraseada com referência, sem aspas; expressões curtas entre aspas seguem a tradução da CNBB.
+    Parecer doutrinal interno: favorável com correções em 01/11/2026, correções e revisão independente aplicadas (docs/pareceres/maria-medianeira-gracas.md).
 ---
 
-## Introdução
+Poucos versículos são citados com tanta frequência numa conversa entre católicos e protestantes quanto este: há um só Deus e um só mediador entre Deus e os homens, Cristo Jesus (1Tm 2,5). E poucos títulos marianos parecem bater tão de frente com ele quanto “medianeira”. Se a Bíblia diz “um só”, como a Igreja pode chamar Maria de medianeira?
 
-A doutrina de Maria como "Medianeira de Todas as Graças" expressa a crença na participação especial e única da Mãe de Jesus na dispensação das graças divinas à humanidade. Segundo este ensinamento, todas as graças merecidas por Cristo, único Mediador entre Deus e os homens, são distribuídas através da intercessão e cooperação de Maria. Esta doutrina, embora ainda não tenha sido solenemente definida como dogma, possui profundas raízes na Tradição da Igreja, nos escritos dos Padres e Doutores, nas declarações do Magistério, e mantém uma presença significativa na piedade dos fiéis. A mediação mariana não se opõe à única mediação de Cristo, mas dela procede, a ela se subordina e a ela conduz, manifestando sua eficácia.
+A pergunta é séria, e a própria Igreja a levou a sério. Em 4 de novembro de 2025, com a aprovação do Papa Leão XIV, o Dicastério para a Doutrina da Fé publicou a nota *Mater Populi fidelis*, sobre os títulos que falam da cooperação de Maria na salvação. A resposta que segue se apoia nesse documento.
 
-## Contexto Histórico
+## A objeção
 
-A compreensão do papel mediador de Maria desenvolveu-se gradualmente na história da Igreja:
+Na forma mais forte, são três argumentos.
 
-1. **Primórdios da Igreja**: Embora o título específico "Medianeira" não fosse usado, já nos primeiros séculos encontramos referências ao papel intercessor de Maria e à sua cooperação na obra salvífica. São Justino e Santo Ireneu, no século II, desenvolveram o paralelo Eva-Maria, destacando a participação de Maria na redenção como a "Nova Eva".
+1. **“Um só mediador.”** O texto de Paulo é taxativo: um só Deus, um só mediador, Cristo, que se deu em resgate por todos (1Tm 2,5-6). Qualquer outro mediador seria um acréscimo.
+2. **Títulos que crescem sem parar.** A piedade católica não se contentou com “medianeira”: fala de “medianeira de todas as graças”, de Maria como canal por onde passa toda graça, e até de “Corredentora”. Isso mostra que a devoção a Maria tende a ocupar o lugar de Cristo.
+3. **Para que um intermediário?** Se Cristo está à direita do Pai e intercede por nós (Rm 8,34; Hb 7,25), não precisamos de ninguém entre nós e ele. Passar por Maria seria desconfiar do acesso direto que Cristo nos abriu.
 
-2. **Período patrístico**: A partir do século IV, Padres como São Efrém, Santo Ambrósio e Santo Agostinho aprofundaram a reflexão sobre o papel de Maria na distribuição das graças divinas, embora de forma implícita.
+## O que a Igreja ensina
 
-3. **Idade Média**: Teólogos e santos medievais como São Bernardo de Claraval (século XII), conhecido como o "Doutor Mariano", desenvolveram significativamente a doutrina da mediação de Maria. São Bernardo é frequentemente citado por sua expressão: "Deus quis que nada tivéssemos que não passasse pelas mãos de Maria".
+A Igreja começa onde a objeção começa: Cristo é o único Mediador. O Catecismo, citando o Concílio, diz que a função maternal de Maria não ofusca nem diminui a mediação única de Cristo, e que todo o influxo salutar dela deriva dos méritos de Cristo, se funda na sua mediação e “dela depende inteiramente” (CIC 970). A nota de 2025 é ainda mais enfática: a palavra bíblica sobre a mediação de Cristo é peremptória, e em sentido estrito não se pode falar de outra mediação da graça que não seja a do Filho de Deus encarnado (*Mater Populi fidelis*, 24 e 27).
 
-4. **Era Moderna**: No século XVII, São Luís Maria Grignion de Montfort formulou de maneira mais explícita a doutrina da mediação universal de Maria em obras como "O Tratado da Verdadeira Devoção à Santíssima Virgem". A partir do século XIX, houve um considerável desenvolvimento teológico desta doutrina.
+Ao mesmo tempo, o Concílio ensina que Maria cooperou de modo inteiramente singular na obra do Salvador e é “nossa Mãe, na ordem da graça” (CIC 968); que do céu, com a sua múltipla intercessão, continua a nos alcançar os dons da salvação; e que por isso é invocada na Igreja com os títulos de “advogada, auxiliadora, socorro e medianeira” (CIC 969). O título existe, mas vem numa lista de palavras de intercessão e de ajuda materna, não de causa da graça; e o Concílio acrescenta que eles se entendem de modo que nada tirem nem acrescentem à dignidade e à eficácia de Cristo, o único Mediador (*Mater Populi fidelis*, 65).
 
-5. **Século XX**: A doutrina recebeu especial atenção durante o pontificado do Papa Pio XII. Nos anos que precederam o Concílio Vaticano II, houve movimentos que solicitavam a definição dogmática de Maria como "Medianeira de Todas as Graças". Embora o Concílio não tenha procedido a tal definição, a Constituição Dogmática "Lumen Gentium" afirmou claramente o papel mediador de Maria dentro do contexto da única mediação de Cristo.
+## A resposta
 
-## Fundamento Bíblico
+### A mediação de Cristo é inclusiva
 
-Embora o título "Medianeira" não apareça explicitamente nas Escrituras, diversos textos bíblicos fornecem bases para esta doutrina:
+O versículo de Paulo tem um contexto que muitas vezes se esquece. Logo antes de dizer que há um só mediador, ele pede que se façam súplicas, orações e intercessões por todos os homens, porque isso agrada a Deus (1Tm 2,1-4). A mediação única de Cristo não proíbe que os cristãos rezem uns pelos outros: é o fundamento disso. Paulo pede aos romanos que lutem com ele nas orações a Deus por ele (Rm 15,30), e Tiago diz que a oração do justo tem muito poder (Tg 5,16). Cada vez que alguém pede “reze por mim”, pede a um irmão que interceda junto de Cristo.
 
-1. **Anunciação (Lucas 1,26-38)**: O "sim" de Maria ao plano divino marca sua cooperação ativa na obra da redenção. Pelo seu consentimento, ela permitiu que o Verbo se fizesse carne, tornando-se o canal através do qual a graça entra no mundo.
+O Concílio explica com duas comparações. O sacerdócio de Cristo é único, mas é participado de diversos modos pelos ministros e pelo povo fiel; a bondade de Deus é uma só, mas se difunde de muitos modos nas criaturas. Assim também a mediação única do Redentor “não exclui, antes suscita nas criaturas, uma cooperação variada, que participa dessa fonte única” (CIC 970). Paulo diz que ele e Apolo são colaboradores de Deus (1Cor 3,9), e todos o somos, de algum modo. O documento resume: a unicidade da mediação de Cristo é “inclusiva”, porque ele, que tem todo o poder, pode tornar os seus irmãos capazes de uma verdadeira cooperação (*Mater Populi fidelis*, 28).
 
-2. **Visitação (Lucas 1,39-45)**: O encontro de Maria com Isabel mostra como a presença de Maria traz consigo a graça – João Batista salta de alegria no ventre de sua mãe e Isabel é cheia do Espírito Santo.
+### O que Maria faz: ser mãe que intercede
 
-3. **Bodas de Caná (João 2,1-11)**: Neste episódio, a intercessão de Maria junto a Jesus resulta no primeiro milagre, que manifesta a glória de Cristo e suscita a fé dos discípulos. A frase "Fazei tudo o que ele vos disser" expressa o papel de Maria em conduzir a Cristo.
+Se todo cristão pode interceder, Maria intercede de um modo único, porque é a Mãe. A nota de 2025 aponta dois momentos reais de mediação dela. Na Anunciação, o seu sim tornou possível que o Filho de Deus nascesse de uma mulher (Gl 4,4). Em Caná, ela apresentou a Jesus a falta de vinho e disse aos serventes que fizessem o que ele dissesse (Jo 2,3-5; *Mater Populi fidelis*, 26). Esse é o modelo: Maria não diz a Cristo o que ele tem de fazer; mostra-lhe as nossas necessidades e nos aponta para ele (*Mater Populi fidelis*, 49).
 
-4. **Maria ao pé da Cruz (João 19,25-27)**: Jesus confia sua mãe ao discípulo amado e este a Maria ("Eis aí tua mãe"). Os Padres da Igreja interpretam este episódio como estabelecendo a maternidade espiritual de Maria em relação a todos os discípulos de Cristo.
+No céu, ela faz o mesmo. O Apocalipse mostra os anciãos diante do Cordeiro apresentando a Deus as orações dos santos (Ap 5,8): no céu se intercede pelos que estão na terra. A Igreja crê que Maria, unida a Cristo de modo único, reza por nós (CIC 969); e a nota explica que ela nos ajuda a abrir o coração à graça, que só Deus pode infundir (*Mater Populi fidelis*, 46). Por isso o título que o Concílio prefere é **Mãe na ordem da graça**: ela é mãe de Cristo, que é o Autor de toda graça (*Mater Populi fidelis*, 71).
 
-5. **Pentecostes (Atos 1,14)**: Maria está presente com os apóstolos na oração que precede a vinda do Espírito Santo, sugerindo seu papel intercessor na dispensação da graça divina à Igreja nascente.
+### Os limites que a Igreja põe
 
-## Fundamento Patrístico e Teológico
+A nota de 2025 não se limita a defender o título; ela também o delimita, e isso responde à segunda objeção.
 
-A doutrina de Maria como Medianeira apoia-se em uma rica tradição teológica:
+- **“Corredentora”.** O título surgiu no fim da Idade Média e foi usado por alguns papas, mas o Concílio Vaticano II o evitou, e a nota conclui que é sempre inoportuno usá-lo, porque corre o risco de obscurecer a única mediação salvífica de Cristo. Quando uma expressão precisa de explicações constantes para não ser mal entendida, diz a nota, ela não presta um bom serviço à fé (*Mater Populi fidelis*, 17-18 e 22).
+- **“Medianeira de todas as graças”.** Em 1921, o cardeal Mercier pediu ao Papa Bento XV que definisse como dogma a mediação universal de Maria; o Papa não aceitou, e aprovou só uma festa litúrgica. Em 1996, diante do pedido de um movimento para que se definisse Maria como Corredentora ou medianeira de todas as graças, o cardeal Ratzinger, prefeito da Congregação para a Doutrina da Fé, votou contra, observando que a doutrina contida nesses títulos não estava madura (*Mater Populi fidelis*, 19 e 23). A nota diz que esse título tem limites: Maria, a primeira redimida, não pode ter sido medianeira da graça que ela mesma recebeu; e a imagem de Maria como fonte ou distribuidora das graças pode separar a graça da nossa relação pessoal com Cristo (*Mater Populi fidelis*, 45 e 67-68).
+- **O sentido aceitável.** Ao mesmo tempo, a nota reconhece que “graças”, no plural, pode ter um sentido correto: todos os auxílios que o Senhor nos concede ouvindo a intercessão da Mãe, e os impulsos interiores do Espírito que ela pode pedir para nós (*Mater Populi fidelis*, 68-69).
 
-1. **Padres da Igreja**:
+Ou seja: títulos usados até por papas e santos, com boa intenção, podem hoje ser mal entendidos, e por isso a Igreja corrige a linguagem para guardar a fé.
 
-   - São Ireneu (século II) desenvolve o paralelo entre Eva e Maria, mostrando como Maria, através de sua obediência, cooperou para desfazer o nó da desobediência de Eva.
-   - São Cirilo de Alexandria (século V), ao defender o título "Theotokos" (Mãe de Deus), estabelece o fundamento para compreender a participação especial de Maria na mediação das graças.
-   - São João Damasceno (século VIII) refere-se a Maria como "a medianeira da lei e da graça".
+## Respondendo às objeções
 
-2. **Teólogos medievais**:
+**1. “Um só mediador.”** É verdade, e a Igreja o afirma sem reserva (CIC 970). Mas o mesmo Paulo que escreve 1Tm 2,5 pede orações de uns pelos outros nos versículos anteriores. Maria não é um segundo mediador ao lado de Cristo: é a primeira entre os que intercedem, totalmente dependente dele.
 
-   - São Bernardo de Claraval desenvolve a doutrina do "aqueduto da graça", descrevendo Maria como o canal por meio do qual as graças de Cristo fluem para a humanidade.
-   - São Boaventura e Santo Alberto Magno aprofundam a reflexão sobre a participação de Maria na redenção objetiva (cooperação na obra salvífica de Cristo) e subjetiva (distribuição das graças aos fiéis).
-   - São Tomás de Aquino reconhece o papel singular de Maria na economia da salvação, embora não use explicitamente o termo "medianeira".
+**2. “Títulos que crescem sem parar.”** A objeção tem um fundo de verdade, e a Igreja o reconheceu: desaconselhou o título de Corredentora e pediu cautela com “medianeira de todas as graças” (*Mater Populi fidelis*, 22 e 67). Quem faz isso não é a Igreja deixando Maria tomar o lugar de Cristo; é a Igreja vigiando para que isso não aconteça. Uma devoção mariana que nos distraia de Cristo ou coloque Maria no mesmo nível do Filho de Deus, diz a nota, ficaria fora de uma fé autenticamente mariana (*Mater Populi fidelis*, 66).
 
-3. **Fundamentos teológicos**:
+**3. “Para que um intermediário?”** Ninguém é obrigado a rezar a Maria para ser ouvido por Cristo, e Deus não precisa dela para salvar; rezar ao Pai por Cristo, e ao próprio Cristo, é o centro da vida cristã. Ela é mãe de todos, mesmo de quem não lhe pede nada (CIC 969). Mas pedir que a Mãe reze conosco não é desconfiar de Cristo, assim como pedir a oração de um amigo não é. Em Caná, foi ela quem levou a Jesus a necessidade dos noivos e depois apontou para ele (Jo 2,3-5). E, na cruz, Cristo entregou a sua Mãe ao discípulo amado (Jo 19,26-27), em quem a Igreja sempre viu cada um de nós.
 
-   - **Maternidade divina**: Como Mãe de Deus encarnado, Maria possui uma relação única com o Mediador divino, que fundamenta sua participação na mediação.
-   - **Cooperação na redenção**: Por sua livre aceitação da vontade divina e sua participação nos sofrimentos de Cristo, especialmente ao pé da cruz, Maria cooperou na obra redentora de modo singular.
-   - **Maternidade espiritual**: Como Mãe espiritual dos membros do Corpo de Cristo, Maria exerce um papel maternal na dispensação das graças para seus filhos espirituais.
-   - **Assunção e realeza**: Elevada ao céu em corpo e alma e coroada como Rainha, Maria exerce sua mediação de modo ativo junto a Cristo glorificado.
+Veja também [Venerar Maria é idolatria?](/artigos/veneracao-maria-idolatria) e [Maria, nova Eva e Mãe da Igreja](/artigos/maria-nova-eva).
 
-4. **Teólogos modernos**:
-   - Teólogos como René Laurentin, Karl Rahner e Hans Urs von Balthasar têm buscado articular a mediação mariana dentro do contexto da cristologia e eclesiologia contemporâneas, enfatizando que a mediação de Maria deriva de sua participação na única mediação de Cristo e sempre conduz a Ele.
-   - O Cardeal Leo Scheffczyk desenvolveu a compreensão da mediação mariana como um aspecto da "mediação em Cristo", distinguindo-a de qualquer concepção que pudesse sugerir uma mediação paralela ou independente.
+## Em resumo
 
-## Magistério da Igreja
-
-O ensinamento do Magistério sobre Maria como Medianeira tem sido consistente, embora cauteloso:
-
-1. **Leão XIII**: Na encíclica "Octobri Mense" (1891), afirmou que "absolutamente nada da imensa tesoura de graça... é concedido a nós exceto através de Maria, pois assim Deus deseja".
-
-2. **Bento XV**: Em 1921, permitiu que as dioceses da Bélgica celebrassem uma festa em honra de Maria Medianeira de Todas as Graças.
-
-3. **Pio XI e Pio XII**: Utilizaram o título "Medianeira" em diversos documentos, aprofundando a compreensão teológica da participação de Maria na mediação das graças.
-
-4. **Concílio Vaticano II**: A Constituição Dogmática "Lumen Gentium" (1964) dedica um capítulo inteiro a Maria, abordando sua mediação nos números 60-62:
-
-   - "A única mediação do Redentor não exclui, antes suscita nas criaturas cooperações diversas, que participam desta única fonte" (LG 62).
-   - "A função maternal de Maria em relação aos homens de modo algum obscurece ou diminui esta única mediação de Cristo; manifesta antes a sua eficácia" (LG 60).
-   - "Por isso, a bem-aventurada Virgem é invocada na Igreja com os títulos de advogada, auxiliadora, protetora, medianeira" (LG, 62).
-
-5. **São João Paulo II**: Em sua encíclica "Redemptoris Mater" (1987), aprofundou o ensinamento conciliar sobre a mediação materna de Maria, caracterizando-a como "mediação em Cristo".
-
-6. **Catecismo da Igreja Católica**: Reafirma que "a maternidade de Maria na economia da graça perdura sem interrupção... até à consumação eterna de todos os eleitos" (CIC 969).
-
-## Objeções Comuns e Respostas
-
-### "Paulo afirma claramente que 'há um só mediador entre Deus e os homens, Jesus Cristo homem' (1 Timóteo 2,5). A doutrina da mediação mariana contradiz esta verdade bíblica."
-
-**Resposta**: A mediação de Maria não se opõe à única mediação de Cristo, mas deriva dela e a ela se subordina. O próprio Paulo, após afirmar a única mediação de Cristo, exorta os fiéis a intercederem uns pelos outros (1 Tm 2,1-4), demonstrando que a participação das criaturas na mediação de Cristo não contradiz sua unicidade. Maria participa de modo eminente nesta mediação única, não estabelecendo uma "ponte alternativa", mas facilitando o acesso a Cristo.
-
-### "A doutrina da mediação mariana não tem fundamento bíblico explícito e é uma invenção medieval tardia."
-
-**Resposta**: Embora o título específico seja um desenvolvimento posterior, os fundamentos teológicos da mediação de Maria estão presentes desde os primeiros séculos, como evidenciado pelos escritos dos Padres. A doutrina desenvolveu-se organicamente a partir da reflexão sobre textos bíblicos como João 2,1-11 (Bodas de Caná) e João 19,25-27 (Maria ao pé da Cruz), seguindo o princípio do desenvolvimento homogêneo da doutrina.
-
-### "Chamar Maria de 'Medianeira de Todas as Graças' sugere que não podemos aproximar-nos diretamente de Cristo, o que contraria o ensinamento bíblico sobre o livre acesso a Deus por meio de Cristo."
-
-**Resposta**: A doutrina não ensina que devemos aproximar-nos de Cristo apenas através de Maria, mas que Maria, por sua posição única na economia da salvação, está associada de modo especial à dispensação de todas as graças. Os fiéis sempre mantêm acesso direto a Cristo, mas a intercessão e mediação de Maria são um auxílio, não um obstáculo. Como Mãe, ela conduz mais eficazmente a Cristo, nunca afastando dele.
-
-### "Esta doutrina exalta Maria a um nível quase divino, atribuindo-lhe poderes que pertencem somente a Deus."
-
-**Resposta**: A mediação de Maria é sempre uma mediação participada e dependente, não uma mediação autônoma. Ela não é fonte das graças, mas canal; não concede graças por poder próprio, mas por sua intercessão junto a Cristo. A exaltação de Maria manifesta não sua divinização, mas a grandeza da graça divina operando numa criatura humana.
-
-## Aplicações Contemporâneas
-
-1. **Aprofundamento da vida espiritual**: Reconhecer Maria como Medianeira promove uma compreensão mais completa da economia da graça e encoraja os fiéis a buscar sua intercessão maternal, especialmente em momentos de dificuldade espiritual.
-
-2. **Dimensão ecumênica**: Embora o título "Medianeira" seja contestado por cristãos não-católicos, uma compreensão equilibrada da mediação mariana, sempre subordinada a Cristo, pode contribuir para o diálogo ecumênico, mostrando como a devoção mariana autêntica conduz a Cristo.
-
-3. **Formação catequética**: O ensino sobre a mediação mariana oferece oportunidades para esclarecer a doutrina católica sobre a comunhão dos santos, a intercessão, e o papel de Maria na vida da Igreja, evitando tanto exageros devocionais quanto minimizações de seu papel.
-
-4. **Espiritualidade familiar**: Maria como Medianeira oferece um modelo para os pais que exercem uma forma de "mediação" entre Deus e seus filhos, transmitindo a fé e valores cristãos através de seu exemplo e ensinamento.
-
-5. **Renovação apostólica**: A compreensão de que Maria coopera na distribuição de todas as graças inspira os fiéis a colaborarem ativamente na obra evangelizadora da Igreja, reconhecendo que, assim como Maria, são chamados a levar Cristo ao mundo.
-
-## Conclusão
-
-A doutrina de Maria como Medianeira de Todas as Graças representa uma profunda intuição teológica sobre o papel especial da Mãe de Jesus na economia da salvação. Fundada nas Escrituras e desenvolvida organicamente na Tradição da Igreja, esta doutrina ilumina a posição única de Maria como cooperadora privilegiada na obra redentora de seu Filho e sua contínua intercepção maternal pelos membros de seu Corpo Místico.
-
-Longe de obscurecer a única mediação de Cristo, a mediação mariana a revela e manifesta sua eficácia, mostrando como Deus associa livremente suas criaturas à obra da redenção. Através de sua mediação maternal, Maria não afasta os fiéis de Cristo, mas os conduz mais seguramente a Ele, cumprindo eternamente as palavras ditas em Caná: "Fazei tudo o que Ele vos disser".
-
-Seja como verdade já implicitamente contida no depósito da fé e aguardando eventual definição dogmática, seja como expressão teológica de um aspecto da maternidade espiritual de Maria, a doutrina da Medianeira de Todas as Graças continuará a inspirar a devoção dos fiéis e a reflexão teológica, convidando todos a reconhecer em Maria o modelo perfeito de recepção e transmissão da graça divina.
-
-## Leitura Adicional
-
-- "Lumen Gentium", Capítulo VIII - Constituição Dogmática do Concílio Vaticano II
-- "Redemptoris Mater" - Encíclica de São João Paulo II sobre a Mãe do Redentor
-- "Tratado da Verdadeira Devoção à Santíssima Virgem" - São Luís Maria Grignion de Montfort
-- "Maria, Mãe do Redentor" - Mark Miravalle
-- "Maria na Teologia Contemporânea" - René Laurentin
+- **Cristo é o único Mediador** entre Deus e os homens (1Tm 2,5), e todo o influxo de Maria depende inteiramente dele (CIC 970).
+- A mediação de Cristo é **inclusiva**: não exclui, mas suscita a cooperação das criaturas, como a oração de uns pelos outros (1Tm 2,1-4; CIC 970).
+- Maria é **medianeira no sentido de mãe que intercede**, como em Caná; o Concílio prefere chamá-la de **Mãe na ordem da graça** (CIC 968-969).
+- Em 2025, a Igreja declarou **sempre inoportuno** o título de **Corredentora** e apontou os **limites** de “medianeira de todas as graças” (*Mater Populi fidelis*, 22 e 67).
+- Toda devoção mariana autêntica leva a **Cristo** (Jo 2,5).

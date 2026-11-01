@@ -22,7 +22,7 @@ Legenda: ✅ publicado · ✍️ em andamento · ☐ a fazer · *(r)* há rascun
 | Bíblia e Tradição | 6/6 | 3/3 |
 | Jesus Cristo | 6/6 | 3/3 |
 | Igreja | 6/6 | 3/3 |
-| Maria | 4/6 | 1/3 |
+| Maria | 6/6 | 3/3 |
 | Vida eterna | 4/6 | 1/3 |
 | Sacramentos | 6/6 | 3/3 |
 | Moral | 4/6 | 1/3 |
@@ -56,10 +56,10 @@ Legenda: ✅ publicado · ✍️ em andamento · ☐ a fazer · *(r)* há rascun
 - ✅ Defesa: Pedro esteve mesmo em Roma?
 
 ### Maria
-- ☐ Ensino: Maria, nova Eva e Mãe da Igreja *(r)*
-- ☐ Ensino: As aparições e as revelações privadas *(r)*
-- ☐ Defesa: Maria teve outros filhos?
-- ☐ Defesa: Maria medianeira contradiz o único mediador? *(r)*
+- ✅ Ensino: Maria, nova Eva e Mãe da Igreja *(r)*
+- ✅ Ensino: As aparições e as revelações privadas *(r)*
+- ✅ Defesa: Maria teve outros filhos?
+- ✅ Defesa: Maria medianeira contradiz o único mediador? *(r)*
 
 ### Vida eterna
 - ☐ Ensino: O purgatório
