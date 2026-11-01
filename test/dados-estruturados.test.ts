@@ -15,14 +15,15 @@ describe('dados estruturados', () => {
       tema: 'Sacramentos',
     })
     expect(siteLd(SITE).publisher).toEqual({ '@id': projeto['@id'] })
-    expect(artigo.author).toEqual({ '@id': projeto['@id'] })
+    expect(artigo.publisher).toEqual({ '@id': projeto['@id'] })
+    expect(artigo.author).toMatchObject({ '@type': 'Person', name: 'João Teixeira', url: 'https://jteixeira.dev' })
     expect(artigo.url).toBe(`${SITE}/artigos/a-presenca-real-na-eucaristia`)
   })
 
   it('usa a data de publicação como modificação quando o artigo não foi atualizado', () => {
     const base = { path: '/artigos/x', title: 'X', description: 'Y', imagem: `${SITE}/og/padrao.png`, tema: 'Moral' }
-    expect(artigoLd(SITE, { ...base, publicadoEm: '2026-05-01' }).dateModified).toBe('2026-05-01')
-    expect(artigoLd(SITE, { ...base, publicadoEm: '2026-05-01', atualizadoEm: '2026-09-10' }).dateModified).toBe('2026-09-10')
+    expect(artigoLd(SITE, { ...base, publicadoEm: '2026-05-01' }).dateModified).toBe('2026-05-01T00:00:00-03:00')
+    expect(artigoLd(SITE, { ...base, publicadoEm: '2026-05-01', atualizadoEm: '2026-09-10' }).dateModified).toBe('2026-09-10T00:00:00-03:00')
     expect(artigoLd(SITE, base)).not.toHaveProperty('datePublished')
   })
 

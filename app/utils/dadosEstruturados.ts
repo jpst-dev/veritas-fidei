@@ -25,6 +25,16 @@ export function siteLd(siteUrl: string): No {
   }
 }
 
+/** Quem escreve os artigos: só o nome público, com o site pessoal. */
+export function autorLd(): No {
+  return { '@type': 'Person', '@id': 'https://jteixeira.dev/#pessoa', name: 'João Teixeira', url: 'https://jteixeira.dev' }
+}
+
+/** "2026-10-31" → "2026-10-31T00:00:00-03:00": o Google pede data com hora e fuso. */
+export function dataHora(data: string): string {
+  return `${data}T00:00:00-03:00`
+}
+
 export interface Migalha {
   nome: string
   /** Caminho da página; o último item (a própria página) pode ficar sem. */
@@ -60,6 +70,7 @@ export interface ArtigoLd {
 export function artigoLd(siteUrl: string, artigo: ArtigoLd): No {
   const url = `${siteUrl}${artigo.path}`
   const publicado = artigo.publicadoEm
+  const modificado = artigo.atualizadoEm ?? publicado
   return {
     '@type': 'Article',
     '@id': `${url}#artigo`,
@@ -68,9 +79,9 @@ export function artigoLd(siteUrl: string, artigo: ArtigoLd): No {
     headline: artigo.title,
     description: artigo.description,
     image: [artigo.imagem],
-    ...(publicado && { datePublished: publicado }),
-    ...((artigo.atualizadoEm ?? publicado) && { dateModified: artigo.atualizadoEm ?? publicado }),
-    author: { '@id': `${siteUrl}/#projeto` },
+    ...(publicado && { datePublished: dataHora(publicado) }),
+    ...(modificado && { dateModified: dataHora(modificado) }),
+    author: autorLd(),
     publisher: { '@id': `${siteUrl}/#projeto` },
     articleSection: artigo.tema,
     inLanguage: 'pt-BR',
