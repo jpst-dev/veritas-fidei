@@ -75,7 +75,7 @@ O Concílio explica com duas comparações. O sacerdócio de Cristo é único, m
 
 Se todo cristão pode interceder, Maria intercede de um modo único, porque é a Mãe. A nota de 2025 aponta dois momentos reais de mediação dela. Na Anunciação, o seu sim tornou possível que o Filho de Deus nascesse de uma mulher (Gl 4,4). Em Caná, ela apresentou a Jesus a falta de vinho e disse aos serventes que fizessem o que ele dissesse (Jo 2,3-5; *Mater Populi fidelis*, 26). Esse é o modelo: Maria não diz a Cristo o que ele tem de fazer; mostra-lhe as nossas necessidades e nos aponta para ele (*Mater Populi fidelis*, 49).
 
-No céu, ela faz o mesmo. O Apocalipse mostra os anciãos diante do Cordeiro apresentando a Deus as orações dos santos (Ap 5,8): no céu se intercede pelos que estão na terra. A Igreja crê que Maria, unida a Cristo de modo único, reza por nós (CIC 969); e a nota explica que ela nos ajuda a abrir o coração à graça, que só Deus pode infundir (*Mater Populi fidelis*, 46). Por isso o título que o Concílio prefere é **Mãe na ordem da graça**: ela é mãe de Cristo, que é o Autor de toda graça (*Mater Populi fidelis*, 71).
+No céu, ela faz o mesmo. O Apocalipse mostra os anciãos diante do Cordeiro apresentando a Deus as orações dos santos (Ap 5,8): no céu se intercede pelos que estão na terra (veja [a intercessão dos santos](/artigos/rezar-aos-santos)). A Igreja crê que Maria, unida a Cristo de modo único, reza por nós (CIC 969); e a nota explica que ela nos ajuda a abrir o coração à graça, que só Deus pode infundir (*Mater Populi fidelis*, 46). Por isso o título que o Concílio prefere é **Mãe na ordem da graça**: ela é mãe de Cristo, que é o Autor de toda graça (*Mater Populi fidelis*, 71).
 
 ### Os limites que a Igreja põe
 

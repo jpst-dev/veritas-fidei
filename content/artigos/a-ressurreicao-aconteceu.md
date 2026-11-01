@@ -86,7 +86,7 @@ Os discípulos não dizem apenas que o túmulo estava vazio, mas que viram Jesus
 
 Na noite da prisão, os discípulos fugiram (Mc 14,50) e Pedro negou conhecer Jesus (Mc 14,66-72). Depois da morte do mestre, estavam escondidos, com medo (Jo 20,19). Poucas semanas depois, os mesmos homens anunciavam publicamente em Jerusalém que Jesus tinha ressuscitado, diante das mesmas autoridades que o tinham condenado (At 4,1-20). Vários morreram por esse testemunho: Tiago, irmão de João, foi morto à espada (At 12,2), e no fim do século I São Clemente de Roma lembrava o martírio de Pedro e de Paulo (São Clemente de Roma, *Primeira Carta aos Coríntios*, 5; c. 96). Dificilmente alguém dá a vida por uma mentira que ele mesmo inventou.
 
-E não foram só os amigos. Os parentes de Jesus, em geral, não acreditavam nele durante a sua vida (Jo 7,5); Tiago, chamado “irmão do Senhor”, tornou-se depois um dos líderes da Igreja de Jerusalém (Gl 2,9; At 15,13). Paulo perseguia os cristãos e se tornou o maior anunciador da ressurreição, e atribui a mudança a uma só coisa: Jesus lhe apareceu (1Cor 15,8).
+E não foram só os amigos. Os parentes de Jesus, em geral, não acreditavam nele durante a sua vida (Jo 7,5); Tiago, chamado “irmão do Senhor” (sobre esse título, veja [Maria teve outros filhos?](/artigos/maria-teve-outros-filhos)), tornou-se depois um dos líderes da Igreja de Jerusalém (Gl 2,9; At 15,13). Paulo perseguia os cristãos e se tornou o maior anunciador da ressurreição, e atribui a mudança a uma só coisa: Jesus lhe apareceu (1Cor 15,8).
 
 ## Respondendo às objeções
 

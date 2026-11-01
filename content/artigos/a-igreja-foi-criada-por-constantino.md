@@ -97,7 +97,7 @@ Basta abrir os textos dos dois primeiros séculos:
 - Por volta de 155, **Justino** descreve a missa do domingo, com leituras, homilia, orações e a Eucaristia, recebida não como pão comum, mas como carne e sangue de Jesus (*Primeira Apologia*, 66-67).
 - Por volta de 180, **Irineu** lista os bispos de Roma desde Pedro e Paulo e diz que com essa Igreja, pela sua origem mais excelente, deve estar de acordo toda a Igreja (*Contra as heresias*, III, 3, 2; CIC 834).
 
-Bispos, sucessão apostólica, Eucaristia, missa dominical e o lugar da Igreja de Roma: tudo isso já estava lá mais de um século antes de Constantino (veja [Os Padres da Igreja](/artigos/grandes-padres-igreja) e [Pedro e o papa](/artigos/pedro-e-o-papa)).
+Bispos, sucessão apostólica, Eucaristia, missa dominical e o lugar da Igreja de Roma: tudo isso já estava lá mais de um século antes de Constantino (veja [Os Padres da Igreja](/artigos/grandes-padres-igreja), [Pedro e o papa](/artigos/pedro-e-o-papa) e [Pedro esteve mesmo em Roma?](/artigos/pedro-esteve-em-roma)). Sobre a acusação parecida contra o Natal, veja [O Natal é uma festa pagã?](/artigos/natal-festa-paga).
 
 ### Niceia não inventou a divindade de Cristo
 

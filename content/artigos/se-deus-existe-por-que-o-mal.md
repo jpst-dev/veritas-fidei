@@ -112,7 +112,7 @@ A fé não diz que Deus não poderia (CIC 310). Diz que ele quis um mundo a cami
 
 ### 2. “É mal demais: crianças, animais, catástrofes.”
 
-Do nosso ponto de vista, muitas vezes parece. O sofrimento dos animais e as catástrofes pertencem ao mal físico de um mundo que ainda não chegou à perfeição (CIC 310), não a um castigo. Mas não temos o ponto de vista de Deus. Quando Jó exigiu explicações, Deus lhe perguntou: *onde estavas quando eu lançava os fundamentos da terra?* (Jó 38,4). Jó não recebeu uma teoria, mas encontrou o próprio Deus, e disse: *eu te conhecia só de ouvir; agora meus olhos te veem* (Jó 42,5). E para o sofrimento do inocente a fé tem uma resposta que nenhuma teoria tem: o Inocente sofreu com ele, e ressuscitou.
+Do nosso ponto de vista, muitas vezes parece. O sofrimento dos animais e as catástrofes pertencem ao mal físico de um mundo que ainda não chegou à perfeição (CIC 310), não a um castigo; é o mesmo mundo em devir de que trata o artigo [sobre a evolução](/artigos/a-evolucao-contradiz-a-fe). Mas não temos o ponto de vista de Deus. Quando Jó exigiu explicações, Deus lhe perguntou: *onde estavas quando eu lançava os fundamentos da terra?* (Jó 38,4). Jó não recebeu uma teoria, mas encontrou o próprio Deus, e disse: *eu te conhecia só de ouvir; agora meus olhos te veem* (Jó 42,5). E para o sofrimento do inocente a fé tem uma resposta que nenhuma teoria tem: o Inocente sofreu com ele, e ressuscitou.
 
 ### 3. “O mundo se explica melhor sem Deus.”
 

@@ -103,7 +103,7 @@ A Escritura não se interpreta sozinha. São Pedro diz que nas cartas de Paulo h
 
 **“Os bereanos conferiam tudo pelas Escrituras.”** Os judeus de Bereia examinavam as Escrituras para ver se o que Paulo pregava era verdade (At 17,11). Mas o que eles examinavam era a **pregação oral** de Paulo, que aceitaram, e as Escrituras eram o Antigo Testamento. O episódio mostra Escritura e pregação apostólica juntas, não a Escritura sozinha.
 
-**“O essencial é claro; a Escritura interpreta a Escritura.”** Muito é claro, e a Igreja recomenda ler a Bíblia à luz dela mesma. Mas os cristãos que aceitam esse princípio divergem justamente em pontos essenciais, como o Batismo e a Eucaristia, como mostrou Marburgo. A própria Escritura reconhece passagens difíceis (2Pd 3,16).
+**“O essencial é claro; a Escritura interpreta a Escritura.”** Muito é claro, e a Igreja recomenda ler a Bíblia à luz dela mesma. Mas os cristãos que aceitam esse princípio divergem justamente em pontos essenciais, como o [Batismo](/artigos/batismo-infantil-biblico) e a [Eucaristia](/artigos/a-eucaristia-e-so-um-simbolo), como mostrou Marburgo. A própria Escritura reconhece passagens difíceis (2Pd 3,16).
 
 **“As tradições se corrompem; a Bíblia, não.”** A preocupação é justa, e por isso a Igreja distingue a Tradição apostólica das tradições locais, que podem mudar e até ser abandonadas (CIC 83). Mas a Tradição apostólica não depende só da memória humana: Cristo prometeu que o Espírito guiaria a Igreja à verdade plena (Jo 16,13) e que as portas do inferno não prevaleceriam contra ela (Mt 16,18). O mesmo Espírito que inspirou a Escritura guarda a sua transmissão. E quem discerne o que é apostólico não é cada leitor sozinho, mas a Igreja, sob a direção do Magistério (CIC 83).
 
