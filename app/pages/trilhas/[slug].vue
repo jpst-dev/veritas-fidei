@@ -48,6 +48,8 @@ useSeoMeta({
   ogTitle: `${trilha.value.title} · Veritas Fidei`,
   ogDescription: trilha.value.description,
 })
+
+useDadosEstruturados((siteUrl) => [migalhasLd(siteUrl, [{ nome: 'Trilhas', path: '/trilhas' }, { nome: trilha.value!.title }])])
 </script>
 
 <template>

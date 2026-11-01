@@ -114,6 +114,22 @@ useSeoMeta({
     ogImageAlt: artigo.value.title,
   }),
 })
+
+useDadosEstruturados((siteUrl) => [
+  artigoLd(siteUrl, {
+    path: route.path,
+    title: artigo.value!.title,
+    description: artigo.value!.description,
+    publicadoEm: artigo.value!.publicadoEm,
+    atualizadoEm: artigo.value!.atualizadoEm,
+    imagem: artigo.value!.status === 'rascunho' ? `${siteUrl}/og/padrao.png` : `${siteUrl}/og/artigos/${slug}.png`,
+    tema: nomeDoTema.value,
+  }),
+  migalhasLd(siteUrl, [
+    { nome: nomeDoTema.value, path: `/temas/${artigo.value!.tema}` },
+    { nome: artigo.value!.title },
+  ]),
+])
 </script>
 
 <template>

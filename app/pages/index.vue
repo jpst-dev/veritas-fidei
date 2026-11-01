@@ -52,6 +52,8 @@ useSeoMeta({
   ogDescription: 'Artigos revisados e trilhas de estudo para conhecer, amar e saber dar razão da fé católica.',
 })
 
+useDadosEstruturados((siteUrl) => [siteLd(siteUrl)])
+
 useHead({
   link: abertura.value
     ? [{ rel: 'preload', as: 'image', href: `/obras/${abertura.value.slug}-1600.webp`, fetchpriority: 'high', media: '(min-width: 1024px)' }]

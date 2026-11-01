@@ -51,6 +51,8 @@ useSeoMeta({
   ogTitle: `${tema.value.nome} · Veritas Fidei`,
   ogDescription: tema.value.descricao,
 })
+
+useDadosEstruturados((siteUrl) => [migalhasLd(siteUrl, [{ nome: 'Temas', path: '/temas' }, { nome: tema.value!.nome }])])
 </script>
 
 <template>
