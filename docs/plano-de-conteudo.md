@@ -18,7 +18,7 @@ Legenda: ✅ publicado · ✍️ em andamento · ☐ a fazer · *(r)* há rascun
 
 | Tema | Ensino | Defesa |
 | --- | --- | --- |
-| Deus e Trindade | 4/6 | 1/3 |
+| Deus e Trindade | 6/6 | 3/3 |
 | Bíblia e Tradição | 4/6 | 1/3 |
 | Jesus Cristo | 6/6 | 3/3 |
 | Igreja | 4/6 | 1/3 |
@@ -33,10 +33,10 @@ Legenda: ✅ publicado · ✍️ em andamento · ☐ a fazer · *(r)* há rascun
 ## O que falta
 
 ### Deus e Trindade
-- ☐ Ensino: A criação e o homem, imagem de Deus
-- ☐ Ensino: Os anjos e o demônio
-- ☐ Defesa: A Trindade não está na Bíblia?
-- ☐ Defesa: O Deus do Antigo Testamento é cruel?
+- ✅ Ensino: A criação e o homem, imagem de Deus
+- ✅ Ensino: Os anjos e o demônio
+- ✅ Defesa: A Trindade não está na Bíblia?
+- ✅ Defesa: O Deus do Antigo Testamento é cruel?
 
 ### Bíblia e Tradição
 - ☐ Ensino: O desenvolvimento da doutrina *(r)*
