@@ -1,9 +1,11 @@
 ---
 title: O Natal é uma festa pagã?
 description: "Dizem que o 25 de dezembro era a festa romana do Sol Invicto e que a Igreja só trocou o nome. O que a história mostra e por que o Natal celebra Cristo."
+obra: noite-santa
 tema: jesus-cristo
 secao: defesa-da-fe
-status: em-revisao
+status: publicado
+publicadoEm: 2026-11-01
 nivel: iniciante
 tags: [natal, advento, sol-invicto, ano-liturgico, paganismo, encarnacao]
 quaestio:
