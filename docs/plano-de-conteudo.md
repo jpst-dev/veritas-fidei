@@ -20,7 +20,7 @@ Legenda: ✅ publicado · ✍️ em andamento · ☐ a fazer · *(r)* há rascun
 | --- | --- | --- |
 | Deus e Trindade | 4/6 | 1/3 |
 | Bíblia e Tradição | 4/6 | 1/3 |
-| Jesus Cristo | 5/6 | 2/3 |
+| Jesus Cristo | 6/6 | 3/3 |
 | Igreja | 4/6 | 1/3 |
 | Maria | 4/6 | 1/3 |
 | Vida eterna | 4/6 | 1/3 |
@@ -46,8 +46,8 @@ Legenda: ✅ publicado · ✍️ em andamento · ☐ a fazer · *(r)* há rascun
 
 ### Jesus Cristo
 - ✅ Ensino: A Ressurreição
-- ☐ Ensino: A Ascensão e Pentecostes
-- ☐ Defesa: Jesus existiu mesmo?
+- ✅ Ensino: A Ascensão e Pentecostes
+- ✅ Defesa: Jesus existiu mesmo?
 
 ### Igreja
 - ☐ Ensino: A comunhão dos santos
