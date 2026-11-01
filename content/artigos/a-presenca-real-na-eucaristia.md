@@ -6,7 +6,7 @@ tema: sacramentos
 secao: aprender
 status: publicado
 publicadoEm: 2026-10-26
-atualizadoEm: 2026-10-31
+atualizadoEm: 2026-11-01
 nivel: intermediario
 tags: [eucaristia, presenca-real, transubstanciacao, sacramentos]
 referencias:
@@ -96,7 +96,7 @@ Os primeiros cristãos leram esses textos literalmente, e o testemunho começa l
 - **Santo Inácio de Antioquia**, discípulo dos Apóstolos, escreve por volta de 110 sobre alguns hereges que se afastam da Eucaristia porque não confessam que a Eucaristia é a carne do nosso Salvador Jesus Cristo, que sofreu pelos nossos pecados (Santo Inácio de Antioquia, *Carta aos Esmirnenses*, 7,1).
 - **São Justino**, por volta de 155, explica aos pagãos o que os cristãos fazem no domingo: não recebem aquele alimento como pão comum nem como bebida comum, mas como a carne e o sangue de Jesus encarnado (São Justino, *I Apologia*, 66).
 - **São Cirilo de Jerusalém**, por volta de 350, ensina aos recém-batizados: não julguem pelo gosto, mas tenham certeza, pela fé, de que receberam o corpo e o sangue de Cristo (São Cirilo de Jerusalém, *Catequeses mistagógicas*, IV,6).
-- **São João Crisóstomo** e **Santo Ambrósio**, no século IV, ensinam que não é o homem que faz das ofertas o corpo e o sangue de Cristo, mas o próprio Cristo, pela força da sua palavra (CIC 1375).
+- **São João Crisóstomo** e **Santo Ambrósio**, no século IV, ensinam que não é o homem que faz das ofertas o corpo e o sangue de Cristo, mas o próprio Cristo, pela força da sua palavra (São João Crisóstomo, *Homilia sobre a traição de Judas*, 1, 6; Santo Ambrósio, *Sobre os mistérios*, 9, 50-52; citados em CIC 1375).
 
 Quando, no século XI, Berengário de Tours passou a ensinar que a presença era só simbólica, a novidade foi rejeitada justamente por contradizer o que sempre se crera, e ele mesmo acabou assinando, em 1079, uma profissão da fé na conversão substancial do pão e do vinho (DH 700). E quando a Reforma Protestante voltou a questionar a presença real, o Concílio de Trento reafirmou a fé de sempre, lembrando que “sempre na Igreja se teve esta convicção” (CIC 1376).
 

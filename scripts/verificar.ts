@@ -28,6 +28,7 @@ import {
   lerArtigo,
   textosComReferencias,
   verificarEstrutura,
+  padresSemObra,
   verificarFormato,
 } from './verificar/artigo.ts'
 import { textoDoCatecismo, trechosAusentes, urlDoParagrafo } from './verificar/catecismo.ts'
@@ -185,6 +186,7 @@ for (const arquivo of arquivos) {
     ...verificarEstrutura(artigo),
     ...verificarAcervo(basename(arquivo, '.md'), artigo, acervo!),
     ...verificarFormato(artigo),
+    ...padresSemObra(artigo),
     ...(await conferirCatecismo(artigo)),
     ...(await conferirBiblia(artigo)),
     ...(comLinks ? await conferirLinks(artigo) : []),

@@ -62,7 +62,9 @@ ortografia), confere o artigo contra o acervo:
   tem `posicaoFaixa`;
 - parecer doutrinal presente, com a seção da revisão independente, sem voto
   desfavorável;
-- `tituloBusca` com até 60 caracteres.
+- `tituloBusca` com até 60 caracteres;
+- Padre ou Doutor em destaque citado só pelo Catecismo, sem obra e passagem
+  (o `npm run cic` mostra a nota com a obra).
 
 **Erro bloqueia. Aviso se lê e se decide**, e a decisão fica no parecer quando
 não for óbvia.

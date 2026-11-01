@@ -247,3 +247,23 @@ export function fraseComReferencia(texto: string, referencia: string): string | 
   if (ultimaRef >= 0) frase = frase.slice(ultimaRef + 3)
   return frase.replace(/^[>\-*\s]+/, '').replace(/\*\*/g, '').trim()
 }
+
+/**
+ * Padre ou Doutor em destaque (**São Fulano**) cuja frase só cita o Catecismo:
+ * o padrão (4.3) pede obra e passagem, mesmo quando a citação vem pela nota do
+ * Catecismo ("Gregório Nazianzeno, *Oração* 40, 3-4, citado em CIC 1216").
+ * O `npm run cic` mostra a nota com a obra.
+ */
+export function padresSemObra({ linhas }: Artigo): Achado[] {
+  const achados: Achado[] = []
+  for (const { n, texto } of linhas) {
+    const nomes = [...texto.matchAll(/\*\*((?:São|Santo|Santa|Beato|Papa) [^*]+|Tertuliano|Orígenes|Didaqué)\*\*/g)].map((m) => m[1])
+    if (!nomes.length) continue
+    const semNegrito = texto.replace(/\*\*[^*]+\*\*/g, '')
+    if (/\*[^*\s][^*]*\*/.test(semNegrito)) continue
+    if (/\(CIC \d/.test(texto)) {
+      achados.push({ gravidade: 'aviso', linha: n, mensagem: `${nomes.join(', ')} citado só pelo Catecismo: dê a obra e a passagem (veja a nota com npm run cic)` })
+    }
+  }
+  return achados
+}

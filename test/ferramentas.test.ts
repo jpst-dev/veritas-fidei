@@ -3,7 +3,7 @@ import { tmpdir } from 'node:os'
 import { join } from 'node:path'
 import { describe, expect, it } from 'vitest'
 import { type Acervo, linksInternos, paragrafosNasReferencias, paragrafosNoTexto, verificarAcervo } from '../scripts/verificar/acervo.ts'
-import { fraseComReferencia, lerArtigo } from '../scripts/verificar/artigo.ts'
+import { fraseComReferencia, lerArtigo, padresSemObra } from '../scripts/verificar/artigo.ts'
 import { extrairParagrafo, notasCitadas, notasDaPagina } from '../scripts/verificar/catecismo.ts'
 import { arquivoDaFonte, avaliarCandidata, dimensoesDaSaida, licencaAceita, normalizarAutor } from '../scripts/verificar/obras.ts'
 
@@ -154,5 +154,16 @@ describe('npm run biblia: frase do artigo', () => {
     expect(fraseComReferencia(t, 'Jo 20,19')).toBe('Jesus aparece com as portas fechadas')
     expect(fraseComReferencia(t, 'Jo 20,14-15')).toBe('não é reconhecido por Maria')
     expect(fraseComReferencia(t, 'Mt 1,1')).toBe('Primeira frase')
+  })
+})
+
+describe('verificador: Padre sem obra', () => {
+  const artigo = (corpo: string) => lerArtigo(`---\ntitle: X\n---\n${corpo}`)
+  it('avisa Padre em destaque citado só pelo Catecismo', () => {
+    expect(padresSemObra(artigo('- **São Cipriano** chama de “sacramento duplo” (CIC 1290).'))).toHaveLength(1)
+  })
+  it('aceita quando a obra vem em itálico', () => {
+    expect(padresSemObra(artigo('- **São Cipriano** fala de “sacramento duplo” (São Cipriano, *Carta* 73, 21, citado em CIC 1290).'))).toHaveLength(0)
+    expect(padresSemObra(artigo('- **Santo Inácio** escreve aos fiéis (Santo Inácio, *Carta aos Esmirnenses*, 7,1).'))).toHaveLength(0)
   })
 })
