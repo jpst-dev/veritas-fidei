@@ -23,7 +23,7 @@ Legenda: ✅ publicado · ✍️ em andamento · ☐ a fazer · *(r)* há rascun
 | Jesus Cristo | 6/6 | 3/3 |
 | Igreja | 6/6 | 3/3 |
 | Maria | 6/6 | 3/3 |
-| Vida eterna | 4/6 | 1/3 |
+| Vida eterna | 6/6 | 3/3 |
 | Sacramentos | 6/6 | 3/3 |
 | Moral | 4/6 | 1/3 |
 | Oração | 6/6 | 3/3 |
@@ -62,10 +62,10 @@ Legenda: ✅ publicado · ✍️ em andamento · ☐ a fazer · *(r)* há rascun
 - ✅ Defesa: Maria medianeira contradiz o único mediador? *(r)*
 
 ### Vida eterna
-- ☐ Ensino: O purgatório
-- ☐ Ensino: As indulgências
-- ☐ Defesa: A reencarnação é compatível com a fé?
-- ☐ Defesa: Uma vez salvo, salvo para sempre?
+- ✅ Ensino: O purgatório
+- ✅ Ensino: As indulgências
+- ✅ Defesa: A reencarnação é compatível com a fé?
+- ✅ Defesa: Uma vez salvo, salvo para sempre?
 
 ### Sacramentos
 - ✅ Ensino: O Batismo
