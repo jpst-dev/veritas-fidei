@@ -24,7 +24,7 @@ Legenda: ✅ publicado · ✍️ em andamento · ☐ a fazer · *(r)* há rascun
 | Igreja | 4/6 | 1/3 |
 | Maria | 4/6 | 1/3 |
 | Vida eterna | 4/6 | 1/3 |
-| Sacramentos | 3/6 | 2/3 |
+| Sacramentos | 6/6 | 3/3 |
 | Moral | 4/6 | 1/3 |
 | Oração | 5/6 | 1/3 |
 | Fé e razão | 4/6 | 1/3 |
@@ -68,10 +68,10 @@ Legenda: ✅ publicado · ✍️ em andamento · ☐ a fazer · *(r)* há rascun
 - ☐ Defesa: Uma vez salvo, salvo para sempre?
 
 ### Sacramentos
-- ☐ Ensino: O Batismo
-- ☐ Ensino: A Crisma
-- ☐ Ensino: O Matrimônio
-- ☐ Defesa: A Eucaristia é só um símbolo?
+- ✅ Ensino: O Batismo
+- ✅ Ensino: A Crisma
+- ✅ Ensino: O Matrimônio
+- ✅ Defesa: A Eucaristia é só um símbolo?
 
 ### Moral
 - ☐ Ensino: Os Dez Mandamentos

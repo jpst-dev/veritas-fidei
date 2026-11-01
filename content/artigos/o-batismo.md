@@ -5,7 +5,8 @@ description: "O Batismo é a porta da vida cristã: perdoa os pecados, faz de n�
 tema: sacramentos
 secao: aprender
 obra: batismo-de-clovis
-status: rascunho
+status: publicado
+publicadoEm: 2026-11-01
 nivel: iniciante
 tags: [batismo, iniciacao-crista, sacramentos, graca]
 referencias:
@@ -19,10 +20,16 @@ referencias:
   - titulo: Código de Direito Canônico, cânones 849-878 (o Batismo)
     url: https://www.vatican.va/archive/cod-iuris-canonici/portuguese/codex-iuris-canonici_po.pdf
 revisao:
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 01/11/2026; não substitui rascunho. Complementa a questão da Defesa da fé
     "O batismo de crianças é bíblico?", que trata do batismo das crianças; este artigo não repete o tema.
     Didaqué 7 e São Justino, Primeira Apologia 61, conferidos em newadvent.org em 01/11/2026.
+    Citações do Catecismo conferidas pelo verificador (npm run cic -- --artigo).
+    Referências conferidas na Nova Vulgata (npm run biblia -- --artigo) em 01/11/2026: existem e dizem o que o texto afirma.
+    Nenhuma expressão bíblica entre aspas a conferir na CNBB além das que vêm do Catecismo.
+    Parecer doutrinal interno: favorável com correções em 01/11/2026, correções e revisão independente aplicadas (docs/pareceres/o-batismo.md).
 ---
 
 Quase todo católico foi batizado sem se lembrar do dia. Alguém o levou à pia batismal, um padre derramou água sobre a sua cabeça e disse algumas palavras. Para muitos, ficou a foto, a vela guardada numa gaveta e a impressão de que foi uma bela cerimônia de família.

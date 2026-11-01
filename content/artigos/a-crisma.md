@@ -5,7 +5,8 @@ description: "A Crisma completa o Batismo com uma efusão especial do Espírito 
 tema: sacramentos
 secao: aprender
 obra: confirmacao-poussin
-status: rascunho
+status: publicado
+publicadoEm: 2026-11-01
 nivel: iniciante
 tags: [crisma, confirmacao, espirito-santo, iniciacao-crista, sacramentos]
 referencias:
@@ -22,10 +23,16 @@ referencias:
   - titulo: Código de Direito Canônico, cânones 879-896 (a Confirmação)
     url: https://www.vatican.va/archive/cod-iuris-canonici/portuguese/codex-iuris-canonici_po.pdf
 revisao:
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 01/11/2026; não substitui rascunho.
     São Cirilo de Jerusalém, Catequeses mistagógicas III,1-3, e Tertuliano, Sobre o batismo 7-8,
     conferidos em newadvent.org em 01/11/2026. CDC cân. 889-891 e 1065 conferidos no texto oficial.
+    Citações do Catecismo conferidas pelo verificador (npm run cic -- --artigo).
+    Referências conferidas na Nova Vulgata (npm run biblia -- --artigo) em 01/11/2026: existem e dizem o que o texto afirma.
+    Nenhuma expressão bíblica entre aspas a conferir na CNBB além das que vêm do Catecismo.
+    Parecer doutrinal interno: favorável com correções em 01/11/2026, correções e revisão independente aplicadas (docs/pareceres/a-crisma.md).
 ---
 
 Muita gente se lembra da Crisma como o fim da catequese: uns anos de encontros, um retiro, a Missa com o bispo, a foto com o padrinho. E muita gente, depois dela, some da igreja. É como se a Crisma fosse uma formatura, e a formatura encerrasse o curso.

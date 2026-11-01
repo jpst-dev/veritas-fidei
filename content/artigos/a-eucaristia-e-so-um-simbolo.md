@@ -4,8 +4,9 @@ tituloBusca: "A Eucaristia é só um símbolo? A resposta católica"
 description: "Jesus falava por imagens, a Ceia é memória e o corpo de Cristo está no céu: as objeções à presença real e o que a Igreja responde a cada uma."
 tema: sacramentos
 secao: defesa-da-fe
-obra: disputa-do-santissimo-sacramento
-status: rascunho
+obra: ultima-ceia-bouts
+status: publicado
+publicadoEm: 2026-11-01
 nivel: intermediario
 tags: [eucaristia, presenca-real, protestantismo, joao-6, ceia]
 quaestio:
@@ -38,6 +39,8 @@ referencias:
   - titulo: Confissão de Augsburgo (1530), artigo X
     url: https://bookofconcord.org/augsburg-confession/
 revisao:
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 01/11/2026. Complementa o artigo de ensino "A presença real de Cristo na
     Eucaristia" (que já absorveu o antigo rascunho eucaristia-apenas-simbolo): aqui, as objeções
@@ -45,6 +48,10 @@ revisao:
     Trento, sessão XIII, cap. 1; Santo Irineu, Contra as heresias V,2,2-3; e Confissão de Augsburgo,
     art. X, conferidos em 01/11/2026. Santo Agostinho, Comentário aos Salmos 98, 9, e Inácio,
     Esmirnenses 2-7 (contexto doceta), conferidos na revisão independente.
+    Citações do Catecismo conferidas pelo verificador (npm run cic -- --artigo).
+    Referências conferidas na Nova Vulgata (npm run biblia -- --artigo) em 01/11/2026: existem e dizem o que o texto afirma.
+    Expressões curtas entre aspas ("Eu sou a porta", "Eu sou a videira", "Isto é o meu corpo") são fórmulas consagradas.
+    Parecer doutrinal interno: favorável com correções em 01/11/2026, correções e revisão independente aplicadas (docs/pareceres/a-eucaristia-e-so-um-simbolo.md).
 ---
 
 Quem conversa com amigos evangélicos sobre a Missa logo ouve a pergunta: vocês acreditam mesmo que aquele pão é o corpo de Jesus? Para muitos irmãos protestantes, a Ceia do Senhor é um gesto de obediência e de lembrança, precioso, mas simbólico. O pão continua pão; o que importa é a fé de quem o recebe.

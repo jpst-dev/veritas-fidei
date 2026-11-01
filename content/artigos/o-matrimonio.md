@@ -5,7 +5,8 @@ description: "Por que o casamento é um sacramento, o que significa ser para sem
 tema: sacramentos
 secao: aprender
 obra: bodas-de-cana
-status: rascunho
+status: publicado
+publicadoEm: 2026-11-01
 nivel: iniciante
 tags: [matrimonio, casamento, familia, indissolubilidade, sacramentos]
 referencias:
@@ -21,6 +22,8 @@ referencias:
   - titulo: Código de Direito Canônico, cânones 1055-1165 (o Matrimônio)
     url: https://www.vatican.va/archive/cod-iuris-canonici/portuguese/codex-iuris-canonici_po.pdf
 revisao:
+  citacoesConferidas: true
+  referenciasConferidas: true
   notas: >-
     Escrito do zero em 01/11/2026; não substitui rascunho. A contracepção fica para a questão da
     Defesa da fé prevista no plano de conteúdo (tema Moral); aqui só a abertura à vida.
@@ -28,6 +31,10 @@ revisao:
     conferidos em 01/11/2026 (newadvent.org e papalencyclicals.net). CDC cân. 1055-1057, 1108, 1117,
     1134 e 1141 conferidos no texto oficial. Amoris laetitia 299 e CDC cân. 1060-1061 conferidos na
     revisão independente.
+    Citações do Catecismo conferidas pelo verificador (npm run cic -- --artigo).
+    Referências conferidas na Nova Vulgata (npm run biblia -- --artigo) em 01/11/2026: existem e dizem o que o texto afirma.
+    Nenhuma expressão bíblica entre aspas a conferir na CNBB além das que vêm do Catecismo.
+    Parecer doutrinal interno: favorável com correções em 01/11/2026, correções e revisão independente aplicadas (docs/pareceres/o-matrimonio.md).
 ---
 
 Num casamento na igreja, há um momento em que tudo para. Os noivos dão as mãos e, diante do padre e das testemunhas, cada um diz ao outro que o recebe por esposo, por esposa, e promete ser fiel na alegria e na tristeza, na saúde e na doença, todos os dias da vida.
