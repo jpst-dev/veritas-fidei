@@ -27,6 +27,16 @@ useSeoMeta({
         com cuidado. Os critérios, a fidelidade ao Magistério e o modo de apontar um erro estão em
         <NuxtLink to="/compromisso">Nosso compromisso</NuxtLink>.
       </p>
+      <h2 id="quem-escreve">Quem escreve</h2>
+      <p>
+        Os artigos são escritos por <strong>{{ AUTOR.nome }}</strong>, leigo católico e desenvolvedor de software, que
+        também construiu o site. Não é padre nem teólogo: escreve como quem estuda a fé e quer ajudar outros a estudá-la,
+        sempre a partir das fontes — a Escritura, os Padres da Igreja, o Catecismo e os documentos do Magistério.
+      </p>
+      <p>
+        Justamente por isso, nenhum texto é publicado sem a revisão descrita em Nosso compromisso, e toda correção é
+        bem-vinda. O trabalho de desenvolvimento está em <a :href="AUTOR.url">jteixeira.dev</a>.
+      </p>
     </div>
   </div>
 </template>

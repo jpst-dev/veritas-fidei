@@ -26,8 +26,10 @@ export function siteLd(siteUrl: string): No {
 }
 
 /** Quem escreve os artigos: só o nome público, com o site pessoal. */
+export const AUTOR = { nome: 'João Teixeira', url: 'https://jteixeira.dev' }
+
 export function autorLd(): No {
-  return { '@type': 'Person', '@id': 'https://jteixeira.dev/#pessoa', name: 'João Teixeira', url: 'https://jteixeira.dev' }
+  return { '@type': 'Person', '@id': `${AUTOR.url}/#pessoa`, name: AUTOR.nome, url: AUTOR.url }
 }
 
 /** "2026-10-31" → "2026-10-31T00:00:00-03:00": o Google pede data com hora e fuso. */

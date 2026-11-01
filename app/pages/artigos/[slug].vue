@@ -151,6 +151,7 @@ useDadosEstruturados((siteUrl) => [
         </p>
         <h1 class="text-[clamp(2.1rem,5.5vw,3.6rem)] leading-[1.1] font-medium text-balance">{{ artigo.title }}</h1>
         <p class="mt-1 flex flex-wrap justify-center gap-x-5 gap-y-2 font-display text-[0.68rem] tracking-[0.14em] text-muted uppercase">
+          <span>Por <NuxtLink to="/sobre#quem-escreve" class="text-accent">{{ AUTOR.nome }}</NuxtLink></span>
           <span v-if="artigo.minutos">{{ artigo.minutos }} min de leitura</span>
           <span v-if="artigo.nivel">Nível {{ NIVEIS[artigo.nivel] }}</span>
           <span v-if="artigo.revisao.citacoesConferidas" class="text-accent">✓ Citações conferidas</span>
