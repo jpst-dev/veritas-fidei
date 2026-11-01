@@ -91,7 +91,7 @@ Depois, **à mão**, em português:
 | `acervo` | `National Gallery, Londres` (onde está hoje, conferido na página do Commons ou do museu) |
 | `alt` | Uma frase que descreve a cena para quem não vê a imagem |
 | `posicao` | Recorte, como em CSS `object-position`: `center 40%` |
-| `posicaoFaixa` | Opcional. Recorte nas faixas largas (abertura de artigo, tema e trilha). Use em quadros verticais, quando os rostos ficam cortados no alto |
+| `posicaoFaixa` | Opcional. Recorte nas faixas largas (abertura de artigo, tema e trilha). Use em quadros verticais, quando os rostos ficam cortados no alto. Vale em todas as larguras: no celular a abertura fica alta e estreita, e aí o valor horizontal decide quem aparece (em obra horizontal, mexer no x não muda o desktop). `posicao` vale para os cartões |
 | `credito` | Só para CC BY/BY-SA: `Foto: <autor>, CC BY-SA 3.0` |
 
 Por fim, ligue a obra a quem a usa:

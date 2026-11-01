@@ -26,7 +26,7 @@ Legenda: ✅ publicado · ✍️ em andamento · ☐ a fazer · *(r)* há rascun
 | Vida eterna | 4/6 | 1/3 |
 | Sacramentos | 6/6 | 3/3 |
 | Moral | 4/6 | 1/3 |
-| Oração | 5/6 | 1/3 |
+| Oração | 6/6 | 3/3 |
 | Fé e razão | 4/6 | 1/3 |
 | História da Igreja | 4/6 | 1/3 |
 
@@ -80,9 +80,9 @@ Legenda: ✅ publicado · ✍️ em andamento · ☐ a fazer · *(r)* há rascun
 - ☐ Defesa: Por que a Igreja é contra a contracepção? *(r)*
 
 ### Oração
-- ☐ Ensino: O Rosário
-- ☐ Defesa: Rezar adianta, se Deus já sabe tudo?
-- ☐ Defesa: Imagens nas igrejas são idolatria?
+- ✅ Ensino: O Rosário
+- ✅ Defesa: Rezar adianta, se Deus já sabe tudo?
+- ✅ Defesa: Imagens nas igrejas são idolatria?
 
 ### Fé e razão
 - ☐ Ensino: O que é a fé
