@@ -1,5 +1,5 @@
 ---
-title: A Ressurreição de Cristo
+title: A ressurreição de Cristo
 tituloBusca: "O que significa a Ressurreição de Jesus"
 description: "A ressurreição não foi a volta de Jesus à vida de antes. O que a Igreja ensina sobre o corpo glorioso do Ressuscitado e o que esse fato muda para nós."
 obra: ressurreicao-grunewald
@@ -54,19 +54,19 @@ A ressurreição de Jesus não se parece com nenhuma outra coisa que conhecemos.
 
 ### O mesmo corpo
 
-O Ressuscitado não é um fantasma nem uma lembrança. Quando os discípulos, assustados, pensaram ver um espírito, Jesus lhes mostrou as mãos e os pés, pediu que o tocassem e comeu diante deles (Lc 24,37-43). A Tomé, que duvidava, mostrou as marcas dos pregos e o lado aberto (Jo 20,27). O Catecismo insiste nisso: o corpo ressuscitado é o mesmo que foi torturado e crucificado, e ainda traz as marcas da paixão (CIC 645).
+O Ressuscitado não é um fantasma nem uma lembrança. Quando os discípulos, assustados, pensaram ver um espírito, Jesus lhes mostrou as mãos e os pés, pediu que o tocassem e comeu diante deles (Lc 24,37-43). A Tomé, que duvidava de ver as marcas dos pregos, mostrou as mãos e o lado aberto (Jo 20,25-27). O Catecismo insiste nisso: o corpo ressuscitado é o mesmo que foi torturado e crucificado, e ainda traz as marcas da paixão (CIC 645).
 
 ### Um corpo glorioso
 
-Ao mesmo tempo, esse corpo tem propriedades novas. Jesus aparece com as portas fechadas (Jo 20,19), não é reconhecido de imediato por Maria Madalena, que o toma pelo jardineiro (Jo 20,14-15), nem pelos discípulos de Emaús, que caminham horas ao lado dele (Lc 24,15-16). Ele já não está preso ao espaço e ao tempo: pode se tornar presente onde e quando quer (CIC 645).
+Ao mesmo tempo, esse corpo tem propriedades novas. Jesus aparece com as portas fechadas (Jo 20,19), não é reconhecido de imediato por Maria Madalena, que o toma pelo jardineiro (Jo 20,14-15), nem pelos discípulos de Emaús, que caminham um bom trecho ao lado dele (Lc 24,13-16). Ele já não está preso ao espaço e ao tempo: pode se tornar presente onde e quando quer (CIC 645).
 
 Por isso a ressurreição de Cristo é diferente das que ele mesmo tinha feito. A filha de Jairo, o jovem de Naim e Lázaro voltaram à vida terrena comum e, mais tarde, morreram de novo. Cristo, não: passou da morte para uma vida que a morte não alcança mais (CIC 646; Rm 6,9). São Paulo chama esse corpo de “corpo espiritual”, não porque deixou de ser corpo, mas porque está inteiramente tomado pela vida de Deus (1Cor 15,42-44).
 
 ### Obra da Santíssima Trindade
 
-O Novo Testamento fala da ressurreição de três modos, e todos são verdadeiros. Deus Pai **ressuscitou** Jesus (At 2,24). O Espírito Santo deu vida à sua humanidade morta (CIC 648), e o mesmo Espírito, diz São Paulo, dará vida também aos nossos corpos mortais (Rm 8,11). E o próprio Filho **ressuscitou** pelo seu poder divino, como tinha anunciado: tenho o poder de dar a minha vida e o poder de retomá-la (Jo 10,17-18). As três Pessoas agem juntas, cada uma de modo próprio (CIC 648-650).
+O Novo Testamento fala da ressurreição de três modos, e todos são verdadeiros. Deus Pai **ressuscitou** Jesus (At 2,24). O Espírito Santo deu vida à sua humanidade morta (CIC 648), e, diz São Paulo, aquele que ressuscitou Jesus dará vida também aos nossos corpos mortais, pelo seu Espírito que habita em nós (Rm 8,11). E o próprio Filho **ressuscitou** pelo seu poder divino, como tinha anunciado: tenho o poder de dar a minha vida e o poder de retomá-la (Jo 10,17-18). As três Pessoas agem juntas, cada uma de modo próprio (CIC 648-650).
 
-Os Padres da Igreja explicam como isso foi possível. Na morte, a alma de Jesus se separou do corpo, como acontece com todo homem. Mas nenhum dos dois se separou da pessoa divina do Filho (CIC 626). Por isso, um Padre do século IV, São Gregório de Nissa, citado pelo Catecismo, diz que a ressurreição foi a reunião das duas partes que a morte tinha separado (CIC 650).
+Os Padres da Igreja explicam como o Filho pôde retomar a própria vida. Na morte, a alma de Jesus se separou do corpo, como acontece com todo homem. Mas nenhum dos dois se separou da pessoa divina do Filho, ensina São João Damasceno (CIC 626). Por isso, um Padre do século IV, São Gregório de Nissa, citado pelo Catecismo, diz que a ressurreição foi a reunião das duas partes que a morte tinha separado (CIC 650).
 
 ## O que a ressurreição muda
 
@@ -78,7 +78,7 @@ A ressurreição é a confirmação de tudo o que Jesus fez e ensinou (CIC 651).
 
 O mistério pascal tem duas faces. Pela sua morte, Cristo nos liberta do pecado. Pela sua ressurreição, nos abre o acesso a uma vida nova (CIC 654). Essa vida começa no Batismo: fomos sepultados com Cristo para que, como ele ressuscitou, também nós vivamos uma vida nova (Rm 6,4).
 
-E essa vida nos faz filhos de Deus. Depois da ressurreição, Jesus passa a chamar os discípulos de um modo novo: vão dizer aos **meus irmãos** (Mt 28,10). Não somos irmãos de Cristo por natureza, mas pela graça, que nos dá parte na sua vida de Filho (CIC 654).
+E essa vida nos faz filhos de Deus. Depois da ressurreição, Jesus chama os discípulos de irmãos: vão dizer aos **meus irmãos** (Mt 28,10; Jo 20,17). Não somos irmãos de Cristo por natureza, mas pela graça, que nos dá parte na sua vida de Filho (CIC 654).
 
 ### É a semente da nossa ressurreição
 
@@ -88,23 +88,23 @@ Por fim, a ressurreição de Cristo é o princípio da nossa. Paulo o chama de �
 
 ### O domingo, Páscoa semanal
 
-A ressurreição mudou até o calendário dos cristãos. Jesus ressuscitou no primeiro dia da semana (Mc 16,2), e desde o começo os cristãos passaram a se reunir nesse dia para partir o pão (At 20,7). É o “dia do Senhor” (Ap 1,10), o domingo.
+A ressurreição mudou até o calendário dos cristãos. Jesus ressuscitou no primeiro dia da semana (Mc 16,2), e, por uma tradição que vem dos Apóstolos, os cristãos passaram a se reunir nesse dia para partir o pão (At 20,7; CIC 1166). É o “dia do Senhor” (Ap 1,10), o domingo.
 
 Por volta do ano 155, São Justino já explicava a um imperador romano por que os cristãos se reuniam todos no domingo: porque foi o primeiro dia, aquele em que Deus começou a criação, e porque nesse mesmo dia Jesus Cristo ressuscitou dos mortos (*Primeira Apologia*, 67; CIC 2174). O domingo é, por isso, uma Páscoa semanal. A Igreja o chama de primeiro dia, que lembra a criação, e de oitavo dia, que anuncia a criação nova (CIC 1166, 2174).
 
-E, uma vez por ano, a Igreja celebra a Páscoa, que não é uma festa entre outras: é a “festa das festas”, a “solenidade das solenidades” (CIC 1169). Todo o ano litúrgico gira em torno dela.
+E, uma vez por ano, a Igreja celebra a Páscoa, que não é uma festa entre outras: é a “festa das festas”, a “solenidade das solenidades” (CIC 1169). Todo o ano litúrgico gira em torno dela (CIC 1168).
 
 ### Buscar as coisas do alto
 
 Quem crê na ressurreição não vive do mesmo jeito. São Paulo tira a consequência: se vocês ressuscitaram com Cristo, busquem as coisas do alto (Cl 3,1). Isso não é desprezo pelo mundo, mas outra medida para as coisas: o trabalho, o sofrimento, o amor e a morte ganham um sentido que vai além deles.
 
-Na prática, isso se vê em gestos simples. Guardar o domingo como dia do Senhor, com a Missa e o descanso. Rezar pelos mortos com esperança, e não com desespero. Enfrentar o sofrimento sabendo que a última palavra não é da morte. Cristo vive, diz o Catecismo, para que os vivos não vivam mais para si mesmos, mas para aquele que morreu e ressuscitou por eles (2Cor 5,15; CIC 655).
+Na prática, isso se vê em gestos simples. Guardar o domingo como dia do Senhor, com a Missa e o descanso. Rezar pelos mortos com esperança, e não com desespero. Enfrentar o sofrimento sabendo que a última palavra não é da morte. Cristo morreu e ressuscitou por todos, diz São Paulo, para que os vivos não vivam mais para si mesmos, mas para aquele que morreu e ressuscitou por eles (2Cor 5,15; CIC 655).
 
 ## Dúvidas comuns
 
 ### Se Jesus ressuscitou, por que não apareceu a todo mundo?
 
-Porque a ressurreição não é um espetáculo para forçar a fé. São Pedro diz que Deus o fez aparecer não a todo o povo, mas às testemunhas escolhidas, que comeram e beberam com ele (At 10,40-41; CIC 647). Essas testemunhas tinham a missão de anunciá-lo a todos. A fé continua a chegar assim: pelo testemunho de quem o encontrou.
+Porque a ressurreição não é um espetáculo para forçar a fé. São Pedro diz que Deus o fez aparecer não a todo o povo, mas às testemunhas escolhidas, que comeram e beberam com ele e receberam a missão de anunciá-lo a todos (At 10,40-42; CIC 647). A fé continua a chegar assim: pelo testemunho de quem o encontrou.
 
 ### Por que os discípulos às vezes não o reconheciam?
 
@@ -116,8 +116,7 @@ Não. Reencarnar seria voltar a viver outra vida terrena, em outro corpo. A ress
 
 ## Em resumo
 
-- A ressurreição é a **verdade central** da fé cristã: sem ela, diz São Paulo, a fé seria vazia (CIC 638; 1Cor 15,14).
-- É um **acontecimento real**, que deixou sinais na história, e que, ao mesmo tempo, **ultrapassa a história** (CIC 639, 647).
+- A ressurreição é a **verdade central** da fé cristã (CIC 638; 1Cor 15,14): um **acontecimento real**, que deixou sinais na história e que, ao mesmo tempo, **ultrapassa a história** (CIC 639, 647).
 - Jesus ressuscitou com o **mesmo corpo**, agora **glorioso**: não voltou à vida de antes, como Lázaro (CIC 645-646).
 - É obra da **Santíssima Trindade**: o Pai, o Espírito Santo e o próprio Filho (CIC 648-650).
 - Confirma tudo o que Jesus ensinou, nos abre uma **vida nova** de filhos de Deus e é a **semente da nossa ressurreição** (CIC 651-655).

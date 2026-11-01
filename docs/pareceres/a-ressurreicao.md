@@ -47,3 +47,28 @@ Nenhum.
 - Nota 577 do CIC 650 no vatican.va: São Gregório de Nissa, *De tridui spatio* (PG 46, 417B).
 - Escritura: `npm run biblia` em todas as referências (1Cor 15,14.20-22.42-44; Lc 24,15-16.25-27.30-31.37-43; Jo 8,28; 10,17-18; 20,14-15.19.27; Rm 1,4; 6,4.9; 8,11; Mc 8,31; 16,2; Mt 28,10; At 2,24; 10,40-41; 20,7; Ap 1,10; Cl 3,1; 2Cor 5,15; Hb 9,27).
 - São Justino, *Primeira Apologia*, 67, no newadvent.org.
+
+## Revisão independente
+
+- Revisor: agente revisor-independente (contexto limpo, sem acesso a este parecer)
+- Data: 2026-11-01 (primeiro teste do passo 6 de docs/fluxo-artigo.md)
+- Juízo: reparos menores; nada que bloqueie. Peso doutrinal sem falhas.
+
+### Corrigir (todos aplicados)
+1. **Rm 8,11**: o sujeito de *vivificabit* é quem ressuscitou Jesus (o Pai), "pelo seu Espírito que habita em nós", não o Espírito. Reescrito assim. (Ponto que este parecer tinha ajustado só pela metade.)
+2. **2Cor 5,15 / CIC 655**: nenhuma das fontes diz "Cristo vive para que…"; o "para que" depende de "morreu por todos". Reescrito: "Cristo morreu e ressuscitou por todos, diz São Paulo, para que…".
+3. **Mt 28,10**: "passa a chamar de um modo novo" ia além do CIC 654 (Jesus já diz "meus irmãos" em Mt 12,49-50). Agora: "chama os discípulos de irmãos" (Mt 28,10; Jo 20,17).
+4. **Jo 20,27**: os pregos estão no v. 25. Agora Jo 20,25-27, "mostrou as mãos e o lado aberto".
+5. **At 10,40-41**: a missão de anunciar está no v. 42. Faixa ampliada para At 10,40-42.
+6. **Em resumo** com 6 tópicos (o padrão pede 3 a 5): os dois primeiros foram unidos.
+
+### Sugestões
+1. "Como isso foi possível": aplicado ("como o Filho pôde retomar a própria vida") e o CIC 626 atribuído a São João Damasceno (nota 520: *Expositio fidei* 71 = *De fide orthodoxa* 3,27, conferida com `npm run cic -- 626`).
+2. "Caminham horas": aplicado ("um bom trecho", Lc 24,13-16).
+3. "Desde o começo" sem base além de At 20,7: aplicado ("por uma tradição que vem dos Apóstolos", com CIC 1166).
+4. Nome pagão do "dia do Sol": não aplicado (detalhe opcional, alongaria a seção).
+5. "Todo o ano litúrgico gira em torno dela": aplicado com CIC 1168.
+6. Título em maiúscula: aplicado ("A ressurreição de Cristo", título em frase, como "A ressurreição aconteceu?").
+7. Ordem "Para a vida cristã" antes de "Dúvidas comuns": mantida; a seção prática fecha o ensino e as dúvidas preparam o resumo.
+
+Depois das correções: `npm run verificar -- --links --ortografia` com 0 erros.
