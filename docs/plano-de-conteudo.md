@@ -21,7 +21,7 @@ Legenda: ✅ publicado · ✍️ em andamento · ☐ a fazer · *(r)* há rascun
 | Deus e Trindade | 6/6 | 3/3 |
 | Bíblia e Tradição | 6/6 | 3/3 |
 | Jesus Cristo | 6/6 | 3/3 |
-| Igreja | 4/6 | 1/3 |
+| Igreja | 6/6 | 3/3 |
 | Maria | 4/6 | 1/3 |
 | Vida eterna | 4/6 | 1/3 |
 | Sacramentos | 6/6 | 3/3 |
@@ -50,10 +50,10 @@ Legenda: ✅ publicado · ✍️ em andamento · ☐ a fazer · *(r)* há rascun
 - ✅ Defesa: Jesus existiu mesmo?
 
 ### Igreja
-- ☐ Ensino: A comunhão dos santos
-- ☐ Ensino: Os leigos e a vocação à santidade
-- ☐ Defesa: Fora da Igreja não há salvação?
-- ☐ Defesa: Pedro esteve mesmo em Roma?
+- ✅ Ensino: A comunhão dos santos
+- ✅ Ensino: Os leigos e a vocação à santidade
+- ✅ Defesa: Fora da Igreja não há salvação?
+- ✅ Defesa: Pedro esteve mesmo em Roma?
 
 ### Maria
 - ☐ Ensino: Maria, nova Eva e Mãe da Igreja *(r)*
