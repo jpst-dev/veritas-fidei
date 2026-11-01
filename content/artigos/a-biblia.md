@@ -22,8 +22,8 @@ revisao:
   citacoesConferidas: true
   referenciasConferidas: true
   notas: >-
-    Escrito do zero em 30/10/2026; não substitui rascunho (o rascunho igreja-inventou-biblia-para-controlar é uma objeção
-    da Defesa da fé e fica para depois).
+    Escrito do zero em 30/10/2026; não substitui rascunho (o rascunho igreja-inventou-biblia-para-controlar foi
+    substituído por "A Igreja proibia ler a Bíblia?" em 01/11/2026).
     Atanásio, Carta festal 39 (lista dos 27 livros do Novo Testamento) conferida em newadvent.org em 30/10/2026; a lista
     dele para o Antigo Testamento é diferente e não é usada no texto.
     Citações do Catecismo conferidas pelo verificador.

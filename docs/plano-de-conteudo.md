@@ -19,7 +19,7 @@ Legenda: ✅ publicado · ✍️ em andamento · ☐ a fazer · *(r)* há rascun
 | Tema | Ensino | Defesa |
 | --- | --- | --- |
 | Deus e Trindade | 6/6 | 3/3 |
-| Bíblia e Tradição | 4/6 | 1/3 |
+| Bíblia e Tradição | 6/6 | 3/3 |
 | Jesus Cristo | 6/6 | 3/3 |
 | Igreja | 4/6 | 1/3 |
 | Maria | 4/6 | 1/3 |
@@ -39,10 +39,10 @@ Legenda: ✅ publicado · ✍️ em andamento · ☐ a fazer · *(r)* há rascun
 - ✅ Defesa: O Deus do Antigo Testamento é cruel?
 
 ### Bíblia e Tradição
-- ☐ Ensino: O desenvolvimento da doutrina *(r)*
-- ☐ Ensino: Os Evangelhos são históricos
-- ☐ Defesa: Os católicos acrescentaram livros à Bíblia?
-- ☐ Defesa: A Igreja proibia ler a Bíblia?
+- ✅ Ensino: O desenvolvimento da doutrina *(r)*
+- ✅ Ensino: Os Evangelhos são históricos
+- ✅ Defesa: Os católicos acrescentaram livros à Bíblia?
+- ✅ Defesa: A Igreja proibia ler a Bíblia?
 
 ### Jesus Cristo
 - ✅ Ensino: A Ressurreição

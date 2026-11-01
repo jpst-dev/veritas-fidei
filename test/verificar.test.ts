@@ -193,4 +193,13 @@ describe('Nova Vulgata', () => {
       { capitulo: 12, versiculo: 1 },
     ])
   })
+
+  it('lê livros de um só capítulo sem vírgula (Jd 3, Fm 10-12)', () => {
+    const refs = referenciasBiblicas('(Jd 3; CIC 171) e (Fm 10-12) e (Jd 1,14) e (3Jo 4.6); Ab 2 anos')
+    // "Ab 2 anos" não é referência: sem parêntese ou ";" logo depois, não conta
+    expect(refs.map((r) => r.texto)).toEqual(['Jd 1,14', 'Jd 3', 'Fm 10-12', '3Jo 4.6'])
+    expect(refs[1]!.versiculos).toEqual([{ capitulo: 1, versiculo: 3 }])
+    expect(refs[2]!.versiculos.map((v) => v.versiculo)).toEqual([10, 11, 12])
+    expect(refs[3]!.versiculos.map((v) => v.versiculo)).toEqual([4, 6])
+  })
 })

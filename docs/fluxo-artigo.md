@@ -40,6 +40,9 @@ por bloco.
 - **Catecismo primeiro**: `npm run cic -- <faixa>` mostra os parágrafos com as
   notas de rodapé, que dizem de onde vêm as citações dos Padres e concílios.
 - **Escritura**: `npm run biblia -- "<refs>"` mostra o latim da Nova Vulgata.
+  Livros de um só capítulo (Ab, Fm, 2Jo, 3Jo, Jd) se citam sem capítulo, como
+  na CNBB (Jd 3); o verificador e o `npm run biblia` os leem quando a
+  referência vem seguida de “)” ou “;”.
   Paráfrase com referência é a norma; citação literal só pelo Catecismo ou em
   expressão curta consagrada (padrão editorial, 4.1).
 - **Padres**: só com obra e passagem, conferidos na tradução publicada

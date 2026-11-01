@@ -169,6 +169,13 @@ export function referenciasBiblicas(texto: string): ReferenciaBiblica[] {
       refs.push({ texto: `${sigla} ${pedaco}`, sigla, versiculos: expandir(Number(cap), versos) })
     }
   }
+  // Livros de um só capítulo citados sem capítulo, como na CNBB: "Jd 3", "Fm 10-12".
+  // Só conta seguido de ")" ou ";", para não confundir com "Ab 2 anos".
+  const unicos = Object.keys(LIVROS).filter((s) => LIVROS[s]!.capitulos === 1).join('|')
+  const reUnico = new RegExp(String.raw`\b(${unicos})\s(\d+[a-z]?(?:\s?[-–]\s?\d+[a-z]?)?(?:\.\d+[a-z]?(?:[-–]\d+[a-z]?)?)*)(?=\s*[);])`, 'g')
+  for (const m of texto.matchAll(reUnico)) {
+    refs.push({ texto: `${m[1]} ${m[2]}`, sigla: m[1]!, versiculos: expandir(1, m[2]!) })
+  }
   return refs
 }
 
