@@ -2,9 +2,11 @@
 title: A Ressurreição de Cristo
 tituloBusca: "O que significa a Ressurreição de Jesus"
 description: "A ressurreição não foi a volta de Jesus à vida de antes. O que a Igreja ensina sobre o corpo glorioso do Ressuscitado e o que esse fato muda para nós."
+obra: ressurreicao-grunewald
 tema: jesus-cristo
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-11-01
 nivel: iniciante
 tags: [ressurreicao, pascoa, misterio-pascal, domingo, corpo-glorioso]
 referencias:
