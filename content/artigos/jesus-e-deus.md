@@ -36,9 +36,6 @@ referencias:
   - titulo: Cartas, X,96
     autor: Plínio, o Jovem
     url: https://www.thelatinlibrary.com/pliny.ep10.html
-  - titulo: Suma Teológica, III, q. 16
-    autor: São Tomás de Aquino
-    url: https://www.newadvent.org/summa/4016.htm
 revisao:
   citacoesConferidas: true
   referenciasConferidas: true
@@ -53,11 +50,11 @@ revisao:
     Parecer doutrinal interno: favorável com correções em 30/10/2026, correções aplicadas (docs/pareceres/jesus-e-deus.md).
 ---
 
-Muita gente admira Jesus. Para muitos, ele foi um grande mestre moral, um profeta, talvez o maior de todos. O que não aceitam é o que a Igreja diz dele: que é Deus. Nossos irmãos Testemunhas de Jeová o veem como a primeira e mais alta criatura; o islã, como um profeta; muitos espíritas, como um espírito muito evoluído. E até católicos às vezes se perguntam se essa não foi uma ideia que a Igreja acrescentou depois.
+Muita gente admira Jesus. Para muitos, ele foi um grande mestre moral, um profeta, talvez o maior de todos. O que não aceitam é o que a Igreja diz dele: que é Deus. As Testemunhas de Jeová o veem como a primeira e mais alta criatura; o islã, como um profeta; muitos espíritas, como um espírito muito evoluído. E até católicos às vezes se perguntam se essa não foi uma ideia que a Igreja acrescentou depois.
 
 ## A objeção
 
-Jesus nunca disse, com essas palavras, “eu sou Deus”. Os Evangelhos, ao contrário, parecem marcar a diferença entre ele e Deus. Jesus reza ao Pai. Diz que o Pai é maior do que ele (Jo 14,28). Quando o chamam de “bom mestre”, responde que ninguém é bom senão Deus (Mc 10,18). Diz que não sabe o dia nem a hora do fim, que só o Pai conhece (Mc 13,32). São Paulo o chama de “primogênito de toda a criatura” (Cl 1,15), como se fosse a primeira coisa criada. Para quem pensa assim, a divindade de Jesus seria uma invenção posterior, fixada pelo Concílio de Niceia no século IV.
+Jesus nunca disse, com essas palavras, “eu sou Deus”. Os Evangelhos, ao contrário, parecem marcar a diferença entre ele e Deus. Jesus reza ao Pai, que chama de “o único Deus verdadeiro” (Jo 17,3). Diz que o Pai é maior do que ele (Jo 14,28). Quando o chamam de “bom mestre”, responde que ninguém é bom senão Deus (Mc 10,18). Diz que não sabe o dia nem a hora do fim, que só o Pai conhece (Mc 13,32). São Paulo o chama de “primogênito de toda a criatura” (Cl 1,15), como se fosse a primeira coisa criada. E algumas traduções do começo do Evangelho de São João dizem que o Verbo “era um deus”, não Deus. Para quem pensa assim, a divindade de Jesus seria uma invenção posterior, fixada pelo Concílio de Niceia no século IV.
 
 ## O que a Igreja ensina
 
@@ -73,19 +70,17 @@ O Concílio de Niceia, em 325, não inventou essa fé: confessou-a contra quem a
 
 ### Jesus fez o que só Deus faz
 
-Jesus não costumava anunciar quem era com uma frase pronta; mostrava. Quando trazem a ele um paralítico, a primeira coisa que diz é: os teus pecados estão perdoados. Os escribas presentes entendem bem o que isso significa e pensam que ele blasfema, porque só Deus pode perdoar pecados (Mc 2,5-7). Jesus não os corrige: cura o paralítico para mostrar que tem esse poder. O Catecismo resume o dilema: ou Jesus é um homem que blasfema, fazendo-se igual a Deus, ou diz a verdade e a sua pessoa torna presente o próprio Deus (CIC 589).
+Jesus não costumava anunciar quem era com uma frase pronta; mostrava. Quando trazem a ele um paralítico, a primeira coisa que diz é: os teus pecados estão perdoados. Os escribas presentes entendem bem o que isso significa e pensam que ele blasfema, porque só Deus pode perdoar pecados (Mc 2,5-7). Jesus não os corrige: cura o paralítico para mostrar que tem esse poder (Mc 2,10-12). O Catecismo resume o dilema: ou Jesus é um homem que blasfema, fazendo-se igual a Deus, ou diz a verdade e a sua pessoa torna presente e revela o nome de Deus (CIC 589).
 
-O mesmo vale para o que ele reivindica. Diz ser maior que o Templo, onde Deus habitava (Mt 12,6). Pede que o amem mais que ao pai e à mãe (Mt 10,37). Diz que ele mesmo julgará todas as nações (Mt 25,31-32). Nenhum profeta falou assim.
+O mesmo vale para o que ele reivindica. Diz ser maior que o Templo, onde Deus habitava (Mt 12,6). Pede que o amem mais que ao pai e à mãe (Mt 10,37). Diz que ele mesmo julgará todas as nações (Mt 25,31-32). Nenhum profeta falou assim: “só a identidade divina da pessoa de Jesus” justifica exigências como essas (CIC 590).
 
 ### Jesus disse quem era
 
-Jesus também falou de forma explícita, e os seus ouvintes entenderam. Disse: antes que Abraão existisse, eu sou (Jo 8,58). Não disse “eu era”, como diria quem só tivesse vivido antes: evocou o nome com que Deus se revelou a Moisés, e por isso quiseram apedrejá-lo (Jo 8,59). Disse: eu e o Pai somos um (Jo 10,30), e de novo pegaram pedras, porque, sendo homem, ele se fazia Deus (Jo 10,33). No julgamento, quando o sumo sacerdote pergunta se ele é o Filho do Deus bendito, Jesus responde “eu sou” e fala de si sentado à direita do Poder; o sumo sacerdote rasga as vestes e o condena por blasfêmia (Mc 14,61-64).
-
-O sumo sacerdote não o condenou por se dizer profeta, mas por blasfêmia: os seus juízes entenderam que ele se fazia igual a Deus.
+Jesus também falou de forma explícita, e os seus ouvintes entenderam. Disse: antes que Abraão existisse, eu sou (Jo 8,58). Não disse “eu era”, como diria quem só tivesse vivido antes: evocou o nome com que Deus se revelou a Moisés, “Eu sou” (Ex 3,14), e por isso quiseram apedrejá-lo (Jo 8,59). Disse: eu e o Pai somos um (Jo 10,30), e de novo pegaram pedras, porque, sendo homem, ele se fazia Deus (Jo 10,33). No julgamento, quando o sumo sacerdote pergunta se ele é o Filho do Deus bendito, Jesus responde “eu sou” e fala de si sentado à direita do Poder; o sumo sacerdote rasga as vestes e o condena por blasfêmia (Mc 14,61-64). Não o condenou por se dizer profeta: os seus juízes entenderam que ele se fazia igual a Deus.
 
 ### Os Apóstolos o chamaram de Deus
 
-O Evangelho de São João começa assim: no princípio era o Verbo, e o Verbo estava junto de Deus, e o Verbo era Deus (Jo 1,1). E termina com Tomé diante de Jesus ressuscitado: “Meu Senhor e meu Deus” (Jo 20,28). Jesus aceita a confissão.
+O Evangelho de São João começa assim: no princípio era o Verbo, e o Verbo estava junto de Deus, e o Verbo era Deus (Jo 1,1). E termina com Tomé diante de Jesus ressuscitado: “Meu Senhor e meu Deus” (Jo 20,28). Jesus aceita a confissão e louva a fé de Tomé (Jo 20,29).
 
 São Paulo, que como judeu fiel rezava todos os dias que Deus é um só, escreve que Cristo é “de condição divina” (Fl 2,6) e que nele habita corporalmente toda a plenitude da divindade (Cl 2,9). Aplica a Jesus um texto em que Deus diz, por Isaías, que diante dele todo joelho se dobrará (Is 45,23; Fl 2,10-11). E fala da manifestação da glória do “nosso grande Deus e Salvador, Jesus Cristo” (Tt 2,13).
 
@@ -93,21 +88,21 @@ Também o título de Senhor diz muito. Na tradução grega do Antigo Testamento,
 
 ### Os primeiros cristãos o adoravam
 
-A fé na divindade de Jesus não esperou o século IV. Por volta de 110, Santo Inácio de Antioquia, bispo que conheceu a geração dos Apóstolos, escreve: “o nosso Deus, Jesus Cristo, foi levado no seio por Maria” (Santo Inácio de Antioquia, *Carta aos Efésios*, 18,2). Na mesma época, um governador romano pagão, Plínio, o Jovem, descreve ao imperador o que os cristãos faziam nas reuniões: cantavam, em alternância, um hino “a Cristo, como a um deus” (Plínio, *Cartas*, X,96,7). Para judeus que só adoravam o Deus único, adorar Jesus só fazia sentido se ele fosse Deus.
+A fé na divindade de Jesus não esperou o século IV. Por volta de 110, Santo Inácio de Antioquia, bispo que conheceu a geração dos Apóstolos, escreve: “o nosso Deus, Jesus Cristo, […] foi levado no seio por Maria” (Santo Inácio de Antioquia, *Carta aos Efésios*, 18,2). Na mesma época, um governador romano pagão, Plínio, o Jovem, descreve ao imperador o que os cristãos faziam nas reuniões: cantavam, em alternância, um hino “a Cristo, como a um deus” (Plínio, *Cartas*, X,96,7). Os cristãos herdaram de Israel a recusa de adorar qualquer criatura, e mesmo assim adoravam Cristo. Já Paulo, judeu fiel, aplicava a Jesus o que Isaías dizia de Deus (Fl 2,10-11): adorar Jesus só fazia sentido se ele fosse Deus.
 
 ## Respondendo às objeções
 
+- **“Jesus rezava ao Pai, ‘o único Deus verdadeiro’” (Jo 17,3).** Rezava como homem, e é justamente isso que mostra a relação única entre o Filho e o Pai. Jesus nunca se inclui com os discípulos num “Pai nosso”: quando ensina o Pai-nosso, é para que *eles* rezem assim (Mt 6,9). E ele distingue: “meu Pai e vosso Pai” (Jo 20,17; CIC 443). Ao chamar o Pai de único Deus verdadeiro, não se exclui: no mesmo versículo, conhecer a ele, Jesus Cristo, é a vida eterna junto com conhecer o Pai.
 - **“O Pai é maior do que eu” (Jo 14,28).** Jesus fala enquanto homem, que vai para o Pai. Como diz o antigo Símbolo chamado atanasiano, ele é igual ao Pai segundo a divindade e menor que o Pai segundo a humanidade (DH 76). Além disso, o Filho recebe tudo do Pai, que é a origem; isso não o faz inferior, assim como um filho não é menos humano que o pai.
 - **“Ninguém é bom senão Deus” (Mc 10,18).** Jesus não nega que seja bom: pergunta ao homem por que o chama assim. É um convite a ir mais fundo. Se só Deus é bom, e Jesus é bom, quem é ele?
-- **“Nem o Filho sabe o dia” (Mc 13,32).** Jesus tinha um conhecimento verdadeiramente humano, que crescia (Lc 2,52; CIC 472). Mas o Catecismo ensina que, unido à sabedoria divina, ele conhecia os desígnios de Deus que veio revelar, e que o que diz ignorar, diz em outro lugar não ter a missão de revelar (CIC 474).
-- **“Primogênito de toda a criatura” (Cl 1,15).** O versículo seguinte explica: nele foram criadas todas as coisas, no céu e na terra (Cl 1,16). Quem cria todas as coisas não é uma delas. Na Bíblia, “primogênito” indica primazia e herança, não só ordem de nascimento.
-- **“Jesus rezava ao Pai.”** Rezava como homem, e é justamente isso que mostra a relação única entre o Filho e o Pai. Jesus nunca diz “nosso Pai” incluindo-se entre os discípulos, mas distingue: “meu Pai e vosso Pai” (Jo 20,17; CIC 443).
-- **“O Verbo era um deus” (Jo 1,1).** Algumas traduções põem assim, porque no grego falta o artigo antes de “Deus” nessa frase. Mas em grego o predicado costuma vir sem artigo, e o mesmo João, no versículo 3, diz que tudo foi feito por meio do Verbo. Tomé, no fim do mesmo Evangelho, diz “o meu Deus” com artigo (Jo 20,28).
+- **“Nem o Filho sabe o dia” (Mc 13,32).** Jesus tinha um conhecimento verdadeiramente humano, que crescia (Lc 2,52; CIC 472). Mas o Catecismo ensina que o seu conhecimento humano, unido à Sabedoria divina na pessoa do Verbo, conhecia plenamente os desígnios de Deus que ele veio revelar, e que o que diz ignorar, diz em outro lugar não ter a missão de revelar (CIC 474).
+- **“Primogênito de toda a criatura” (Cl 1,15).** O versículo seguinte explica: nele foram criadas todas as coisas, no céu e na terra (Cl 1,16). Quem cria todas as coisas não é uma delas. Na Bíblia, “primogênito” indica primazia e herança, não só ordem de nascimento: Israel é chamado “meu filho primogênito” (Ex 4,22).
+- **“O Verbo era um deus” (Jo 1,1).** Algumas traduções põem assim, porque no grego falta o artigo antes de “Deus” nessa frase. Mas em grego o predicado costuma vir sem artigo, e o mesmo João diz logo depois que tudo foi feito por meio do Verbo (Jo 1,3): quem faz todas as coisas não é um deus menor. E Tomé, no fim do mesmo Evangelho, chama Jesus de Deus com artigo, no grego *ho theos mou* (Jo 20,28).
 
 ## Em resumo
 
 - A Igreja crê que Jesus é **verdadeiro Deus e verdadeiro homem**, o Filho eterno que se fez homem (CIC 464).
-- Jesus fez o que só Deus faz, como **perdoar os pecados**, e foi condenado porque se fazia igual a Deus (CIC 589; Mc 14,61-64).
+- Jesus fez o que só Deus faz, como **perdoar os pecados**, e foi condenado porque se fazia igual a Deus (CIC 589-590; Mc 14,61-64).
 - Os Apóstolos o chamaram de **Deus** e de **Senhor** no sentido do nome divino (Jo 1,1; Jo 20,28; CIC 446).
 - Os primeiros cristãos já **adoravam** Jesus antes de Niceia, como mostram Santo Inácio e até um pagão, Plínio.
 - As passagens que parecem dizer o contrário falam da **humanidade** de Jesus ou da sua **relação com o Pai**.

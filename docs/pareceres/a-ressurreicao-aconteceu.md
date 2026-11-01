@@ -71,3 +71,24 @@ Nenhum.
 ## Correções aplicadas (30/10/2026)
 
 Correções 1 a 3 e sugestão 4 incorporadas.
+
+## Revisão independente
+
+- Revisor: agente revisor-independente (contexto limpo, sem acesso a este parecer)
+- Data: 2026-11-01 (revisão das Defesas publicadas antes deste passo existir)
+- Juízo: reparos menores; nada bloqueia
+
+### Corrigir (todos aplicados)
+
+1. “O testemunho mais antigo e detalhado das aparições” (1Ts, c. 50-51, já fala da ressurreição).
+2. Toque: Mt 28,9 e o convite de Lc 24,39.
+3. Tiago: tirado do argumento dos que não eram discípulos (Jerônimo e a liturgia o identificam com Tiago de Alfeu); liderança com Gl 2,9 e At 15,13.
+4. Respostas reordenadas na ordem da objeção, com itens novos para “escritos tardios por crentes” e “lenda”.
+5. Corpo retirado por outros ou túmulo errado respondido (Mc 15,46-47).
+6. Resumo: “segundo Mateus”.
+7. Fuga e negação na noite da prisão (Mc 14,50; 14,66-72).
+8. Inácio e Clemente com título completo e data.
+
+### Sugestões
+
+- Aplicadas: dogma do Credo; “todos os apóstolos”; alucinações “em regra” e o argumento do *ōphthē*; “relatos que ninguém tentou harmonizar”; “dificilmente”, com Josefo, Antiguidades IV,8,15; “sugere”; At 12,2 no resumo; tirada a frase “fecha a trilha”.

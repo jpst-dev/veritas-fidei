@@ -69,3 +69,24 @@ Nenhum.
 ## Correções aplicadas (31/10/2026)
 
 Correções 1 e 2 incorporadas.
+
+## Revisão independente
+
+- Revisor: agente revisor-independente (contexto limpo, sem acesso a este parecer)
+- Data: 2026-11-01 (revisão das Defesas publicadas antes deste passo existir)
+- Juízo: reparos menores; nada bloqueia
+
+### Corrigir (todos aplicados)
+
+1. Caça às bruxas: tribunais civis e locais, em regiões católicas e protestantes; Inquisições espanhola e romana céticas.
+2. Responsabilidade eclesiástica concreta: Latrão IV cân. 3, *Ad extirpanda* (1252), Estados Pontifícios e Giordano Bruno (1600).
+3. *Exsurge Domine*: condenação em bloco, sem censura por proposição, não documento “disciplinar”.
+4. Respostas na ordem da objeção, com judeus e muçulmanos (sem jurisdição sobre não batizados), Galileu (link) e o reconhecimento de que os atos foram contrários ao Evangelho.
+5. A distinção da teologia da época sobre os batizados hereges (Suma II-II, q. 10, a. 8).
+6. Crisóstomo com passagem, data e a ressalva de que admitia reprimir.
+7. Autoelogio trocado por *Tertio millennio adveniente* 33-36 e o documento da CTI (nas referências).
+
+### Sugestões
+
+- Aplicadas: tirada a frase da trilha; cátaros, Reis Católicos, Santo Ofício e “aquiescência” explicados; bula de Sisto IV; anonimato do denunciante e confisco; “lenda negra antiespanhola”; Lc 9,52-55; Mt 13,24-30.
+- Pendente de conferência na fonte primária: Latrão IV cân. 3 e *Ad extirpanda* (dados históricos estabelecidos; o revisor os deu de memória).

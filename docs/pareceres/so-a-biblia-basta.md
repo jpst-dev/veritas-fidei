@@ -74,3 +74,19 @@ Nenhuma.
 ## Correções aplicadas (30/10/2026)
 
 Correções 1 a 3 incorporadas.
+
+## Revisão independente
+
+- Revisor: agente revisor-independente (contexto limpo, sem acesso a este parecer)
+- Data: 2026-11-01 (revisão das Defesas publicadas antes deste passo existir)
+- Juízo: reparos menores; nada bloqueia
+
+### Corrigir (todos aplicados)
+
+1. Objeção completa e na ordem das respostas: bereanos (At 17,11) e clareza da Escritura entraram na objeção; resposta nova para a clareza.
+2. *Sola Scriptura* na forma clássica: a Escritura como única regra infalível e autoridade final, com credos e concílios subordinados (quaestio e objeção).
+3. Tirado o argumento “provaria a suficiência do Antigo Testamento” (2Pd 3,16 já chama as cartas de Paulo de Escritura); ficou: o texto não define a lista dos livros.
+
+### Sugestões
+
+- Aplicadas: “indispensável à Igreja”; *Dei Verbum* 21 e 10; Irineu com “aqueles a quem confiaram as Igrejas”; Evangelho de Tomé explicado; “lista falível de livros infalíveis”; Marburgo, 14 de 15 artigos; quem discerne a Tradição (CIC 83); links para os livros da Bíblia e a Tradição.

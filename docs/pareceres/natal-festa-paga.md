@@ -53,3 +53,23 @@ Nenhum.
 - Beda, *História eclesiástica*, I,30 (Fordham Medieval Sourcebook): carta de Gregório Magno a Melito, 601.
 - Sol Invicto: A. McGowan, *How December 25 Became Christmas* (2002), e o resumo do argumento de S. Hijmans (*Mouseion*, 2003): a festa do Sol em 25 de dezembro só é explícita no calendário de 354.
 - Para o autor, se quiser, na CNBB impressa: a redação de "sol da justiça" (Ml 3,20).
+
+## Revisão independente
+
+- Revisor: agente revisor-independente (contexto limpo, sem acesso a este parecer)
+- Data: 2026-11-01
+- Juízo: reparos menores; nada bloqueia
+
+### Corrigir (todos aplicados)
+
+1. Domingo: a Igreja o guarda porque Cristo ressuscitou (CIC 1166), e só aceitou o nome pagão; também no resumo.
+2. Jr 10,5 diz “não os temais”.
+3. Origem cristã da árvore (século XVI, “árvore do paraíso” de 24 de dezembro), dos presentes (Magos, São Nicolau) e do presépio (Greccio, 1223); a Missa como o que faz o Natal.
+4. Cronógrafo de 354: tertullian.org fora do ar (404 em 01/11/2026); link trocado pela cópia da Wayback Machine.
+5. Solstício explicado para o leitor do hemisfério sul e atribuído a Agostinho.
+6. Sermão 190 e Stromata com data e nas referências.
+
+### Sugestões
+
+- Aplicadas: Lc 1,26-35 para “da Virgem”; “almanaque de 354”; inverno ameno de Belém; Duchesne e Talley via McGowan; “lista romana das festas dos mártires”.
+- A origem da árvore foi conferida em resumo em fontes secundárias (busca em 01/11/2026); não há fonte primária indicada.

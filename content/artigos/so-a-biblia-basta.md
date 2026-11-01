@@ -12,8 +12,9 @@ quaestio:
   pareceQue: >-
     São Paulo diz que toda a Escritura é inspirada e útil para ensinar, para que
     o homem de Deus seja perfeito (2Tm 3,16-17). Jesus condenou as tradições
-    humanas (Mc 7,8). Portanto, a Bíblia basta, e tudo o que não está nela é
-    acréscimo humano.
+    humanas (Mc 7,8). Portanto, a Escritura é a única regra infalível e a
+    autoridade final; tradições e concílios valem na medida em que concordam
+    com ela.
   emSentidoContrario: >-
     O mesmo São Paulo pede aos tessalonicenses que guardem as tradições que
     receberam, “seja por palavra, seja por carta” (2Ts 2,15).
@@ -60,7 +61,7 @@ A pergunta merece uma resposta séria e sem desprezo. O Vaticano II reconhece qu
 
 ## A objeção
 
-São Paulo escreve que toda a Escritura é inspirada por Deus e útil para ensinar, repreender, corrigir e educar na justiça, para que o homem de Deus seja perfeito, preparado para toda boa obra (2Tm 3,16-17). Se a Escritura torna o cristão perfeito, nada lhe falta. Jesus, por sua vez, condenou os fariseus por deixarem o mandamento de Deus para seguir tradições humanas (Mc 7,8). E o Apocalipse adverte contra quem acrescentar algo ao que está escrito (Ap 22,18). A Bíblia, dizem, não erra; as tradições podem se corromper com o tempo. Por isso, só ela pode ser a regra segura da fé.
+São Paulo escreve que toda a Escritura é inspirada por Deus e útil para ensinar, repreender, corrigir e educar na justiça, para que o homem de Deus seja perfeito, preparado para toda boa obra (2Tm 3,16-17). Se a Escritura torna o cristão perfeito, nada lhe falta. Jesus, por sua vez, condenou os fariseus por deixarem o mandamento de Deus para seguir tradições humanas (Mc 7,8). E o Apocalipse adverte contra quem acrescentar algo ao que está escrito (Ap 22,18). Os bereanos, elogiados por Lucas, conferiam a pregação pelas Escrituras (At 17,11). E o essencial da Bíblia é claro a qualquer leitor sincero: a Escritura interpreta a Escritura. A Bíblia, dizem, não erra; as tradições podem se corromper com o tempo. Os credos e concílios antigos têm valor, mas só a Escritura é a regra infalível e a autoridade final da fé.
 
 ## O que a Igreja ensina
 
@@ -70,27 +71,27 @@ A Igreja crê que a Escritura é Palavra de Deus, inspirada e sem erro, e que to
 >
 > — CIC 82
 
-O Concílio de Trento, respondendo à Reforma, ensinou que a verdade do Evangelho está contida nos livros escritos e nas tradições não escritas recebidas dos Apóstolos (DH 1501). E o Vaticano II acrescentou que Tradição, Escritura e Magistério estão de tal modo unidos que nenhum se sustenta sem os outros (CIC 95).
+O Concílio de Trento, respondendo à Reforma, ensinou que a verdade do Evangelho está contida nos livros escritos e nas tradições não escritas recebidas dos Apóstolos (DH 1501). E o Vaticano II acrescentou que Tradição, Escritura e Magistério estão de tal modo unidos que nenhum se sustenta sem os outros (*Dei Verbum*, 10; CIC 95).
 
 ## A resposta
 
 ### A Bíblia não ensina “só a Bíblia”
 
-Nenhum versículo diz que a Escritura é a única regra de fé. A passagem mais citada, 2Tm 3,16-17, diz que a Escritura é **útil** para formar o homem de Deus, e isso a Igreja ensina com toda a força. Mas ser útil, e até necessária, não é o mesmo que ser suficiente sozinha. Além disso, quando Paulo escreve a Timóteo, a “Escritura” que Timóteo conhecia desde a infância (2Tm 3,15) era o Antigo Testamento; boa parte do Novo ainda não tinha sido escrita ou reunida. Se o argumento provasse a suficiência, provaria a suficiência do Antigo Testamento.
+Nenhum versículo diz que a Escritura é a única regra de fé. A passagem mais citada, 2Tm 3,16-17, diz que a Escritura é **útil** para formar o homem de Deus, e a Igreja o ensina (*Dei Verbum*, 21). Mas ser útil, e até indispensável à Igreja, não é o mesmo que ser suficiente sozinha. Além disso, quando Paulo escreve a Timóteo, a “Escritura” que Timóteo conhecia desde a infância (2Tm 3,15) era o Antigo Testamento; quando Paulo escreve, o Novo Testamento ainda não estava completo nem reunido, e o texto não pode estar definindo qual seria a lista dos livros.
 
 Na mesma carta, Paulo pede a Timóteo que transmita o que ouviu dele a homens fiéis, capazes de ensinar outros (2Tm 2,2). E aos tessalonicenses pede que guardem as tradições, “seja por palavra, seja por carta” (2Ts 2,15). A Escritura aponta para a Tradição, e não contra ela.
 
 ### A Bíblia não diz quais livros são a Bíblia
 
-Nenhum livro da Escritura traz a lista dos livros inspirados. O índice que abre qualquer Bíblia não é inspirado. Quem diz que Hebreus ou o Apocalipse são Palavra de Deus, e que o Evangelho de Tomé não é, aceita um juízo que não está na Bíblia. Foi a Tradição apostólica que levou a Igreja a reconhecer os livros que formam o cânon (CIC 120). Na prática, todo cristão que lê o Novo Testamento já confia na Tradição que o reconheceu.
+Nenhum livro da Escritura traz a lista dos livros inspirados. O índice que abre qualquer Bíblia não é inspirado. Quem diz que Hebreus ou o Apocalipse são Palavra de Deus, e que o Evangelho de Tomé (um escrito do século II que não entrou no cânon) não é, aceita um juízo que não está na Bíblia. Dizer que o cânon é “uma lista falível de livros infalíveis” não resolve: se a lista pode errar, ninguém tem certeza de que Hebreus ou o Apocalipse são Palavra de Deus. Foi a Tradição apostólica que levou a Igreja a reconhecer os livros que formam o cânon (CIC 120). Na prática, todo cristão que lê o Novo Testamento já confia na Tradição que o reconheceu. A história desse reconhecimento está no artigo [sobre os livros da Bíblia](/artigos/catolicos-acrescentaram-livros), e o que é a Tradição, no artigo [a Tradição](/artigos/a-tradicao).
 
 ### Os primeiros cristãos viviam da Tradição
 
-Nas primeiras décadas, a Igreja viveu sem o Novo Testamento completo, e por séculos sem um cânon fechado. No século II, Santo Irineu de Lião perguntava: se os Apóstolos não nos tivessem deixado escritos, não seria preciso seguir a tradição que entregaram às Igrejas? (Santo Irineu de Lião, *Contra as heresias*, III,4,1). E Tertuliano, por volta do ano 200, diante de hereges que também citavam a Bíblia, dizia que a primeira questão não é discutir versículos, mas saber a quem pertence a fé à qual as Escrituras pertencem: onde estiver a verdadeira regra da fé, ali estarão também as verdadeiras Escrituras e a sua verdadeira interpretação (Tertuliano, *A prescrição contra os hereges*, 19).
+Nas primeiras décadas, a Igreja viveu sem o Novo Testamento completo, e por séculos sem um cânon fechado. No século II, Santo Irineu de Lião perguntava: se os Apóstolos não nos tivessem deixado escritos, não seria preciso seguir a tradição que entregaram àqueles a quem confiaram as Igrejas? (Santo Irineu de Lião, *Contra as heresias*, III,4,1). E Tertuliano, por volta do ano 200, diante de hereges que também citavam a Bíblia, dizia que a primeira questão não é discutir versículos, mas saber a quem pertence a fé à qual as Escrituras pertencem: onde estiver a verdadeira regra da fé, ali estarão também as verdadeiras Escrituras e a sua verdadeira interpretação (Tertuliano, *A prescrição contra os hereges*, 19).
 
 ### A Bíblia precisa ser interpretada
 
-A Escritura não se interpreta sozinha. São Pedro diz que nas cartas de Paulo há pontos difíceis, que os ignorantes e instáveis distorcem (2Pd 3,16). A história mostra isso. Em 1529, Lutero e Zuínglio, dois reformadores que aceitavam o princípio da “só a Escritura”, encontraram-se em Marburgo e não chegaram a acordo sobre o sentido de “isto é o meu corpo”. Não era falta de sinceridade nem de amor à Bíblia: era a falta de uma autoridade viva que pudesse dizer qual leitura é fiel à fé dos Apóstolos. A Igreja, “coluna e sustentáculo da verdade” (1Tm 3,15), recebeu essa missão, e o seu Magistério serve a Palavra, não está acima dela (CIC 86).
+A Escritura não se interpreta sozinha. São Pedro diz que nas cartas de Paulo há pontos difíceis, que os ignorantes e instáveis distorcem (2Pd 3,16). A história mostra isso. Em 1529, Lutero e Zuínglio, dois reformadores que aceitavam o princípio da “só a Escritura”, encontraram-se em Marburgo. Concordaram em catorze dos quinze artigos discutidos, mas não chegaram a acordo sobre o sentido de “isto é o meu corpo”. Não era falta de sinceridade nem de amor à Bíblia: era a falta de uma autoridade viva que pudesse dizer qual leitura é fiel à fé dos Apóstolos. A Igreja, “coluna e sustentáculo da verdade” (1Tm 3,15), recebeu essa missão, e o seu Magistério serve a Palavra, não está acima dela (CIC 86).
 
 ## Respondendo às objeções
 
@@ -102,7 +103,9 @@ A Escritura não se interpreta sozinha. São Pedro diz que nas cartas de Paulo h
 
 **“Os bereanos conferiam tudo pelas Escrituras.”** Os judeus de Bereia examinavam as Escrituras para ver se o que Paulo pregava era verdade (At 17,11). Mas o que eles examinavam era a **pregação oral** de Paulo, que aceitaram, e as Escrituras eram o Antigo Testamento. O episódio mostra Escritura e pregação apostólica juntas, não a Escritura sozinha.
 
-**“As tradições se corrompem; a Bíblia, não.”** A preocupação é justa, e por isso a Igreja distingue a Tradição apostólica das tradições locais, que podem mudar e até ser abandonadas (CIC 83). Mas a Tradição apostólica não depende só da memória humana: Cristo prometeu que o Espírito guiaria a Igreja à verdade plena (Jo 16,13) e que as portas do inferno não prevaleceriam contra ela (Mt 16,18). O mesmo Espírito que inspirou a Escritura guarda a sua transmissão.
+**“O essencial é claro; a Escritura interpreta a Escritura.”** Muito é claro, e a Igreja recomenda ler a Bíblia à luz dela mesma. Mas os cristãos que aceitam esse princípio divergem justamente em pontos essenciais, como o Batismo e a Eucaristia, como mostrou Marburgo. A própria Escritura reconhece passagens difíceis (2Pd 3,16).
+
+**“As tradições se corrompem; a Bíblia, não.”** A preocupação é justa, e por isso a Igreja distingue a Tradição apostólica das tradições locais, que podem mudar e até ser abandonadas (CIC 83). Mas a Tradição apostólica não depende só da memória humana: Cristo prometeu que o Espírito guiaria a Igreja à verdade plena (Jo 16,13) e que as portas do inferno não prevaleceriam contra ela (Mt 16,18). O mesmo Espírito que inspirou a Escritura guarda a sua transmissão. E quem discerne o que é apostólico não é cada leitor sozinho, mas a Igreja, sob a direção do Magistério (CIC 83).
 
 ## Em resumo
 

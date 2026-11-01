@@ -84,3 +84,22 @@ Nenhum.
 ## Correções aplicadas (30/10/2026)
 
 Correções 1 a 3 e sugestões 4 a 7 incorporadas.
+
+## Revisão independente
+
+- Revisor: agente revisor-independente (contexto limpo, sem acesso a este parecer)
+- Data: 2026-11-01 (revisão das Defesas publicadas antes deste passo existir)
+- Juízo: reparos menores; nada bloqueia
+
+### Corrigir (todos aplicados)
+
+1. As “promessas”: o voto se faz a Deus (CIC 2102); a promessa “a Nossa Senhora” é obra oferecida a Deus em honra dela.
+2. O gesto conta: fora o sacrifício, só a Deus (CIC 2099), o mesmo gesto muda de sentido.
+3. CIC 969 citado com os quatro títulos, incluindo “medianeira”, remetendo ao CIC 970.
+4. 2Rs 18,4: o povo queimava incenso “até aquele tempo”.
+5. Quaestio: “sobre quem viera o Espírito Santo” (a plenitude do Espírito em Lc 1 é de Isabel).
+6. CIC 2130 junto de Nm 21,8-9.
+
+### Sugestões
+
+- Aplicadas: sintaxe da hiperdulia; “redimida de modo mais sublime” (CIC 492); “aprovado pela Igreja”; Hb 12,1 como os justos que nos precederam; Lc 20,38; Ap 8,3-4; “catorze séculos antes da Reforma”; “alegava temer”; data no Martírio; CIC 2116; Niceia II reconhecido pelos ortodoxos; Lc 1,41-43.

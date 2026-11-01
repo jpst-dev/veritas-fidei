@@ -79,3 +79,23 @@ Nenhum.
 ## Correções aplicadas (31/10/2026)
 
 Correções 1 e 2 incorporadas.
+
+## Revisão independente
+
+- Revisor: agente revisor-independente (contexto limpo, sem acesso a este parecer)
+- Data: 2026-11-01 (revisão das Defesas publicadas antes deste passo existir)
+- Juízo: reparos menores; nada bloqueia
+
+### Corrigir (todos aplicados)
+
+1. Resposta 2: Rm 8,1 trata da pena eterna; o purgatório tem pena temporal e purificadora (CIC 1472); a convalescença fica como imagem.
+2. 1Cor 3: “a Tradição da Igreja viu nele o fogo que purifica (CIC 1031)”, reconhecendo a leitura protestante do Juízo final.
+3. Trento: “sufrágios dos fiéis, sobretudo o sacrifício da Missa”; “lucro torpe”.
+4. Reformadores rebaixaram os Macabeus, não os tiraram; Florença 1442 antes da Reforma; reservas de Jerônimo.
+5. Trento: “comércio desonesto”, não todo lucro.
+6. “Nem sempre cura num instante”.
+7. Culpa e pena temporal explicadas.
+
+### Sugestões
+
+- Aplicadas: “pouco, mas firme”; “pode ser um exemplo”; Catequeses mistagógicas “atribuídas” a Cirilo, século IV; Gregório Magno e as Igrejas ortodoxas na resposta 5; amuletos de 2Mc 12,40.

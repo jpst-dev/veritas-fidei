@@ -68,3 +68,26 @@ Nenhum.
 ## Correções aplicadas (31/10/2026)
 
 Correções 1 e 2 incorporadas.
+
+## Revisão independente
+
+- Revisor: agente revisor-independente (contexto limpo, sem acesso a este parecer)
+- Data: 2026-11-01 (revisão das Defesas publicadas antes deste passo existir)
+- Juízo: reparos que bloqueiam (corrigidos)
+
+### Bloqueava (corrigido)
+
+1. “Para eliminar todo mal moral, Deus teria de suprimir a liberdade” contradizia o CIC 310 (“Deus podia sempre ter criado um mundo melhor”), a impecabilidade de Maria e a liberdade dos santos no céu. Agora: Deus poderia; quis um caminho de escolha real (CIC 311); por que permite o mau uso da liberdade é mistério (CIC 314).
+
+### Corrigir (todos aplicados)
+
+1. Objeção com a forma “evidencial” (quantidade do mal, inocentes, animais, catástrofes) e as respostas na mesma ordem; a antiga resposta 4 virou parágrafo da resposta.
+2. “Forma clássica” (Epicuro por Lactâncio, Hume), não “moderna”.
+3. Suma I, q. 48, a. 1-3.
+4. Agostinho com a obra: Enquirídio, 11 (nota 152 do CIC 311), também na quaestio.
+5. Salvifici doloris 26 citada literalmente, só com a grafia adaptada.
+6. Rm 5,12: a morte na história humana.
+
+### Sugestões
+
+- Aplicadas: tirada a menção à trilha; Confissões VII,12,18; Lc 13,5; CIC 603 com a ressalva inicial; “o Filho de Deus feito homem”; Mt 25,35-40; itálico no discurso direto; CIC 412; Suma I-II, q. 5, a. 4 para a impecabilidade dos santos.

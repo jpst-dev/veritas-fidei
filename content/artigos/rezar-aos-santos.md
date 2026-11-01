@@ -19,7 +19,7 @@ quaestio:
     O mesmo São Paulo pede que se façam orações e súplicas por todos os
     homens (1Tm 2,1), e São Tiago diz que a oração fervorosa do justo tem
     muito poder (Tg 5,16). E o Apocalipse mostra, no céu, os anciãos
-    apresentando a Deus as orações dos santos (Ap 5,8).
+    prostrados diante do Cordeiro com as orações dos santos (Ap 5,8).
   respondo: >-
     Cristo é o único mediador, e é justamente nele que os cristãos podem
     rezar uns pelos outros. Os santos no céu não estão mortos, mas vivos em
@@ -50,11 +50,11 @@ revisao:
 
 Para muitos cristãos evangélicos, ver um católico rezando diante da imagem de um santo é motivo de estranhamento, às vezes de escândalo. Se Jesus é o caminho até o Pai, por que passar por Maria, por São José ou por Santo Antônio? Não seria desconfiar de Cristo?
 
-A pergunta é séria e merece uma resposta séria, com respeito pelos nossos irmãos protestantes, que amam Cristo e querem honrá-lo. Este artigo fecha a trilha sobre a Igreja com a comunhão dos santos, que o Credo professa logo depois da Igreja.
+A pergunta é séria e merece uma resposta séria, com respeito pelos nossos irmãos protestantes, que amam Cristo e querem honrá-lo. A base é a [comunhão dos santos](/artigos/a-comunhao-dos-santos), que o Credo professa logo depois da Igreja.
 
 ## A objeção
 
-São Paulo é claro: há um só Deus e um só mediador entre Deus e os homens, Cristo Jesus (1Tm 2,5). Pedir a intercessão dos santos seria criar outros mediadores, como se Cristo não bastasse. Além disso, os santos estão mortos, e a Lei de Moisés proíbe consultar os mortos (Dt 18,10-11). Por fim, as imagens, as velas e as festas dos santos parecem uma herança do paganismo, com os seus deuses protetores de cada cidade e de cada ofício.
+São Paulo é claro: há um só Deus e um só mediador entre Deus e os homens, Cristo Jesus (1Tm 2,5). Pedir a intercessão dos santos seria criar outros mediadores, como se Cristo não bastasse. Além disso, os santos estão mortos, e a Lei de Moisés proíbe consultar os mortos (Dt 18,10-11). Por fim, as imagens, as velas e as festas dos santos parecem uma herança do paganismo, com os seus deuses protetores de cada cidade e de cada ofício. E, de todo modo, por que não ir direto a Deus? Como os santos poderiam ouvir milhões de pedidos ao mesmo tempo?
 
 ## O que a Igreja ensina
 
@@ -64,7 +64,7 @@ A Igreja crê na **comunhão dos santos**: os fiéis que ainda caminham na terra
 >
 > — CIC 956
 
-O Concílio de Trento ensinou que é bom e útil invocar os santos e recorrer às suas orações para obter de Deus os seus benefícios, por meio do seu Filho, Jesus Cristo, nosso único Redentor e Salvador (Concílio de Trento, sessão XXV, DH 1821). O Catecismo resume: podemos e devemos pedir-lhes que intercedam por nós e por todo o mundo (CIC 2683).
+O Concílio de Trento ensinou que é bom e útil invocar os santos e recorrer às suas orações para obter benefícios de Deus, por meio do seu Filho, Jesus Cristo, nosso único Redentor e Salvador (Concílio de Trento, sessão XXV, DH 1821). O Catecismo resume: podemos e devemos pedir-lhes que intercedam por nós e por todo o mundo (CIC 2683).
 
 ## A resposta
 
@@ -72,7 +72,7 @@ O Concílio de Trento ensinou que é bom e útil invocar os santos e recorrer à
 
 O versículo sobre o único mediador vem logo depois de um pedido. Paulo começa o capítulo pedindo que se façam súplicas, orações e intercessões por todos os homens, porque isso é bom e agradável a Deus (1Tm 2,1-3). Ou seja: no mesmo lugar em que afirma a mediação única de Cristo, o Apóstolo manda os cristãos intercederem uns pelos outros. Para ele, as duas coisas não competem.
 
-E todo cristão faz isso. Quem pede a um amigo “reza por mim” não põe o amigo no lugar de Cristo. A Bíblia está cheia desses pedidos: Paulo pede às Igrejas que rezem por ele (Rm 15,30), e Tiago diz que a oração fervorosa do justo tem muito poder (Tg 5,16). A intercessão dos cristãos não é uma segunda mediação, paralela à de Cristo: é participação nela. Cristo é o único intercessor junto do Pai, e a nossa intercessão vale porque está unida à dele (CIC 2634-2635).
+E todo cristão faz isso. Quem pede a um amigo “reza por mim” não põe o amigo no lugar de Cristo. A Bíblia está cheia desses pedidos: Paulo pede às Igrejas que rezem por ele (Rm 15,30; Cl 4,3; 1Ts 5,25), e Tiago diz que a oração fervorosa do justo tem muito poder (Tg 5,16). A intercessão dos cristãos não é uma segunda mediação, paralela à de Cristo: é participação nela. Cristo é o único intercessor junto do Pai, e a nossa intercessão vale porque está unida à dele (CIC 2634-2635).
 
 ### Os santos estão vivos
 
@@ -82,21 +82,23 @@ Se a união com Cristo é mais forte que a morte (Rm 8,38-39), os que morreram n
 
 ### Os santos no céu rezam
 
-O Apocalipse mostra justamente isso. Os vinte e quatro anciãos, diante do trono de Deus, seguram taças de ouro cheias de incenso, que são as orações dos santos (Ap 5,8); um anjo oferece o incenso com as orações dos santos diante de Deus (Ap 8,3-4). As almas dos mártires, sob o altar, sabem o que acontece na terra e clamam a Deus por justiça (Ap 6,9-10). Os que estão no céu não estão alheios a nós: apresentam a Deus as orações da Igreja.
+O Apocalipse mostra justamente isso. Os vinte e quatro anciãos, prostrados diante do Cordeiro, seguram taças de ouro cheias de incenso, que são as orações dos santos (Ap 5,8); um anjo oferece o incenso com as orações dos santos diante de Deus (Ap 8,3-4). As almas dos mártires, sob o altar, clamam a Deus por justiça contra os que, na terra, derramaram o seu sangue (Ap 6,9-10): não estão alheias ao que se passa aqui. Os que estão no céu não estão alheios a nós: apresentam a Deus as orações da Igreja.
 
 ### Venerar não é adorar
 
-A adoração pertence só a Deus. Aos santos a Igreja dá outra coisa: veneração, honra, amor de discípulos por outros discípulos (CIC 957, 2132). A distinção é antiquíssima. Por volta do ano 155, os cristãos de Esmirna, depois do martírio do seu bispo Policarpo, foram acusados de que passariam a adorá-lo no lugar de Cristo. Eles responderam que nunca poderiam deixar Cristo nem adorar outro: a ele adoramos, porque é o Filho de Deus; aos mártires amamos como discípulos e imitadores do Senhor (*Martírio de Policarpo*, 17; CIC 957). E contam que guardaram os ossos do mártir e se reuniam para celebrar o aniversário do seu martírio (*Martírio de Policarpo*, 18). O culto dos santos não veio do paganismo: nasceu entre os mártires, de cristãos dispostos a morrer para não adorar outro deus.
+A adoração pertence só a Deus. Aos santos a Igreja dá outra coisa: veneração, honra, amor de discípulos por outros discípulos (CIC 957, 2132). A distinção é antiquíssima. Por volta do ano 155 ou 156, depois do martírio de São Policarpo, bispo de Esmirna, os judeus da cidade sugeriram às autoridades que não entregassem o corpo aos cristãos, para que não passassem a adorá-lo no lugar de Cristo. Os autores da carta que conta o martírio comentam que nunca poderiam deixar Cristo nem adorar outro: a ele adoramos, porque é o Filho de Deus; aos mártires amamos como discípulos e imitadores do Senhor (*Martírio de Policarpo*, 17,3; c. 156; CIC 957). E contam que guardaram os ossos do mártir e pretendiam reunir-se ali para celebrar o aniversário do seu martírio (*Martírio de Policarpo*, 18; c. 156). Quanto às imagens, a honra dada a elas passa à pessoa representada (CIC 2132), como explica [o artigo sobre as imagens](/artigos/imagens-sao-idolatria). O culto dos santos não veio do paganismo: nasceu entre os mártires, de cristãos dispostos a morrer para não adorar outro deus.
 
 ## Respondendo às objeções
 
-**“Basta rezar direto a Deus.”** É verdade, e a oração mais alta da Igreja, a Missa, é dirigida ao Pai, por Cristo, no Espírito. Ninguém é obrigado a pedir a intercessão de um santo para falar com Deus. Mas também basta rezar direto a Deus, e ainda assim pedimos a oração dos irmãos. Não por necessidade, mas por amor: Deus quis salvar os homens não isoladamente, mas como um povo (CIC 781).
+**“Pôr outros mediadores ao lado de Cristo.”** No mesmo trecho em que afirma o único mediador, Paulo manda interceder por todos (1Tm 2,1-5). A intercessão dos santos não é uma segunda mediação, mas participação na de Cristo (CIC 2634-2635; 956).
 
-**“A Bíblia proíbe falar com os mortos.”** A Lei proíbe a necromancia: consultar os mortos para obter revelações ou dominar o futuro, como fez Saul com a necromante de Endor (Dt 18,10-11; 1Sm 28). A Igreja também condena isso (CIC 2116). Pedir a um santo que reze por nós não é consultar nem invocar espíritos: é dirigir a Deus, junto com um irmão, a mesma oração.
+**“A Bíblia proíbe falar com os mortos.”** A Lei proíbe a necromancia: consultar os mortos para obter revelações ou dominar o futuro, como fez Saul com a necromante de Endor (Dt 18,10-11; 1Sm 28). A Igreja também condena isso (CIC 2116). Pedir a um santo que reze por nós não é consultar os mortos nem evocar espíritos: é dirigir a Deus, junto com um irmão, a mesma oração.
 
-**“Como os santos podem ouvir tantos pedidos?”** Não por uma capacidade própria, como se fossem onipresentes, mas porque estão em Deus, que lhes dá conhecer o que convém. O Apocalipse mostra os que estão no céu apresentando a Deus as orações da terra (Ap 5,8). Como isso acontece é um mistério da vida no céu, que a Bíblia não descreve em detalhe.
+**“Isso é paganismo disfarçado.”** Algumas formas de devoção popular podem exagerar, e a Igreja manda corrigi-las: o próprio Concílio de Trento, no decreto sobre a invocação dos santos, ordena que se tirem os abusos (Concílio de Trento, sessão XXV). Mas o fundamento é bíblico e cristão desde o começo, como mostra o *Martírio de Policarpo*. Que os pagãos também tivessem festas e imagens não prova nada: eles também tinham orações e templos, e nem por isso a oração cristã é pagã.
 
-**“Isso é paganismo disfarçado.”** Algumas formas de devoção popular podem exagerar, e a Igreja sempre as corrigiu. Mas o fundamento é bíblico e cristão desde o começo, como mostra o *Martírio de Policarpo*. Que os pagãos também tivessem festas e imagens não prova nada: eles também tinham orações e templos, e nem por isso a oração cristã é pagã.
+**“Basta rezar direto a Deus.”** É verdade, e a oração mais alta da Igreja, a Missa, é dirigida ao Pai, por Cristo, no Espírito. E mesmo assim, na Missa, a Igreja pede a oração de Maria e dos santos: no ato penitencial pedimos à Virgem Maria, aos anjos e santos que rezem por nós, e as orações eucarísticas fazem memória deles. Ninguém é obrigado a esta ou àquela devoção particular, mas a Igreja ensina que podemos e devemos pedir a intercessão dos santos (CIC 2683). Deus quis salvar os homens não isoladamente, mas como um povo (CIC 781).
+
+**“Como os santos podem ouvir tantos pedidos?”** Não por uma capacidade própria, como se fossem onipresentes. Os teólogos, com Santo Tomás, explicam que eles veem em Deus o que lhes convém conhecer. O Apocalipse mostra no céu as orações da terra (Ap 5,8; 8,3-4). Como isso acontece é um mistério da vida no céu, que a Bíblia não descreve em detalhe.
 
 ## Em resumo
 
@@ -106,4 +108,4 @@ A adoração pertence só a Deus. Aos santos a Igreja dá outra coisa: veneraç�
 - **Venerar não é adorar**: desde os mártires de Esmirna, os cristãos adoram só a Cristo e amam os santos como discípulos (CIC 957).
 - Pedir a intercessão dos santos não é necromancia nem paganismo. A Igreja não impõe a ninguém uma devoção particular, mas ensina que invocar os santos é **bom e útil**, e não idolatria (DH 1821; CIC 2683).
 
-Este artigo fecha a trilha sobre a Igreja. A comunhão dos santos é a própria Igreja vista por inteiro, na terra e no céu (CIC 946).
+A comunhão dos santos é a própria Igreja vista por inteiro, na terra e no céu (CIC 946).

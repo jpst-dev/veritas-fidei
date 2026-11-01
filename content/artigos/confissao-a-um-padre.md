@@ -26,6 +26,8 @@ referencias:
   - titulo: Exortação apostólica Reconciliatio et Paenitentia (1984)
     autor: São João Paulo II
     url: https://www.vatican.va/content/john-paul-ii/pt/apost_exhortations/documents/hf_jp-ii_exh_02121984_reconciliatio-et-paenitentia.html
+  - titulo: Concílio de Trento, sessão XIV (1551), cânones sobre a Penitência, 3, 6 e 7
+    url: https://www.papalencyclicals.net/councils/trent/fourteenth-session.htm
   - titulo: Didaqué, 4,14 e 14,1
     url: https://www.newadvent.org/fathers/0714.htm
   - titulo: Sobre os que caíram, 28
@@ -77,9 +79,9 @@ Esse poder foi confiado aos Apóstolos e, por meio deles, aos bispos e presbíte
 
 Na noite da Páscoa, o Ressuscitado aparece aos discípulos, sopra sobre eles, dá-lhes o Espírito Santo e diz que os pecados que eles perdoarem serão perdoados, e os que retiverem serão retidos (Jo 20,21-23). É o único momento dos Evangelhos em que Jesus sopra sobre alguém, um gesto que lembra Deus soprando a vida em Adão. Ali nasce algo novo.
 
-Esse poder não ficou só com Pedro. Jesus dá a ele as chaves do Reino e o poder de ligar e desligar (Mt 16,19), e depois dá o mesmo poder de ligar e desligar aos discípulos (Mt 18,18). São Paulo chama isso de “ministério da reconciliação”: Deus nos reconciliou consigo por Cristo e confiou aos Apóstolos esse ministério (2Cor 5,18-20).
+Antes, Jesus já tinha prometido esse poder: a Pedro, as chaves do Reino e o poder de ligar e desligar (Mt 16,19); depois, o mesmo poder de ligar e desligar aos discípulos (Mt 18,18). São Paulo chama isso de “ministério da reconciliação”: Deus nos reconciliou consigo por Cristo e confiou aos Apóstolos esse ministério (2Cor 5,18-20).
 
-Os próprios contemporâneos de Jesus perceberam a novidade. Depois da cura do paralítico, a multidão glorifica a Deus, que deu tal poder aos homens (Mt 9,8). Aos homens, no plural.
+Depois da cura do paralítico, Mateus nota que a multidão glorifica a Deus por ter dado tal poder aos homens (Mt 9,8): aos homens, no plural, como quem já vê esse poder passar à Igreja.
 
 ### Perdoar ou reter exige conhecer
 
@@ -89,21 +91,21 @@ Jesus não deu aos Apóstolos apenas o poder de perdoar, mas também o de **rete
 
 ### Os primeiros cristãos confessavam os pecados
 
-A confissão não começou em 1215. A *Didaqué*, um catecismo escrito por volta do ano 100, manda confessar as próprias faltas na assembleia da Igreja (*Didaqué*, 4,14), e pede que os cristãos confessem os pecados antes da Eucaristia de domingo (*Didaqué*, 14,1). São Tiago já orientava a confessar os pecados uns aos outros e a orar uns pelos outros (Tg 5,16).
+A confissão não começou em 1215. A *Didaqué*, um catecismo escrito por volta do ano 100, manda confessar as próprias faltas na assembleia da Igreja (*Didaqué*, 4,14), e pede que os cristãos confessem os pecados antes da Eucaristia de domingo (*Didaqué*, 14,1). São Tiago já orientava a confessar os pecados uns aos outros e a orar uns pelos outros (Tg 5,16), logo depois de mandar chamar os presbíteros da Igreja para orar pelo doente (Tg 5,14). Esses primeiros textos falam de confissão diante da comunidade; o papel próprio dos sacerdotes aparece com clareza logo depois.
 
-Por volta de 251, São Cipriano elogia os cristãos que, mesmo sem terem cometido o pecado grave da apostasia, mas só por terem pensado nisso, confessam com dor e simplicidade essa falta aos sacerdotes de Deus (São Cipriano, *Sobre os que caíram*, 28). No século IV, Santo Ambrósio é taxativo: o poder de perdoar os pecados foi confiado só aos sacerdotes (Santo Ambrósio, *Sobre a Penitência*, I,2).
+Por volta de 251, São Cipriano elogia os cristãos que, mesmo sem terem cometido o pecado grave da apostasia, mas só por terem pensado nisso, confessam com dor e simplicidade essa falta aos sacerdotes de Deus (São Cipriano, *Sobre os que caíram*, 28). No século IV, contra os novacianos, que negavam à Igreja o poder de perdoar certos pecados, Santo Ambrósio é taxativo: o poder de perdoar os pecados foi confiado só aos sacerdotes (Santo Ambrósio, *Sobre a Penitência*, I,2).
 
 ## Respondendo às objeções
 
-**1. “Só Deus perdoa.”** Exatamente. Quando o padre diz “eu te absolvo”, não é ele quem perdoa por conta própria: é Cristo que perdoa por meio dele, assim como é Cristo quem batiza por meio de quem batiza. Cristo quis que a Igreja fosse sinal e instrumento do seu perdão e confiou o poder de absolver ao ministério apostólico (CIC 1442). O perdão continua sendo divino; o que Cristo escolheu foi o caminho humano por onde ele chega.
+**1. “Só Deus perdoa.”** Exatamente. Quando o padre diz “eu te absolvo”, não é ele quem perdoa por conta própria: é Cristo que perdoa por meio dele, assim como, diz Santo Agostinho, é Cristo quem batiza quando alguém batiza (*Sacrosanctum concilium*, 7). Cristo quis que a Igreja fosse sinal e instrumento do seu perdão e confiou o poder de absolver ao ministério apostólico (CIC 1442). O perdão continua sendo divino; o que Cristo escolheu foi o caminho humano por onde ele chega.
 
 **2. “Há um só mediador.”** O padre não é um segundo mediador, ao lado de Cristo. Ele é um instrumento do único Mediador. Pela mesma lógica, um pastor que prega o Evangelho também seria um “intermediário”, e São Paulo não deveria ter dito que Deus exorta os homens através dos Apóstolos (2Cor 5,20).
 
-**3. “A Bíblia manda confessar a Deus.”** E a confissão sacramental é confissão a Deus. 1Jo 1,9 não diz como confessar, e outros textos mostram a confissão feita diante de outros (Tg 5,16; At 19,18). Além disso, a Igreja nunca ensinou que não se deve rezar pedindo perdão diretamente a Deus: o arrependimento sincero deve acompanhar o cristão todos os dias. Mas, para os pecados graves, a confissão ao padre não é opcional: é o caminho que Cristo deixou para o seu perdão (CIC 1456). Quem se arrepende por amor a Deus, com contrição perfeita, já é perdoado, desde que tenha o propósito de se confessar logo que possível (CIC 1452); e quem tem consciência de pecado grave não deve comungar sem antes receber a absolvição (CIC 1457).
+**3. “A Bíblia manda confessar a Deus.”** E a confissão sacramental é confissão a Deus. 1Jo 1,9 não diz como confessar, e outros textos mostram a confissão feita diante de outros (Tg 5,16; At 19,18). A Igreja também ensina a pedir perdão diretamente a Deus todos os dias, e os pecados veniais são perdoados de muitos modos, embora a confissão deles seja recomendada (CIC 1458). Mas, para os pecados graves, a confissão ao padre não é opcional: é o caminho que Cristo deixou para o seu perdão (CIC 1456). Não se trata de uma disciplina da Igreja: o Concílio de Trento definiu que confessar todos os pecados mortais é necessário por instituição divina (Concílio de Trento, sessão XIV, cân. 6-7). Quem se arrepende por amor a Deus, com contrição perfeita, já é perdoado, desde que tenha o propósito de se confessar logo que possível (CIC 1452); e quem tem consciência de pecado grave não deve comungar sem antes receber a absolvição, salvo motivo grave e impossibilidade de se confessar (CIC 1457).
 
 **4. “É invenção medieval.”** A *forma* da penitência mudou ao longo dos séculos, e é honesto reconhecer isso. Nos primeiros séculos, os pecados mais graves e públicos levavam a uma penitência pública, longa, concedida muitas vezes uma só vez na vida. A partir do século VI, sobretudo com os monges irlandeses, difundiu-se a confissão privada e repetida, como a conhecemos. O IV Concílio de Latrão, em 1215, não inventou a confissão: apenas mandou que todo fiel se confessasse **ao menos uma vez por ano** (IV Concílio de Latrão, cân. 21; DH 812). Só se obriga a fazer ao menos uma vez algo que já existe.
 
-**5. “O padre também é pecador.”** Sim, e muitas vezes ele mesmo se confessa com outro padre. Mas o sacramento não depende da santidade de quem o celebra, e sim do poder de Cristo (CIC 1128). Os Apóstolos que receberam o poder de perdoar, na noite da Páscoa, eram os mesmos que tinham fugido na Sexta-feira Santa.
+**5. “O padre também é pecador.”** Sim, e ele mesmo precisa se confessar com outro padre: ninguém absolve a si mesmo. Mas o sacramento não depende da santidade de quem o celebra, e sim do poder de Cristo (CIC 1128). Os Apóstolos que receberam o poder de perdoar, na noite da Páscoa, eram, quase todos, os mesmos que tinham fugido na Sexta-feira Santa.
 
 ## Em resumo
 

@@ -50,7 +50,7 @@ revisao:
     Parecer doutrinal interno: favorável com correções em 31/10/2026, correções aplicadas (docs/pareceres/batismo-infantil-biblico.md).
 ---
 
-Na fila do batismo de uma paróquia, quase todos estão no colo dos pais. Para muitos cristãos evangélicos, essa cena é um erro: o Batismo seria o testemunho público de quem já decidiu seguir a Cristo, e um bebê não decide nada. Por isso, nessas comunidades, quem foi batizado criança costuma ser batizado de novo depois de adulto.
+Na fila do batismo de uma paróquia, quase todos estão no colo dos pais. Luteranos, anglicanos, presbiterianos e metodistas também batizam crianças. Mas, para muitos cristãos evangélicos, sobretudo batistas e pentecostais, essa cena é um erro: o Batismo seria o testemunho público de quem já decidiu seguir a Cristo, e um bebê não decide nada. Por isso, nessas comunidades, quem foi batizado criança costuma ser batizado de novo depois de adulto. Para eles, não se trata de um segundo batismo, porque o primeiro não teria valido.
 
 A objeção é séria e merece uma resposta séria. Afinal, a Igreja Católica batiza crianças há quase dois mil anos. Isso tem base na Escritura, ou é um costume que se impôs com o tempo?
 
@@ -73,13 +73,13 @@ Por isso, a Igreja batiza as crianças:
 >
 > — CIC 1250
 
-E deixa claro em que fé elas são batizadas: “as crianças são batizadas na fé da Igreja” (CIC 1282). A Igreja defendeu essa prática contra quem a negava já no Concílio de Cartago, em 418 (DH 223), e o Concílio de Trento condenou a ideia de que os batizados quando crianças devam ser batizados de novo ao crescer (Concílio de Trento, sessão VII, cânones sobre o Batismo, cân. 13; DH 1626).
+E deixa claro em que fé elas são batizadas: “as crianças são batizadas na fé da Igreja” (CIC 1282). A Igreja defendeu essa prática e o seu sentido, o perdão do pecado original, já no Concílio de Cartago, em 418 (DH 223), e o Concílio de Trento condenou a ideia de que os batizados quando crianças devam ser batizados de novo ao crescer (Concílio de Trento, sessão VII, cânones sobre o Batismo, cân. 13; DH 1626). Não se trata de um costume pastoral: é doutrina de fé, definida solenemente.
 
 ## A resposta
 
 ### O Batismo é dom antes de ser resposta
 
-O ponto de partida da objeção é que o Batismo seria, antes de tudo, um ato nosso: uma declaração pública de fé. Para a fé católica, ele é antes de tudo um ato de Deus. É Cristo quem batiza, quem perdoa, quem nos faz filhos (CIC 1127). A fé é necessária, mas como acolhida de um dom, não como preço pago por ele.
+O ponto de partida da objeção é que o Batismo seria, antes de tudo, um ato nosso: uma declaração pública de fé. Para a fé católica, ele é antes de tudo um ato de Deus. É Cristo quem age no sacramento (CIC 1127): é ele quem perdoa e nos faz filhos de Deus (CIC 1263; 1265). A fé é necessária, mas como acolhida de um dom, não como preço pago por ele.
 
 É por isso que o Catecismo diz que “a pura gratuidade da graça da salvação é particularmente manifesta no Batismo das crianças” (CIC 1250). Um bebê não pode merecer nada, e é exatamente assim que todos recebemos a graça.
 
@@ -93,29 +93,29 @@ O Catecismo é prudente aqui: a prática é “explicitamente atestada desde o s
 
 No Antigo Testamento, os meninos entravam na Aliança pela circuncisão, no oitavo dia de vida (Gn 17,12), muito antes de poderem crer. A fé viria depois, na família e no povo de Deus. São Paulo apresenta o Batismo como a “circuncisão de Cristo”, que nos sepulta e ressuscita com ele (Cl 2,11-12).
 
-Se a Antiga Aliança acolhia as crianças, seria estranho que a Nova, mais ampla e generosa, as deixasse de fora. No Pentecostes, logo depois de chamar à conversão, Pedro acrescenta que a promessa é para os ouvintes e para os seus filhos (At 2,39).
+Se a Antiga Aliança acolhia os meninos desde o oitavo dia, seria estranho que a Nova, mais ampla e generosa, as deixasse de fora. No Pentecostes, logo depois de chamar à conversão, Pedro acrescenta que a promessa alcança os ouvintes e também os seus filhos (At 2,39).
 
 ### O testemunho dos primeiros séculos
 
 Os escritos cristãos mais antigos confirmam essa prática:
 
-- **São Justino**, por volta de 155, fala de homens e mulheres de sessenta e setenta anos que eram discípulos de Cristo desde a infância (São Justino, *I Apologia*, 15). O texto não diz quando foram batizados, mas sugere fortemente que o foram ainda crianças, no fim do século I, quando alguns Apóstolos ainda viviam.
-- **Santo Irineu**, por volta de 180, ensina que Cristo veio salvar todos os que por ele renascem para Deus, e cita expressamente “infantes e crianças” (Santo Irineu, *Contra as heresias*, II,22,4). Na linguagem dos Padres, “renascer para Deus” é o Batismo.
+- **São Justino**, por volta de 155, fala de homens e mulheres de sessenta e setenta anos que eram discípulos de Cristo desde a infância (São Justino, *I Apologia*, 15). O texto não diz quando foram batizados, mas sugere que o foram ainda crianças, no fim do século I, quando, segundo a tradição, o apóstolo João ainda vivia.
+- **Santo Irineu**, por volta de 180, ensina que Cristo veio salvar todos os que por ele renascem para Deus, e cita expressamente “infantes e crianças” (Santo Irineu, *Contra as heresias*, II,22,4). Na linguagem dos Padres, “renascer para Deus” é o Batismo, e o próprio Irineu chama o Batismo de “regeneração para Deus” (Santo Irineu, *Contra as heresias*, III,17,1).
 - **A *Tradição Apostólica***, tradicionalmente atribuída a Santo Hipólito e de data discutida (provavelmente século III), manda batizar primeiro as crianças e diz que, se não puderem responder por si, os pais ou alguém da família respondam por elas (*Tradição Apostólica*, 21).
-- **Orígenes**, na mesma época, afirma que a Igreja recebeu dos Apóstolos a tradição de batizar também as crianças (Orígenes, *Comentário à Carta aos Romanos*, V,9).
-- **São Cipriano**, por volta de 253, responde ao bispo Fido, que achava que se devia esperar o oitavo dia, como na circuncisão. Um concílio de bispos africanos foi unânime em responder que não se deve negar a graça de Deus a nenhum recém-nascido (São Cipriano, *Carta 64*).
+- **Orígenes**, na mesma época, afirma que a Igreja recebeu dos Apóstolos a tradição de batizar também as crianças (Orígenes, *Comentário à Carta aos Romanos*, V,9). A obra chegou até nós na tradução latina de Rufino, mas Orígenes diz o mesmo nas suas homilias sobre Lucas (Orígenes, *Homilias sobre Lucas*, 14).
+- **São Cipriano**, por volta de 253, responde ao bispo Fido, que achava que se devia esperar o oitavo dia, como na circuncisão. Um concílio de bispos africanos foi unânime em responder que não se deve negar a graça de Deus a nenhum recém-nascido (São Cipriano, *Carta 64*, que é a 58 na numeração inglesa).
 
 ## Respondendo às objeções
 
 **1. “Quem crer e for batizado será salvo.”** A frase se dirige a quem ouve a pregação do Evangelho, ou seja, a adultos. Se fosse aplicada às crianças, a segunda metade do versículo diria que elas estão condenadas por não crer (Mc 16,16), o que nenhum cristão admite. O mesmo vale para Pedro em At 2,38: ele fala a adultos que acabaram de ouvir a pregação e, no versículo seguinte, inclui os filhos na promessa.
 
-**2. “Um bebê não pode crer.”** Não pode crer sozinho, e ninguém pode. A fé de cada cristão nasce e cresce dentro da fé da Igreja (CIC 1253). A criança é batizada nessa fé, e os pais e padrinhos se comprometem a educá-la nela. Por isso o Batismo das crianças pede, por natureza, uma catequese depois do Batismo (CIC 1231).
+**2. “Um bebê não pode crer.”** Não pode, ainda, fazer um ato pessoal de fé. Mas recebe no Batismo, como dom, a fé e as outras virtudes teologais, que devem crescer com ele (CIC 1266). Além disso, ninguém crê sozinho: a fé de cada cristão nasce e cresce dentro da fé da Igreja (CIC 166; 1253). A criança é batizada nessa fé, e os pais e padrinhos se comprometem a educá-la nela. Por isso o Batismo das crianças pede, por natureza, uma catequese depois do Batismo (CIC 1231).
 
 **3. “Não há nenhum bebê batizado na Bíblia.”** Também não há na Bíblia nenhum filho de cristãos que tenha esperado crescer para ser batizado. Os relatos de batismo do Novo Testamento mostram a primeira geração, que se convertia já adulta. Quando famílias inteiras são batizadas, nada indica que os pequenos tenham ficado de fora.
 
-**4. “Tertuliano pedia para adiar.”** É verdade, e o testemunho dele prova o contrário do que a objeção quer: só faz sentido aconselhar o adiamento de algo que já se praticava. Tertuliano também aconselhava adiar o Batismo dos solteiros e dos viúvos, por medo de que pecassem depois (Tertuliano, *Sobre o Batismo*, 18), um conselho que a Igreja não seguiu. Poucas décadas depois, os bispos africanos reunidos com São Cipriano decidiram justamente o oposto.
+**4. “Tertuliano pedia para adiar.”** É verdade, e o testemunho dele prova o contrário do que a objeção quer: só faz sentido aconselhar o adiamento de algo que já se praticava. Tertuliano também aconselhava adiar o Batismo dos solteiros e dos viúvos, por medo de que pecassem depois (Tertuliano, *Sobre o Batismo*, 18), um conselho que a Igreja não seguiu. No mesmo capítulo fala dos padrinhos que respondem pela criança, sinal de uma prática já organizada. É verdade que, nos séculos III e IV, alguns filhos de cristãos adiaram o Batismo, como Santo Agostinho; mas por medo de pecar depois, não por julgarem ilegítimo batizar crianças. Poucas décadas depois, os bispos africanos reunidos com São Cipriano decidiram justamente o oposto.
 
-**5. “E se uma criança morrer sem ser batizada?”** Não é propriamente uma objeção, mas é a pergunta que mais aflige os pais. A Igreja não pode dizer mais do que Deus revelou: ela confia essas crianças à misericórdia de Deus, que quer que todos se salvem, e à ternura de Jesus, que disse “deixai vir a mim as criancinhas” (Mc 10,14; CIC 1261). Essa esperança não dispensa o Batismo; ao contrário, é mais um motivo para não o adiar sem razão.
+**5. “E se uma criança morrer sem ser batizada?”** Não é propriamente uma objeção, mas é a pergunta que mais aflige os pais. A Igreja não pode dizer mais do que Deus revelou: ela confia essas crianças à misericórdia de Deus, que quer que todos se salvem, e à ternura de Jesus, que disse “deixai vir a mim as criancinhas” (Mc 10,14). Isso permite esperar que haja para elas um caminho de salvação (CIC 1261). Essa esperança não dispensa o Batismo; ao contrário, é mais um motivo para não o adiar sem razão.
 
 **6. “A fé deve ser uma decisão pessoal.”** E é. O batizado quando criança precisará, ao crescer, assumir a fé como sua: é para isso que existem a catequese, a Confirmação e toda a vida cristã. Mas a decisão pessoal não cria a graça; ela acolhe uma graça já recebida. Os pais cristãos decidem pelos filhos em tantas coisas boas, como o alimento, a saúde e a educação. A Igreja os convida a não os privar da maior de todas (CIC 1250).
 
@@ -124,5 +124,5 @@ Os escritos cristãos mais antigos confirmam essa prática:
 - O Batismo é **sacramento da fé**, mas a fé exigida “não é uma fé perfeita e amadurecida” (CIC 1253).
 - As crianças são batizadas **na fé da Igreja** (CIC 1282) e precisam ser educadas nela.
 - O Novo Testamento narra o batismo de **casas inteiras** e apresenta o Batismo como a nova **circuncisão** (Cl 2,11-12).
-- Desde o século II, os cristãos testemunham o **batismo de crianças** como prática recebida dos Apóstolos.
+- O **batismo de crianças** é atestado desde o século II; no século III, Orígenes já o diz recebido dos Apóstolos.
 - O Batismo das crianças mostra que a salvação é **pura graça**, não conquista humana.

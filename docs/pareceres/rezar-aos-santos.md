@@ -71,3 +71,24 @@ Nenhum.
 ## Correções aplicadas (31/10/2026)
 
 Correções 1 a 4 e sugestão 5 incorporadas.
+
+## Revisão independente
+
+- Revisor: agente revisor-independente (contexto limpo, sem acesso a este parecer)
+- Data: 2026-11-01 (revisão das Defesas publicadas antes deste passo existir)
+- Juízo: reparos menores; nada bloqueia
+
+### Corrigir (todos aplicados)
+
+1. Peso doutrinal: “podemos e devemos” pedir a intercessão (CIC 2683); livre é a devoção particular.
+2. A Missa como exemplo: nela a Igreja pede a oração de Maria e dos santos.
+3. “Evocar” espíritos (CIC 2116), não “invocar”.
+4. Objeção completa (ir direto a Deus; ouvir milhões de pedidos) e respostas na ordem; imagens respondidas com CIC 2132 e link para o artigo das imagens.
+5. Ap 5,8: diante do Cordeiro.
+6. Ap 6,9-10 sem estender o texto.
+7. Martírio de Policarpo 17,3 e 18 com o contexto exato e datas.
+8. Trento manda corrigir os abusos (sessão XXV).
+
+### Sugestões
+
+- Aplicadas: Santo Tomás como explicação teológica; tirada a frase da trilha (duas vezes); link para a comunhão dos santos; Cl 4,3 e 1Ts 5,25; “benefícios de Deus”; 155 ou 156.

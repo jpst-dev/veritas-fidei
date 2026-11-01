@@ -68,3 +68,25 @@ Nenhum.
 ## Correções aplicadas (31/10/2026)
 
 Correções 1 a 4 incorporadas.
+
+## Revisão independente
+
+- Revisor: agente revisor-independente (contexto limpo, sem acesso a este parecer)
+- Data: 2026-11-01 (revisão das Defesas publicadas antes deste passo existir)
+- Juízo: reparos menores; nada bloqueia
+
+### Corrigir (todos aplicados)
+
+1. CIC 2700-2704 citado no que diz (2701, 2704); a frase sobre humor e criatividade saiu.
+2. CIC 2678: “substituto popular da Liturgia das Horas”, com a explicação de que isso não vale hoje.
+3. Comparação “como a um irmão” tirada do CIC 2677; nome de Jesus no centro com *RVM* 33.
+4. Segunda parte da Ave-Maria ecoa Lc 1,43.
+5. Lc 18,38-43.
+6. Mc 14,39 é a segunda vez; Mt 26,44, a terceira.
+7. Objeção na forma forte: “vãs repetições” (Almeida), o grego, as contas e o número fixo, respondidos.
+8. A pergunta sobre a obrigação entrou na objeção.
+
+### Sugestões
+
+- Aplicadas: terço como parte do rosário; Pai-Nosso logo depois de Mt 6,7 (Mt 6,9-13); CIC 2668 e Crisóstomo pelo CIC 2700; “sobretudo no Oriente”; instituição da Eucaristia e “propôs”; “quatro seres vivos”; bloco de citação atribuído a *RVM* 12 citando *Marialis cultus* 47; ressalva de *RVM* 26 sobre Pedro; link para a intercessão dos santos.
+- Pendente: maiúscula de “Rosário/rosário” segue o uso do texto citado (documentos com maiúscula; uso comum com minúscula).

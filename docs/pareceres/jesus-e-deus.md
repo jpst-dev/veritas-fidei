@@ -75,3 +75,25 @@ Nenhum.
 ## Correções aplicadas (30/10/2026)
 
 Correções 1 a 3 e sugestão 4 incorporadas.
+
+## Revisão independente
+
+- Revisor: agente revisor-independente (contexto limpo, sem acesso a este parecer)
+- Data: 2026-11-01 (revisão das Defesas publicadas antes deste passo existir)
+- Juízo: reparos menores; nada bloqueia
+
+### Corrigir (todos aplicados)
+
+1. Pai-nosso: Jesus ensina os discípulos a rezar assim (Mt 6,9; CIC 443).
+2. Ordem das respostas igual à da objeção: “Jesus rezava ao Pai” passou a ser a primeira; a leitura “um deus” de Jo 1,1 entrou na objeção.
+3. Corte marcado na citação de Inácio (Efésios 18,2).
+4. O argumento da adoração ligado à herança judaica e a Fl 2,10-11.
+5. CIC 474 com a precisão: o conhecimento humano de Cristo, unido à Sabedoria divina na pessoa do Verbo.
+6. A cura do paralítico com Mc 2,10-12.
+7. CIC 589: “torna presente e revela o nome de Deus”.
+8. Jo 1,3 com referência; o artigo grego de Jo 20,28 explicado.
+9. “Nossos irmãos” tirado das Testemunhas de Jeová.
+
+### Sugestões
+
+- Aplicadas: CIC 590; Ex 3,14; parágrafo de uma frase fundido; Jo 20,29; Ex 4,22; Jo 17,3 na objeção, com resposta; Suma retirada das referências por não ser usada.

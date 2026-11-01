@@ -71,3 +71,24 @@ Nenhum.
 ## Correções aplicadas (31/10/2026)
 
 Correções 1 e 2 e sugestão 3 incorporadas.
+
+## Revisão independente
+
+- Revisor: agente revisor-independente (contexto limpo, sem acesso a este parecer)
+- Data: 2026-11-01 (revisão das Defesas publicadas antes deste passo existir)
+- Juízo: reparos menores; nada bloqueia
+
+### Corrigir (todos aplicados)
+
+1. Resposta à objeção 2: o bebê não faz ainda um ato pessoal de fé, mas recebe a fé como dom (CIC 1266); “ninguém crê sozinho” vem do CIC 166.
+2. Justino: “sugere” (não “fortemente”); só o apóstolo João vivia, segundo a tradição.
+3. “Em resumo”: atestado desde o século II; a origem apostólica é afirmada por Orígenes no século III.
+4. Cartago 418: a prática e o seu sentido, o perdão do pecado original.
+5. Peso doutrinal: doutrina de fé, definida solenemente (Trento, cân. 13).
+6. CIC 1261: “permite esperar que haja um caminho de salvação”.
+7. Cipriano: Carta 64 = 58 na numeração inglesa do link.
+
+### Sugestões
+
+- Aplicadas: tradições protestantes que batizam crianças e a visão dos que rebatizam; padrinhos em Tertuliano e o adiamento nos séculos III-IV; At 2,39 com cautela; circuncisão dos meninos; Irineu III,17,1; ressalva de Rufino e Homilias sobre Lucas 14; CIC 1263 e 1265.
+- Mantidas: estrutura das perguntas 5 e 6 (perguntas pastorais que completam a seção; o padrão admite respostas além das objeções da seção 2 quando sinalizadas: a 5 diz “Não é propriamente uma objeção”).

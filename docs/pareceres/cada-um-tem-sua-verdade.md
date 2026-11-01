@@ -70,3 +70,22 @@ Nenhum.
 ## Correções aplicadas (31/10/2026)
 
 Correções 1 a 3 incorporadas.
+
+## Revisão independente
+
+- Revisor: agente revisor-independente (contexto limpo, sem acesso a este parecer)
+- Data: 2026-11-01 (revisão das Defesas publicadas antes deste passo existir)
+- Juízo: reparos menores; nada bloqueia
+
+### Corrigir (todos aplicados)
+
+1. CIC 1960 citado no que diz (preceitos nem sempre percebidos com clareza); a ideia da sociedade inteira apoiada no CIC 1958.
+2. “A razão é a mesma em toda parte” trocado por “a lei natural é comum a todos” (CIC 1956).
+3. Objeções 4 e 5 apresentadas na seção “A objeção”.
+4. Forma forte: discordância sobre princípios (aborto, eutanásia) e “até a Igreja mudou”, respondida com *Veritatis splendor* 53 e CIC 2267.
+5. Consciência: formada pela verdade (CIC 1783; VS 32).
+6. “Nunca imposta” trocado por *Dignitatis humanae* 1; limites da lei civil com CIC 2109 e VS 96-97.
+
+### Sugestões
+
+- Aplicadas: frase repetida cortada e homilia de 2005 citada entre aspas; escravidão com VS 80; VS 32 citada; exemplos de princípios morais; CIC 2036; VS 52 retirado das referências; Jo 8,31-32 na quaestio; CIC 1958 entre aspas.

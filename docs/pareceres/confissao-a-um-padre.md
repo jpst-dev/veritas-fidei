@@ -68,3 +68,22 @@ Nenhuma.
 ## Correções aplicadas (31/10/2026)
 
 Correções 1 e 2 incorporadas.
+
+## Revisão independente
+
+- Revisor: agente revisor-independente (contexto limpo, sem acesso a este parecer)
+- Data: 2026-11-01 (revisão das Defesas publicadas antes deste passo existir)
+- Juízo: reparos menores; nada bloqueia
+
+### Corrigir (todos aplicados)
+
+1. CIC 1457 com a exceção do motivo grave e da impossibilidade de se confessar.
+2. A necessidade da confissão dos pecados mortais apresentada como de fé: Trento, sessão XIV, cân. 6-7 (conferido em papalencyclicals.net).
+3. O padre precisa se confessar com outro: ninguém absolve a si mesmo.
+4. A ordem de Mt 16,19 e 18,18 antes de Jo 20, como promessa.
+
+### Sugestões
+
+- Aplicadas: Mt 9,8 como nota de Mateus; Didaqué e Tg 5,16 apresentados como confissão diante da comunidade, com Tg 5,14; Ambrósio no contexto dos novacianos; Agostinho por Sacrosanctum concilium, 7; CIC 1458 sobre os veniais; “quase todos” fugiram.
+
+Verificador depois das correções: ver o commit da revisão das Defesas.
