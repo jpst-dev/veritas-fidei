@@ -1,5 +1,6 @@
 ---
 title: O pecado e a graça
+tituloBusca: "Pecado mortal e venial, e a graça de Deus"
 description: "O que é o pecado, a diferença entre pecado mortal e venial, e a graça de Deus, que perdoa, cura e torna possível uma vida nova."
 obra: retorno-do-filho-prodigo-murillo
 tema: moral

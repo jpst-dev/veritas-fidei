@@ -1,5 +1,6 @@
 ---
 title: O céu
+tituloBusca: "O que é o céu, segundo a Igreja Católica"
 description: "O céu não é um lugar nas nuvens nem um descanso entediante. O que a Igreja ensina sobre a vida plena com Deus, a visão de Deus e a comunhão dos que estão nele."
 obra: adoracao-do-cordeiro
 tema: vida-eterna

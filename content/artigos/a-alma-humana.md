@@ -1,5 +1,6 @@
 ---
 title: A alma humana
+tituloBusca: "O que é a alma, segundo a Igreja"
 description: "O que a Igreja ensina sobre a alma: forma do corpo, espiritual, criada por Deus e imortal. E por que a razão também chega a ela."
 obra: ascensao-ao-empireo
 tema: fe-e-razao

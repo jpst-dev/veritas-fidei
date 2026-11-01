@@ -1,5 +1,6 @@
 ---
 title: A oração da Igreja
+tituloBusca: "A liturgia, oração da Igreja"
 description: "A liturgia não é um ritual que se assiste: é a oração de Cristo com a sua Igreja. A Missa, o domingo e a Liturgia das Horas, que santifica o dia inteiro."
 obra: missa-de-sao-gil
 tema: oracao

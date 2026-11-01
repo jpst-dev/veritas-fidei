@@ -1,5 +1,6 @@
 ---
 title: As cinco vias
+tituloBusca: "As cinco vias de Santo Tomás de Aquino"
 description: "Como a razão pode chegar à existência de Deus: as cinco vias de Santo Tomás de Aquino explicadas passo a passo, e o que elas provam e o que não provam."
 obra: apoteose-de-santo-tomas
 tema: fe-e-razao

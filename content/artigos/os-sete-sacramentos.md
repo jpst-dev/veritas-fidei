@@ -1,5 +1,6 @@
 ---
 title: Os sete sacramentos
+tituloBusca: "Os sete sacramentos da Igreja Católica"
 description: O que são os sacramentos, por que são sete e como Cristo age por meio deles em cada etapa da vida cristã.
 obra: sete-sacramentos
 tema: sacramentos

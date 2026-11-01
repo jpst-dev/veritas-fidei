@@ -1,5 +1,6 @@
 ---
 title: A Igreja dos mártires
+tituloBusca: "Os mártires e as perseguições romanas"
 description: "Os três primeiros séculos do cristianismo: por que Roma perseguiu os cristãos, como eles viviam e morriam, e como a perseguição terminou."
 obra: ultima-oracao-dos-martires
 tema: historia-da-igreja

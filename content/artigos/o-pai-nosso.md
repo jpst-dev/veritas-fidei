@@ -1,5 +1,6 @@
 ---
 title: O Pai-Nosso
+tituloBusca: "O Pai-Nosso explicado, petição por petição"
 description: "A oração que Jesus ensinou é o resumo de todo o Evangelho. O que significa chamar Deus de Pai e o que pedimos em cada uma das sete petições."
 obra: sermao-da-montanha
 tema: oracao

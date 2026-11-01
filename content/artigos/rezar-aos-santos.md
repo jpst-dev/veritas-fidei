@@ -1,5 +1,6 @@
 ---
 title: Pedir a intercessão dos santos tira o lugar de Cristo?
+tituloBusca: "Pedir a oração dos santos tira o lugar de Cristo?"
 description: "Se Cristo é o único mediador, por que os católicos pedem a oração dos santos? O que é a comunhão dos santos e por que venerar não é adorar."
 obra: todos-os-santos
 tema: igreja

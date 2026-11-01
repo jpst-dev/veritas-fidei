@@ -1,5 +1,6 @@
 ---
 title: A consciência
+tituloBusca: "O que é a consciência moral"
 description: "Seguir a consciência é sempre certo? O que a Igreja ensina sobre a consciência moral, como formá-la e o que fazer quando ela erra."
 obra: madalena-a-luz-da-vela
 tema: moral

@@ -1,5 +1,6 @@
 ---
 title: Os milagres
+tituloBusca: "O que é um milagre e como a Igreja o reconhece"
 description: "O que é um milagre, para que servem os sinais de Jesus e dos santos, e como a Igreja examina uma cura antes de chamá-la de milagre."
 obra: ressurreicao-de-lazaro
 tema: fe-e-razao

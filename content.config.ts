@@ -38,6 +38,8 @@ export default defineContentConfig({
       source: 'artigos/*.md',
       schema: z.object({
         title: z.string(),
+        /** Título na aba e no Google, quando o título do artigo é curto demais para a busca. */
+        tituloBusca: z.string().optional(),
         description: z.string(),
         tema: z.enum(TEMAS),
         secao: z.enum(SECOES).default('aprender'),

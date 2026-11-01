@@ -1,5 +1,6 @@
 ---
 title: As virtudes
+tituloBusca: "As virtudes cardeais e teologais"
 description: "Prudência, justiça, fortaleza e temperança; fé, esperança e caridade. O que são as virtudes, como se adquirem e por que tornam o bem mais fácil."
 obra: virtudes-cardeais-e-teologais
 tema: moral

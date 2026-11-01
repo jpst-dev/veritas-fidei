@@ -1,5 +1,6 @@
 ---
 title: Quem é Deus
+tituloBusca: "Quem é Deus, segundo a fé católica"
 description: "Um só Deus, que se revela como “Eu sou”: eterno, todo-poderoso, verdade e amor. O que a Igreja ensina sobre quem Deus é."
 obra: sarca-ardente
 tema: deus-e-trindade

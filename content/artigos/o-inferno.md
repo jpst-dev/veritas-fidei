@@ -1,5 +1,6 @@
 ---
 title: O inferno
+tituloBusca: "O inferno segundo a Igreja Católica"
 description: "Um Deus de amor pode condenar alguém para sempre? O que a Igreja ensina sobre o inferno, por que ele é uma escolha da liberdade e o que ele não é."
 obra: queda-dos-anjos-rebeldes
 tema: vida-eterna

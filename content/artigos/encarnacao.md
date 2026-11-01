@@ -1,5 +1,6 @@
 ---
 title: A Encarnação
+tituloBusca: "A Encarnação: por que Deus se fez homem"
 description: "O Filho de Deus se fez homem. Por que Deus escolheu esse caminho, o que significa ser verdadeiro Deus e verdadeiro homem e o que revelam o Natal e Nazaré."
 obra: adoracao-dos-pastores
 tema: jesus-cristo

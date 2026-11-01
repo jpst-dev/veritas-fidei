@@ -1,5 +1,6 @@
 ---
 title: A lei natural
+tituloBusca: "O que é a lei natural"
 description: "Existe um certo e um errado que valem para todos? O que a Igreja chama de lei natural, como a conhecemos e por que ela está no coração dos Dez Mandamentos."
 obra: moises-apresenta-as-tabuas
 tema: moral

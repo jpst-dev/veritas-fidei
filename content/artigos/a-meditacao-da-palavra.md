@@ -1,5 +1,6 @@
 ---
 title: A meditação da Palavra
+tituloBusca: "Lectio divina: como meditar a Palavra de Deus"
 description: "Ler a Bíblia rezando: o que é a lectio divina, os seus passos e como começar a meditar a Palavra de Deus no dia a dia."
 obra: marta-e-maria
 tema: oracao

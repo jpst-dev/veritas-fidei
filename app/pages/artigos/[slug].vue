@@ -103,7 +103,7 @@ onMounted(() => {
 onBeforeUnmount(() => observador?.disconnect())
 
 useSeoMeta({
-  title: artigo.value.title,
+  title: artigo.value.tituloBusca ?? artigo.value.title,
   description: artigo.value.description,
   ogTitle: artigo.value.title,
   ogDescription: artigo.value.description,

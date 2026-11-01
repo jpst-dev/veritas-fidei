@@ -1,5 +1,6 @@
 ---
 title: A Tradição
+tituloBusca: "O que é a Tradição na Igreja Católica"
 description: "Antes de ser escrito, o Evangelho foi pregado. O que a Igreja chama de Tradição, por que ela não compete com a Bíblia e quem a guarda."
 obra: pedro-prega
 tema: biblia-e-tradicao
