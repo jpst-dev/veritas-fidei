@@ -120,10 +120,10 @@ infinita*, 2024; *Fiducia supplicans*, 2023; *Amoris laetitia*, 2016;
 - ✅ A nulidade é o “divórcio católico”?
 
 ### Bloco 3: os escândalos
-- ☐ Como confiar na Igreja depois dos abusos?
-- ☐ Por que os padres não se casam?
-- ☐ O Vaticano é rico demais?
-- ☐ Pio XII se calou diante do Holocausto?
+- ✅ Como confiar na Igreja depois dos abusos?
+- ✅ Por que os padres não se casam?
+- ✅ O Vaticano é rico demais?
+- ✅ Pio XII se calou diante do Holocausto?
 
 ### Bloco 4: além da morte e da história
 - ☐ Se Deus é amor, por que o inferno?
