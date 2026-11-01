@@ -60,7 +60,7 @@ const LIMITES = { aprender: [1200, 2500], 'defesa-da-fe': [900, 1800] } as const
 /** Nomes que levam maiúscula em qualquer posição (nomes divinos, a Igreja, livros, sacramentos). */
 const SEMPRE_MAIUSCULA = new Set([
   'Deus', 'Cristo', 'Jesus', 'Senhor', 'Espírito', 'Santo', 'Santa', 'Trindade', 'Pai', 'Filho', 'Maria',
-  'Nossa', 'Senhora', 'Virgem', 'Igreja', 'Escritura', 'Escrituras', 'Sagrada', 'Bíblia', 'Evangelho',
+  'Nossa', 'Senhora', 'Virgem', 'Igreja', 'Católica', 'Escritura', 'Escrituras', 'Sagrada', 'Bíblia', 'Evangelho',
   'Tradição', 'Magistério', 'Catecismo', 'Batismo', 'Confirmação', 'Crisma', 'Eucaristia', 'Penitência',
   'Confissão', 'Unção', 'Enfermos', 'Ordem', 'Matrimônio', 'Missa', 'Papa', 'Concílio', 'Apóstolos', 'Antigo', 'Novo', 'Testamento',
 ])

@@ -95,6 +95,17 @@ Texto com "aspas retas" (CIC § 1374).
     expect(estrutura.some((m) => m.startsWith('título em "Title Case"'))).toBe(true)
   })
 
+  it('não confunde "Igreja Católica" com Title Case', () => {
+    const titulo = lerArtigo(`---
+title: A Igreja Católica foi criada por Constantino?
+---
+
+Texto.
+`)
+    const estrutura = verificarEstrutura(titulo).map((a) => a.mensagem)
+    expect(estrutura.some((m) => m.startsWith('título em "Title Case"'))).toBe(false)
+  })
+
   it('aponta frontmatter que não é YAML válido', () => {
     const quebrado = lerArtigo(`---
 title: Quem é Deus

@@ -28,7 +28,7 @@ Legenda: ✅ publicado · ✍️ em andamento · ☐ a fazer · *(r)* há rascun
 | Moral | 6/6 | 3/3 |
 | Oração | 6/6 | 3/3 |
 | Fé e razão | 6/6 | 3/3 |
-| História da Igreja | 4/6 | 1/3 |
+| História da Igreja | 6/6 | 3/3 |
 
 ## O que falta
 
@@ -91,10 +91,10 @@ Legenda: ✅ publicado · ✍️ em andamento · ☐ a fazer · *(r)* há rascun
 - ✅ Defesa: A fé é contrária à razão?
 
 ### História da Igreja
-- ☐ Ensino: Os Padres da Igreja *(r)*
-- ☐ Ensino: O Concílio Vaticano II *(r)*
-- ☐ Defesa: A Igreja Católica foi criada por Constantino?
-- ☐ Defesa: As Cruzadas foram guerras de conquista?
+- ✅ Ensino: Os Padres da Igreja *(r)*
+- ✅ Ensino: O Concílio Vaticano II *(r)*
+- ✅ Defesa: A Igreja Católica foi criada por Constantino?
+- ✅ Defesa: As Cruzadas foram guerras de conquista?
 
 ## Fora da meta, para depois
 
