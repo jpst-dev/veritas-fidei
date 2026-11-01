@@ -25,7 +25,7 @@ Legenda: ✅ publicado · ✍️ em andamento · ☐ a fazer · *(r)* há rascun
 | Maria | 6/6 | 3/3 |
 | Vida eterna | 6/6 | 3/3 |
 | Sacramentos | 6/6 | 3/3 |
-| Moral | 4/6 | 1/3 |
+| Moral | 6/6 | 3/3 |
 | Oração | 6/6 | 3/3 |
 | Fé e razão | 4/6 | 1/3 |
 | História da Igreja | 4/6 | 1/3 |
@@ -74,10 +74,10 @@ Legenda: ✅ publicado · ✍️ em andamento · ☐ a fazer · *(r)* há rascun
 - ✅ Defesa: A Eucaristia é só um símbolo?
 
 ### Moral
-- ☐ Ensino: Os Dez Mandamentos
-- ☐ Ensino: A doutrina social da Igreja *(r)*
-- ☐ Defesa: Somos salvos só pela fé?
-- ☐ Defesa: Por que a Igreja é contra a contracepção? *(r)*
+- ✅ Ensino: Os Dez Mandamentos
+- ✅ Ensino: A doutrina social da Igreja *(r)*
+- ✅ Defesa: Somos salvos só pela fé?
+- ✅ Defesa: Por que a Igreja é contra a contracepção? *(r)*
 
 ### Oração
 - ✅ Ensino: O Rosário

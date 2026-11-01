@@ -257,7 +257,7 @@ export function fraseComReferencia(texto: string, referencia: string): string | 
 export function padresSemObra({ linhas }: Artigo): Achado[] {
   const achados: Achado[] = []
   for (const { n, texto } of linhas) {
-    const nomes = [...texto.matchAll(/\*\*((?:São|Santo|Santa|Beato|Papa) [^*]+|Tertuliano|Orígenes|Didaqué)\*\*/g)].map((m) => m[1])
+    const nomes = [...texto.matchAll(/\*\*((?:São|Santo|Santa|Beato|Papa) \p{Lu}[^*]*|Tertuliano|Orígenes|Didaqué)\*\*/gu)].map((m) => m[1])
     if (!nomes.length) continue
     const semNegrito = texto.replace(/\*\*[^*]+\*\*/g, '')
     if (/\*[^*\s][^*]*\*/.test(semNegrito)) continue

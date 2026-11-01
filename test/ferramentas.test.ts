@@ -166,4 +166,7 @@ describe('verificador: Padre sem obra', () => {
     expect(padresSemObra(artigo('- **São Cipriano** fala de “sacramento duplo” (São Cipriano, *Carta* 73, 21, citado em CIC 1290).'))).toHaveLength(0)
     expect(padresSemObra(artigo('- **Santo Inácio** escreve aos fiéis (Santo Inácio, *Carta aos Esmirnenses*, 7,1).'))).toHaveLength(0)
   })
+  it('não confunde "**São palavras…**" com o nome de um santo', () => {
+    expect(padresSemObra(artigo('- **São palavras da Aliança.** Deus lembra o que fez (CIC 2061).'))).toHaveLength(0)
+  })
 })
