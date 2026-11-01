@@ -27,7 +27,7 @@ Legenda: ✅ publicado · ✍️ em andamento · ☐ a fazer · *(r)* há rascun
 | Sacramentos | 6/6 | 3/3 |
 | Moral | 6/6 | 3/3 |
 | Oração | 6/6 | 3/3 |
-| Fé e razão | 4/6 | 1/3 |
+| Fé e razão | 6/6 | 3/3 |
 | História da Igreja | 4/6 | 1/3 |
 
 ## O que falta
@@ -85,10 +85,10 @@ Legenda: ✅ publicado · ✍️ em andamento · ☐ a fazer · *(r)* há rascun
 - ✅ Defesa: Imagens nas igrejas são idolatria?
 
 ### Fé e razão
-- ☐ Ensino: O que é a fé
-- ☐ Ensino: Os argumentos modernos pela existência de Deus *(r)*
-- ☐ Defesa: A evolução contradiz a fé?
-- ☐ Defesa: A fé é contrária à razão?
+- ✅ Ensino: O que é a fé
+- ✅ Ensino: Os argumentos modernos pela existência de Deus *(r)*
+- ✅ Defesa: A evolução contradiz a fé?
+- ✅ Defesa: A fé é contrária à razão?
 
 ### História da Igreja
 - ☐ Ensino: Os Padres da Igreja *(r)*
