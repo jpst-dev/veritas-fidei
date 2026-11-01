@@ -96,6 +96,44 @@ Legenda: ✅ publicado · ✍️ em andamento · ☐ a fazer · *(r)* há rascun
 - ✅ Defesa: A Igreja Católica foi criada por Constantino?
 - ✅ Defesa: As Cruzadas foram guerras de conquista?
 
+## Defesa da fé: nova etapa (01/11/2026)
+
+A meta igual por tema está cumprida (99 artigos). Nesta etapa o foco são as
+Defesas sobre os temas **mais delicados e mais procurados**, sem a regra de
+equilíbrio entre temas. Antes, as 13 Defesas mais antigas passaram pela
+revisão independente (commit edc3715). Os rascunhos antigos foram apagados:
+tudo se escreve do zero. Em cada artigo, separar com clareza o que é doutrina
+e o que é acolhida pastoral, e citar os documentos recentes (*Dignitas
+infinita*, 2024; *Fiducia supplicans*, 2023; *Amoris laetitia*, 2016;
+*Samaritanus bonus*, 2020; *Dignitas personae*, 2008).
+
+### Bloco 1: a vida
+- ✅ O aborto é aceitável em algum caso?
+- ✅ A eutanásia é um direito?
+- ✅ Quem tira a própria vida está condenado?
+- ✅ Por que a Igreja é contra a fertilização in vitro?
+
+### Bloco 2: sexualidade e família
+- ✍️ Por que a Igreja não aceita a união entre pessoas do mesmo sexo? (com *Fiducia supplicans*)
+- ✍️ O que a Igreja diz sobre identidade de gênero? (*Dignitas infinita*)
+- ✍️ Divorciados em nova união podem comungar?
+- ✍️ A nulidade é o “divórcio católico”?
+
+### Bloco 3: os escândalos
+- ☐ Como confiar na Igreja depois dos abusos?
+- ☐ Por que os padres não se casam?
+- ☐ O Vaticano é rico demais?
+- ☐ Pio XII se calou diante do Holocausto?
+
+### Bloco 4: além da morte e da história
+- ☐ Se Deus é amor, por que o inferno?
+- ☐ É possível falar com os mortos? (espiritismo)
+- ☐ A Igreja apoiou a escravidão e a colonização?
+- ☐ Por que só homens podem ser padres?
+
+Reserva: apócrifos, Maria Madalena, Galileu, dom de línguas, ioga e
+meditação oriental, sábado ou domingo, mulheres na Igreja, maçonaria.
+
 ## Fora da meta, para depois
 
 - A Igreja e as pessoas LGBT *(r)*: pede o máximo de cuidado pastoral; quando a Moral estiver mais madura.
