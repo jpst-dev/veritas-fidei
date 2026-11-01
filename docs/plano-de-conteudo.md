@@ -114,10 +114,10 @@ infinita*, 2024; *Fiducia supplicans*, 2023; *Amoris laetitia*, 2016;
 - ✅ Por que a Igreja é contra a fertilização in vitro?
 
 ### Bloco 2: sexualidade e família
-- ✍️ Por que a Igreja não aceita a união entre pessoas do mesmo sexo? (com *Fiducia supplicans*)
-- ✍️ O que a Igreja diz sobre identidade de gênero? (*Dignitas infinita*)
-- ✍️ Divorciados em nova união podem comungar?
-- ✍️ A nulidade é o “divórcio católico”?
+- ✅ Por que a Igreja não aceita a união entre pessoas do mesmo sexo? (com *Fiducia supplicans*)
+- ✅ O que a Igreja diz sobre identidade de gênero? (*Dignitas infinita*)
+- ✅ Divorciados em nova união podem comungar?
+- ✅ A nulidade é o “divórcio católico”?
 
 ### Bloco 3: os escândalos
 - ☐ Como confiar na Igreja depois dos abusos?
