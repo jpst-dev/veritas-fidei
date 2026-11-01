@@ -4,6 +4,7 @@ tituloBusca: "O que é a Crisma (Confirmação) na Igreja Católica"
 description: "A Crisma completa o Batismo com uma efusão especial do Espírito Santo, como em Pentecostes. O que a Igreja ensina sobre a Confirmação e por quê."
 tema: sacramentos
 secao: aprender
+obra: confirmacao-poussin
 status: rascunho
 nivel: iniciante
 tags: [crisma, confirmacao, espirito-santo, iniciacao-crista, sacramentos]

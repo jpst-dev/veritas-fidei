@@ -4,6 +4,7 @@ tituloBusca: "O que é o Batismo na Igreja Católica"
 description: "O Batismo é a porta da vida cristã: perdoa os pecados, faz de nós filhos de Deus e nos une à Igreja. O que a Igreja ensina e por quê."
 tema: sacramentos
 secao: aprender
+obra: batismo-de-clovis
 status: rascunho
 nivel: iniciante
 tags: [batismo, iniciacao-crista, sacramentos, graca]
