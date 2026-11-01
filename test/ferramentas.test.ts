@@ -5,7 +5,7 @@ import { describe, expect, it } from 'vitest'
 import { type Acervo, linksInternos, paragrafosNasReferencias, paragrafosNoTexto, verificarAcervo } from '../scripts/verificar/acervo.ts'
 import { fraseComReferencia, lerArtigo, padresSemObra } from '../scripts/verificar/artigo.ts'
 import { extrairParagrafo, notasCitadas, notasDaPagina } from '../scripts/verificar/catecismo.ts'
-import { arquivoDaFonte, avaliarCandidata, dimensoesDaSaida, licencaAceita, normalizarAutor } from '../scripts/verificar/obras.ts'
+import { arquivoDaFonte, avaliarCandidata, dimensoesDaSaida, licencaAceita, normalizarAutor, originalAparado } from '../scripts/verificar/obras.ts'
 
 describe('obras: tamanho das imagens', () => {
   it('limita pela largura, sem ampliar', () => {
@@ -19,6 +19,12 @@ describe('obras: tamanho das imagens', () => {
 
   it('altura no máximo 2× a largura pedida', () => {
     expect(dimensoesDaSaida(1000, 5000, 1600)).toEqual({ width: 640, height: 3200 })
+  })
+
+  it('aparar margens converte o recorte da miniatura para a escala do original', () => {
+    // original 2562 px, miniatura 1600 px, recorte de 1460x2078 na miniatura
+    expect(originalAparado(2562, 1600, 1460, 2078)).toEqual({ largura: 2338, altura: 3327 })
+    expect(dimensoesDaSaida(2338, 3327, 1600)).toEqual({ width: 1600, height: 2277 })
   })
 })
 

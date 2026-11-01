@@ -104,6 +104,11 @@ A página `/creditos` lista todas as obras automaticamente.
 Para refazer as imagens de uma obra já catalogada (depois de mudar o script, ou
 para trocar pela reprodução maior da mesma fonte): `npm run obra -- --refazer <slug>`.
 
+Se a reprodução vem com margem branca de catálogo (comum em retábulos de topo
+arredondado), acrescente `--aparar`: o script corta as margens de cor uniforme
+antes de gerar as imagens. Ao refazer uma obra aparada, repita a opção
+(ex.: `casamento-da-virgem-perugino`).
+
 Por fim, `npm run conferir -- <slug>` (com o `npm run dev` no ar) abre o artigo
 em 5 larguras e avisa se a faixa ficou ampliada; as capturas `topo-*` mostram o
 recorte como o leitor vê.

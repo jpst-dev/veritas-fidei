@@ -40,6 +40,16 @@ export function dimensoesDaSaida(largura: number, altura: number, alvo: number):
   return { width, height }
 }
 
+/**
+ * Tamanho equivalente no original depois de aparar as margens da miniatura baixada
+ * (`npm run obra -- --aparar`): a miniatura tem `larguraMiniatura` px, o original
+ * `larguraOriginal`, e a parte aproveitada mede `largura` x `altura` na miniatura.
+ */
+export function originalAparado(larguraOriginal: number, larguraMiniatura: number, largura: number, altura: number): { largura: number; altura: number } {
+  const fator = larguraOriginal / larguraMiniatura
+  return { largura: Math.round(largura * fator), altura: Math.round(altura * fator) }
+}
+
 export interface Candidata {
   arquivo: string
   largura: number

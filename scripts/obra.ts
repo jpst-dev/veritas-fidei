@@ -14,6 +14,9 @@
  *
  *   npm run obra -- --refazer <slug>
  *
+ * Com `--aparar`, corta as margens de cor uniforme (moldura branca de catálogo, por
+ * exemplo) antes de gerar as imagens. Ao refazer uma obra aparada, repita a opção.
+ *
  * As imagens são limitadas pela **largura** (1600 e 800 px), porque as faixas
  * dos artigos ocupam a tela inteira: um quadro vertical limitado pela altura
  * ficaria estreito e seria ampliado (borrado) no navegador. A altura tem um
@@ -23,9 +26,10 @@ import { access, mkdir, readFile, writeFile } from 'node:fs/promises'
 import { join } from 'node:path'
 import sharp from 'sharp'
 import { parse, stringify } from 'yaml'
-import { arquivoDaFonte, dimensoesDaSaida, exigeCredito as pedeCredito, licencaAceita } from './verificar/obras.ts'
+import { arquivoDaFonte, dimensoesDaSaida, exigeCredito as pedeCredito, licencaAceita, originalAparado } from './verificar/obras.ts'
 
-const args = process.argv.slice(2)
+const aparar = process.argv.includes('--aparar')
+const args = process.argv.slice(2).filter((a) => a !== '--aparar')
 const refazer = args[0] === '--refazer'
 const slug = refazer ? args[1] : args[0]
 let arquivo = refazer ? undefined : args[1]
@@ -36,6 +40,7 @@ if (refazer && slug) {
 if (!slug || !arquivo || !/^[a-z0-9-]+$/.test(slug)) {
   console.error('Uso: npm run obra -- <slug-em-minusculas> "<arquivo no Commons>"')
   console.error('     npm run obra -- --refazer <slug>')
+  console.error('     (acrescente --aparar para cortar margens de cor uniforme)')
   process.exit(1)
 }
 
@@ -77,12 +82,20 @@ const exigeCredito = pedeCredito(licenca)
 if (info.width < 1600) {
   console.warn(`Atenção: o original tem só ${info.width} px de largura; a faixa do artigo vai ficar ampliada. Procure uma reprodução maior.`)
 }
-const original = Buffer.from(await (await fetch(info.thumburl ?? info.url, { headers: { 'User-Agent': AGENTE } })).arrayBuffer())
+let original = Buffer.from(await (await fetch(info.thumburl ?? info.url, { headers: { 'User-Agent': AGENTE } })).arrayBuffer())
+let tamanho = { largura: info.width, altura: info.height }
+if (aparar) {
+  const antes = await sharp(original, { limitInputPixels: false }).metadata()
+  original = await sharp(original, { limitInputPixels: false }).trim({ threshold: 20 }).toBuffer()
+  const depois = await sharp(original).metadata()
+  tamanho = originalAparado(info.width, antes.width!, depois.width!, depois.height!)
+  console.log(`Aparado: ${antes.width}x${antes.height} → ${depois.width}x${depois.height}`)
+}
 const pastaImagens = join(process.cwd(), 'public', 'obras')
 await mkdir(pastaImagens, { recursive: true })
 for (const largura of LARGURAS) {
   const saida = join(pastaImagens, `${slug}-${largura}.webp`)
-  const { width, height } = dimensoesDaSaida(info.width, info.height, largura)
+  const { width, height } = dimensoesDaSaida(tamanho.largura, tamanho.altura, largura)
   // A qualidade cai aos poucos até caber no teto de peso (afrescos e ícones com muita textura
   // pesam mais); se nem assim couber, a de 1600 encolhe 15% por vez, até 70% (abaixo disso a
   // faixa fica borrada: melhor um arquivo mais pesado). A de 800 nunca encolhe (cartões em tela 2×).
