@@ -229,3 +229,21 @@ export function textosComReferencias({ dados, linhas }: Artigo): { n?: number; t
   const quaestio = dados.quaestio ? Object.values(dados.quaestio as Record<string, string>) : []
   return [...quaestio.map((texto) => ({ texto })), ...linhas]
 }
+
+/**
+ * A frase do artigo que termina na referência (para pôr lado a lado com o
+ * versículo no `npm run biblia`): do fim da frase anterior até a referência.
+ */
+export function fraseComReferencia(texto: string, referencia: string): string | undefined {
+  const i = texto.indexOf(referencia)
+  if (i < 0) return undefined
+  const antes = texto.slice(0, i).replace(/[(;\s]+$/, '')
+  // Fim da frase anterior: ponto, interrogação ou exclamação seguidos de espaço e maiúscula
+  const fins = [...antes.matchAll(/[.!?…]\)?\s+(?=[\p{Lu}“"«*])/gu)]
+  const inicio = fins.length ? fins.at(-1)!.index! + fins.at(-1)![0].length : 0
+  let frase = antes.slice(inicio).replace(/\s*\([^)]*$/, '')
+  // Várias referências na mesma frase: fica só o trecho depois da anterior ("(Jo 20,19), não é…")
+  const ultimaRef = frase.lastIndexOf('), ')
+  if (ultimaRef >= 0) frase = frase.slice(ultimaRef + 3)
+  return frase.replace(/^[>\-*\s]+/, '').replace(/\*\*/g, '').trim()
+}

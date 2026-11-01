@@ -62,12 +62,55 @@ export function extrairParagrafo(html: string, n: number): string | undefined {
   const inicio = html.search(new RegExp(`<b>\\s*${n}(?:\\s|</?i>)*\\.?(?:\\s|</?i>)*</b>`))
   if (inicio < 0) return undefined
   const resto = html.slice(inicio)
-  const proximo = resto.slice(1).search(/<b>\s*\d+(?:\s|<\/?i>)*\.?(?:\s|<\/?i>)*<\/b>/)
+  const proximo = resto.slice(1).search(/<b>\s*\d+(?:\s|<\/?i>)*\.?(?:\s|<\/?i>)*<\/b>|<hr/)
   const trecho = proximo < 0 ? resto : resto.slice(0, proximo + 1)
   return decodificarEntidades(trecho.replace(/<[^>]+>/g, ' '))
     .replace(/^\s*\d+\s*\.\s*/, '')
     .replace(/\s+/g, ' ')
     .trim()
+}
+
+/**
+ * Notas de rodapé da página ("577. São Gregório de Nissa, ..."), que vêm depois
+ * do <hr> no fim de cada página do vatican.va. Lidas em sequência (1, 2, 3...)
+ * para não confundir "15, 3" ou "p. 39.45." com o número de uma nota.
+ */
+export function notasDaPagina(html: string): Map<number, string> {
+  const notas = new Map<number, string>()
+  const marcas = [...html.matchAll(/<b>\s*\d+(?:\s|<\/?i>)*\.?(?:\s|<\/?i>)*<\/b>/g)]
+  const ultimoParagrafo = marcas.at(-1)?.index ?? 0
+  const hr = html.indexOf('<hr', ultimoParagrafo)
+  if (hr < 0) return notas
+  const texto = decodificarEntidades(html.slice(hr).replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' ')
+  // O texto do vatican.va é irregular: "135.Cf.", "212 Cf.", "262 . Santo". Tenta o
+  // formato certo e, se não achar, um mais tolerante; um número perdido não quebra a sequência.
+  const ESTRITO = (k: number) => new RegExp(String.raw`(?:^|[\s.\]:')])(${k})\.\s?(?=\S)`)
+  const TOLERANTE = (k: number) => new RegExp(String.raw`(?:^|[\s.\]:')])(${k})(?:\s*\.|\s+(?=Cf|S\.|São|Santo|Santa|II? |Conc|Pio|João|Paulo|Bento|Leão))`)
+  // O mais próximo dos dois formatos: o estrito sozinho pularia "9 Cf." e acharia um "9." adiante
+  const achar = (k: number, de: number) => {
+    const achados = [ESTRITO(k), TOLERANTE(k)]
+      .map((re) => re.exec(texto.slice(de)))
+      .filter((m): m is RegExpExecArray => !!m)
+      .sort((a, b) => a.index - b.index)
+    const m = achados[0]
+    return m ? { inicio: de + m.index + m[0].indexOf(String(k)), fim: de + m.index + m[0].length } : undefined
+  }
+  let atual = achar(1, 0)
+  let k = 1
+  while (atual) {
+    let proximo: { inicio: number; fim: number } | undefined
+    let salto = 1
+    for (; salto <= 3 && !proximo; salto++) proximo = achar(k + salto, atual.fim)
+    notas.set(k, texto.slice(atual.fim, proximo?.inicio).trim())
+    k += salto - 1
+    atual = proximo
+  }
+  return notas
+}
+
+/** Números das notas citadas num parágrafo: "(577)". */
+export function notasCitadas(paragrafo: string): number[] {
+  return [...paragrafo.matchAll(/\((\d+)\s*\)/g)].map((m) => Number(m[1]))
 }
 
 /**
@@ -102,26 +145,44 @@ export function trechosAusentes(citacao: string, fonte: string): string[] {
 
 const CACHE = join(process.cwd(), 'node_modules', '.cache', 'veritas-cic')
 
+/** HTML da página oficial que contém o parágrafo (baixada uma vez e guardada em cache). */
+export async function paginaDoParagrafo(n: number): Promise<string | undefined> {
+  const url = urlDoParagrafo(n)
+  if (!url) return undefined
+  const arquivo = join(CACHE, url.split('/').pop()!)
+  try {
+    return await readFile(arquivo, 'utf8')
+  } catch {
+    const resposta = await fetch(url)
+    if (!resposta.ok) throw new Error(`vatican.va respondeu ${resposta.status} para ${url}`)
+    // As páginas antigas do vatican.va são ISO-8859-1
+    const html = new TextDecoder('latin1').decode(await resposta.arrayBuffer())
+    await mkdir(CACHE, { recursive: true })
+    await writeFile(arquivo, html)
+    return html
+  }
+}
+
 /** Baixa (uma vez) e devolve o texto dos parágrafos pedidos, em ordem. */
 export async function textoDoCatecismo(inicio: number, fim = inicio): Promise<string | undefined> {
   const partes: string[] = []
   for (let n = inicio; n <= fim; n++) {
-    const url = urlDoParagrafo(n)
-    if (!url) return undefined
-    const arquivo = join(CACHE, url.split('/').pop()!)
-    let html: string
-    try {
-      html = await readFile(arquivo, 'utf8')
-    } catch {
-      const resposta = await fetch(url)
-      if (!resposta.ok) throw new Error(`vatican.va respondeu ${resposta.status} para ${url}`)
-      // As páginas antigas do vatican.va são ISO-8859-1
-      html = new TextDecoder('latin1').decode(await resposta.arrayBuffer())
-      await mkdir(CACHE, { recursive: true })
-      await writeFile(arquivo, html)
-    }
+    const html = await paginaDoParagrafo(n)
+    if (!html) return undefined
     const paragrafo = extrairParagrafo(html, n)
     if (paragrafo) partes.push(paragrafo)
   }
   return partes.join(' ')
+}
+
+/** Cada parágrafo pedido, com as suas notas de rodapé. */
+export async function paragrafosComNotas(inicio: number, fim = inicio): Promise<{ n: number; texto?: string; notas: [number, string][] }[]> {
+  const saida: { n: number; texto?: string; notas: [number, string][] }[] = []
+  for (let n = inicio; n <= fim; n++) {
+    const html = await paginaDoParagrafo(n)
+    const texto = html ? extrairParagrafo(html, n) : undefined
+    const notas = html && texto ? notasDaPagina(html) : new Map<number, string>()
+    saida.push({ n, texto, notas: texto ? notasCitadas(texto).map((k) => [k, notas.get(k) ?? '(nota não encontrada)']) : [] })
+  }
+  return saida
 }

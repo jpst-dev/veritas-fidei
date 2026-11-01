@@ -4,9 +4,12 @@
  *
  *   npm run biblia -- "Lc 1,28; Gn 12,5"
  *   npm run biblia -- --artigo content/artigos/x.md   # todas as do artigo, com a linha
+ *
+ * Com --artigo, cada referência vem com a frase do artigo que a cita ("artigo:"),
+ * para comparar com o latim versículo a versículo.
  */
 import { readFile } from 'node:fs/promises'
-import { lerArtigo, textosComReferencias } from './verificar/artigo.ts'
+import { fraseComReferencia, lerArtigo, textosComReferencias } from './verificar/artigo.ts'
 import { referenciasBiblicas, textoDaReferencia } from './verificar/vulgata.ts'
 
 const args = process.argv.slice(2)
@@ -22,6 +25,8 @@ for (const { n, texto } of fontes) {
     if (vistas.has(ref.texto)) continue
     vistas.add(ref.texto)
     console.log(`\n${ref.texto}${n ? `  (linha ${n})` : ''}`)
+    const frase = i >= 0 ? fraseComReferencia(texto, ref.texto) : undefined
+    if (frase) console.log(`  artigo: ${frase}`)
     for (const v of await textoDaReferencia(ref)) {
       console.log(`  ${v.capitulo},${v.versiculo}  ${v.texto ?? '— não existe na Nova Vulgata'}`)
     }

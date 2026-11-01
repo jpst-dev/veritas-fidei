@@ -8,6 +8,10 @@
  * --links       testa cada URL de "referencias"
  * --ortografia  envia o texto ao LanguageTool (api.languagetool.org, pt-BR)
  *
+ * Também confere o artigo contra o acervo (scripts/verificar/acervo.ts): links
+ * internos, obra (existe, repetida, pequena, vertical sem recorte), parecer
+ * doutrinal com a revisão independente e parágrafos do Catecismo sem referência.
+ *
  * Toda referência bíblica com versículo é conferida contra a Nova Vulgata do
  * vatican.va (o capítulo e o versículo existem?). O texto de cada uma:
  * npm run biblia -- --artigo content/artigos/x.md
@@ -15,7 +19,8 @@
  * Sai com código 1 se houver erros.
  */
 import { readdir, readFile } from 'node:fs/promises'
-import { join, relative } from 'node:path'
+import { basename, join, relative } from 'node:path'
+import { lerAcervo, verificarAcervo } from './verificar/acervo.ts'
 import {
   type Achado,
   type Artigo,
@@ -170,12 +175,15 @@ if (!arquivos.length) {
 
 if (!arquivos.length) console.log('Nenhum artigo em revisão ou publicado. Passe arquivos para conferir rascunhos.')
 
+const acervo = arquivos.length ? await lerAcervo() : undefined
+
 let erros = 0
 let avisos = 0
 for (const arquivo of arquivos) {
   const artigo = lerArtigo(await readFile(arquivo, 'utf8'))
   const achados = [
     ...verificarEstrutura(artigo),
+    ...verificarAcervo(basename(arquivo, '.md'), artigo, acervo!),
     ...verificarFormato(artigo),
     ...(await conferirCatecismo(artigo)),
     ...(await conferirBiblia(artigo)),
