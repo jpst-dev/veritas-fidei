@@ -2,9 +2,11 @@
 title: O Advento
 tituloBusca: "O que é o Advento e como vivê-lo"
 description: "As quatro semanas antes do Natal não são só contagem regressiva. O que a Igreja celebra no Advento, as duas vindas de Cristo e como viver este tempo."
+obra: pregacao-de-joao-batista
 tema: oracao
 secao: aprender
-status: em-revisao
+status: publicado
+publicadoEm: 2026-11-01
 nivel: iniciante
 tags: [advento, natal, ano-liturgico, segunda-vinda, joao-batista, coroa-do-advento]
 referencias:
