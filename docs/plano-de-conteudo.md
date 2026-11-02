@@ -126,10 +126,10 @@ infinita*, 2024; *Fiducia supplicans*, 2023; *Amoris laetitia*, 2016;
 - ✅ Pio XII se calou diante do Holocausto?
 
 ### Bloco 4: além da morte e da história
-- ☐ Se Deus é amor, por que o inferno?
-- ☐ É possível falar com os mortos? (espiritismo)
-- ☐ A Igreja apoiou a escravidão e a colonização?
-- ☐ Por que só homens podem ser padres?
+- ✅ Se Deus é amor, por que o inferno?
+- ✅ É possível falar com os mortos? (espiritismo)
+- ✅ A Igreja apoiou a escravidão e a colonização?
+- ✅ Por que só homens podem ser padres?
 
 Reserva: apócrifos, Maria Madalena, Galileu, dom de línguas, ioga e
 meditação oriental, sábado ou domingo, mulheres na Igreja, maçonaria.
