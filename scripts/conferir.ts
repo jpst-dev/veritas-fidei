@@ -19,9 +19,14 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import { tmpdir } from 'node:os'
 import { join } from 'node:path'
 import puppeteer, { type Page } from 'puppeteer-core'
+import { acharNavegador } from './verificar/navegador.ts'
 
 const BASE = process.env.SITE_LOCAL ?? 'http://localhost:3000'
-const CHROME = process.env.CHROME_PATH ?? 'C:/Program Files/Google/Chrome/Application/chrome.exe'
+const CHROME = acharNavegador()
+if (!CHROME) {
+  console.error('Nenhum navegador encontrado (Chrome, Edge ou Brave). Defina CHROME_PATH com o caminho do executável.')
+  process.exit(1)
+}
 const LARGURAS = [390, 768, 1024, 1280, 1440]
 
 const args = process.argv.slice(2)

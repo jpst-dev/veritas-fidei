@@ -6,6 +6,7 @@ import { type Acervo, linksInternos, paragrafosNasReferencias, paragrafosNoTexto
 import { fraseComReferencia, lerArtigo, padresSemObra } from '../scripts/verificar/artigo.ts'
 import { extrairParagrafo, notasCitadas, notasDaPagina } from '../scripts/verificar/catecismo.ts'
 import { arquivoDaFonte, avaliarCandidata, dimensoesDaSaida, licencaAceita, normalizarAutor, originalAparado } from '../scripts/verificar/obras.ts'
+import { acharNavegador } from '../scripts/verificar/navegador.ts'
 
 describe('obras: tamanho das imagens', () => {
   it('limita pela largura, sem ampliar', () => {
@@ -174,5 +175,31 @@ describe('verificador: Padre sem obra', () => {
   })
   it('não confunde "**São palavras…**" com o nome de um santo', () => {
     expect(padresSemObra(artigo('- **São palavras da Aliança.** Deus lembra o que fez (CIC 2061).'))).toHaveLength(0)
+  })
+})
+
+describe('conferir: navegador', () => {
+  const existe = (...caminhos: string[]) => (c: string) => caminhos.includes(c)
+  const env = { LOCALAPPDATA: 'C:/Users/X/AppData/Local' }
+
+  it('CHROME_PATH tem prioridade', () => {
+    expect(acharNavegador({ ...env, CHROME_PATH: 'D:/meu/chrome.exe' }, existe())).toBe('D:/meu/chrome.exe')
+  })
+  it('prefere o Chrome quando existe', () => {
+    expect(acharNavegador(env, existe(
+      'C:/Program Files/Google/Chrome/Application/chrome.exe',
+      'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe',
+    ))).toBe('C:/Program Files/Google/Chrome/Application/chrome.exe')
+  })
+  it('sem Chrome, usa o Edge', () => {
+    expect(acharNavegador(env, existe('C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe')))
+      .toBe('C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe')
+  })
+  it('sem Chrome nem Edge, usa o Brave, também na pasta do usuário', () => {
+    expect(acharNavegador(env, existe('C:/Users/X/AppData/Local/BraveSoftware/Brave-Browser/Application/brave.exe')))
+      .toBe('C:/Users/X/AppData/Local/BraveSoftware/Brave-Browser/Application/brave.exe')
+  })
+  it('nenhum navegador: undefined', () => {
+    expect(acharNavegador(env, existe())).toBeUndefined()
   })
 })

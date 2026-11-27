@@ -111,6 +111,9 @@ Com o `npm run dev` no ar (porta 3000):
 npm run conferir -- <slug> [<slug>...]
 ```
 
+O navegador é achado sozinho: `CHROME_PATH`, se definido; senão Chrome, Edge
+ou Brave, nesta ordem (`scripts/verificar/navegador.ts`).
+
 Abre o artigo, o tema e /creditos em 5 larguras, tema escuro e claro; acusa
 rolagem horizontal, elemento fora da tela, erro no console e faixa ampliada
 (imagem com menos resolução que a tela). **Eu olho as capturas do topo**
