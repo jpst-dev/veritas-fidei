@@ -19,10 +19,13 @@ export default defineNuxtConfig({
       // E-mail do projeto para correções; vazio, o link "Sugerir uma correção" não aparece
       emailCorrecoes: 'contato@jteixeira.dev',
       // Doações (página /apoie e convite no fim dos artigos). Vazios, nada disso aparece.
-      // Na Vercel: NUXT_PUBLIC_APOIO_PIX, NUXT_PUBLIC_APOIO_PIX_NOME e NUXT_PUBLIC_APOIO_APOIA_SE
+      // Na Vercel: NUXT_PUBLIC_APOIO_PIX, NUXT_PUBLIC_APOIO_PIX_NOME, NUXT_PUBLIC_APOIO_PIX_CIDADE
+      // e NUXT_PUBLIC_APOIO_APOIA_SE
       apoio: {
         pix: '',
         pixNome: '',
+        // Vai no QR Code do Pix (o padrão exige uma cidade; o banco não confere)
+        pixCidade: '',
         apoiaSe: '',
       },
     },

@@ -1,5 +1,7 @@
 <script setup lang="ts">
-const { pix, pixNome, apoiaSe, ativo } = useApoio()
+import { renderSVG } from 'uqr'
+
+const { pix, pixNome, pixCodigo, apoiaSe, ativo } = useApoio()
 if (!ativo) {
   throw createError({ statusCode: 404, message: 'Página não encontrada', fatal: true })
 }
@@ -10,6 +12,9 @@ useSeoMeta({
   ogTitle: 'Apoie · Veritas Fidei',
   ogDescription: 'O Veritas Fidei é gratuito, sem anúncios e mantido por quem lê. Veja como ajudar.',
 })
+
+// QR Code do "Pix copia e cola", gerado no build: preto no branco, com margem, para qualquer câmera ler
+const qrPix = pixCodigo ? renderSVG(pixCodigo, { border: 2 }) : ''
 
 // Copiar a chave Pix: o botão confirma por dois segundos
 const copiado = ref(false)
@@ -44,12 +49,17 @@ async function copiarPix() {
       <div class="not-prose mt-6 grid gap-4" :class="pix && apoiaSe ? 'sm:grid-cols-2' : ''">
         <section v-if="pix" class="flex flex-col gap-3 border border-line p-6" aria-labelledby="titulo-pix">
           <h3 id="titulo-pix" class="rubrica">Pix · uma vez</h3>
-          <p class="text-muted">Qualquer valor, sem taxa. Use a chave abaixo no app do seu banco.</p>
-          <p class="font-mono text-lg break-all select-all">{{ pix }}</p>
-          <p v-if="pixNome" class="text-sm text-muted">Em nome de {{ pixNome }}</p>
-          <button type="button" class="mt-auto self-start bg-accent px-5 py-2.5 text-on-accent" @click="copiarPix">
-            {{ copiado ? 'Chave copiada ✓' : 'Copiar chave Pix' }}
-          </button>
+          <p class="text-muted">Qualquer valor, sem taxa. Aponte a câmera do app do seu banco para o código.</p>
+          <!-- SVG gerado aqui mesmo (uqr), a partir da chave configurada -->
+          <div class="w-48 self-center bg-white [&>svg]:block [&>svg]:size-full" role="img" aria-label="QR Code do Pix" v-html="qrPix" />
+          <p v-if="pixNome" class="text-center text-sm text-muted">Em nome de {{ pixNome }}</p>
+          <div class="mt-auto flex flex-col gap-2 border-t border-line pt-4">
+            <p class="text-sm text-muted">Ou copie a chave e cole no app:</p>
+            <p class="font-mono break-all select-all">{{ pix }}</p>
+            <button type="button" class="self-start border border-line px-4 py-2 text-sm hover:border-accent" @click="copiarPix">
+              {{ copiado ? 'Chave copiada ✓' : 'Copiar chave Pix' }}
+            </button>
+          </div>
         </section>
 
         <section v-if="apoiaSe" class="flex flex-col gap-3 border border-line p-6" aria-labelledby="titulo-mensal">
