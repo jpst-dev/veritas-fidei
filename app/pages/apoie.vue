@@ -17,14 +17,16 @@ useSeoMeta({
 const qrPix = pixCodigo ? renderSVG(pixCodigo, { border: 2 }) : ''
 
 // Copiar a chave Pix: o botão confirma por dois segundos
+// A chave fica escondida (por estética: ela também está no QR Code); só aparece se o navegador não deixar copiar
 const copiado = ref(false)
+const mostrarChave = ref(false)
 async function copiarPix() {
   try {
     await navigator.clipboard.writeText(pix)
     copiado.value = true
     setTimeout(() => (copiado.value = false), 2000)
   } catch {
-    // Sem permissão para a área de transferência: a chave continua visível para copiar à mão
+    mostrarChave.value = true
   }
 }
 </script>
@@ -55,7 +57,7 @@ async function copiarPix() {
           <p v-if="pixNome" class="text-center text-sm text-muted">Em nome de {{ pixNome }}</p>
           <div class="mt-auto flex flex-col gap-2 border-t border-line pt-4">
             <p class="text-sm text-muted">Ou copie a chave e cole no app:</p>
-            <p class="font-mono break-all select-all">{{ pix }}</p>
+            <p v-if="mostrarChave" class="font-mono break-all select-all">{{ pix }}</p>
             <button type="button" class="self-start border border-line px-4 py-2 text-sm hover:border-accent" @click="copiarPix">
               {{ copiado ? 'Chave copiada ✓' : 'Copiar chave Pix' }}
             </button>
