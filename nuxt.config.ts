@@ -42,7 +42,10 @@ export default defineNuxtConfig({
         { name: 'description', content: 'Artigos revisados e trilhas de estudo para conhecer, amar e saber dar razão da fé católica.' },
         { name: 'theme-color', content: '#0D1015' },
       ],
-      link: [{ rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
+      link: [
+        { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
+        { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
+      ],
     },
   },
 
