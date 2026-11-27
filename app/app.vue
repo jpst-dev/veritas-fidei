@@ -22,7 +22,12 @@ useSeoMeta({
 })
 
 useHead({
-  titleTemplate: (titulo) => (titulo ? `${titulo} · Veritas Fidei` : 'Veritas Fidei — Formação católica'),
+  // O Google corta o título por volta de 60 caracteres: em títulos longos o nome do site sai
+  titleTemplate: (titulo) => {
+    if (!titulo) return 'Veritas Fidei — Formação católica'
+    const completo = `${titulo} · Veritas Fidei`
+    return completo.length > 60 ? titulo : completo
+  },
   htmlAttrs: { 'data-cor': () => liturgia.value.cor },
   link: [
     { key: 'canonical', rel: 'canonical', href: urlDaPagina },

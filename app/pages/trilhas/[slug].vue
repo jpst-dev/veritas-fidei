@@ -43,9 +43,10 @@ const proximo = computed(() => {
 })
 
 useSeoMeta({
-  title: trilha.value.title,
+  // "Trilha:" separa do tema de mesmo nome (/temas/maria e /trilhas/maria)
+  title: `Trilha: ${trilha.value.title}`,
   description: trilha.value.description,
-  ogTitle: `${trilha.value.title} · Veritas Fidei`,
+  ogTitle: `Trilha: ${trilha.value.title} · Veritas Fidei`,
   ogDescription: trilha.value.description,
 })
 

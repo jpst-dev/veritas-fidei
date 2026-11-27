@@ -36,7 +36,7 @@ referencias:
     autor: São Leão Magno
     url: https://www.newadvent.org/fathers/360327.htm
   - titulo: Cronógrafo de 354, Depositio martyrum
-    url: http://web.archive.org/web/20260816073829/https://www.tertullian.org/fathers/chronography_of_354_12_depositions_martyrs.htm
+    url: https://web.archive.org/web/20260816073829/https://www.tertullian.org/fathers/chronography_of_354_12_depositions_martyrs.htm
   - titulo: Sermão 190, 1
     autor: Santo Agostinho
     url: https://www.augustinus.it/latino/discorsi/discorso_243_testo.htm
