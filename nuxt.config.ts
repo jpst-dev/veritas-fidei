@@ -15,6 +15,13 @@ export default defineNuxtConfig({
       siteUrl: 'https://veritas-fidei.vercel.app',
       // E-mail do projeto para correções; vazio, o link "Sugerir uma correção" não aparece
       emailCorrecoes: 'contato@jteixeira.dev',
+      // Doações (página /apoie e convite no fim dos artigos). Vazios, nada disso aparece.
+      // Na Vercel: NUXT_PUBLIC_APOIO_PIX, NUXT_PUBLIC_APOIO_PIX_NOME e NUXT_PUBLIC_APOIO_APOIA_SE
+      apoio: {
+        pix: '',
+        pixNome: '',
+        apoiaSe: '',
+      },
     },
   },
 

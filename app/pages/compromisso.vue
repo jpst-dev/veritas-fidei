@@ -1,4 +1,6 @@
 <script setup lang="ts">
+const apoio = useApoio()
+
 useSeoMeta({
   title: 'Nosso compromisso',
   description: 'A fidelidade ao Magistério, como os textos são revisados e como apontar um erro.',
@@ -60,7 +62,12 @@ useSeoMeta({
 
       <h2>Independência</h2>
       <p>
-        O site não tem anúncios, patrocínio nem vínculo com movimentos ou grupos. É escrito por um leigo católico,
+        O site não tem anúncios, patrocínio nem vínculo com movimentos ou grupos.
+        <template v-if="apoio.ativo">
+          É mantido por <NuxtLink to="/apoie">doações de leitores</NuxtLink>, que não dão acesso a nada exclusivo nem
+          influem no que é escrito.
+        </template>
+        É escrito por um leigo católico,
         desenvolvedor de software, e não guarda dados de quem lê. As imagens são obras de domínio público ou de licença
         livre, com os <NuxtLink to="/creditos">créditos</NuxtLink> de cada uma.
       </p>
