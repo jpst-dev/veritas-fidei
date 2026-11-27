@@ -44,9 +44,9 @@ const FONTES = [
   { name: 'Cinzel', data: await fonte('cinzel', 'cinzel-latin-500-normal.woff'), weight: 500, style: 'normal' },
 ] as const
 
-// A cruz do logotipo (✠ no site); a Cinzel não tem o glifo, então vai em SVG
+// A cruz pátea da marca (app/components/CruzMarca.vue e public/favicon.svg)
 const CRUZ = `data:image/svg+xml;utf8,${encodeURIComponent(
-  `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="${COR.accent}"><path d="M12 12 6.8 1h10.4zM12 12l-5.2 11h10.4zM12 12 1 6.8v10.4zM12 12l11-5.2v10.4z"/></svg>`,
+  `<svg xmlns="http://www.w3.org/2000/svg" viewBox="-12.5 -12.5 25 25" fill="${COR.accent}"><path d="M-1.06 -1.06C-1.06 -5.25 -2.48 -10 -4.13 -12.5L4.13 -12.5C2.48 -10 1.06 -5.25 1.06 -1.06C5.25 -1.06 10 -2.48 12.5 -4.13L12.5 4.13C10 2.48 5.25 1.06 1.06 1.06C1.06 5.25 2.48 10 4.13 12.5L-4.13 12.5C-2.48 10 -1.06 5.25 -1.06 1.06C-5.25 1.06 -10 2.48 -12.5 4.13L-12.5 -4.13C-10 -2.48 -5.25 -1.06 -1.06 -1.06Z"/></svg>`,
 )}`
 
 function marca(tamanho: number): No {

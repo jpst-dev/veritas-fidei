@@ -51,7 +51,7 @@ onBeforeUnmount(() => {
   <header class="mx-auto w-full max-w-6xl px-6 pt-4 lg:pt-7">
     <div class="flex items-center gap-x-3 pb-4 lg:gap-x-5 lg:pb-5">
       <NuxtLink to="/" class="font-display text-base font-semibold tracking-[0.1em] whitespace-nowrap hover:no-underline sm:text-2xl sm:tracking-[0.12em]">
-        <span class="text-accent" aria-hidden="true">✠</span> VERITAS FIDEI
+        <CruzMarca class="text-accent" /> VERITAS FIDEI
       </NuxtLink>
 
       <nav aria-label="Principal" class="hidden lg:block">
