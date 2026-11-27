@@ -11,6 +11,7 @@ const apoio = useApoio()
           <li><NuxtLink to="/sobre">Sobre</NuxtLink></li>
           <li><NuxtLink to="/compromisso">Nosso compromisso</NuxtLink></li>
           <li v-if="apoio.ativo"><NuxtLink to="/apoie">Apoie</NuxtLink></li>
+          <li><a href="https://www.instagram.com/veritasfidei.br/" rel="me noopener" target="_blank">Instagram</a></li>
           <li><a href="/rss.xml">RSS</a></li>
           <li><NuxtLink to="/creditos">Créditos das imagens</NuxtLink></li>
           <li><a href="https://jteixeira.dev" rel="author">jteixeira.dev</a></li>
