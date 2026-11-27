@@ -1,6 +1,9 @@
 import tailwindcss from '@tailwindcss/vite'
 import { redirecionamentos } from './config/redirecionamentos'
 
+// Sem forma de apoio configurada no build, /apoie é 404 e não deve ser pré-renderizada
+const apoioAtivo = Boolean(process.env.NUXT_PUBLIC_APOIO_PIX || process.env.NUXT_PUBLIC_APOIO_APOIA_SE)
+
 export default defineNuxtConfig({
   compatibilityDate: '2026-10-01',
   devtools: { enabled: true },
@@ -84,6 +87,7 @@ export default defineNuxtConfig({
     prerender: {
       crawlLinks: true,
       routes: ['/', '/rss.xml', '/sitemap.xml', '/robots.txt', '/busca.json'],
+      ignore: apoioAtivo ? [] : ['/apoie'],
     },
   },
 
