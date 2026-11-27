@@ -132,7 +132,15 @@ infinita*, 2024; *Fiducia supplicans*, 2023; *Amoris laetitia*, 2016;
 - ✅ Por que só homens podem ser padres?
 
 Reserva: apócrifos, Maria Madalena, Galileu, dom de línguas, ioga e
-meditação oriental, sábado ou domingo, mulheres na Igreja, maçonaria.
+meditação oriental, sábado ou domingo, mulheres na Igreja (maçonaria: feita, ver abaixo).
+
+## Pautas por busca (26/11/2026)
+
+Com o plano original completo, cada artigo novo responde a uma pergunta que
+as pessoas digitam no Google e que o site ainda não responde.
+
+- ✅ Católico pode ser maçom? (Igreja, Defesa; declaração da CDF de 1983 e
+  nota do Dicastério para a Doutrina da Fé de 2023)
 
 ## Fora da meta, para depois
 
