@@ -4,7 +4,9 @@ const PAGINAS = ['/', '/temas', '/trilhas', '/defesa-da-fe', '/artigos', '/sobre
 
 /** Sitemap com as páginas fixas, os temas e o que está publicado. Gerado como arquivo estático no build. */
 export default defineEventHandler(async (event) => {
-  const { siteUrl } = useRuntimeConfig(event).public
+  const { siteUrl, apoio } = useRuntimeConfig(event).public
+  // /apoie só existe quando há uma forma de apoio configurada (ver nuxt.config.ts)
+  const paginas = apoio.pix || apoio.apoiaSe ? [...PAGINAS, '/apoie'] : PAGINAS
   const [temas, trilhas, artigos] = await Promise.all([
     queryCollection(event, 'temas').all(),
     queryCollection(event, 'trilhas').where('status', '=', 'publicado').all(),
@@ -12,7 +14,7 @@ export default defineEventHandler(async (event) => {
   ])
 
   const entradas: { caminho: string; data?: string }[] = [
-    ...PAGINAS.map((caminho) => ({ caminho })),
+    ...paginas.map((caminho) => ({ caminho })),
     ...temas.map((t) => ({ caminho: `/temas/${t.stem.split('/').pop()}` })),
     ...trilhas.map((t) => ({ caminho: `/trilhas/${t.stem.split('/').pop()}` })),
     ...artigos.map((a) => ({ caminho: a.path, data: a.publicadoEm })),
