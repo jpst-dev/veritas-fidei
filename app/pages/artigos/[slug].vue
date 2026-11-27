@@ -86,6 +86,8 @@ const linkCorrecao = computed(() => {
   return `mailto:${emailCorrecoes}?subject=${assunto}&body=${corpo}`
 })
 
+const apoio = useApoio()
+
 // O artigo conta como lido quando o leitor chega ao fim do texto
 const texto = ref<HTMLElement | null>(null)
 const fim = ref<HTMLElement | null>(null)
@@ -231,6 +233,13 @@ useDadosEstruturados((siteUrl) => [
             <NuxtLink to="/compromisso" class="link-discreto">Nosso compromisso</NuxtLink>
           </p>
 
+          <!-- Convite à doação: discreto, só depois do texto e só quando há forma de apoio configurada -->
+          <aside v-if="apoio.ativo" class="mt-10 border-l-[3px] border-accent bg-surface p-5" aria-label="Apoie o Veritas Fidei">
+            <p class="leading-relaxed">
+              Este artigo te ajudou? O Veritas Fidei é gratuito, sem anúncios, e é mantido por quem lê.
+              <NuxtLink to="/apoie" class="text-accent">Ajude a manter →</NuxtLink>
+            </p>
+          </aside>
           <div ref="fim" aria-hidden="true" />
 
           <!-- Fim do artigo: seguir na trilha -->

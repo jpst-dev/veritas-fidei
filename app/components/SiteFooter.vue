@@ -1,3 +1,7 @@
+<script setup lang="ts">
+const apoio = useApoio()
+</script>
+
 <template>
   <footer class="filete-duplo mt-24 border-t-[3px]">
     <div class="mx-auto flex max-w-6xl flex-wrap justify-between gap-4 px-6 py-9 text-base text-muted">
@@ -6,6 +10,7 @@
         <ul class="flex flex-wrap gap-x-6 gap-y-2">
           <li><NuxtLink to="/sobre">Sobre</NuxtLink></li>
           <li><NuxtLink to="/compromisso">Nosso compromisso</NuxtLink></li>
+          <li v-if="apoio.ativo"><NuxtLink to="/apoie">Apoie</NuxtLink></li>
           <li><a href="/rss.xml">RSS</a></li>
           <li><NuxtLink to="/creditos">Créditos das imagens</NuxtLink></li>
           <li><a href="https://jteixeira.dev" rel="author">jteixeira.dev</a></li>
