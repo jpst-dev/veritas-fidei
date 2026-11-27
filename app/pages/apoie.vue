@@ -51,7 +51,7 @@ async function copiarPix() {
       <div class="not-prose mt-6 grid gap-4" :class="pix && apoiaSe ? 'sm:grid-cols-2' : ''">
         <section v-if="pix" class="flex flex-col gap-3 border border-line p-6" aria-labelledby="titulo-pix">
           <h3 id="titulo-pix" class="rubrica">Pix · uma vez</h3>
-          <p class="text-muted">Qualquer valor, sem taxa. Abra o app do seu banco, vá em Pix → Ler QR Code e aponte para o código (a câmera comum do celular não lê Pix).</p>
+          <p class="text-muted">Qualquer valor, sem taxa. Aponte a câmera do app do seu banco para o código.</p>
           <!-- SVG gerado aqui mesmo (uqr), a partir da chave configurada -->
           <div class="w-48 self-center bg-white [&>svg]:block [&>svg]:size-full" role="img" aria-label="QR Code do Pix" v-html="qrPix" />
           <p v-if="pixNome" class="text-center text-sm text-muted">Em nome de {{ pixNome }}</p>
