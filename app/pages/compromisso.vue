@@ -68,7 +68,9 @@ useSeoMeta({
           influem no que é escrito.
         </template>
         É escrito por um leigo católico,
-        desenvolvedor de software, e não guarda dados de quem lê. As imagens são obras de domínio público ou de licença
+        desenvolvedor de software, e não guarda dados de quem lê: não há cadastro, cookies nem rastreadores de
+        publicidade. Para saber quantas pessoas o site alcança, contamos as visitas de forma anônima, com o Web Analytics
+        da Vercel, que não usa cookies nem identifica quem visita. As imagens são obras de domínio público ou de licença
         livre, com os <NuxtLink to="/creditos">créditos</NuxtLink> de cada uma.
       </p>
     </div>

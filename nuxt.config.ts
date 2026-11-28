@@ -46,6 +46,13 @@ export default defineNuxtConfig({
         { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
         { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
       ],
+      // Vercel Web Analytics: conta visitas sem cookies e sem identificar o leitor.
+      // O script é servido pela própria Vercel no domínio do site; fora dela (npm run dev) dá 404 e não faz nada.
+      // Não usamos o pacote @vercel/analytics porque ele exige vue-router 4 e o Nuxt 4 usa o 5.
+      script: [
+        { innerHTML: 'window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments)}' },
+        { src: '/_vercel/insights/script.js', defer: true },
+      ],
     },
   },
 
